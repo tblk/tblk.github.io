@@ -10,7 +10,6 @@ website:
         text: Accueil
       - these.qmd
       - attestation.qmd
-      - these.qmd
       - lectures.qmd
       - posts.qmd
 
