@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Data Science",
+    "section": "",
+    "text": "Write files to database\n\n\n\nRead\n\n\nDatabase\n\n\n\nWrite a bunch of csv, sas7bdat or other files to sqlite database\n\n\n\nThéo Boulakia\n\n\nJun 25, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Accueil",
+    "section": "",
+    "text": "En construction…"
+  },
+  {
+    "objectID": "these.html",
+    "href": "these.html",
+    "title": "Thèse",
+    "section": "",
+    "text": "En construction…"
+  },
+  {
+    "objectID": "posts/2023-06-25_write_db/index.html",
+    "href": "posts/2023-06-25_write_db/index.html",
+    "title": "Write files to database",
+    "section": "",
+    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Write files to database},\n  date = {2023-06-25},\n  url = {https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Write files to database.” June 25,\n2023. https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/."
+  }
+]
