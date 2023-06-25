@@ -8,6 +8,7 @@ website:
     left:
       - href: index.qmd
         text: Accueil
+      - these.qmd
       - attestation.qmd
       - these.qmd
       - lectures.qmd
