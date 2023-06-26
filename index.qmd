@@ -1,5 +1,11 @@
 ---
 title: "Accueil"
+about:
+  template: jolla
+  image: "https://commons.wikimedia.org/wiki/File:Green_violetear.jpg"
 ---
 
-En construction...
+Site personnel de Théo Boulakia, doctorant en Sciences sociales à l'École Normale Supérieure.
+
+Vous y trouverez une brève présentation de ma thèse, quelques mots sur *L'Attestation*, co-écrit avec Nicolas Mariot, ainsi 
+qu'une sélection d'extraordinaires enquêtes de sciences sociales, et un blog consacré à l'analyse de données avec *R*.
