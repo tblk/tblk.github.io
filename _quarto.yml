@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Théo Boulakia"
+  site-url: "https://tblk.github.io/"
   navbar:
     left:
       - href: index.qmd
