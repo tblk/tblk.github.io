@@ -1,15 +1,5 @@
 [
   {
-    "listing": "/posts.html",
-    "items": [
-      "/posts/accorder-rstudio/index.html",
-      "/posts/accorder-zotero/index.html",
-      "/posts/accorder-zettlr/index.html",
-      "/posts/write-database/index.html",
-      "/posts/design-your-site-with-quarto/index.html"
-    ]
-  },
-  {
     "listing": "/data-tips.html",
     "items": [
       "/data-tips/read-spatial-subset/index.html",

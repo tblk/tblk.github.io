@@ -1,129 +1,10 @@
 [
   {
-    "objectID": "posts/accorder-rstudio/index.html",
-    "href": "posts/accorder-rstudio/index.html",
-    "title": "Accorder Rstudio",
-    "section": "",
-    "text": "CitationBibTeX citation:@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Accorder {Rstudio}},\n  date = {2023-06-30},\n  url = {https://tblk.github.io/posts/accorder-rstudio/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nBoulakia, Théo. 2023. “Accorder Rstudio.” June 30, 2023. https://tblk.github.io/posts/accorder-rstudio/."
-  },
-  {
-    "objectID": "posts/write-database/index.html",
-    "href": "posts/write-database/index.html",
-    "title": "Write files to database",
-    "section": "",
-    "text": "CitationBibTeX citation:@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Write Files to Database},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/posts/write-database/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nBoulakia, Théo. 2023. “Write Files to Database.” June 25,\n2023. https://tblk.github.io/posts/write-database/."
-  },
-  {
-    "objectID": "posts/design-your-site-with-quarto/index.html",
-    "href": "posts/design-your-site-with-quarto/index.html",
-    "title": "Design your site with Quarto",
-    "section": "",
-    "text": "CitationBibTeX citation:@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Design Your Site with {Quarto}},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/posts/design-your-site-with-quarto/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nBoulakia, Théo. 2023. “Design Your Site with Quarto.” June\n25, 2023. https://tblk.github.io/posts/design-your-site-with-quarto/."
-  },
-  {
-    "objectID": "posts/accorder-zotero/index.html",
-    "href": "posts/accorder-zotero/index.html",
-    "title": "Accorder Zotero",
-    "section": "",
-    "text": "Décocher : faire une capture automatique des pages web\nDécocher : importer automatiquement les marqueurs\nDécocher : synchroniser automatiquement les fichiers joints dans ma bibliothèque\nSi j’ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne)\nPossible de les synchroniser les fichiers joints pour les bibliothèques de groupe (annotations collaboratives)"
-  },
-  {
-    "objectID": "posts/accorder-zotero/index.html#préférences",
-    "href": "posts/accorder-zotero/index.html#préférences",
-    "title": "Accorder Zotero",
-    "section": "",
-    "text": "Décocher : faire une capture automatique des pages web\nDécocher : importer automatiquement les marqueurs\nDécocher : synchroniser automatiquement les fichiers joints dans ma bibliothèque\nSi j’ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne)\nPossible de les synchroniser les fichiers joints pour les bibliothèques de groupe (annotations collaboratives)"
-  },
-  {
-    "objectID": "posts/accorder-zotero/index.html#better-bibtex",
-    "href": "posts/accorder-zotero/index.html#better-bibtex",
-    "title": "Accorder Zotero",
-    "section": "Better Bibtex",
-    "text": "Better Bibtex\n\nVoir les instructions ici\nLes préférences de Better Bib Tex se trouvent dans l’onglet “Outils”\nChoisir auth.lower + year comme clé de citation"
-  },
-  {
-    "objectID": "posts/accorder-zettlr/index.html",
-    "href": "posts/accorder-zettlr/index.html",
-    "title": "Accorder Zettlr",
-    "section": "",
-    "text": "CitationBibTeX citation:@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Accorder {Zettlr}},\n  date = {2023-06-30},\n  url = {https://tblk.github.io/posts/accorder-zettlr/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nBoulakia, Théo. 2023. “Accorder Zettlr.” June 30, 2023. https://tblk.github.io/posts/accorder-zettlr/."
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Data Tips",
-    "section": "",
-    "text": "Accorder Rstudio\n\n\n\nTune\n\n\n\nL’indispensable et l’optionnel\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Zotero\n\n\n\nTune\n\n\n\nLe confortable et l’indispendable\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Zettlr\n\n\n\nTune\n\n\n\nPour obtenir la meilleure expérience d’écriture\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWrite files to database\n\n\n\nRead\n\n\nDatabase\n\n\n\nWrite a bunch of csv, sas7bdat or other files to sqlite database\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesign your site with Quarto\n\n\n\nPublish\n\n\n\nA very brief overview\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\nAucun article correspondant"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Vous êtes sur le site de Théo Boulakia",
-    "section": "",
-    "text": "Mes recherches portent sur l’agriculture, la santé au travail et la surveillance de masse. Elles s’appuient sur une combinaison de récits de vie, d’observation participante, de quelques dizaines de bases de données différentes et de méthodes statistiques variées."
-  },
-  {
-    "objectID": "these.html",
-    "href": "these.html",
-    "title": "Thèse",
-    "section": "",
-    "text": "En construction…"
-  },
-  {
     "objectID": "data-tips.html",
     "href": "data-tips.html",
     "title": "Data Tips",
     "section": "",
     "text": "Read a subset of spatial data\n\n\n\nRead\n\n\nSpatial\n\n\n\nEssential when working with large shapefiles or geopackages\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Rstudio\n\n\n\nTune\n\n\n\nL’indispensable et l’optionnel\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Zettlr\n\n\n\nTune\n\n\n\nPour obtenir la meilleure expérience d’écriture\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Zotero\n\n\n\nTune\n\n\n\nLe confortable et l’indispendable\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesign your site with Quarto\n\n\n\nPublish\n\n\n\nA very brief overview\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWrite files to database\n\n\n\nRead\n\n\nDatabase\n\n\n\nWrite a bunch of csv, sas7bdat or other files to sqlite database\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\nAucun article correspondant"
-  },
-  {
-    "objectID": "data-tips/accorder-rstudio/index.html",
-    "href": "data-tips/accorder-rstudio/index.html",
-    "title": "Accorder Rstudio",
-    "section": "",
-    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Accorder Rstudio},\n  date = {2023-06-30},\n  url = {https://tblk.github.io/data-tips/accorder-rstudio/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Accorder Rstudio.” June 30, 2023. https://tblk.github.io/data-tips/accorder-rstudio/."
-  },
-  {
-    "objectID": "data-tips/write-database/index.html",
-    "href": "data-tips/write-database/index.html",
-    "title": "Write files to database",
-    "section": "",
-    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Write files to database},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/write-database/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Write files to database.” June 25,\n2023. https://tblk.github.io/data-tips/write-database/."
-  },
-  {
-    "objectID": "data-tips/design-your-site-with-quarto/index.html",
-    "href": "data-tips/design-your-site-with-quarto/index.html",
-    "title": "Design your site with Quarto",
-    "section": "",
-    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Design your site with Quarto},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/design-your-site-with-quarto/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Design your site with Quarto.” June\n25, 2023. https://tblk.github.io/data-tips/design-your-site-with-quarto/."
-  },
-  {
-    "objectID": "data-tips/accorder-zotero/index.html",
-    "href": "data-tips/accorder-zotero/index.html",
-    "title": "Accorder Zotero",
-    "section": "",
-    "text": "Décocher : faire une capture automatique des pages web\nDécocher : importer automatiquement les marqueurs\nDécocher : synchroniser automatiquement les fichiers joints dans ma bibliothèque\nSi j’ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne)\nPossible de les synchroniser les fichiers joints pour les bibliothèques de groupe (annotations collaboratives)"
-  },
-  {
-    "objectID": "data-tips/accorder-zotero/index.html#préférences",
-    "href": "data-tips/accorder-zotero/index.html#préférences",
-    "title": "Accorder Zotero",
-    "section": "",
-    "text": "Décocher : faire une capture automatique des pages web\nDécocher : importer automatiquement les marqueurs\nDécocher : synchroniser automatiquement les fichiers joints dans ma bibliothèque\nSi j’ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne)\nPossible de les synchroniser les fichiers joints pour les bibliothèques de groupe (annotations collaboratives)"
-  },
-  {
-    "objectID": "data-tips/accorder-zotero/index.html#better-bibtex",
-    "href": "data-tips/accorder-zotero/index.html#better-bibtex",
-    "title": "Accorder Zotero",
-    "section": "Better Bibtex",
-    "text": "Better Bibtex\n\nVoir les instructions ici\nLes préférences de Better Bib Tex se trouvent dans l’onglet “Outils”\nChoisir auth.lower + year comme clé de citation"
-  },
-  {
-    "objectID": "data-tips/accorder-zettlr/index.html",
-    "href": "data-tips/accorder-zettlr/index.html",
-    "title": "Accorder Zettlr",
-    "section": "",
-    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Accorder Zettlr},\n  date = {2023-06-30},\n  url = {https://tblk.github.io/data-tips/accorder-zettlr/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Accorder Zettlr.” June 30, 2023. https://tblk.github.io/data-tips/accorder-zettlr/."
   },
   {
     "objectID": "data-tips/read-spatial-subset/index.html",
@@ -138,6 +19,13 @@
     "title": "Design your site with Quarto",
     "section": "",
     "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Design your site with Quarto},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/design-website-with-quarto/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Design your site with Quarto.” June\n25, 2023. https://tblk.github.io/data-tips/design-website-with-quarto/."
+  },
+  {
+    "objectID": "data-tips/write-database/index.html",
+    "href": "data-tips/write-database/index.html",
+    "title": "Write files to database",
+    "section": "",
+    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Write files to database},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/write-database/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Write files to database.” June 25,\n2023. https://tblk.github.io/data-tips/write-database/."
   },
   {
     "objectID": "data-tips/accorde-rstudio/index.html",
@@ -173,5 +61,19 @@
     "title": "Accorder Zotero",
     "section": "Better Bibtex",
     "text": "Better Bibtex\n\nVoir les instructions ici\nLes préférences de Better Bib Tex se trouvent dans l’onglet “Outils”\nChoisir auth.lower + year comme clé de citation"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Vous êtes sur le site de Théo Boulakia",
+    "section": "",
+    "text": "Mes recherches portent sur l’agriculture, la santé au travail et la surveillance de masse. Elles s’appuient sur une combinaison de récits de vie, d’observation participante, de quelques dizaines de bases de données différentes et de méthodes statistiques variées."
+  },
+  {
+    "objectID": "these.html",
+    "href": "these.html",
+    "title": "Thèse",
+    "section": "",
+    "text": "En construction…"
   }
 ]
