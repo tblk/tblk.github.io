@@ -2,7 +2,22 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/2023-06-25_write_db/index.html"
+      "/posts/accorder-rstudio/index.html",
+      "/posts/accorder-zotero/index.html",
+      "/posts/accorder-zettlr/index.html",
+      "/posts/write-database/index.html",
+      "/posts/design-your-site-with-quarto/index.html"
+    ]
+  },
+  {
+    "listing": "/data-tips.html",
+    "items": [
+      "/data-tips/read-spatial-subset/index.html",
+      "/data-tips/accorde-rstudio/index.html",
+      "/data-tips/accorde-zettlr/index.html",
+      "/data-tips/accorde-zotero/index.html",
+      "/data-tips/design-website-with-quarto/index.html",
+      "/data-tips/write-database/index.html"
     ]
   }
 ]

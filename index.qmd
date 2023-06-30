@@ -1,11 +1,16 @@
 ---
-title: "Accueil"
+title: "Vous êtes sur le site de Théo Boulakia"
+description: Doctorant en Sciences Sociales à l'École Normale Supérieure
 about:
-  template: jolla
-  image: "https://commons.wikimedia.org/wiki/File:Green_violetear.jpg"
+  template: trestles
+  image: "profile-01.jpg"
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/tblk
+    - icon: envelope
+      text: Email
+      href: mailto:theo.boulakia@ens.psl.eu
 ---
 
-Site personnel de Théo Boulakia, doctorant en Sciences sociales à l'École Normale Supérieure.
-
-Vous y trouverez une brève présentation de ma thèse, quelques mots sur *L'Attestation*, co-écrit avec Nicolas Mariot, ainsi 
-qu'une sélection d'extraordinaires enquêtes de sciences sociales, et un blog consacré à l'analyse de données avec *R*.
+Mes recherches portent sur l'agriculture, la santé au travail et la surveillance de masse. Elles s'appuient sur une combinaison de récits de vie, d'observation participante, de quelques dizaines de bases de données différentes et de méthodes statistiques variées.

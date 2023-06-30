@@ -1,0 +1,9 @@
+---
+title: "Read a subset of spatial data"
+description: Essential when working with large shapefiles or geopackages
+date: 2023-06-30
+categories: [Read, Spatial]
+citation: 
+  url: https://tblk.github.io/data-tips/read-spatial-subset/ 
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---

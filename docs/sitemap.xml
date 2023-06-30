@@ -1,27 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tblk.github.io/posts/2023-06-25_write_db/index.html</loc>
-    <lastmod>2023-06-26T13:48:39.643Z</lastmod>
+    <loc>https://tblk.github.io/posts/accorder-rstudio/index.html</loc>
+    <lastmod>2023-06-30T11:00:14.565Z</lastmod>
   </url>
   <url>
-    <loc>https://tblk.github.io/attestation.html</loc>
-    <lastmod>2023-06-26T13:48:39.915Z</lastmod>
+    <loc>https://tblk.github.io/posts/write-database/index.html</loc>
+    <lastmod>2023-06-30T11:00:14.969Z</lastmod>
   </url>
   <url>
-    <loc>https://tblk.github.io/lectures.html</loc>
-    <lastmod>2023-06-26T13:48:40.195Z</lastmod>
+    <loc>https://tblk.github.io/posts/design-your-site-with-quarto/index.html</loc>
+    <lastmod>2023-06-30T11:00:15.369Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/posts/accorder-zotero/index.html</loc>
+    <lastmod>2023-06-30T11:00:15.753Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/posts/accorder-zettlr/index.html</loc>
+    <lastmod>2023-06-30T11:00:16.097Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/formation.html</loc>
+    <lastmod>2023-06-30T11:00:16.373Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/enquetes.html</loc>
+    <lastmod>2023-06-30T11:03:44.789Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/posts.html</loc>
-    <lastmod>2023-06-26T13:48:40.627Z</lastmod>
+    <lastmod>2023-06-30T11:03:33.921Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/l-attestation.html</loc>
+    <lastmod>2023-06-30T11:03:43.009Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/index.html</loc>
-    <lastmod>2023-06-26T13:48:41.111Z</lastmod>
+    <lastmod>2023-06-30T11:04:08.377Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/these.html</loc>
-    <lastmod>2023-06-26T13:48:41.339Z</lastmod>
+    <lastmod>2023-06-30T11:00:18.317Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/data-tips.html</loc>
+    <lastmod>2023-06-30T11:18:12.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/data-tips/accorder-rstudio/index.html</loc>
+    <lastmod>2023-06-30T11:07:34.809Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/data-tips/write-database/index.html</loc>
+    <lastmod>2023-06-30T11:08:33.777Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/data-tips/design-your-site-with-quarto/index.html</loc>
+    <lastmod>2023-06-30T11:08:18.029Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/data-tips/accorder-zotero/index.html</loc>
+    <lastmod>2023-06-30T11:08:03.133Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/data-tips/accorder-zettlr/index.html</loc>
+    <lastmod>2023-06-30T11:07:51.777Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/data-tips/read-spatial-subset/index.html</loc>
+    <lastmod>2023-06-30T11:18:11.823Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/data-tips/design-website-with-quarto/index.html</loc>
+    <lastmod>2023-06-30T11:17:28.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/data-tips/accorde-rstudio/index.html</loc>
+    <lastmod>2023-06-30T11:17:29.022Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/data-tips/accorde-zettlr/index.html</loc>
+    <lastmod>2023-06-30T11:17:29.382Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/data-tips/accorde-zotero/index.html</loc>
+    <lastmod>2023-06-30T11:17:29.742Z</lastmod>
   </url>
 </urlset>

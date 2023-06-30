@@ -9,10 +9,10 @@ website:
     left:
       - href: index.qmd
         text: Accueil
-      - these.qmd
-      - attestation.qmd
-      - lectures.qmd
-      - posts.qmd
+      - formation.qmd
+      - enquetes.qmd
+      - l-attestation.qmd
+      - data-tips.qmd
 
 format:
   html:
@@ -20,5 +20,4 @@ format:
     css: styles.css
     toc: true
 
-
-
+lang: fr

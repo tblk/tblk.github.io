@@ -1,0 +1,29 @@
+---
+title: Accorder Zotero
+description: "Le confortable et l'indispendable"
+date: 2023-06-30
+categories: [Tune]
+citation: 
+  url: https://tblk.github.io/data-tips/accorder-zotero/ 
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+## Préférences
+
+-   Décocher : faire une capture automatique des pages web
+
+-   Décocher : importer automatiquement les marqueurs
+
+-   Décocher : synchroniser automatiquement les fichiers joints dans ma bibliothèque
+
+-   Si j'ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne)
+
+-   Possible de les synchroniser les fichiers joints pour les bibliothèques de groupe (annotations collaboratives)
+
+## Better Bibtex
+
+- Voir les instructions [ici](https://retorque.re/zotero-better-bibtex/installation/)
+
+- Les préférences de Better Bib Tex se trouvent dans l'onglet "Outils"
+
+- Choisir *auth.lower + year* comme clé de citation
