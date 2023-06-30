@@ -10,15 +10,21 @@ draft: false # setting this to `true` will prevent your post from appearing on y
 
 ## Préférences
 
--   Décocher : faire une capture automatique des pages web
+Décocher :
 
--   Décocher : importer automatiquement les marqueurs
+- ~~Faire une capture automatique des pages web~~ 
 
--   Décocher : synchroniser automatiquement les fichiers joints dans ma bibliothèque
+- ~~Importer automatiquement les marqueurs~~
 
--   Si j'ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne)
+- ~~Synchroniser automatiquement les fichiers joints dans ma bibliothèque~~
 
--   Possible de les synchroniser les fichiers joints pour les bibliothèques de groupe (annotations collaboratives)
+::: {.callout-tip}
+Si j'ai synchronisé la bibliothèque **avant** de décocher cette option : purger la bibliothèque (se fait en ligne).
+:::
+
+::: {.callout-note}
+Il est toujours possible de synchroniser les fichiers joints pour les **bibliothèques de groupe**. On peut ainsi annoter des pdf de manière collaborative.
+:::
 
 ## Better Bibtex
 

@@ -3,9 +3,9 @@
     "listing": "/data-tips.html",
     "items": [
       "/data-tips/read-spatial-subset/index.html",
-      "/data-tips/accorde-rstudio/index.html",
-      "/data-tips/accorde-zettlr/index.html",
-      "/data-tips/accorde-zotero/index.html",
+      "/data-tips/accorder-rstudio/index.html",
+      "/data-tips/accorder-zotero/index.html",
+      "/data-tips/accorder-zettlr/index.html",
       "/data-tips/design-website-with-quarto/index.html",
       "/data-tips/write-database/index.html"
     ]
