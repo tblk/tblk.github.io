@@ -2,46 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tblk.github.io/data-tips.html</loc>
-    <lastmod>2023-07-01T15:05:41.164Z</lastmod>
+    <lastmod>2023-07-01T15:09:24.231Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/formation.html</loc>
-    <lastmod>2023-07-01T15:05:41.748Z</lastmod>
+    <lastmod>2023-07-01T15:09:24.779Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/enquetes.html</loc>
-    <lastmod>2023-07-01T15:05:42.100Z</lastmod>
+    <lastmod>2023-07-01T15:09:25.155Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/cours.html</loc>
+    <lastmod>2023-07-01T15:09:25.663Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/data-tips/read-spatial-subset/index.html</loc>
-    <lastmod>2023-07-01T15:05:42.768Z</lastmod>
+    <lastmod>2023-07-01T15:09:26.027Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/data-tips/accorder-rstudio/index.html</loc>
-    <lastmod>2023-07-01T15:05:43.132Z</lastmod>
+    <lastmod>2023-07-01T15:09:26.379Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/data-tips/design-website-with-quarto/index.html</loc>
-    <lastmod>2023-07-01T15:05:43.484Z</lastmod>
+    <lastmod>2023-07-01T15:09:26.735Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/data-tips/write-database/index.html</loc>
-    <lastmod>2023-07-01T15:05:43.848Z</lastmod>
+    <lastmod>2023-07-01T15:09:27.099Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/data-tips/accorder-zotero/index.html</loc>
-    <lastmod>2023-07-01T15:05:44.212Z</lastmod>
+    <lastmod>2023-07-01T15:09:27.507Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/data-tips/accorder-zettlr/index.html</loc>
-    <lastmod>2023-07-01T15:05:44.568Z</lastmod>
+    <lastmod>2023-07-01T15:09:27.855Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/index.html</loc>
-    <lastmod>2023-07-01T15:05:45.144Z</lastmod>
+    <lastmod>2023-07-01T15:09:28.359Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/these.html</loc>
-    <lastmod>2023-07-01T15:05:45.396Z</lastmod>
+    <lastmod>2023-07-01T15:09:28.651Z</lastmod>
   </url>
 </urlset>
