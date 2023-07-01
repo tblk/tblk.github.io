@@ -11,7 +11,6 @@ website:
         text: Accueil
       - formation.qmd
       - enquetes.qmd
-      - l-attestation.qmd
       - data-tips.qmd
 
 format:

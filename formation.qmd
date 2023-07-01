@@ -1,3 +1,13 @@
 ---
 title: Formation
+linkcolor: "black"
 ---
+
+J'ai été reçu au concours de l'École Normale Supérieure (ENS) en 2017, après deux ans de classe préparatoire Lettres et Sciences Sociales (B/L), où se mêlaient mathématiques, économie, sociologie, philosophie, littérature et langues vivantes.
+
+Je me suis formé à l'enquête de terrain, aux méthodes statistiques et à l'exploitation d'archives au sein du Master de Sciences sociales de l'ENS, en suivant le parcours [Pratique de l'Interdisciplinarité](https://master-sciences-sociales.ens.psl.eu/pdi-parcours-pratique-de-linterdisciplinarite-en-sciences-sociales/). Celui-ci offre des enseignements en anthropologie, histoire et sociologie, et met l'accent sur l'acquisition des *savoir-faire* des sciences sociales.
+
+J'ai ensuite approfondi mes connaissances en analyse de données et méthodes statistiques, d'abord par
+un stage à l'Institut National de la Statistique et des Études Économiques (INSEE), puis dans le cadre de ma thèse, sous la direction de Florence Weber.
+
+Toutes mes enquêtes combinent une approche ethnographique et statistique : observation participante, recueil de récits de vie, longs entretiens enregistrés, cartographie, *text mining*, analyse géométrique des données et modélisation.   
