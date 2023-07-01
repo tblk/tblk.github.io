@@ -1,9 +1,9 @@
 ---
-title: "Vous êtes sur le site de Théo Boulakia"
-description: Doctorant en Sciences Sociales à l'École Normale Supérieure
+title: "Théo Boulakia"
+description: Doctorant en sciences sociales à l'École Normale Supérieure
 about:
-  template: trestles
-  image: "profile-01.jpg"
+  template: jolla
+  image: "map.jpeg"
   links:
     - icon: github
       text: GitHub
@@ -13,4 +13,4 @@ about:
       href: mailto:theo.boulakia@ens.psl.eu
 ---
 
-Mes recherches portent sur l'agriculture, la santé au travail et la surveillance de masse. Elles s'appuient sur des récits de vie, de l'observation participante, de nombreuses bases de données et des méthodes statistiques variées.
+Mes recherches portent sur l'agriculture, la santé au travail et la surveillance de masse. Elles s'appuient sur des récits de vie, de l'observation participante, de très nombreuses bases de données et des méthodes statistiques variées.

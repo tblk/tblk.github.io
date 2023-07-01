@@ -1,6 +1,5 @@
 ---
 title: "Enquêtes"
-linkcolor: "black"
 ---
 
 ## Solidarité Paysans
