@@ -8,6 +8,8 @@ citation:
 draft: false
 ---
 
+Updates and shortens a post by Danielle Navarro.
+
 For everyone :
 
 -   If (and only if) no token yet : `usethis::create_github_token()`

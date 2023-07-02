@@ -6,3 +6,5 @@ listing:
   sort: "date desc" # can also sort on more than one field
   categories: true # allows you to sort posts by assigned categories 
 ---
+
+Toutes les images de ce blog sont tirées de la série d'art génératif *Unboxing*, de [Danielle Navarro](https://djnavarro.net/). Elles ont été créées avec R.
