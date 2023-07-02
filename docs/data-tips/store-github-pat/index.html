@@ -169,7 +169,22 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p>Download the <a href="https://github.com/git-ecosystem/git-credential-manager/releases/tag/v2.1.2">latest version of GCM</a> (the .deb file)</p></li>
 <li><p>Install it : <code>sudo dpkg -i &lt;path-to-deb-file&gt;</code></p></li>
-<li><p><code>git-credential-manager configure</code> (warning, no “core” needed anymore, as in Danielle Navarro’s post)</p></li>
+<li><p><code>git-credential-manager configure</code></p></li>
+</ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Avertissement
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><a href="https://github.com/git-ecosystem/git-credential-manager/blob/main/docs/rename.md">And not</a>: <code>git-credential-manager-CORE configure</code>, as in Danielle Navarro’s blog post.</p>
+</div>
+</div>
+<ul>
 <li><p>Check libsecret is installed (it should be) : <code>dpkg -s libsecret-1-0</code> The status should be Install ok Installed</p></li>
 <li><p><code>git config --global credential.credentialStore secretservice</code></p></li>
 <li><p>The first time you make a push, a window will open in your web browser, asking for password and a confirmation.</p></li>

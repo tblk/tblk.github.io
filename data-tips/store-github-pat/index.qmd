@@ -23,12 +23,16 @@ Then, for Linux users only :
 
 -   Download the [latest version of GCM](https://github.com/git-ecosystem/git-credential-manager/releases/tag/v2.1.2) (the .deb file)
 
-- Install it : `sudo dpkg -i <path-to-deb-file>`
+-   Install it : `sudo dpkg -i <path-to-deb-file>`
 
-- `git-credential-manager configure` (warning, no "core" needed anymore, as in Danielle Navarro's post)
+-   `git-credential-manager configure`
 
-- Check libsecret is installed (it should be) : `dpkg -s libsecret-1-0` The status should be Install ok Installed
+::: callout-warning
+[And not](https://github.com/git-ecosystem/git-credential-manager/blob/main/docs/rename.md): `git-credential-manager-CORE configure`, as in Danielle Navarro's blog post.
+:::
 
-- `git config --global credential.credentialStore secretservice`
+-   Check libsecret is installed (it should be) : `dpkg -s libsecret-1-0` The status should be Install ok Installed
 
-- The first time you make a push, a window will open in your web browser, asking for password and a confirmation.
+-   `git config --global credential.credentialStore secretservice`
+
+-   The first time you make a push, a window will open in your web browser, asking for password and a confirmation.
