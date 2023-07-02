@@ -6,4 +6,5 @@ categories: [Tune]
 citation: 
   url: https://tblk.github.io/data-tips/accorder-rstudio/ 
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+image: "https://djnavarro.net/series-unboxing/800/unboxing_250.png"
 ---

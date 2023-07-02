@@ -6,6 +6,7 @@ categories: [Tune]
 citation: 
   url: https://tblk.github.io/data-tips/store-github-pat/ 
 draft: false
+image: "https://djnavarro.net/series-unboxing/800/unboxing_266.png"
 ---
 
 Updates and shortens a post by Danielle Navarro.

@@ -1,11 +1,12 @@
 ---
 title: Accorder Zotero
-description: "Le confortable et l'indispendable"
+description: "Le confortable et l'indispensable"
 date: 2023-06-30
 categories: [Tune]
 citation: 
   url: https://tblk.github.io/data-tips/accorder-zotero/ 
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+image: "https://djnavarro.net/series-unboxing/800/unboxing_256.png"
 ---
 
 ## Préférences

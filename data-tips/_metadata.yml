@@ -5,4 +5,3 @@ author:
     # orcid: 0000-0002-5300-3075
 freeze: true # https://quarto.org/docs/projects/code-execution.html#freeze
 title-block-banner: true # https://quarto.org/docs/authoring/title-blocks.html
-image: https://djnavarro.net/series-unboxing/800/unboxing_250.png
