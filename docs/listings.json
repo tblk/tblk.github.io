@@ -2,6 +2,7 @@
   {
     "listing": "/data-tips.html",
     "items": [
+      "/data-tips/store-github-pat/index.html",
       "/data-tips/read-spatial-subset/index.html",
       "/data-tips/accorder-rstudio/index.html",
       "/data-tips/accorder-zotero/index.html",
