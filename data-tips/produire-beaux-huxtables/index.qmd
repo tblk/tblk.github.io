@@ -1,0 +1,14 @@
+---
+title: "Produire de beaux huxtables"
+description: Pour ne pas s'encombrer de son ordinateur personnel
+date: today
+categories: [Visualize]
+citation: 
+  url: https://tblk.github.io/data-tips/store-github-pat/ 
+draft: false
+image: "https://djnavarro.net/series-unboxing/800/unboxing_282.png"
+---
+
+## Afficher les nombres tels qu'ils sont
+
+## Grouper par une variable
