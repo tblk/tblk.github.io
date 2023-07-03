@@ -28,7 +28,7 @@ Then, for Linux users only :
 -   `git-credential-manager configure`
 
 ::: callout-warning
-[And not](https://github.com/git-ecosystem/git-credential-manager/blob/main/docs/rename.md): `git-credential-manager-CORE configure`, as in Danielle Navarro's blog post.
+[And not](https://github.com/git-ecosystem/git-credential-manager/blob/main/docs/rename.md) : `git-credential-manager-CORE configure`, as in Danielle Navarro's blog post.
 :::
 
 -   Check libsecret is installed (it should be) : `dpkg -s libsecret-1-0` The status should be Install ok Installed

@@ -4,7 +4,7 @@
     "href": "data-tips.html",
     "title": "Data Tips",
     "section": "",
-    "text": "Toutes les images de ce blog sont tirées de la série d’art génératif Unboxing, de Danielle Navarro. Elles ont été créées avec R.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStore Github PAT\n\n\n\nTune\n\n\n\nTo push fluently\n\n\n\nThéo Boulakia\n\n\n2 juil. 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRead a subset of spatial data\n\n\n\nRead\n\n\nSpatial\n\n\n\nEssential when working with large shapefiles or geopackages\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Rstudio\n\n\n\nTune\n\n\n\nL’indispensable et l’optionnel\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Zotero\n\n\n\nTune\n\n\n\nLe confortable et l’indispensable\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Zettlr\n\n\n\nTune\n\n\n\nPour obtenir la meilleure expérience d’écriture\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesign your site with Quarto\n\n\n\nPublish\n\n\n\nA very brief overview\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWrite files to database\n\n\n\nRead\n\n\nDatabase\n\n\n\nWrite a bunch of csv, sas7bdat or other files to sqlite database\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\nAucun article correspondant"
+    "text": "Toutes les images de ce blog sont tirées de la série d’art génératif Unboxing, de Danielle Navarro. Elles ont été créées avec R.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStore Github PAT\n\n\n\nTune\n\n\n\nTo push fluently\n\n\n\nThéo Boulakia\n\n\n3 juil. 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSquatter le Mac d’un ami\n\n\n\nTune\n\n\n\nPour ne pas s’encombrer de son ordinateur personnel\n\n\n\nThéo Boulakia\n\n\n3 juil. 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRead a subset of spatial data\n\n\n\nRead\n\n\nSpatial\n\n\n\nEssential when working with large shapefiles or geopackages\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Rstudio\n\n\n\nTune\n\n\n\nL’indispensable et l’optionnel\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Zotero\n\n\n\nTune\n\n\n\nLe confortable et l’indispensable\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Zettlr\n\n\n\nTune\n\n\n\nPour obtenir la meilleure expérience d’écriture\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesign your site with Quarto\n\n\n\nPublish\n\n\n\nA very brief overview\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWrite files to database\n\n\n\nRead\n\n\nDatabase\n\n\n\nWrite a bunch of csv, sas7bdat or other files to sqlite database\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "formation.html",
@@ -60,7 +60,105 @@
     "href": "data-tips/store-github-pat/index.html",
     "title": "Store Github PAT",
     "section": "",
-    "text": "Updates and shortens a post by Danielle Navarro.\nFor everyone :\n\nIf (and only if) no token yet : usethis::create_github_token()\nThen cache it : gitcreds::gitcreds_set()\nCheck your git situation : usethis::git_sitrep()\n\nThen, for Linux users only :\n\nDownload the latest version of GCM (the .deb file)\nInstall it : sudo dpkg -i &lt;path-to-deb-file&gt;\ngit-credential-manager configure\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAnd not: git-credential-manager-CORE configure, as in Danielle Navarro’s blog post.\n\n\n\nCheck libsecret is installed (it should be) : dpkg -s libsecret-1-0 The status should be Install ok Installed\ngit config --global credential.credentialStore secretservice\nThe first time you make a push, a window will open in your web browser, asking for password and a confirmation.\n\n\n\n\nCitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Store Github PAT},\n  date = {2023-07-02},\n  url = {https://tblk.github.io/data-tips/store-github-pat/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Store Github PAT.” July 2, 2023. https://tblk.github.io/data-tips/store-github-pat/."
+    "text": "Updates and shortens a post by Danielle Navarro.\nFor everyone :\n\nIf (and only if) no token yet : usethis::create_github_token()\nThen cache it : gitcreds::gitcreds_set()\nCheck your git situation : usethis::git_sitrep()\n\nThen, for Linux users only :\n\nDownload the latest version of GCM (the .deb file)\nInstall it : sudo dpkg -i &lt;path-to-deb-file&gt;\ngit-credential-manager configure\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAnd not : git-credential-manager-CORE configure, as in Danielle Navarro’s blog post.\n\n\n\nCheck libsecret is installed (it should be) : dpkg -s libsecret-1-0 The status should be Install ok Installed\ngit config --global credential.credentialStore secretservice\nThe first time you make a push, a window will open in your web browser, asking for password and a confirmation.\n\n\n\n\nCitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Store Github PAT},\n  date = {2023-07-03},\n  url = {https://tblk.github.io/data-tips/store-github-pat/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Store Github PAT.” July 3, 2023. https://tblk.github.io/data-tips/store-github-pat/."
+  },
+  {
+    "objectID": "data-tips/squatter-mac/index.html",
+    "href": "data-tips/squatter-mac/index.html",
+    "title": "Squatter le Mac d’un ami",
+    "section": "",
+    "text": "D’après la documentation d’Apple\n\nPomme &gt; Réglages Système &gt; Utilisateurs et groupes\n“Ajouter un compte”, (sous la liste des utilisateurs à droite)\nSaisissez le mot de passe\nCliquez sur le menu local “Nouveau compte”, puis choisissez “Administrateur”\nNom du nouvel utilisateur : faire simple\nMot de passe et indice\nCliquez sur Créer l’utilisateur."
+  },
+  {
+    "objectID": "data-tips/squatter-mac/index.html#ajoute-un-utilisateur",
+    "href": "data-tips/squatter-mac/index.html#ajoute-un-utilisateur",
+    "title": "Squatter le Mac d’un ami",
+    "section": "",
+    "text": "D’après la documentation d’Apple\n\nPomme &gt; Réglages Système &gt; Utilisateurs et groupes\n“Ajouter un compte”, (sous la liste des utilisateurs à droite)\nSaisissez le mot de passe\nCliquez sur le menu local “Nouveau compte”, puis choisissez “Administrateur”\nNom du nouvel utilisateur : faire simple\nMot de passe et indice\nCliquez sur Créer l’utilisateur."
+  },
+  {
+    "objectID": "data-tips/squatter-mac/index.html#ouvre-le-terminal",
+    "href": "data-tips/squatter-mac/index.html#ouvre-le-terminal",
+    "title": "Squatter le Mac d’un ami",
+    "section": "Ouvre le terminal",
+    "text": "Ouvre le terminal\nTout ce qu’il faut savoir sur le terminal\n\nCmd + Espace pour ouvrir “Spotlight search”\nTaper “Terminal” dans la barre de recherche"
+  },
+  {
+    "objectID": "data-tips/squatter-mac/index.html#installe-homebrew",
+    "href": "data-tips/squatter-mac/index.html#installe-homebrew",
+    "title": "Squatter le Mac d’un ami",
+    "section": "Installe Homebrew",
+    "text": "Installe Homebrew\n\nVisitez la page de Homebrew\nInstallez le ainsi : /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
+  },
+  {
+    "objectID": "data-tips/squatter-mac/index.html#installe-r-et-rstudio",
+    "href": "data-tips/squatter-mac/index.html#installe-r-et-rstudio",
+    "title": "Squatter le Mac d’un ami",
+    "section": "Installe R et Rstudio",
+    "text": "Installe R et Rstudio\n\nR : brew install r\nRstudio : brew cask install rstudio\nPour les mettre à jour si besoin : brew update & brew upgrade"
+  },
+  {
+    "objectID": "data-tips/squatter-mac/index.html#configure-rstudio",
+    "href": "data-tips/squatter-mac/index.html#configure-rstudio",
+    "title": "Squatter le Mac d’un ami",
+    "section": "Configure Rstudio",
+    "text": "Configure Rstudio"
+  },
+  {
+    "objectID": "data-tips/squatter-mac/index.html#vérifie-si-git-est-installé",
+    "href": "data-tips/squatter-mac/index.html#vérifie-si-git-est-installé",
+    "title": "Squatter le Mac d’un ami",
+    "section": "Vérifie si Git est installé",
+    "text": "Vérifie si Git est installé\n\nwhich git\nS’il ne l’est pas : brew install git"
+  },
+  {
+    "objectID": "data-tips/squatter-mac/index.html#présente-toi-à-git",
+    "href": "data-tips/squatter-mac/index.html#présente-toi-à-git",
+    "title": "Squatter le Mac d’un ami",
+    "section": "Présente toi à Git",
+    "text": "Présente toi à Git\n\ngit config --global user.name 'Jane Doe'\ngit config --global user.email 'jane@example.com\ngit config --global --list"
+  },
+  {
+    "objectID": "data-tips/squatter-mac/index.html#clone-ton-repo",
+    "href": "data-tips/squatter-mac/index.html#clone-ton-repo",
+    "title": "Squatter le Mac d’un ami",
+    "section": "Clone ton repo",
+    "text": "Clone ton repo"
+  },
+  {
+    "objectID": "data-tips/squatter-mac/index.html#installe-les-packages-nécessaires",
+    "href": "data-tips/squatter-mac/index.html#installe-les-packages-nécessaires",
+    "title": "Squatter le Mac d’un ami",
+    "section": "Installe les packages nécessaires",
+    "text": "Installe les packages nécessaires"
+  },
+  {
+    "objectID": "data-tips/squatter-mac/index.html#cache-ton-pat",
+    "href": "data-tips/squatter-mac/index.html#cache-ton-pat",
+    "title": "Squatter le Mac d’un ami",
+    "section": "Cache ton PAT",
+    "text": "Cache ton PAT\n\nQue tu auras emporté dans Keepass sur une clef USB\nSuis les étapes du post dédié (moins celles spécifiques à Linux)"
+  },
+  {
+    "objectID": "data-tips/squatter-mac/index.html#installe-tinytex",
+    "href": "data-tips/squatter-mac/index.html#installe-tinytex",
+    "title": "Squatter le Mac d’un ami",
+    "section": "Installe Tinytex",
+    "text": "Installe Tinytex\nPour pouvoir produire des pdf avec quarto : quarto install tinytex"
+  },
+  {
+    "objectID": "data-tips/squatter-mac/index.html#installe-zettlr",
+    "href": "data-tips/squatter-mac/index.html#installe-zettlr",
+    "title": "Squatter le Mac d’un ami",
+    "section": "Installe Zettlr",
+    "text": "Installe Zettlr\nbrew install --cask zettlr"
+  },
+  {
+    "objectID": "data-tips/squatter-mac/index.html#configure-zettlr",
+    "href": "data-tips/squatter-mac/index.html#configure-zettlr",
+    "title": "Squatter le Mac d’un ami",
+    "section": "Configure Zettlr",
+    "text": "Configure Zettlr"
   },
   {
     "objectID": "data-tips/accorder-rstudio/index.html",

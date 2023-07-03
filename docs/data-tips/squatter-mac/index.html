@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Théo Boulakia">
-<meta name="description" content="To push fluently">
+<meta name="description" content="Pour ne pas s’encombrer de son ordinateur personnel">
 
-<title>Théo Boulakia - Store Github PAT</title>
+<title>Théo Boulakia - Squatter le Mac d’un ami</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -113,10 +113,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Store Github PAT</h1>
+      <h1 class="title">Squatter le Mac d’un ami</h1>
                   <div>
         <div class="description">
-          To push fluently
+          Pour ne pas s’encombrer de son ordinateur personnel
         </div>
       </div>
                           <div class="quarto-categories">
@@ -150,7 +150,25 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#ajoute-un-utilisateur" id="toc-ajoute-un-utilisateur" class="nav-link active" data-scroll-target="#ajoute-un-utilisateur">Ajoute un utilisateur</a></li>
+  <li><a href="#ouvre-le-terminal" id="toc-ouvre-le-terminal" class="nav-link" data-scroll-target="#ouvre-le-terminal">Ouvre le terminal</a></li>
+  <li><a href="#installe-homebrew" id="toc-installe-homebrew" class="nav-link" data-scroll-target="#installe-homebrew">Installe Homebrew</a></li>
+  <li><a href="#installe-r-et-rstudio" id="toc-installe-r-et-rstudio" class="nav-link" data-scroll-target="#installe-r-et-rstudio">Installe R et Rstudio</a></li>
+  <li><a href="#configure-rstudio" id="toc-configure-rstudio" class="nav-link" data-scroll-target="#configure-rstudio">Configure Rstudio</a></li>
+  <li><a href="#vérifie-si-git-est-installé" id="toc-vérifie-si-git-est-installé" class="nav-link" data-scroll-target="#vérifie-si-git-est-installé">Vérifie si Git est installé</a></li>
+  <li><a href="#présente-toi-à-git" id="toc-présente-toi-à-git" class="nav-link" data-scroll-target="#présente-toi-à-git">Présente toi à Git</a></li>
+  <li><a href="#clone-ton-repo" id="toc-clone-ton-repo" class="nav-link" data-scroll-target="#clone-ton-repo">Clone ton repo</a></li>
+  <li><a href="#installe-les-packages-nécessaires" id="toc-installe-les-packages-nécessaires" class="nav-link" data-scroll-target="#installe-les-packages-nécessaires">Installe les packages nécessaires</a></li>
+  <li><a href="#cache-ton-pat" id="toc-cache-ton-pat" class="nav-link" data-scroll-target="#cache-ton-pat">Cache ton PAT</a></li>
+  <li><a href="#installe-tinytex" id="toc-installe-tinytex" class="nav-link" data-scroll-target="#installe-tinytex">Installe Tinytex</a></li>
+  <li><a href="#installe-zettlr" id="toc-installe-zettlr" class="nav-link" data-scroll-target="#installe-zettlr">Installe Zettlr</a></li>
+  <li><a href="#configure-zettlr" id="toc-configure-zettlr" class="nav-link" data-scroll-target="#configure-zettlr">Configure Zettlr</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -158,49 +176,97 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Updates and shortens a post by Danielle Navarro.</p>
-<p>For everyone :</p>
+<section id="ajoute-un-utilisateur" class="level2">
+<h2 class="anchored" data-anchor-id="ajoute-un-utilisateur">Ajoute un utilisateur</h2>
+<p>D’après la <a href="https://support.apple.com/fr-fr/guide/mac-help/mchl3e281fc9/mac">documentation d’Apple</a></p>
 <ul>
-<li><p>If (and only if) no token yet : <code>usethis::create_github_token()</code></p></li>
-<li><p>Then cache it : <code>gitcreds::gitcreds_set()</code></p></li>
-<li><p>Check your git situation : <code>usethis::git_sitrep()</code></p></li>
+<li><p>Pomme &gt; Réglages Système &gt; Utilisateurs et groupes</p></li>
+<li><p>“Ajouter un compte”, (sous la liste des utilisateurs à droite)</p></li>
+<li><p>Saisissez le mot de passe</p></li>
+<li><p>Cliquez sur le menu local “Nouveau compte”, puis choisissez “Administrateur”</p></li>
+<li><p>Nom du nouvel utilisateur : faire simple</p></li>
+<li><p>Mot de passe et indice</p></li>
+<li><p>Cliquez sur Créer l’utilisateur.</p></li>
 </ul>
-<p>Then, for Linux users only :</p>
+</section>
+<section id="ouvre-le-terminal" class="level2">
+<h2 class="anchored" data-anchor-id="ouvre-le-terminal">Ouvre le terminal</h2>
+<p><a href="https://happygitwithr.com/shell.html">Tout ce qu’il faut savoir sur le terminal</a></p>
 <ul>
-<li><p>Download the <a href="https://github.com/git-ecosystem/git-credential-manager/releases/tag/v2.1.2">latest version of GCM</a> (the .deb file)</p></li>
-<li><p>Install it : <code>sudo dpkg -i &lt;path-to-deb-file&gt;</code></p></li>
-<li><p><code>git-credential-manager configure</code></p></li>
+<li><code>Cmd</code> + <code>Espace</code> pour ouvrir “Spotlight search”</li>
+<li>Taper “Terminal” dans la barre de recherche</li>
 </ul>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Avertissement
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="https://github.com/git-ecosystem/git-credential-manager/blob/main/docs/rename.md">And not</a> : <code>git-credential-manager-CORE configure</code>, as in Danielle Navarro’s blog post.</p>
-</div>
-</div>
+</section>
+<section id="installe-homebrew" class="level2">
+<h2 class="anchored" data-anchor-id="installe-homebrew">Installe Homebrew</h2>
 <ul>
-<li><p>Check libsecret is installed (it should be) : <code>dpkg -s libsecret-1-0</code> The status should be Install ok Installed</p></li>
-<li><p><code>git config --global credential.credentialStore secretservice</code></p></li>
-<li><p>The first time you make a push, a window will open in your web browser, asking for password and a confirmation.</p></li>
+<li>Visitez <a href="https://brew.sh/">la page de Homebrew</a></li>
+<li>Installez le ainsi : <code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code></li>
 </ul>
+</section>
+<section id="installe-r-et-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="installe-r-et-rstudio">Installe R et Rstudio</h2>
+<ul>
+<li>R : <code>brew install r</code></li>
+<li>Rstudio : <code>brew cask install rstudio</code></li>
+<li>Pour les mettre à jour si besoin : <code>brew update</code> &amp; <code>brew upgrade</code></li>
+</ul>
+</section>
+<section id="configure-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="configure-rstudio">Configure Rstudio</h2>
+</section>
+<section id="vérifie-si-git-est-installé" class="level2">
+<h2 class="anchored" data-anchor-id="vérifie-si-git-est-installé">Vérifie si Git est installé</h2>
+<ul>
+<li><code>which git</code></li>
+<li>S’il ne l’est pas : <code>brew install git</code></li>
+</ul>
+</section>
+<section id="présente-toi-à-git" class="level2">
+<h2 class="anchored" data-anchor-id="présente-toi-à-git">Présente toi à Git</h2>
+<ul>
+<li><code>git config --global user.name 'Jane Doe'</code></li>
+<li><code>git config --global user.email 'jane@example.com</code></li>
+<li><code>git config --global --list</code></li>
+</ul>
+</section>
+<section id="clone-ton-repo" class="level2">
+<h2 class="anchored" data-anchor-id="clone-ton-repo">Clone ton repo</h2>
+</section>
+<section id="installe-les-packages-nécessaires" class="level2">
+<h2 class="anchored" data-anchor-id="installe-les-packages-nécessaires">Installe les packages nécessaires</h2>
+</section>
+<section id="cache-ton-pat" class="level2">
+<h2 class="anchored" data-anchor-id="cache-ton-pat">Cache ton PAT</h2>
+<ul>
+<li>Que tu auras emporté dans Keepass sur une clef USB</li>
+<li>Suis les étapes du post dédié (moins celles spécifiques à Linux)</li>
+</ul>
+</section>
+<section id="installe-tinytex" class="level2">
+<h2 class="anchored" data-anchor-id="installe-tinytex">Installe Tinytex</h2>
+<p>Pour pouvoir produire des pdf avec quarto : <code>quarto install tinytex</code></p>
+</section>
+<section id="installe-zettlr" class="level2">
+<h2 class="anchored" data-anchor-id="installe-zettlr">Installe Zettlr</h2>
+<p><code>brew install --cask zettlr</code></p>
+</section>
+<section id="configure-zettlr" class="level2">
+<h2 class="anchored" data-anchor-id="configure-zettlr">Configure Zettlr</h2>
 
 
+</section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{boulakia2023,
   author = {Boulakia, Théo},
-  title = {Store Github PAT},
+  title = {Squatter le Mac d’un ami},
   date = {2023-07-03},
   url = {https://tblk.github.io/data-tips/store-github-pat/},
   langid = {fr}
 }
 </code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Veuillez citer ce travail comme suit&nbsp;:</div><div id="ref-boulakia2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Boulakia, Théo. 2023. <span>“Store Github PAT.”</span> July 3, 2023. <a href="https://tblk.github.io/data-tips/store-github-pat/">https://tblk.github.io/data-tips/store-github-pat/</a>.
+Boulakia, Théo. 2023. <span>“Squatter le Mac d’un ami.”</span> July 3,
+2023. <a href="https://tblk.github.io/data-tips/store-github-pat/">https://tblk.github.io/data-tips/store-github-pat/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

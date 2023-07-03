@@ -1,0 +1,78 @@
+---
+title: Squatter le Mac d'un ami
+description: Pour ne pas s'encombrer de son ordinateur personnel
+date: today
+categories: [Tune]
+citation: 
+  url: https://tblk.github.io/data-tips/store-github-pat/ 
+draft: false
+image: "https://djnavarro.net/series-unboxing/2000/unboxing_280.png"
+---
+
+## Ajoute un utilisateur
+
+D'après la [documentation d'Apple](https://support.apple.com/fr-fr/guide/mac-help/mchl3e281fc9/mac)
+
+-   Pomme \> Réglages Système \> Utilisateurs et groupes
+
+-   "Ajouter un compte", (sous la liste des utilisateurs à droite)
+
+-   Saisissez le mot de passe
+
+-   Cliquez sur le menu local "Nouveau compte", puis choisissez "Administrateur"
+
+-   Nom du nouvel utilisateur : faire simple
+
+-   Mot de passe et indice
+
+-   Cliquez sur Créer l'utilisateur.
+
+## Ouvre le terminal
+
+[Tout ce qu'il faut savoir sur le terminal](https://happygitwithr.com/shell.html)
+
+-   `Cmd` + `Espace` pour ouvrir "Spotlight search"
+-   Taper "Terminal" dans la barre de recherche
+
+## Installe Homebrew
+
+-   Visitez [la page de Homebrew](https://brew.sh/)
+-   Installez le ainsi : `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+## Installe R et Rstudio
+
+-   R : `brew install r`
+-   Rstudio : `brew cask install rstudio`
+-   Pour les mettre à jour si besoin : `brew update` & `brew upgrade`
+
+## Configure Rstudio
+
+## Vérifie si Git est installé
+
+-   `which git`
+-   S'il ne l'est pas : `brew install git`
+
+## Présente toi à Git
+
+-   `git config --global user.name 'Jane Doe'`
+-   `git config --global user.email 'jane@example.com`
+-   `git config --global --list`
+
+## Clone ton repo
+
+## Installe les packages nécessaires
+
+## Cache ton PAT
+
+-   Que tu auras emporté dans Keepass sur une clef USB
+-   Suis les étapes du post dédié (moins celles spécifiques à Linux)
+
+## Installe Tinytex
+
+Pour pouvoir produire des pdf avec quarto : `quarto install tinytex`
+
+## Installe Zettlr
+
+`brew install --cask zettlr`
+
+## Configure Zettlr
