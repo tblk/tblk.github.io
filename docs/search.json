@@ -1,52 +1,10 @@
 [
   {
-    "objectID": "data-tips.html",
-    "href": "data-tips.html",
-    "title": "Data Tips",
+    "objectID": "data-tips/accorder-zettlr/index.html",
+    "href": "data-tips/accorder-zettlr/index.html",
+    "title": "Accorder Zettlr",
     "section": "",
-    "text": "Toutes les images de ce blog sont tirées de la série d’art génératif Unboxing, de Danielle Navarro. Elles ont été créées avec R et sont publiées sous la licence CC-BY-4.0.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStore Github PAT\n\n\n\nTune\n\n\n\nTo push fluently\n\n\n\nThéo Boulakia\n\n\n3 juil. 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSquatter le Mac d’un ami\n\n\n\nTune\n\n\n\nPour ne pas s’encombrer de son ordinateur personnel\n\n\n\nThéo Boulakia\n\n\n3 juil. 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProduire de beaux huxtables\n\n\n\nVisualize\n\n\n\nPour ne pas s’encombrer de son ordinateur personnel\n\n\n\nThéo Boulakia\n\n\n3 juil. 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRead a subset of spatial data\n\n\n\nRead\n\n\nSpatial\n\n\n\nEssential when working with large shapefiles or geopackages\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Rstudio\n\n\n\nTune\n\n\n\nL’indispensable et l’optionnel\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Zotero\n\n\n\nTune\n\n\n\nLe confortable et l’indispensable\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Zettlr\n\n\n\nTune\n\n\n\nPour obtenir la meilleure expérience d’écriture\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesign your site with Quarto\n\n\n\nPublish\n\n\n\nA very brief overview\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWrite files to database\n\n\n\nRead\n\n\nDatabase\n\n\n\nWrite a bunch of csv, sas7bdat or other files to sqlite database\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\nAucun article correspondant"
-  },
-  {
-    "objectID": "formation.html",
-    "href": "formation.html",
-    "title": "Formation",
-    "section": "",
-    "text": "J’ai été reçu au concours de l’École Normale Supérieure (ENS) en 2017, après deux ans de classe préparatoire Lettres et Sciences Sociales (B/L), où se mêlaient sociologie, économie, mathématiques, philosophie, littérature et langues vivantes.\nJe me suis formé à l’enquête de terrain, aux méthodes statistiques et à l’exploitation d’archives au sein du Master de Sciences sociales de l’ENS, en suivant le parcours Pratique de l’Interdisciplinarité. Celui-ci offre des enseignements en anthropologie, histoire et sociologie, et met l’accent sur l’acquisition des savoir-faire des sciences sociales.\nJ’ai ensuite approfondi mes connaissances en analyse de données et méthodes statistiques, d’abord par un stage à l’Institut National de la Statistique et des Études Économiques (INSEE), puis dans le cadre de ma thèse, sous la direction de Florence Weber.\nToutes mes enquêtes combinent une approche ethnographique et statistique : observation participante, recueil de récits de vie, longs entretiens enregistrés, cartographie, text mining, analyse géométrique des données et modélisation."
-  },
-  {
-    "objectID": "enquetes.html",
-    "href": "enquetes.html",
-    "title": "Enquêtes",
-    "section": "",
-    "text": "Comment des éleveurs ayant frôlé la faillite, et parfois considérés comme des parias par leurs pairs, parviennent-ils à persister dans le métier auxquels ils sont attachés, en le réinventant ? Cette première enquête, que j’ai mené en 2018 et 2019, reposait sur des entretiens biographiques avec des éleveurs de vaches laitières accompagnés par l’association Solidarité Paysans. J’y ai pris conscience du rôle de la dette dans l’enracinement du système agricole intensif. J’ai aussi réalisé à quel point étaient précieux ces dispositifs, dont l’association Solidarité Paysans fait partie, par lesquels l’infortune devient dicible et réparable en commun."
-  },
-  {
-    "objectID": "enquetes.html#solidarité-paysans",
-    "href": "enquetes.html#solidarité-paysans",
-    "title": "Enquêtes",
-    "section": "",
-    "text": "Comment des éleveurs ayant frôlé la faillite, et parfois considérés comme des parias par leurs pairs, parviennent-ils à persister dans le métier auxquels ils sont attachés, en le réinventant ? Cette première enquête, que j’ai mené en 2018 et 2019, reposait sur des entretiens biographiques avec des éleveurs de vaches laitières accompagnés par l’association Solidarité Paysans. J’y ai pris conscience du rôle de la dette dans l’enracinement du système agricole intensif. J’ai aussi réalisé à quel point étaient précieux ces dispositifs, dont l’association Solidarité Paysans fait partie, par lesquels l’infortune devient dicible et réparable en commun."
-  },
-  {
-    "objectID": "enquetes.html#à-quoi-tient-la-conformité",
-    "href": "enquetes.html#à-quoi-tient-la-conformité",
-    "title": "Enquêtes",
-    "section": "À quoi tient la conformité ?",
-    "text": "À quoi tient la conformité ?\nL’enquête suivante m’a plongé dans des interactions bien différentes de l’accompagnement par les pairs. Je m’intéressais alors à la vie ordinaire d’un vaste dispositif de surveillance, d’incitation et de sanction. Une partie de mon terrain a eu lieu en 2020, mais il ne s’agissait pas (encore) d’enquêter sur le confinement. Ce qui me fascinait à l’époque, c’étaient les contrôles liés à la Politique Agricole Commune (PAC).\nChaque année, la plupart des agriculteurs français demandent les aides de la PAC. Entre avril et mai, ils déclarent par internet les caractéristiques de l’exploitation qui entrent dans le calcul des subventions : aides à l’hectares, aides animales, Indemnité compensatoire au handicap naturel (ICHN), aides agro-environnementales. L’ensemble de ces aides est soumis à la conditionnalité, c’est à dire que leur versement est subordonné au respect d’un corpus de normes. Lorsqu’ils sollicitent les subventions publiques, les agriculteurs s’exposent donc à des contrôles qui portent à la fois sur la véracité de leurs déclarations et le respect de leurs engagements.\nLes contrôles sont majoritairement réalisés par l’Agence des services et des paiements (ASP) et touchent chaque année 50 000 exploitations agricoles, soit 5 % des demandes d’aides. La moitié exigent la confrontation physique du contrôleur et de l’agriculteur, ils sont appelés “contrôles sur place”. Les autres reposent uniquement sur des techniques de surveillance numériques, à partir de vues satellitaires. Ce sont les “contrôles à distance”.\nIl y a de très nombreux types de contrôles. Par exemple, la première des sept Bonnes Conditions Agricoles et Environnementales (BCAE) porte sur le maintien d’une “bande tampon” le long des cours d’eau. Le contrôleur vérifie que la bande tampon mesure bien les 5 mètres réglementaires, qu’elle n’a été ni traitée ni fertilisée et qu’un couvert de type herbacé, arbustif ou arboré y est présent.\nL’idenfication des animaux est une autre obligation des éleveurs bénéficiaires d’aides publiques. Pour les bovins, le contrôleur vérifie que tous les animaux sont identifiés par deux boucles auriculaires agrées, que les naissances, achats, ventes et équarrissages sont notés dans le registre dédié, que chaque animal est muni d’un passeport lisible et cohérent avec ses caractéristiques et que l’exploitant a bien déclaré les mouvements de ses animaux – entrée, sortie, mort ou naissance – dans les sept jours.\nLa plupart des “contrôles surface” sont réalisés par surveillance satellitaire. En cas de doute, un contrôleur se déplace, mesure à l’aide d’un GPS la taille des parcelles litigieuses et compare le résultat avec ce que l’agriculteur a déclaré sur internet. Cette opération est plus compliquée qu’il n’y paraît, car une série d’éléments “non admissibles” viennent en déduction de la surface primable. Ce sont par exemple les haies, les chemins, les broussailles et les zones de rocaille. Une variante de ce type de contrôle consiste à établir le “ratio de pâturabilité” des parcelles déclarées en pâturage permanent, en fonction du taux de couverture par les éléments non admissibles. Si le contrôleur estime qu’une parcelle est pâturable à 40 % seulement, l’éleveur touchera 40 % des aides auxquelles il aurait pu prétendre si elle avait été recouverte d’herbe de manière homogène."
-  },
-  {
-    "objectID": "enquetes.html#lattestation",
-    "href": "enquetes.html#lattestation",
-    "title": "Enquêtes",
-    "section": "L’Attestation",
-    "text": "L’Attestation"
-  },
-  {
-    "objectID": "enquetes.html#soin-des-bêtes-et-souci-de-soi",
-    "href": "enquetes.html#soin-des-bêtes-et-souci-de-soi",
-    "title": "Enquêtes",
-    "section": "Soin des bêtes et souci de soi",
-    "text": "Soin des bêtes et souci de soi"
+    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Accorder Zettlr},\n  date = {2023-06-30},\n  url = {https://tblk.github.io/data-tips/accorder-zettlr/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Accorder Zettlr.” June 30, 2023. https://tblk.github.io/data-tips/accorder-zettlr/."
   },
   {
     "objectID": "data-tips/read-spatial-subset/index.html",
@@ -54,13 +12,6 @@
     "title": "Read a subset of spatial data",
     "section": "",
     "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Read a subset of spatial data},\n  date = {2023-06-30},\n  url = {https://tblk.github.io/data-tips/read-spatial-subset/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Read a subset of spatial data.” June\n30, 2023. https://tblk.github.io/data-tips/read-spatial-subset/."
-  },
-  {
-    "objectID": "data-tips/store-github-pat/index.html",
-    "href": "data-tips/store-github-pat/index.html",
-    "title": "Store Github PAT",
-    "section": "",
-    "text": "Updates and shortens a post by Danielle Navarro.\nFor everyone :\n\nIf (and only if) no token yet : usethis::create_github_token()\nThen cache it : gitcreds::gitcreds_set()\nCheck your git situation : usethis::git_sitrep()\n\nThen, for Linux users only :\n\nDownload the latest version of GCM (the .deb file)\nInstall it : sudo dpkg -i &lt;path-to-deb-file&gt;\ngit-credential-manager configure\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAnd not : git-credential-manager-CORE configure, as in Danielle Navarro’s blog post.\n\n\n\nCheck libsecret is installed (it should be) : dpkg -s libsecret-1-0 The status should be Install ok Installed\ngit config --global credential.credentialStore secretservice\nThe first time you make a push, a window will open in your web browser, asking for password and a confirmation.\n\n\n\n\nCitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Store Github PAT},\n  date = {2023-07-03},\n  url = {https://tblk.github.io/data-tips/store-github-pat/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Store Github PAT.” July 3, 2023. https://tblk.github.io/data-tips/store-github-pat/."
   },
   {
     "objectID": "data-tips/squatter-mac/index.html",
@@ -161,27 +112,6 @@
     "text": "Configure Zettlr"
   },
   {
-    "objectID": "data-tips/accorder-rstudio/index.html",
-    "href": "data-tips/accorder-rstudio/index.html",
-    "title": "Accorder Rstudio",
-    "section": "",
-    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Accorder Rstudio},\n  date = {2023-06-30},\n  url = {https://tblk.github.io/data-tips/accorder-rstudio/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Accorder Rstudio.” June 30, 2023. https://tblk.github.io/data-tips/accorder-rstudio/."
-  },
-  {
-    "objectID": "data-tips/design-website-with-quarto/index.html",
-    "href": "data-tips/design-website-with-quarto/index.html",
-    "title": "Design your site with Quarto",
-    "section": "",
-    "text": "Create a new repo on github\nClone it\nOpen the terminal in the directory of your project : Alt + Maj + M in Rstudio\nRun : quarto create-project name-of-your-site --type website\nChange output-directory to docs\nAdd the files you don’t want to push to .gitignore\nRun quarto render\nCheck all files in Git pane with this shortcut : Ctrl+ A then Space\nCommit all pending changes : Ctrl + Alt + M\nPush\nGo to Github/Settings/Pages and “configure your GitHub repository to publish from the docs directory of your main branch” (quoting quarto documentation).\nYou’re site will be deployed\n\n\n\n\nCitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Design your site with Quarto},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/design-website-with-quarto/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Design your site with Quarto.” June\n25, 2023. https://tblk.github.io/data-tips/design-website-with-quarto/."
-  },
-  {
-    "objectID": "data-tips/write-database/index.html",
-    "href": "data-tips/write-database/index.html",
-    "title": "Write files to database",
-    "section": "",
-    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Write files to database},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/write-database/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Write files to database.” June 25,\n2023. https://tblk.github.io/data-tips/write-database/."
-  },
-  {
     "objectID": "data-tips/accorder-zotero/index.html",
     "href": "data-tips/accorder-zotero/index.html",
     "title": "Accorder Zotero",
@@ -203,11 +133,32 @@
     "text": "Better Bibtex\n\nVoir les instructions ici\nLes préférences de Better Bib Tex se trouvent dans l’onglet “Outils”\nChoisir auth.lower + year comme clé de citation"
   },
   {
-    "objectID": "data-tips/accorder-zettlr/index.html",
-    "href": "data-tips/accorder-zettlr/index.html",
-    "title": "Accorder Zettlr",
+    "objectID": "data-tips/design-website-with-quarto/index.html",
+    "href": "data-tips/design-website-with-quarto/index.html",
+    "title": "Design your site with Quarto",
     "section": "",
-    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Accorder Zettlr},\n  date = {2023-06-30},\n  url = {https://tblk.github.io/data-tips/accorder-zettlr/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Accorder Zettlr.” June 30, 2023. https://tblk.github.io/data-tips/accorder-zettlr/."
+    "text": "Create a new repo on github\nClone it\nOpen the terminal in the directory of your project : Alt + Maj + M in Rstudio\nRun : quarto create-project name-of-your-site --type website\nChange output-directory to docs\nAdd the files you don’t want to push to .gitignore\nRun quarto render\nCheck all files in Git pane with this shortcut : Ctrl+ A then Space\nCommit all pending changes : Ctrl + Alt + M\nPush\nGo to Github/Settings/Pages and “configure your GitHub repository to publish from the docs directory of your main branch” (quoting quarto documentation).\nYou’re site will be deployed\n\n\n\n\nCitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Design your site with Quarto},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/design-website-with-quarto/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Design your site with Quarto.” June\n25, 2023. https://tblk.github.io/data-tips/design-website-with-quarto/."
+  },
+  {
+    "objectID": "data-tips/write-database/index.html",
+    "href": "data-tips/write-database/index.html",
+    "title": "Write files to database",
+    "section": "",
+    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Write files to database},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/write-database/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Write files to database.” June 25,\n2023. https://tblk.github.io/data-tips/write-database/."
+  },
+  {
+    "objectID": "data-tips/store-github-pat/index.html",
+    "href": "data-tips/store-github-pat/index.html",
+    "title": "Store Github PAT",
+    "section": "",
+    "text": "Updates and shortens a post by Danielle Navarro.\nFor everyone :\n\nIf (and only if) no token yet : usethis::create_github_token()\nThen cache it : gitcreds::gitcreds_set()\nCheck your git situation : usethis::git_sitrep()\n\nThen, for Linux users only :\n\nDownload the latest version of GCM (the .deb file)\nInstall it : sudo dpkg -i &lt;path-to-deb-file&gt;\ngit-credential-manager configure\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAnd not : git-credential-manager-CORE configure, as in Danielle Navarro’s blog post.\n\n\n\nCheck libsecret is installed (it should be) : dpkg -s libsecret-1-0 The status should be Install ok Installed\ngit config --global credential.credentialStore secretservice\nThe first time you make a push, a window will open in your web browser, asking for password and a confirmation.\n\n\n\n\nCitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Store Github PAT},\n  date = {2023-08-17},\n  url = {https://tblk.github.io/data-tips/store-github-pat/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Store Github PAT.” August 17, 2023.\nhttps://tblk.github.io/data-tips/store-github-pat/."
+  },
+  {
+    "objectID": "data-tips/accorder-rstudio/index.html",
+    "href": "data-tips/accorder-rstudio/index.html",
+    "title": "Accorder Rstudio",
+    "section": "",
+    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Accorder Rstudio},\n  date = {2023-06-30},\n  url = {https://tblk.github.io/data-tips/accorder-rstudio/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Accorder Rstudio.” June 30, 2023. https://tblk.github.io/data-tips/accorder-rstudio/."
   },
   {
     "objectID": "data-tips/produire-beaux-huxtables/index.html#grouper-par-une-variable",
@@ -221,7 +172,7 @@
     "href": "index.html",
     "title": "Théo Boulakia",
     "section": "",
-    "text": "Mes recherches portent sur l’agriculture, la santé au travail et la surveillance de masse. Elles s’appuient sur des récits de vie, de l’observation participante, de très nombreuses bases de données et des méthodes statistiques variées."
+    "text": "Mes recherches portent sur l’élevage, la santé au travail et l’obéissance de masse. Elles s’appuient sur des méthodes ethnographiques et statistiques."
   },
   {
     "objectID": "these.html",
@@ -229,5 +180,40 @@
     "title": "Thèse",
     "section": "",
     "text": "En construction…"
+  },
+  {
+    "objectID": "enquetes.html#subventions-et-contrôles",
+    "href": "enquetes.html#subventions-et-contrôles",
+    "title": "Enquêtes",
+    "section": "Subventions et contrôles",
+    "text": "Subventions et contrôles\nChaque année, la plupart des agriculteurs français sollicitent les aides de la Politique agricole commune (PAC), sans lesquelles ils ne pourraient pas vivre. En contrepartie, ils prennent un certain nombre d’engagements, concernant notamment les pratiques culturales et l’identification des animaux. L’administration vérifie régulièrement le respect de ces engagements, ainsi que la véracité des déclarations ouvrant droit aux primes. 50 000 contrôles sont ainsi réalisés chaque année, la moitié à distance, grâce à des prises de vue satellitaires, et l’autre moitié sur place, par la visite d’un contrôleur sur l’exploitation. Cette enquête repose sur des entretiens croisés avec des contrôleurs et des agriculteurs. En se penchant sur la constitution progressive de l’infrastructure de contrôle, sur le parcours des agents, sur le déroulement des inspections, et sur leurs effets, on se demande, tout simplement, à quelles conditions la bureaucratie reste vivable."
+  },
+  {
+    "objectID": "enquetes.html#lattestation.-une-expérience-dobéissance-de-masse.",
+    "href": "enquetes.html#lattestation.-une-expérience-dobéissance-de-masse.",
+    "title": "Enquêtes",
+    "section": "L’Attestation. Une expérience d’obéissance de masse.",
+    "text": "L’Attestation. Une expérience d’obéissance de masse.\nDu printemps 2020, chacun d’entre nous garde le souvenir des attestations à remplir, des limites qu’elles imposaient et des vérifications policières qu’elles autorisaient. Pourtant, rares sont les bilans consacrés à ce versant coercitif de l’enfermement national. C’est tout l’enjeu de cette enquête. Pendant 55 jours, les forces de l’ordre firent en effet le vide sur l’ensemble du territoire, notamment dans les espaces naturels que survolaient des drones et des hélicoptères. Assistées par d’improbables auxiliaires et de nombreuses délations, elles procédèrent à 21 millions de contrôles et infligèrent 1,1 million d’amendes. Cette situation où tout le monde, aisé ou pauvre, habitué à donner des ordres ou à en recevoir, était soumis aux mêmes interdits et aux mêmes vérifications, apparaît historiquement singulière. Elle offre l’opportunité d’étudier grandeur nature la production du conformisme (qu’est-ce qu’obéir à l’État ?) et son ancrage social. De la claustration totale au refus des règles, cet ouvrage suit les lignes de conduite qu’empruntèrent les confinés, soumis à une surveillance massive dont on trouvait alors, en Europe et dans le monde, bien peu d’équivalents."
+  },
+  {
+    "objectID": "enquetes.html#soin-des-bêtes-et-souci-de-soi",
+    "href": "enquetes.html#soin-des-bêtes-et-souci-de-soi",
+    "title": "Enquêtes",
+    "section": "Soin des bêtes et souci de soi",
+    "text": "Soin des bêtes et souci de soi"
+  },
+  {
+    "objectID": "formation.html",
+    "href": "formation.html",
+    "title": "Formation",
+    "section": "",
+    "text": "J’ai été reçu au concours de l’École Normale Supérieure (ENS) en 2017, après deux ans de classe préparatoire B/L (sociologie, économie, mathématiques, histoire, philosophie, littérature, langues vivantes).\nJ’ai appris l’enquête de terrain, certaines méthodes statistiques et le travail d’archives au sein du Master de Sciences sociales de l’ENS, en suivant le parcours Pratique de l’Interdisciplinarité. Celui-ci offre des enseignements en anthropologie, histoire et sociologie, et met l’accent sur l’acquisition des savoir-faire des sciences sociales.\nJ’ai ensuite approfondi mes connaissances en analyse de données, d’abord par un stage à l’Institut National de la Statistique et des Études Économiques (INSEE), puis en préparant ma thèse, au Centre Maurice Halbwachs, sous la direction de Florence Weber.\nMes enquêtes combinent une approche ethnographique et statistique : observation participante, recueil de récits de vie, longs entretiens enregistrés, cartographie, text mining, analyse géométrique des données et modélisation."
+  },
+  {
+    "objectID": "data-tips.html",
+    "href": "data-tips.html",
+    "title": "Data Tips",
+    "section": "",
+    "text": "Toutes les images de ce blog sont tirées de la série d’art génératif Unboxing, de Danielle Navarro. Elles ont été créées avec R et sont publiées sous la licence CC-BY-4.0.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSquatter le Mac d’un ami\n\n\n\nTune\n\n\n\nPour ne pas s’encombrer de son ordinateur personnel\n\n\n\nThéo Boulakia\n\n\n17 août 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStore Github PAT\n\n\n\nTune\n\n\n\nTo push fluently\n\n\n\nThéo Boulakia\n\n\n17 août 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProduire de beaux huxtables\n\n\n\nVisualize\n\n\n\nPour ne pas s’encombrer de son ordinateur personnel\n\n\n\nThéo Boulakia\n\n\n17 août 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Zettlr\n\n\n\nTune\n\n\n\nPour obtenir la meilleure expérience d’écriture\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRead a subset of spatial data\n\n\n\nRead\n\n\nSpatial\n\n\n\nEssential when working with large shapefiles or geopackages\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Zotero\n\n\n\nTune\n\n\n\nLe confortable et l’indispensable\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Rstudio\n\n\n\nTune\n\n\n\nL’indispensable et l’optionnel\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesign your site with Quarto\n\n\n\nPublish\n\n\n\nA very brief overview\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWrite files to database\n\n\n\nRead\n\n\nDatabase\n\n\n\nWrite a bunch of csv, sas7bdat or other files to sqlite database\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\nAucun article correspondant"
   }
 ]
