@@ -4,7 +4,21 @@
     "href": "data-tips/zettlr/index.html",
     "title": "Zettlr",
     "section": "",
-    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Zettlr},\n  date = {2023-06-30},\n  url = {https://tblk.github.io/data-tips/zettlr/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Zettlr.” June 30, 2023. https://tblk.github.io/data-tips/zettlr/."
+    "text": "brew install --cask zettlr"
+  },
+  {
+    "objectID": "data-tips/zettlr/index.html#installer-zettlr",
+    "href": "data-tips/zettlr/index.html#installer-zettlr",
+    "title": "Zettlr",
+    "section": "",
+    "text": "brew install --cask zettlr"
+  },
+  {
+    "objectID": "data-tips/zettlr/index.html#configurer-zettlr",
+    "href": "data-tips/zettlr/index.html#configurer-zettlr",
+    "title": "Zettlr",
+    "section": "Configurer Zettlr",
+    "text": "Configurer Zettlr"
   },
   {
     "objectID": "data-tips/bases-de-donnees/index.html",
@@ -12,104 +26,6 @@
     "title": "Bases de données",
     "section": "",
     "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Bases de données},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/bases-de-donnees/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Bases de données.” June 25, 2023. https://tblk.github.io/data-tips/bases-de-donnees/."
-  },
-  {
-    "objectID": "data-tips/squatter-mac/index.html",
-    "href": "data-tips/squatter-mac/index.html",
-    "title": "Squatter le Mac d’un ami",
-    "section": "",
-    "text": "D’après la documentation d’Apple\n\nPomme &gt; Réglages Système &gt; Utilisateurs et groupes\n“Ajouter un compte”, (sous la liste des utilisateurs à droite)\nSaisissez le mot de passe\nCliquez sur le menu local “Nouveau compte”, puis choisissez “Administrateur”\nNom du nouvel utilisateur : faire simple\nMot de passe et indice\nCliquez sur Créer l’utilisateur."
-  },
-  {
-    "objectID": "data-tips/squatter-mac/index.html#ajoute-un-utilisateur",
-    "href": "data-tips/squatter-mac/index.html#ajoute-un-utilisateur",
-    "title": "Squatter le Mac d’un ami",
-    "section": "",
-    "text": "D’après la documentation d’Apple\n\nPomme &gt; Réglages Système &gt; Utilisateurs et groupes\n“Ajouter un compte”, (sous la liste des utilisateurs à droite)\nSaisissez le mot de passe\nCliquez sur le menu local “Nouveau compte”, puis choisissez “Administrateur”\nNom du nouvel utilisateur : faire simple\nMot de passe et indice\nCliquez sur Créer l’utilisateur."
-  },
-  {
-    "objectID": "data-tips/squatter-mac/index.html#ouvre-le-terminal",
-    "href": "data-tips/squatter-mac/index.html#ouvre-le-terminal",
-    "title": "Squatter le Mac d’un ami",
-    "section": "Ouvre le terminal",
-    "text": "Ouvre le terminal\nTout ce qu’il faut savoir sur le terminal\n\nCmd + Espace pour ouvrir “Spotlight search”\nTaper “Terminal” dans la barre de recherche"
-  },
-  {
-    "objectID": "data-tips/squatter-mac/index.html#installe-homebrew",
-    "href": "data-tips/squatter-mac/index.html#installe-homebrew",
-    "title": "Squatter le Mac d’un ami",
-    "section": "Installe Homebrew",
-    "text": "Installe Homebrew\n\nVisitez la page de Homebrew\nInstallez le ainsi : /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
-  },
-  {
-    "objectID": "data-tips/squatter-mac/index.html#installe-r-et-rstudio",
-    "href": "data-tips/squatter-mac/index.html#installe-r-et-rstudio",
-    "title": "Squatter le Mac d’un ami",
-    "section": "Installe R et Rstudio",
-    "text": "Installe R et Rstudio\n\nR : brew install r\nRstudio : brew cask install rstudio\nPour les mettre à jour si besoin : brew update & brew upgrade"
-  },
-  {
-    "objectID": "data-tips/squatter-mac/index.html#configure-rstudio",
-    "href": "data-tips/squatter-mac/index.html#configure-rstudio",
-    "title": "Squatter le Mac d’un ami",
-    "section": "Configure Rstudio",
-    "text": "Configure Rstudio"
-  },
-  {
-    "objectID": "data-tips/squatter-mac/index.html#vérifie-si-git-est-installé",
-    "href": "data-tips/squatter-mac/index.html#vérifie-si-git-est-installé",
-    "title": "Squatter le Mac d’un ami",
-    "section": "Vérifie si Git est installé",
-    "text": "Vérifie si Git est installé\n\nwhich git\nS’il ne l’est pas : brew install git"
-  },
-  {
-    "objectID": "data-tips/squatter-mac/index.html#présente-toi-à-git",
-    "href": "data-tips/squatter-mac/index.html#présente-toi-à-git",
-    "title": "Squatter le Mac d’un ami",
-    "section": "Présente toi à Git",
-    "text": "Présente toi à Git\n\ngit config --global user.name 'Jane Doe'\ngit config --global user.email 'jane@example.com\ngit config --global --list"
-  },
-  {
-    "objectID": "data-tips/squatter-mac/index.html#clone-ton-repo",
-    "href": "data-tips/squatter-mac/index.html#clone-ton-repo",
-    "title": "Squatter le Mac d’un ami",
-    "section": "Clone ton repo",
-    "text": "Clone ton repo"
-  },
-  {
-    "objectID": "data-tips/squatter-mac/index.html#installe-les-packages-nécessaires",
-    "href": "data-tips/squatter-mac/index.html#installe-les-packages-nécessaires",
-    "title": "Squatter le Mac d’un ami",
-    "section": "Installe les packages nécessaires",
-    "text": "Installe les packages nécessaires"
-  },
-  {
-    "objectID": "data-tips/squatter-mac/index.html#cache-ton-pat",
-    "href": "data-tips/squatter-mac/index.html#cache-ton-pat",
-    "title": "Squatter le Mac d’un ami",
-    "section": "Cache ton PAT",
-    "text": "Cache ton PAT\n\nQue tu auras emporté dans Keepass sur une clef USB\nSuis les étapes du post dédié (moins celles spécifiques à Linux)"
-  },
-  {
-    "objectID": "data-tips/squatter-mac/index.html#installe-tinytex",
-    "href": "data-tips/squatter-mac/index.html#installe-tinytex",
-    "title": "Squatter le Mac d’un ami",
-    "section": "Installe Tinytex",
-    "text": "Installe Tinytex\nPour pouvoir produire des pdf avec quarto : quarto install tinytex"
-  },
-  {
-    "objectID": "data-tips/squatter-mac/index.html#installe-zettlr",
-    "href": "data-tips/squatter-mac/index.html#installe-zettlr",
-    "title": "Squatter le Mac d’un ami",
-    "section": "Installe Zettlr",
-    "text": "Installe Zettlr\nbrew install --cask zettlr"
-  },
-  {
-    "objectID": "data-tips/squatter-mac/index.html#configure-zettlr",
-    "href": "data-tips/squatter-mac/index.html#configure-zettlr",
-    "title": "Squatter le Mac d’un ami",
-    "section": "Configure Zettlr",
-    "text": "Configure Zettlr"
   },
   {
     "objectID": "data-tips/donnees-spatiales/index.html",
@@ -123,14 +39,77 @@
     "href": "data-tips/git-et-github/index.html",
     "title": "Git et Github",
     "section": "",
-    "text": "Updates and shortens a post by Danielle Navarro.\nFor everyone :\n\nIf (and only if) no token yet : usethis::create_github_token()\nThen cache it : gitcreds::gitcreds_set()\nCheck your git situation : usethis::git_sitrep()\n\nThen, for Linux users only :\n\nDownload the latest version of GCM (the .deb file)\nInstall it : sudo dpkg -i &lt;path-to-deb-file&gt;\ngit-credential-manager configure\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAnd not : git-credential-manager-CORE configure, as in Danielle Navarro’s blog post.\n\n\n\nCheck libsecret is installed (it should be) : dpkg -s libsecret-1-0 The status should be Install ok Installed\ngit config --global credential.credentialStore secretservice\nThe first time you make a push, a window will open in your web browser, asking for password and a confirmation.\n\n\n\n\nCitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Git et Github},\n  date = {2023-08-18},\n  url = {https://tblk.github.io/data-tips/git-et-github/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Git et Github.” August 18, 2023. https://tblk.github.io/data-tips/git-et-github/."
+    "text": "which git\nS’il ne l’est pas : brew install git"
+  },
+  {
+    "objectID": "data-tips/git-et-github/index.html#vérifie-si-git-est-installé",
+    "href": "data-tips/git-et-github/index.html#vérifie-si-git-est-installé",
+    "title": "Git et Github",
+    "section": "",
+    "text": "which git\nS’il ne l’est pas : brew install git"
+  },
+  {
+    "objectID": "data-tips/git-et-github/index.html#présente-toi-à-git",
+    "href": "data-tips/git-et-github/index.html#présente-toi-à-git",
+    "title": "Git et Github",
+    "section": "Présente toi à Git",
+    "text": "Présente toi à Git\n\ngit config --global user.name 'Jane Doe'\ngit config --global user.email 'jane@example.com\ngit config --global --list"
+  },
+  {
+    "objectID": "data-tips/git-et-github/index.html#cloner-un-repo",
+    "href": "data-tips/git-et-github/index.html#cloner-un-repo",
+    "title": "Git et Github",
+    "section": "Cloner un repo",
+    "text": "Cloner un repo"
+  },
+  {
+    "objectID": "data-tips/git-et-github/index.html#cacher-le-personnal-access-token",
+    "href": "data-tips/git-et-github/index.html#cacher-le-personnal-access-token",
+    "title": "Git et Github",
+    "section": "Cacher le Personnal access token",
+    "text": "Cacher le Personnal access token\nUpdates and shortens a post by Danielle Navarro.\nFor everyone :\n\nIf (and only if) no token yet : usethis::create_github_token()\nThen cache it : gitcreds::gitcreds_set()\nCheck your git situation : usethis::git_sitrep()\n\nThen, for Linux users only :\n\nDownload the latest version of GCM (the .deb file)\nInstall it : sudo dpkg -i &lt;path-to-deb-file&gt;\ngit-credential-manager configure\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAnd not : git-credential-manager-CORE configure, as in Danielle Navarro’s blog post.\n\n\n\nCheck libsecret is installed (it should be) : dpkg -s libsecret-1-0 The status should be Install ok Installed\ngit config --global credential.credentialStore secretservice\nThe first time you make a push, a window will open in your web browser, asking for password and a confirmation."
   },
   {
     "objectID": "data-tips/r-et-rstudio/index.html",
     "href": "data-tips/r-et-rstudio/index.html",
     "title": "R et Rstudio",
     "section": "",
-    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {R et Rstudio},\n  date = {2023-06-30},\n  url = {https://tblk.github.io/data-tips/r-et-rstudio/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “R et Rstudio.” June 30, 2023. https://tblk.github.io/data-tips/r-et-rstudio/."
+    "text": "Tout ce qu’il faut savoir sur le terminal\n\nCmd + Espace pour ouvrir “Spotlight search”\nTaper “Terminal” dans la barre de recherche"
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html#ouvrir-le-terminal",
+    "href": "data-tips/r-et-rstudio/index.html#ouvrir-le-terminal",
+    "title": "R et Rstudio",
+    "section": "",
+    "text": "Tout ce qu’il faut savoir sur le terminal\n\nCmd + Espace pour ouvrir “Spotlight search”\nTaper “Terminal” dans la barre de recherche"
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html#installer-homebrew",
+    "href": "data-tips/r-et-rstudio/index.html#installer-homebrew",
+    "title": "R et Rstudio",
+    "section": "Installer Homebrew",
+    "text": "Installer Homebrew\n\nVisitez la page de Homebrew\nInstallez le ainsi : /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html#installer-r-et-rstudio",
+    "href": "data-tips/r-et-rstudio/index.html#installer-r-et-rstudio",
+    "title": "R et Rstudio",
+    "section": "Installer R et Rstudio",
+    "text": "Installer R et Rstudio\n\nR : brew install r\nRstudio : brew cask install rstudio\nPour les mettre à jour si besoin : brew update & brew upgrade"
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html#configurer-rstudio",
+    "href": "data-tips/r-et-rstudio/index.html#configurer-rstudio",
+    "title": "R et Rstudio",
+    "section": "Configurer Rstudio",
+    "text": "Configurer Rstudio"
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html#installer-tinytex",
+    "href": "data-tips/r-et-rstudio/index.html#installer-tinytex",
+    "title": "R et Rstudio",
+    "section": "Installer Tinytex",
+    "text": "Installer Tinytex\nPour pouvoir produire des pdf avec quarto : quarto install tinytex"
   },
   {
     "objectID": "data-tips/site-web/index.html",
@@ -214,7 +193,7 @@
     "href": "data-tips.html",
     "title": "Data Tips",
     "section": "",
-    "text": "Toutes les images de ce blog sont tirées de la série d’art génératif Unboxing, de Danielle Navarro. Elles ont été créées avec R et sont publiées sous la licence CC-BY-4.0.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSquatter le Mac d’un ami\n\n\n\nTune\n\n\n\nPour ne pas s’encombrer de son ordinateur personnel\n\n\n\nThéo Boulakia\n\n\n18 août 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGit et Github\n\n\n\nTune\n\n\n\nInstaller Git, puis connecter Git, Github et Rstudio (Linux et Mac)\n\n\n\nThéo Boulakia\n\n\n18 août 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraphes\n\n\n\nVisualiser\n\n\n\nOù on apprend à utiliser les packages ggraph et tidygraph\n\n\n\nThéo Boulakia\n\n\n18 août 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTableaux\n\n\n\nVisualiser\n\n\n\nQuelques astuces pour faire bon usage du package huxtable\n\n\n\nThéo Boulakia\n\n\n18 août 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZettlr\n\n\n\nInstaller\n\n\n\nParamétrage du plus confortable des éditeurs Markdown\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDonnées spatiales\n\n\n\nLire\n\n\nManipuler\n\n\n\nUne collection d’astuces pour la manipulation de données spatiales\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR et Rstudio\n\n\n\nInstaller\n\n\n\nInstaller et paramétrer R et Rstudio (Linux et Mac)\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZotero\n\n\n\nInstaller\n\n\n\nOptions utiles pour l’installation, le stockage et l’utilisation avec des éditeurs Markdown\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBases de données\n\n\n\nLire\n\n\nManipuler\n\n\n\nIntroduction aux packages DBI, RSQLite et dbplyr\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSite Web\n\n\n\nPublier\n\n\n\nGuide de démarrage rapide et liens vers la documentation\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\nAucun article correspondant"
+    "text": "Toutes les images de ce blog sont tirées de la série d’art génératif Unboxing, de Danielle Navarro. Elles ont été créées avec R et sont publiées sous la licence CC-BY-4.0.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGit et Github\n\n\n\nTune\n\n\n\nInstaller Git, puis connecter Git, Github et Rstudio (Linux et Mac)\n\n\n\nThéo Boulakia\n\n\n18 août 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraphes\n\n\n\nVisualiser\n\n\n\nOù on apprend à utiliser les packages ggraph et tidygraph\n\n\n\nThéo Boulakia\n\n\n18 août 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTableaux\n\n\n\nVisualiser\n\n\n\nQuelques astuces pour faire bon usage du package huxtable\n\n\n\nThéo Boulakia\n\n\n18 août 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZettlr\n\n\n\nInstaller\n\n\n\nParamétrage du plus confortable des éditeurs Markdown\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDonnées spatiales\n\n\n\nLire\n\n\nManipuler\n\n\n\nUne collection d’astuces pour la manipulation de données spatiales\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR et Rstudio\n\n\n\nInstaller\n\n\n\nInstaller et paramétrer R et Rstudio (Linux et Mac)\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZotero\n\n\n\nInstaller\n\n\n\nOptions utiles pour l’installation, le stockage et l’utilisation avec des éditeurs Markdown\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBases de données\n\n\n\nLire\n\n\nManipuler\n\n\n\nIntroduction aux packages DBI, RSQLite et dbplyr\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSite Web\n\n\n\nPublier\n\n\n\nGuide de démarrage rapide et liens vers la documentation\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "cours.html",

@@ -8,6 +8,21 @@ citation:
 draft: false
 ---
 
+## Vérifie si Git est installé
+
+-   `which git`
+-   S'il ne l'est pas : `brew install git`
+
+## Présente toi à Git
+
+-   `git config --global user.name 'Jane Doe'`
+-   `git config --global user.email 'jane@example.com`
+-   `git config --global --list`
+
+## Cloner un repo
+
+## Cacher le *Personnal access token*
+
 Updates and shortens a post by Danielle Navarro.
 
 For everyone :
