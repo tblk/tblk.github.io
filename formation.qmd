@@ -8,4 +8,4 @@ J'ai appris l'ethnographie, certaines méthodes statistiques et le travail d'arc
 
 J'ai ensuite approfondi mes connaissances en analyse de données, d'abord par un stage à l'Institut National de la Statistique et des Études Économiques (INSEE), puis en préparant ma thèse, au [Centre Maurice Halbwachs](https://www.cmh.ens.fr/), sous la direction de Florence Weber.
 
-Mes enquêtes combinent une approche ethnographique et statistique : observation participante, recueil de récits de vie, longs entretiens enregistrés, cartographie, *text mining*, analyse géométrique des données et modélisation.
+Mes enquêtes combinent ethnographie et statistiques : observation participante, recueil de récits de vie, longs entretiens enregistrés, cartographie, *text mining*, analyse géométrique des données, modélisation, analyse de trajectoires.

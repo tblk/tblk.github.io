@@ -13,11 +13,11 @@ Lecture d'articles récents, en français ou en anglais, sur des thèmes classiq
 Lecture et discussion d'ouvrages récents, remarquables par l'inventivité de l'enquête et les horizons qu'ils ouvrent.
 
 ::: {layout-ncol="3"}
-![](http://www.editions-anacharsis.com/local/cache-vignettes/L168xH269/arton235-e7278.jpg?1683257302){width="220"}
+![](jacoby.jpg){width="220"}
 
-![](https://www.tallandier.com/wp-content/uploads/2021/03/tombes-du-ciel-crg.jpg.webp){width="220"}
+![](andrieu.jpg){width="220"}
 
-![](https://www.actes-sud.fr/sites/default/files/couvertures/9782330144135.jpg){width="220"}
+![](brown.jpg){width="220"}
 :::
 
 ## Analyse de données avec R
