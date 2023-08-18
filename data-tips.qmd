@@ -7,4 +7,4 @@ listing:
   categories: true # allows you to sort posts by assigned categories 
 ---
 
-Toutes les images de ce blog sont tirées de la série d'art génératif [Unboxing](https://art.djnavarro.net/gallery/unboxing/), de [Danielle Navarro](https://djnavarro.net/). Elles ont été créées avec R et sont publiées sous la licence [CC-BY-4.0](https://github.com/djnavarro/series-unboxing/blob/master/LICENSE.md).
+L'image récurrente est tirée de la série d'art génératif [Broken Symmetry](https://art.djnavarro.net/gallery/broken-symmetry/), de [Danielle Navarro](https://djnavarro.net/). Elle a été crée avec R et est publiée sous la licence [CC-BY-4.0](https://github.com/djnavarro/series-unboxing/blob/master/LICENSE.md).
