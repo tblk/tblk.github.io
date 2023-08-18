@@ -1,0 +1,9 @@
+---
+title: "Bases de données"
+description: "Introduction aux packages DBI, RSQLite et dbplyr"
+date: 2023-06-25
+categories: [Lire, Manipuler]
+citation: 
+  url: https://tblk.github.io/data-tips/bases-de-donnees/ 
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---

@@ -1,0 +1,13 @@
+---
+title: "Tableaux"
+description: Quelques astuces pour faire bon usage du package huxtable
+date: today
+categories: [Visualiser]
+citation: 
+  url: https://tblk.github.io/data-tips/store-github-pat/ 
+draft: false
+---
+
+## Afficher les nombres tels qu'ils sont
+
+## Grouper par une variable

@@ -1,0 +1,9 @@
+---
+title: "Zettlr"
+description: "Paramétrage du plus confortable des éditeurs Markdown"
+date: 2023-06-30
+categories: [Installer]
+citation: 
+  url: https://tblk.github.io/data-tips/zettlr/ 
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---

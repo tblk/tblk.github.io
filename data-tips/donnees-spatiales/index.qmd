@@ -1,0 +1,9 @@
+---
+title: "Données spatiales"
+description: Une collection d'astuces pour la manipulation de données spatiales
+date: 2023-06-30
+categories: [Lire, Manipuler]
+citation: 
+  url: https://tblk.github.io/data-tips/read-spatial-subset/ 
+draft: false
+---

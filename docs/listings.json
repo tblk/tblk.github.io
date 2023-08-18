@@ -3,14 +3,15 @@
     "listing": "/data-tips.html",
     "items": [
       "/data-tips/squatter-mac/index.html",
-      "/data-tips/store-github-pat/index.html",
-      "/data-tips/produire-beaux-huxtables/index.html",
-      "/data-tips/accorder-zettlr/index.html",
-      "/data-tips/read-spatial-subset/index.html",
-      "/data-tips/accorder-zotero/index.html",
-      "/data-tips/accorder-rstudio/index.html",
-      "/data-tips/design-website-with-quarto/index.html",
-      "/data-tips/write-database/index.html"
+      "/data-tips/git-et-github/index.html",
+      "/data-tips/graphes/index.html",
+      "/data-tips/tableaux/index.html",
+      "/data-tips/zettlr/index.html",
+      "/data-tips/donnees-spatiales/index.html",
+      "/data-tips/r-et-rstudio/index.html",
+      "/data-tips/zotero/index.html",
+      "/data-tips/bases-de-donnees/index.html",
+      "/data-tips/site-web/index.html"
     ]
   }
 ]

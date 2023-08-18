@@ -1,0 +1,35 @@
+---
+title: Zotero
+description: "Options utiles pour l'installation, le stockage et l'utilisation avec des éditeurs Markdown"
+date: 2023-06-30
+categories: [Installer]
+citation: 
+  url: https://tblk.github.io/data-tips/zotero/ 
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+## Préférences
+
+Décocher :
+
+- ~~Faire une capture automatique des pages web~~ 
+
+- ~~Importer automatiquement les marqueurs~~
+
+- ~~Synchroniser automatiquement les fichiers joints dans ma bibliothèque~~
+
+::: {.callout-tip}
+Si j'ai synchronisé la bibliothèque **avant** de décocher cette option : purger la bibliothèque (se fait en ligne).
+:::
+
+::: {.callout-note}
+Il est toujours possible de synchroniser les fichiers joints pour les **bibliothèques de groupe**. On peut ainsi annoter des pdf de manière collaborative.
+:::
+
+## Better Bibtex
+
+- Voir les instructions [ici](https://retorque.re/zotero-better-bibtex/installation/)
+
+- Les préférences de Better Bib Tex se trouvent dans l'onglet "Outils"
+
+- Choisir *auth.lower + year* comme clé de citation
