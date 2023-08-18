@@ -1,3 +1,43 @@
 ---
 title: "Cours"
 ---
+
+Je donne régulièrement des cours de sociologie, d'histoire et d'analyse de données.
+
+## Sociologie
+
+Lecture d'articles récents, en français ou en anglais, sur des thèmes classiques comme le travail, la mobilité sociale, le genre, les migrations, la culture, la déviance, l'action publique, l'environnement, la santé, la famille. S'adresse notamment à des personnes qui préparent le concours d'administrateur INSEE.
+
+## Histoire
+
+Lecture et discussion d'ouvrages récents, remarquables par l'inventivité de l'enquête et les horizons qu'ils ouvrent.
+
+::: {layout-ncol="3"}
+![](http://www.editions-anacharsis.com/local/cache-vignettes/L168xH269/arton235-e7278.jpg?1683257302){width="220"}
+
+![](https://www.tallandier.com/wp-content/uploads/2021/03/tombes-du-ciel-crg.jpg.webp){width="220"}
+
+![](https://www.actes-sud.fr/sites/default/files/couvertures/9782330144135.jpg){width="220"}
+:::
+
+## Analyse de données avec R
+
+### Sur les rails
+
+Installer les principaux *packages*, découvrir la documentation en ligne, trouver des données, organiser ses scripts, versionner son travail, importer des fichiers de toute nature, manipuler *dataframes* et *tibbles*, apprivoiser dates, chaînes de caractères et données spatiales.
+
+### Outils avancés
+
+Itérer avec [purrr](https://purrr.tidyverse.org/), créer un *pipeline* avec [targets](https://books.ropensci.org/targets/), importer des données grâce à une API, les vérifier avec [assertr](https://cran.r-project.org/web/packages/assertr/vignettes/assertr.html), effectuer des requêtes SQL depuis R.
+
+### The Truthful Art
+
+Du nom d'un ouvrage [d'Alberto Cairo](https://albertocairo.com/), qui a plus récemment publié : *How Charts Lie*. Composer des cartes, visualiser des graphes, habiller des graphiques.
+
+### Analyses statistiques complexes
+
+Mettre en oeuvre, à partir de jeux de données originaux et de questions de recherche réelles, des méthodes comme : la classification ascendante hiérarchique, la régression logistique, la cartographie statistique, l'analyse de trajectoires, l'analyse de style...
+
+### Publier avec quarto
+
+Utiliser [quarto](https://quarto.org/) pour : composer des articles, des livres, des blogs, des diaporamas, et des sites internet comme celui-ci.

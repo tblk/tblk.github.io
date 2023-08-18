@@ -151,7 +151,7 @@
     "href": "data-tips/store-github-pat/index.html",
     "title": "Store Github PAT",
     "section": "",
-    "text": "Updates and shortens a post by Danielle Navarro.\nFor everyone :\n\nIf (and only if) no token yet : usethis::create_github_token()\nThen cache it : gitcreds::gitcreds_set()\nCheck your git situation : usethis::git_sitrep()\n\nThen, for Linux users only :\n\nDownload the latest version of GCM (the .deb file)\nInstall it : sudo dpkg -i &lt;path-to-deb-file&gt;\ngit-credential-manager configure\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAnd not : git-credential-manager-CORE configure, as in Danielle Navarro’s blog post.\n\n\n\nCheck libsecret is installed (it should be) : dpkg -s libsecret-1-0 The status should be Install ok Installed\ngit config --global credential.credentialStore secretservice\nThe first time you make a push, a window will open in your web browser, asking for password and a confirmation.\n\n\n\n\nCitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Store Github PAT},\n  date = {2023-08-17},\n  url = {https://tblk.github.io/data-tips/store-github-pat/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Store Github PAT.” August 17, 2023.\nhttps://tblk.github.io/data-tips/store-github-pat/."
+    "text": "Updates and shortens a post by Danielle Navarro.\nFor everyone :\n\nIf (and only if) no token yet : usethis::create_github_token()\nThen cache it : gitcreds::gitcreds_set()\nCheck your git situation : usethis::git_sitrep()\n\nThen, for Linux users only :\n\nDownload the latest version of GCM (the .deb file)\nInstall it : sudo dpkg -i &lt;path-to-deb-file&gt;\ngit-credential-manager configure\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAnd not : git-credential-manager-CORE configure, as in Danielle Navarro’s blog post.\n\n\n\nCheck libsecret is installed (it should be) : dpkg -s libsecret-1-0 The status should be Install ok Installed\ngit config --global credential.credentialStore secretservice\nThe first time you make a push, a window will open in your web browser, asking for password and a confirmation.\n\n\n\n\nCitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Store Github PAT},\n  date = {2023-08-18},\n  url = {https://tblk.github.io/data-tips/store-github-pat/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Store Github PAT.” August 18, 2023.\nhttps://tblk.github.io/data-tips/store-github-pat/."
   },
   {
     "objectID": "data-tips/accorder-rstudio/index.html",
@@ -173,13 +173,6 @@
     "title": "Théo Boulakia",
     "section": "",
     "text": "Mes recherches portent sur l’élevage, la santé au travail et l’obéissance de masse. Elles s’appuient sur des méthodes ethnographiques et statistiques."
-  },
-  {
-    "objectID": "these.html",
-    "href": "these.html",
-    "title": "Thèse",
-    "section": "",
-    "text": "En construction…"
   },
   {
     "objectID": "enquetes.html#subventions-et-contrôles",
@@ -207,13 +200,41 @@
     "href": "formation.html",
     "title": "Formation",
     "section": "",
-    "text": "J’ai été reçu au concours de l’École Normale Supérieure (ENS) en 2017, après deux ans de classe préparatoire B/L (sociologie, économie, mathématiques, histoire, philosophie, littérature, langues vivantes).\nJ’ai appris l’enquête de terrain, certaines méthodes statistiques et le travail d’archives au sein du Master de Sciences sociales de l’ENS, en suivant le parcours Pratique de l’Interdisciplinarité. Celui-ci offre des enseignements en anthropologie, histoire et sociologie, et met l’accent sur l’acquisition des savoir-faire des sciences sociales.\nJ’ai ensuite approfondi mes connaissances en analyse de données, d’abord par un stage à l’Institut National de la Statistique et des Études Économiques (INSEE), puis en préparant ma thèse, au Centre Maurice Halbwachs, sous la direction de Florence Weber.\nMes enquêtes combinent une approche ethnographique et statistique : observation participante, recueil de récits de vie, longs entretiens enregistrés, cartographie, text mining, analyse géométrique des données et modélisation."
+    "text": "J’ai été reçu au concours de l’École Normale Supérieure (ENS) en 2017, après deux ans de classe préparatoire B/L (sociologie, économie, mathématiques, histoire, philosophie, littérature, langues vivantes).\nJ’ai appris l’ethnographie, certaines méthodes statistiques et le travail d’archives au sein du Master de Sciences sociales de l’ENS, en suivant le parcours Pratique de l’Interdisciplinarité. Celui-ci offre des enseignements en anthropologie, histoire et sociologie, et met l’accent sur l’acquisition des savoir-faire des sciences sociales.\nJ’ai ensuite approfondi mes connaissances en analyse de données, d’abord par un stage à l’Institut National de la Statistique et des Études Économiques (INSEE), puis en préparant ma thèse, au Centre Maurice Halbwachs, sous la direction de Florence Weber.\nMes enquêtes combinent une approche ethnographique et statistique : observation participante, recueil de récits de vie, longs entretiens enregistrés, cartographie, text mining, analyse géométrique des données et modélisation."
   },
   {
     "objectID": "data-tips.html",
     "href": "data-tips.html",
     "title": "Data Tips",
     "section": "",
-    "text": "Toutes les images de ce blog sont tirées de la série d’art génératif Unboxing, de Danielle Navarro. Elles ont été créées avec R et sont publiées sous la licence CC-BY-4.0.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSquatter le Mac d’un ami\n\n\n\nTune\n\n\n\nPour ne pas s’encombrer de son ordinateur personnel\n\n\n\nThéo Boulakia\n\n\n17 août 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStore Github PAT\n\n\n\nTune\n\n\n\nTo push fluently\n\n\n\nThéo Boulakia\n\n\n17 août 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProduire de beaux huxtables\n\n\n\nVisualize\n\n\n\nPour ne pas s’encombrer de son ordinateur personnel\n\n\n\nThéo Boulakia\n\n\n17 août 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Zettlr\n\n\n\nTune\n\n\n\nPour obtenir la meilleure expérience d’écriture\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRead a subset of spatial data\n\n\n\nRead\n\n\nSpatial\n\n\n\nEssential when working with large shapefiles or geopackages\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Zotero\n\n\n\nTune\n\n\n\nLe confortable et l’indispensable\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Rstudio\n\n\n\nTune\n\n\n\nL’indispensable et l’optionnel\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesign your site with Quarto\n\n\n\nPublish\n\n\n\nA very brief overview\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWrite files to database\n\n\n\nRead\n\n\nDatabase\n\n\n\nWrite a bunch of csv, sas7bdat or other files to sqlite database\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\nAucun article correspondant"
+    "text": "Toutes les images de ce blog sont tirées de la série d’art génératif Unboxing, de Danielle Navarro. Elles ont été créées avec R et sont publiées sous la licence CC-BY-4.0.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSquatter le Mac d’un ami\n\n\n\nTune\n\n\n\nPour ne pas s’encombrer de son ordinateur personnel\n\n\n\nThéo Boulakia\n\n\n18 août 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStore Github PAT\n\n\n\nTune\n\n\n\nTo push fluently\n\n\n\nThéo Boulakia\n\n\n18 août 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProduire de beaux huxtables\n\n\n\nVisualize\n\n\n\nPour ne pas s’encombrer de son ordinateur personnel\n\n\n\nThéo Boulakia\n\n\n18 août 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Zettlr\n\n\n\nTune\n\n\n\nPour obtenir la meilleure expérience d’écriture\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRead a subset of spatial data\n\n\n\nRead\n\n\nSpatial\n\n\n\nEssential when working with large shapefiles or geopackages\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Zotero\n\n\n\nTune\n\n\n\nLe confortable et l’indispensable\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccorder Rstudio\n\n\n\nTune\n\n\n\nL’indispensable et l’optionnel\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesign your site with Quarto\n\n\n\nPublish\n\n\n\nA very brief overview\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWrite files to database\n\n\n\nRead\n\n\nDatabase\n\n\n\nWrite a bunch of csv, sas7bdat or other files to sqlite database\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "cours.html",
+    "href": "cours.html",
+    "title": "Cours",
+    "section": "",
+    "text": "Je donne régulièrement des cours de sociologie, d’histoire et d’analyse de données."
+  },
+  {
+    "objectID": "cours.html#sociologie",
+    "href": "cours.html#sociologie",
+    "title": "Cours",
+    "section": "Sociologie",
+    "text": "Sociologie\nLecture d’articles récents, en français ou en anglais, sur des thèmes classiques comme le travail, la mobilité sociale, le genre, les migrations, la culture, la déviance, l’action publique, l’environnement, la santé, la famille. S’adresse notamment à des personnes qui préparent le concours d’administrateur INSEE."
+  },
+  {
+    "objectID": "cours.html#histoire",
+    "href": "cours.html#histoire",
+    "title": "Cours",
+    "section": "Histoire",
+    "text": "Histoire\nLecture et discussion d’ouvrages récents, remarquables par l’inventivité de l’enquête et les horizons qu’ils ouvrent."
+  },
+  {
+    "objectID": "cours.html#analyse-de-données-avec-r",
+    "href": "cours.html#analyse-de-données-avec-r",
+    "title": "Cours",
+    "section": "Analyse de données avec R",
+    "text": "Analyse de données avec R\n\nSur les rails\nInstaller les principaux packages, découvrir la documentation en ligne, trouver des données, organiser ses scripts, versionner son travail, importer des fichiers de toute nature, manipuler dataframes et tibbles, apprivoiser dates, chaînes de caractères et données spatiales.\n\n\nOutils avancés\nItérer avec purrr, créer un pipeline avec targets, importer des données grâce à une API, les vérifier avec assertr, effectuer des requêtes SQL depuis R.\n\n\nThe Truthful Art\nDu nom d’un ouvrage d’Alberto Cairo, qui a plus récemment publié : How Charts Lie. Composer des cartes, visualiser des graphes, habiller des graphiques.\n\n\nAnalyses statistiques complexes\nMettre en oeuvre, à partir de jeux de données originaux et de questions de recherche réelles, des méthodes comme : la classification ascendante hiérarchique, la régression logistique, la cartographie statistique, l’analyse de trajectoires, l’analyse de style…\n\n\nPublier avec quarto\nUtiliser quarto pour : composer des articles, des livres, des blogs, des diaporamas, et des sites internet comme celui-ci."
   }
 ]
