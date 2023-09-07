@@ -1,15 +1,23 @@
 ---
 title: "Zettlr"
-description: "Paramétrage du plus confortable des éditeurs Markdown"
+description: "Très bref paramétrage du plus confortable des éditeurs Markdown"
 date: 2023-06-30
 categories: [Installer]
 citation: 
   url: https://tblk.github.io/data-tips/zettlr/ 
-draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+draft: false
 ---
 
-## Installer Zettlr
+## Installer
 
-`brew install --cask zettlr`
+- Pour Linux : télécharger le fichier .deb
+- Pour Mac : `brew install --cask zettlr`
 
-## Configurer Zettlr
+## Paramétrer
+
+- Général > Mode gestionnaire de fichiers > Combiné
+- Général > Afficher > Nom de fichier seulement
+- Éditeur > Taille de police > 20
+- Citations : après avoir exporté la bibliothèque désirée depuis Zotero, au format **Better CSL Json**, et coché l'option "garder à jour".
+- Afficher > Thème > *Frankfurt*
+- Vérification orthographique > fr

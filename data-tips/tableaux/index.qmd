@@ -8,6 +8,31 @@ citation:
 draft: false
 ---
 
+```{r packages}
+library(huxtable)
+```
+
+
 ## Afficher les nombres tels qu'ils sont
+
+```{r data}
+#| echo: true
+data = tibble::tribble(
+  ~Prix,
+  51651687,
+  99082858,
+  80346499,
+  17362590,
+  91865211
+)
+```
+
+```{r huxtable}
+data |> as_hux()
+```
+
+```{r enhanced_huxtable}
+data |> as_hux() |> set_number_format(NA)
+```
 
 ## Grouper par une variable

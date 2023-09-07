@@ -5,12 +5,9 @@ about:
   template: jolla
   image: "map.jpeg"
   links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/tblk
     - icon: envelope
       text: Email
-      href: mailto:theo.boulakia@ens.psl.eu
+      href: mailto:theo.boulakia@gmail.com
 ---
 
 Mes recherches portent sur l'élevage, la santé au travail et l'obéissance de masse. Elles s'appuient sur des méthodes ethnographiques et statistiques.

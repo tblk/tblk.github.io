@@ -2,7 +2,7 @@
 title: Git et Github
 description: Installer Git, puis connecter Git, Github et Rstudio (Linux et Mac)
 date: today
-categories: [Tune]
+categories: [Installer]
 citation: 
   url: https://tblk.github.io/data-tips/git-et-github/ 
 draft: false
