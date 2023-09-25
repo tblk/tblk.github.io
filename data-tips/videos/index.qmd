@@ -37,10 +37,17 @@ L'intérêt d'installer avec pip est précisément de bénéficier des mises à 
 pip install yt-dlp -U
 ```
 
-## Usage
+## Télécharger
 
 ```{r}
 yt-dlp https://www.dailymotion.com/video/x7sv5fg
 ```
+
+## Renomer
+
+```{r}
+yt-dlp https://youtu.be/M0yTTUt_zGA -o "new_name.mp4"
+```
+
 
 De très nombreuses options existent. Pour un petit aperçu, voir [ce billet de blog](https://www.linuxtricks.fr/wiki/yt-dlp-telecharger-des-videos-sur-internet-youtube-dl) de Linuxtricks, ou le [repo github](https://github.com/yt-dlp/yt-dlp).
