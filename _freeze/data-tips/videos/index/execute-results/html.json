@@ -1,0 +1,14 @@
+{
+  "hash": "33d690f220e78d8047caeab081bd5c93",
+  "result": {
+    "markdown": "---\ntitle: \"Vidéos\"\ndescription: Installation et usage de yt-dlp\ndate: today\ncategories: [Récolter]\ncitation: \n  url: https://tblk.github.io/data-tips/videos/ \ndraft: false\nexecute: \n  eval: false\n---\n\n\n## Installation\n\n\n::: {.cell}\n\n```{.r .cell-code}\npip install yt-dlp\n```\n:::\n\n\nPar ailleurs, s'assurer que ffmpeg est installé.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nffmpeg -version\n```\n:::\n\n\nSi ce n'est pas le cas :\n\n\n::: {.cell}\n\n```{.r .cell-code}\nsudo apt update\nsudo apt install ffmpeg\n```\n:::\n\n\n## Mise à jour\n\nL'intérêt d'installer avec pip est précisément de bénéficier des mises à jour plus rapidement qu'avec apt. Donc, si un téléchargement échoue :\n\n\n::: {.cell}\n\n```{.r .cell-code}\npip install yt-dlp -U\n```\n:::\n\n\n## Usage\n\n\n::: {.cell}\n\n```{.r .cell-code}\nyt-dlp https://www.dailymotion.com/video/x7sv5fg\n```\n:::\n\n\nDe très nombreuses options existent. Pour un petit aperçu, voir [ce billet de blog](https://www.linuxtricks.fr/wiki/yt-dlp-telecharger-des-videos-sur-internet-youtube-dl) de Linuxtricks, ou le [repo github](https://github.com/yt-dlp/yt-dlp).\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

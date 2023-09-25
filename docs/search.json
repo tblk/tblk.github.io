@@ -21,11 +21,46 @@
     "text": "Paramétrer\n\nGénéral &gt; Mode gestionnaire de fichiers &gt; Combiné\nGénéral &gt; Afficher &gt; Nom de fichier seulement\nÉditeur &gt; Taille de police &gt; 20\nCitations : après avoir exporté la bibliothèque désirée depuis Zotero, au format Better CSL Json, et coché l’option “garder à jour”.\nAfficher &gt; Thème &gt; Frankfurt\nVérification orthographique &gt; fr"
   },
   {
+    "objectID": "data-tips/zettlr/index.html#réinitialiser",
+    "href": "data-tips/zettlr/index.html#réinitialiser",
+    "title": "Zettlr",
+    "section": "Réinitialiser",
+    "text": "Réinitialiser\nrm -r /home/theo/.config/Zettlr"
+  },
+  {
     "objectID": "data-tips/bases-de-donnees/index.html",
     "href": "data-tips/bases-de-donnees/index.html",
     "title": "Bases de données",
     "section": "",
     "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Bases de données},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/bases-de-donnees/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Bases de données.” June 25, 2023. https://tblk.github.io/data-tips/bases-de-donnees/."
+  },
+  {
+    "objectID": "data-tips/videos/index.html",
+    "href": "data-tips/videos/index.html",
+    "title": "Vidéos",
+    "section": "",
+    "text": "pip install yt-dlp\n\nPar ailleurs, s’assurer que ffmpeg est installé.\n\nffmpeg -version\n\nSi ce n’est pas le cas :\n\nsudo apt update\nsudo apt install ffmpeg"
+  },
+  {
+    "objectID": "data-tips/videos/index.html#installation",
+    "href": "data-tips/videos/index.html#installation",
+    "title": "Vidéos",
+    "section": "",
+    "text": "pip install yt-dlp\n\nPar ailleurs, s’assurer que ffmpeg est installé.\n\nffmpeg -version\n\nSi ce n’est pas le cas :\n\nsudo apt update\nsudo apt install ffmpeg"
+  },
+  {
+    "objectID": "data-tips/videos/index.html#mise-à-jour",
+    "href": "data-tips/videos/index.html#mise-à-jour",
+    "title": "Vidéos",
+    "section": "Mise à jour",
+    "text": "Mise à jour\nL’intérêt d’installer avec pip est précisément de bénéficier des mises à jour plus rapidement qu’avec apt. Donc, si un téléchargement échoue :\n\npip install yt-dlp -U"
+  },
+  {
+    "objectID": "data-tips/videos/index.html#usage",
+    "href": "data-tips/videos/index.html#usage",
+    "title": "Vidéos",
+    "section": "Usage",
+    "text": "Usage\n\nyt-dlp https://www.dailymotion.com/video/x7sv5fg\n\nDe très nombreuses options existent. Pour un petit aperçu, voir ce billet de blog de Linuxtricks, ou le repo github."
   },
   {
     "objectID": "data-tips/donnees-spatiales/index.html",
@@ -207,7 +242,7 @@
     "href": "data-tips.html",
     "title": "Data Tips",
     "section": "",
-    "text": "L’image récurrente est tirée de la série d’art génératif Broken Symmetry, de Danielle Navarro. Elle a été crée avec R et est publiée sous la licence CC-BY-4.0.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGit et Github\n\n\n\nInstaller\n\n\n\nInstaller Git, puis connecter Git, Github et Rstudio (Linux et Mac)\n\n\n\nThéo Boulakia\n\n\n7 sept. 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraphes\n\n\n\nVisualiser\n\n\n\nOù on apprend à utiliser les packages ggraph et tidygraph\n\n\n\nThéo Boulakia\n\n\n7 sept. 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTableaux\n\n\n\nVisualiser\n\n\n\nQuelques astuces pour faire bon usage du package huxtable\n\n\n\nThéo Boulakia\n\n\n7 sept. 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZettlr\n\n\n\nInstaller\n\n\n\nTrès bref paramétrage du plus confortable des éditeurs Markdown\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDonnées spatiales\n\n\n\nLire\n\n\nManipuler\n\n\n\nUne collection d’astuces pour la manipulation de données spatiales\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR et Rstudio\n\n\n\nInstaller\n\n\n\nInstaller et paramétrer R et Rstudio (Linux et Mac)\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZotero\n\n\n\nInstaller\n\n\n\nOptions utiles pour l’installation, le stockage et l’utilisation avec des éditeurs Markdown\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBases de données\n\n\n\nLire\n\n\nManipuler\n\n\n\nIntroduction aux packages DBI, RSQLite et dbplyr\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSite Web\n\n\n\nPublier\n\n\n\nGuide de démarrage rapide et liens vers la documentation\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\nAucun article correspondant"
+    "text": "L’image récurrente est tirée de la série d’art génératif Broken Symmetry, de Danielle Navarro. Elle a été crée avec R et est publiée sous la licence CC-BY-4.0.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVidéos\n\n\n\nRécolter\n\n\n\nInstallation et usage de yt-dlp\n\n\n\nThéo Boulakia\n\n\n25 sept. 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGit et Github\n\n\n\nInstaller\n\n\n\nInstaller Git, puis connecter Git, Github et Rstudio (Linux et Mac)\n\n\n\nThéo Boulakia\n\n\n25 sept. 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraphes\n\n\n\nVisualiser\n\n\n\nOù on apprend à utiliser les packages ggraph et tidygraph\n\n\n\nThéo Boulakia\n\n\n25 sept. 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTableaux\n\n\n\nVisualiser\n\n\n\nQuelques astuces pour faire bon usage du package huxtable\n\n\n\nThéo Boulakia\n\n\n25 sept. 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZettlr\n\n\n\nInstaller\n\n\n\nTrès bref paramétrage du plus confortable des éditeurs Markdown\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDonnées spatiales\n\n\n\nLire\n\n\nManipuler\n\n\n\nUne collection d’astuces pour la manipulation de données spatiales\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR et Rstudio\n\n\n\nInstaller\n\n\n\nInstaller et paramétrer R et Rstudio (Linux et Mac)\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZotero\n\n\n\nInstaller\n\n\n\nOptions utiles pour l’installation, le stockage et l’utilisation avec des éditeurs Markdown\n\n\n\nThéo Boulakia\n\n\n30 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBases de données\n\n\n\nLire\n\n\nManipuler\n\n\n\nIntroduction aux packages DBI, RSQLite et dbplyr\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSite Web\n\n\n\nPublier\n\n\n\nGuide de démarrage rapide et liens vers la documentation\n\n\n\nThéo Boulakia\n\n\n25 juin 2023\n\n\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "cours.html",

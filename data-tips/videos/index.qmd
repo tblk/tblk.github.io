@@ -1,0 +1,46 @@
+---
+title: "Vidéos"
+description: Installation et usage de yt-dlp
+date: today
+categories: [Récolter]
+citation: 
+  url: https://tblk.github.io/data-tips/videos/ 
+draft: false
+execute: 
+  eval: false
+---
+
+## Installation
+
+```{r}
+pip install yt-dlp
+```
+
+Par ailleurs, s'assurer que ffmpeg est installé.
+
+```{r}
+ffmpeg -version
+```
+
+Si ce n'est pas le cas :
+
+```{r}
+sudo apt update
+sudo apt install ffmpeg
+```
+
+## Mise à jour
+
+L'intérêt d'installer avec pip est précisément de bénéficier des mises à jour plus rapidement qu'avec apt. Donc, si un téléchargement échoue :
+
+```{r}
+pip install yt-dlp -U
+```
+
+## Usage
+
+```{r}
+yt-dlp https://www.dailymotion.com/video/x7sv5fg
+```
+
+De très nombreuses options existent. Pour un petit aperçu, voir [ce billet de blog](https://www.linuxtricks.fr/wiki/yt-dlp-telecharger-des-videos-sur-internet-youtube-dl) de Linuxtricks, ou le [repo github](https://github.com/yt-dlp/yt-dlp).

@@ -2,62 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tblk.github.io/data-tips/zettlr/index.html</loc>
-    <lastmod>2023-09-07T07:15:44.957Z</lastmod>
+    <lastmod>2023-09-25T10:59:36.118Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/data-tips/bases-de-donnees/index.html</loc>
-    <lastmod>2023-09-07T07:15:45.337Z</lastmod>
+    <lastmod>2023-09-25T10:59:36.530Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tblk.github.io/data-tips/videos/index.html</loc>
+    <lastmod>2023-09-25T10:59:37.210Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/data-tips/donnees-spatiales/index.html</loc>
-    <lastmod>2023-09-07T07:15:45.725Z</lastmod>
+    <lastmod>2023-09-25T10:59:37.614Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/data-tips/git-et-github/index.html</loc>
-    <lastmod>2023-09-07T07:15:46.165Z</lastmod>
+    <lastmod>2023-09-25T10:59:38.070Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/data-tips/r-et-rstudio/index.html</loc>
-    <lastmod>2023-09-07T07:15:46.541Z</lastmod>
+    <lastmod>2023-09-25T10:59:38.578Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/data-tips/site-web/index.html</loc>
-    <lastmod>2023-09-07T07:15:46.965Z</lastmod>
+    <lastmod>2023-09-25T10:59:39.030Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/data-tips/graphes/index.html</loc>
-    <lastmod>2023-09-07T07:15:47.381Z</lastmod>
+    <lastmod>2023-09-25T10:59:39.482Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/data-tips/zotero/index.html</loc>
-    <lastmod>2023-09-07T07:15:47.769Z</lastmod>
+    <lastmod>2023-09-25T10:59:39.922Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/data-tips/tableaux/index.html</loc>
-    <lastmod>2023-09-07T07:15:48.365Z</lastmod>
+    <lastmod>2023-09-25T10:59:40.558Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/index.html</loc>
-    <lastmod>2023-09-07T07:15:48.645Z</lastmod>
+    <lastmod>2023-09-25T10:59:40.874Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/publications.html</loc>
-    <lastmod>2023-09-07T07:15:49.165Z</lastmod>
+    <lastmod>2023-09-25T10:59:41.426Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/enquetes.html</loc>
-    <lastmod>2023-09-07T07:15:49.481Z</lastmod>
+    <lastmod>2023-09-25T10:59:41.770Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/formation.html</loc>
-    <lastmod>2023-09-07T07:15:49.785Z</lastmod>
+    <lastmod>2023-09-25T10:59:42.070Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/data-tips.html</loc>
-    <lastmod>2023-09-07T07:15:50.825Z</lastmod>
+    <lastmod>2023-09-25T10:59:43.198Z</lastmod>
   </url>
   <url>
     <loc>https://tblk.github.io/cours.html</loc>
-    <lastmod>2023-09-07T07:15:51.125Z</lastmod>
+    <lastmod>2023-09-25T10:59:43.538Z</lastmod>
   </url>
 </urlset>

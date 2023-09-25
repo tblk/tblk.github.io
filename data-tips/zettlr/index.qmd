@@ -21,3 +21,7 @@ draft: false
 - Citations : après avoir exporté la bibliothèque désirée depuis Zotero, au format **Better CSL Json**, et coché l'option "garder à jour".
 - Afficher > Thème > *Frankfurt*
 - Vérification orthographique > fr
+
+## Réinitialiser
+
+`rm -r /home/theo/.config/Zettlr`
