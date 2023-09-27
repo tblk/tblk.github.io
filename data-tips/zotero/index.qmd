@@ -33,3 +33,9 @@ Il est toujours possible de synchroniser les fichiers joints pour les **biblioth
 - Les préférences de Better Bib Tex se trouvent dans l'onglet "Outils"
 
 - Choisir *auth.lower + year* comme clé de citation
+
+## Zutilo
+
+- Voir les instructions [ici](https://github.com/wshanks/Zutilo)
+
+- Aller dans Outils > Préférences de Zutilo et pour "copier les champs de la notice" et "coller dans les champs vides", choisir "menu contextuel de Zutilo".
