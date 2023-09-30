@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Théo Boulakia">
-<meta name="description" content="Installer Git, puis connecter Git, Github et Rstudio (Linux et Mac)">
+<meta name="description" content="Packages et fonctions utiles pour manipuler du texte">
 
-<title>Théo Boulakia - Git et Github</title>
+<title>Théo Boulakia - Chaînes de caractères</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -117,14 +151,14 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Git et Github</h1>
+      <h1 class="title">Chaînes de caractères</h1>
                   <div>
         <div class="description">
-          Installer Git, puis connecter Git, Github et Rstudio (Linux et Mac)
+          Packages et fonctions utiles pour manipuler du texte
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Installer</div>
+                <div class="quarto-category">Manipuler</div>
               </div>
                   </div>
   </div>
@@ -146,6 +180,12 @@ ul.task-list li input[type="checkbox"] {
       </div>
     </div>
     
+      <div>
+      <div class="quarto-title-meta-heading">Modifié</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">30 septembre 2023</p>
+      </div>
+    </div>
       
     </div>
     
@@ -158,10 +198,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#vérifie-si-git-est-installé" id="toc-vérifie-si-git-est-installé" class="nav-link active" data-scroll-target="#vérifie-si-git-est-installé">Vérifie si Git est installé</a></li>
-  <li><a href="#présente-toi-à-git" id="toc-présente-toi-à-git" class="nav-link" data-scroll-target="#présente-toi-à-git">Présente toi à Git</a></li>
-  <li><a href="#cloner-un-repo" id="toc-cloner-un-repo" class="nav-link" data-scroll-target="#cloner-un-repo">Cloner un repo</a></li>
-  <li><a href="#cacher-le-personnal-access-token" id="toc-cacher-le-personnal-access-token" class="nav-link" data-scroll-target="#cacher-le-personnal-access-token">Cacher le <em>Personnal access token</em></a></li>
+  <li><a href="#remplacer-tous-les-accents" id="toc-remplacer-tous-les-accents" class="nav-link active" data-scroll-target="#remplacer-tous-les-accents">Remplacer tous les accents</a></li>
+  <li><a href="#nettoyage-à-options" id="toc-nettoyage-à-options" class="nav-link" data-scroll-target="#nettoyage-à-options">Nettoyage à options</a></li>
   </ul>
 </nav>
     </div>
@@ -171,71 +209,46 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="vérifie-si-git-est-installé" class="level2">
-<h2 class="anchored" data-anchor-id="vérifie-si-git-est-installé">Vérifie si Git est installé</h2>
-<ul>
-<li><code>which git</code></li>
-<li>S’il ne l’est pas : <code>brew install git</code></li>
-</ul>
+<section id="remplacer-tous-les-accents" class="level2">
+<h2 class="anchored" data-anchor-id="remplacer-tous-les-accents">Remplacer tous les accents</h2>
+<p>Pour remplacer tous les accents par des caractères non accentués, dans toutes les langues :</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"soñar"</span>, <span class="st">"camión"</span>, <span class="st">"égoïste"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>stringi<span class="sc">::</span><span class="fu">stri_trans_general</span>(x, <span class="st">"Latin-ASCII"</span>)</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "sonar"   "camion"  "egoiste"</code></pre>
+</div>
+</div>
 </section>
-<section id="présente-toi-à-git" class="level2">
-<h2 class="anchored" data-anchor-id="présente-toi-à-git">Présente toi à Git</h2>
-<ul>
-<li><code>git config --global user.name 'Jane Doe'</code></li>
-<li><code>git config --global user.email 'jane@example.com</code></li>
-<li><code>git config --global --list</code></li>
-</ul>
-</section>
-<section id="cloner-un-repo" class="level2">
-<h2 class="anchored" data-anchor-id="cloner-un-repo">Cloner un repo</h2>
-</section>
-<section id="cacher-le-personnal-access-token" class="level2">
-<h2 class="anchored" data-anchor-id="cacher-le-personnal-access-token">Cacher le <em>Personnal access token</em></h2>
-<p>Updates and shortens a post by Danielle Navarro.</p>
-<p>For everyone :</p>
-<ul>
-<li><p>If (and only if) no token yet : <code>usethis::create_github_token()</code></p></li>
-<li><p>Then cache it : <code>gitcreds::gitcreds_set()</code></p></li>
-<li><p>Check your git situation : <code>usethis::git_sitrep()</code></p></li>
-</ul>
-<p>Then, for Linux users only :</p>
-<ul>
-<li><p>Download the <a href="https://github.com/git-ecosystem/git-credential-manager/releases/tag/v2.1.2">latest version of GCM</a> (the .deb file)</p></li>
-<li><p>Install it : <code>sudo dpkg -i &lt;path-to-deb-file&gt;</code></p></li>
-<li><p><code>git-credential-manager configure</code></p></li>
-</ul>
-<div class="callout callout-style-default callout-warning callout-titled">
+<section id="nettoyage-à-options" class="level2">
+<h2 class="anchored" data-anchor-id="nettoyage-à-options">Nettoyage à options</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Avertissement
+Astuce
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><a href="https://github.com/git-ecosystem/git-credential-manager/blob/main/docs/rename.md">And not</a> : <code>git-credential-manager-CORE configure</code>, as in Danielle Navarro’s blog post.</p>
+<p>Penser au package <code>fedmatch</code>, et notamment à sa (très rapide) fonction <code>clean_strings</code></p>
 </div>
 </div>
-<ul>
-<li><p>Check libsecret is installed (it should be) : <code>dpkg -s libsecret-1-0</code> The status should be Install ok Installed</p></li>
-<li><p><code>git config --global credential.credentialStore secretservice</code></p></li>
-<li><p>The first time you make a push, a window will open in your web browser, asking for password and a confirmation.</p></li>
-</ul>
 
 
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{boulakia2023,
   author = {Boulakia, Théo},
-  title = {Git et Github},
+  title = {Chaînes de caractères},
   date = {2023-09-30},
-  url = {https://tblk.github.io/data-tips/git-et-github/},
+  url = {https://tblk.github.io/data-tips/chaines-de-caracteres/},
   langid = {fr}
 }
 </code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Veuillez citer ce travail comme suit&nbsp;:</div><div id="ref-boulakia2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Boulakia, Théo. 2023. <span>“Git et Github.”</span> September 30, 2023.
-<a href="https://tblk.github.io/data-tips/git-et-github/">https://tblk.github.io/data-tips/git-et-github/</a>.
+Boulakia, Théo. 2023. <span>“Chaînes de caractères.”</span> September
+30, 2023. <a href="https://tblk.github.io/data-tips/chaines-de-caracteres/">https://tblk.github.io/data-tips/chaines-de-caracteres/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

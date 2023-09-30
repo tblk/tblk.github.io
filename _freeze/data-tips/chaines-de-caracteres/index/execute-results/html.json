@@ -1,0 +1,14 @@
+{
+  "hash": "0a638e3f3e93da6713f007bee8de6483",
+  "result": {
+    "markdown": "---\ntitle: \"Chaînes de caractères\"\ndescription: Packages et fonctions utiles pour manipuler du texte\ndate: 2023-09-30\ndate-modified: today\ncategories : [Manipuler]\ncitation: \n  url: https://tblk.github.io/data-tips/chaines-de-caracteres/ \ndraft: false\n---\n\n\n## Remplacer tous les accents\n\nPour remplacer tous les accents par des caractères non accentués, dans toutes les langues :\n\n\n::: {.cell}\n\n```{.r .cell-code}\nx <- c(\"soñar\", \"camión\", \"égoïste\")\nstringi::stri_trans_general(x, \"Latin-ASCII\")\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] \"sonar\"   \"camion\"  \"egoiste\"\n```\n:::\n:::\n\n\n## Nettoyage à options\n\n::: {.callout-tip}\nPenser au package `fedmatch`, et notamment à sa (très rapide) fonction `clean_strings`\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

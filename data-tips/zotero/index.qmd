@@ -12,30 +12,34 @@ draft: false # setting this to `true` will prevent your post from appearing on y
 
 Décocher :
 
-- ~~Faire une capture automatique des pages web~~ 
+-   ~~Faire une capture automatique des pages web~~
 
-- ~~Importer automatiquement les marqueurs~~
+-   ~~Importer automatiquement les marqueurs~~
 
-- ~~Synchroniser automatiquement les fichiers joints dans ma bibliothèque~~
+-   ~~Synchroniser automatiquement les fichiers joints dans ma bibliothèque~~
 
-::: {.callout-tip}
+::: callout-tip
 Si j'ai synchronisé la bibliothèque **avant** de décocher cette option : purger la bibliothèque (se fait en ligne).
 :::
 
-::: {.callout-note}
+::: callout-note
 Il est toujours possible de synchroniser les fichiers joints pour les **bibliothèques de groupe**. On peut ainsi annoter des pdf de manière collaborative.
 :::
 
 ## Better Bibtex
 
-- Voir les instructions [ici](https://retorque.re/zotero-better-bibtex/installation/)
+-   Voir les instructions [ici](https://retorque.re/zotero-better-bibtex/installation/)
 
-- Les préférences de Better Bib Tex se trouvent dans l'onglet "Outils"
+-   Les préférences de Better Bib Tex se trouvent dans l'onglet "Outils"
 
-- Choisir *auth.lower + year* comme clé de citation
+-   Choisir *auth.lower + year* comme clé de citation
 
 ## Zutilo
 
-- Voir les instructions [ici](https://github.com/wshanks/Zutilo)
+-   Voir les instructions [ici](https://github.com/wshanks/Zutilo)
 
-- Aller dans Outils > Préférences de Zutilo et pour "copier les champs de la notice" et "coller dans les champs vides", choisir "menu contextuel de Zutilo".
+-   Aller dans Outils \> Préférences de Zutilo et pour "copier les champs de la notice" et "coller dans les champs vides", choisir "menu contextuel de Zutilo".
+
+## Styles
+
+[Zotero styles repository](https://www.zotero.org/styles) & [Visual CSL Editor](https://editor.citationstyles.org/searchByExample/)

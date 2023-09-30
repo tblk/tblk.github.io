@@ -1,0 +1,26 @@
+---
+title: "Chaînes de caractères"
+description: Packages et fonctions utiles pour manipuler du texte
+date: 2023-09-30
+date-modified: today
+categories : [Manipuler]
+citation: 
+  url: https://tblk.github.io/data-tips/chaines-de-caracteres/ 
+draft: false
+---
+
+## Remplacer tous les accents
+
+Pour remplacer tous les accents par des caractères non accentués, dans toutes les langues :
+
+```{r}
+x <- c("soñar", "camión", "égoïste")
+stringi::stri_trans_general(x, "Latin-ASCII")
+```
+
+## Nettoyage à options
+
+::: {.callout-tip}
+Penser au package `fedmatch`, et notamment à sa (très rapide) fonction `clean_strings`
+:::
+
