@@ -4,8 +4,8 @@ description: "Guide de démarrage rapide et liens vers la documentation"
 date: 2023-06-25
 categories: [Publier]
 citation: 
-  url: https://tblk.github.io/data-tips/design-website-with-quarto/ 
-draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+  url: https://tblk.github.io/data-tips/site-web/ 
+draft: false
 ---
 
 - Create a new repo on github
@@ -31,3 +31,13 @@ draft: false # setting this to `true` will prevent your post from appearing on y
 - Go to Github/Settings/Pages and "configure your GitHub repository to publish from the docs directory of your main branch" (quoting quarto documentation).
 
 - You're site will be deployed
+
+## Preview image
+
+Pour qu'un graphique en particulier serve de _preview image_ :
+
+```{{r}}
+#| classes: preview-image
+plot(mtcars)
+```
+
