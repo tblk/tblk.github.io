@@ -1,3 +1,21 @@
 ---
 title: "Publications"
 ---
+
+## Ouvrage
+
+Avec Nicolas Mariot. *L'Attestation. Une expérience d'obéissance de masse, printemps 2020*, septembre 2023, 400 pages.
+
+::: callout-note
+Voir le [site compagnon](https://l-attestation.github.io) du livre et le [site de l'éditeur](https://anamosa.fr/livre/lattestation-une-experience-dobeissance-de-masse-printemps-2020/).
+:::
+
+## Communications
+
+-   16 octobre 2023. *Les éleveurs laitiers ont-ils droit au répit ? Dette, famille et aménagements du travail* Colloque "Santé et Malaise en agriculture", Laboratoire de Sociologie et d'Anthropologie de l'Université de Franche-Comté, MSA de Franche-Comté, Besançon.
+
+-   5 juin 2023. *La Faillite refusée. Comment travaillent les éleveurs rescapés des crises ?* Journée d'étude "Familles et parenté face aux bouleversements environnementaux : mutations et résistances", Centre Norbert Elias & Centre Maurice Halbwachs, Marseille.
+
+-   30 janvier 2023. *Le coût social des impayés. Dettes et mal-être des éleveurs.* Journée d'étude "Mal-être agricole : recherches en cours & nouveaux enjeux", Institut de recherche interdisciplinaire sur les enjeux sociaux (IRIS), EHESS, Paris.
+
+-   20 juin 2022. *Trop plein juridique et vide géographique : les interdictions de sortie et leur contrôle pendant le premier confinement*, avec Nicolas Mariot. Journée "Expérience du droit en Urgence Sanitaire", Centre de Sociologie des Organisations (CSO), SciencesPo, Paris.
