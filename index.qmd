@@ -1,6 +1,5 @@
 ---
 title: "Théo Boulakia"
-description: sociologue & statisticien
 about:
   template: jolla
   image: "map.jpeg"
