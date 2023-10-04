@@ -5,7 +5,10 @@ project:
 website:
   title: "Théo Boulakia"
   site-url: "https://tblk.github.io/"
+  favicon: map.jpeg
+  open-graph: true
   navbar:
+    logo: map.jpeg
     left:
       - href: index.qmd
         text: Accueil
