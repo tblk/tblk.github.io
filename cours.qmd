@@ -2,25 +2,13 @@
 title: "Cours"
 ---
 
-Je donne régulièrement des cours de sociologie, d'histoire et d'analyse de données.
+Je donne deux types de cours : des cours de **sciences sociales** et des cours **d'analyse de données avec R**.
 
-## Sociologie
+## Sciences sociales
 
-Lecture d'articles récents, en français ou en anglais, sur des thèmes classiques comme le travail, la mobilité sociale, le genre, les migrations, la culture, la déviance, l'action publique, l'environnement, la santé, la famille. S'adresse notamment à des personnes qui préparent le concours d'administrateur INSEE.
+Les cours consistent en des parcours de lectures, qui diffèrent selon les besoins des élèves. Pour la préparation de concours incluant une épreuve de sociologie (administrateur INSEE, voie externe ou interne, concours Lettres et sciences sociales, etc.), on privilégie la lecture d'articles récents, en français, sur des thèmes classiques comme le travail, la mobilité sociale, le genre, les migrations, la culture, la déviance, l'action publique, l'environnement, la santé, etc. Le but est de constituer peu à peu une banque d'exemples personnels, bien connus, adaptables à un grand nombre de sujets et aisément mobilisables. On travaille également sur les méthodes de lecture et la capacité de synthèse.
 
-## Histoire
-
-Lecture et discussion d'ouvrages récents, remarquables par l'inventivité de l'enquête et les horizons qu'ils ouvrent.
-
-::: {layout-ncol="3"}
-![](jacoby.jpg){width="220"}
-
-![](andrieu.jpg){width="220"}
-
-![](brown.jpg){width="220"}
-:::
-
-## Analyse de données avec R
+## Data science
 
 ### Sur les rails
 
