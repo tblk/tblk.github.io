@@ -3,29 +3,3 @@ title: "Cours"
 ---
 
 Je donne deux types de cours : des cours de **sciences sociales** et des cours **d'analyse de données avec R**.
-
-## Sciences sociales
-
-Les cours consistent en des parcours de lectures, qui diffèrent selon les besoins des élèves. Pour la préparation de concours incluant une épreuve de sociologie (administrateur INSEE, voie externe ou interne, concours Lettres et sciences sociales, etc.), on privilégie la lecture d'articles récents, en français, sur des thèmes classiques comme le travail, la mobilité sociale, le genre, les migrations, la culture, la déviance, l'action publique, l'environnement, la santé, etc. Le but est de constituer peu à peu une banque d'exemples personnels, bien connus, adaptables à un grand nombre de sujets et aisément mobilisables. On travaille également sur les méthodes de lecture et la capacité de synthèse.
-
-## Data science
-
-### Sur les rails
-
-Installer les principaux *packages*, découvrir la documentation en ligne, trouver des données, organiser ses scripts, versionner son travail, importer des fichiers de toute nature, manipuler *dataframes* et *tibbles*, apprivoiser dates, chaînes de caractères et données spatiales.
-
-### Outils avancés
-
-Itérer avec [purrr](https://purrr.tidyverse.org/), créer un *pipeline* avec [targets](https://books.ropensci.org/targets/), importer des données grâce à une API, les vérifier avec [assertr](https://cran.r-project.org/web/packages/assertr/vignettes/assertr.html), effectuer des requêtes SQL depuis R.
-
-### The Truthful Art
-
-Du nom d'un ouvrage [d'Alberto Cairo](https://albertocairo.com/), qui a plus récemment publié : *How Charts Lie*. Composer des cartes, visualiser des graphes, habiller des graphiques.
-
-### Analyses statistiques complexes
-
-Mettre en oeuvre, à partir de jeux de données originaux et de questions de recherche réelles, des méthodes comme : la classification ascendante hiérarchique, la régression logistique, la cartographie statistique, l'analyse de trajectoires, l'analyse de style...
-
-### Publier avec quarto
-
-Utiliser [quarto](https://quarto.org/) pour : composer des articles, des livres, des blogs, des diaporamas, et des sites internet comme celui-ci.

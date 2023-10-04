@@ -305,27 +305,6 @@
     "href": "cours.html",
     "title": "Cours",
     "section": "",
-    "text": "Je donne régulièrement des cours de sociologie, d’histoire et d’analyse de données."
-  },
-  {
-    "objectID": "cours.html#sociologie",
-    "href": "cours.html#sociologie",
-    "title": "Cours",
-    "section": "Sociologie",
-    "text": "Sociologie\nLecture d’articles récents, en français ou en anglais, sur des thèmes classiques comme le travail, la mobilité sociale, le genre, les migrations, la culture, la déviance, l’action publique, l’environnement, la santé, la famille. S’adresse notamment à des personnes qui préparent le concours d’administrateur INSEE."
-  },
-  {
-    "objectID": "cours.html#histoire",
-    "href": "cours.html#histoire",
-    "title": "Cours",
-    "section": "Histoire",
-    "text": "Histoire\nLecture et discussion d’ouvrages récents, remarquables par l’inventivité de l’enquête et les horizons qu’ils ouvrent."
-  },
-  {
-    "objectID": "cours.html#analyse-de-données-avec-r",
-    "href": "cours.html#analyse-de-données-avec-r",
-    "title": "Cours",
-    "section": "Analyse de données avec R",
-    "text": "Analyse de données avec R\n\nSur les rails\nInstaller les principaux packages, découvrir la documentation en ligne, trouver des données, organiser ses scripts, versionner son travail, importer des fichiers de toute nature, manipuler dataframes et tibbles, apprivoiser dates, chaînes de caractères et données spatiales.\n\n\nOutils avancés\nItérer avec purrr, créer un pipeline avec targets, importer des données grâce à une API, les vérifier avec assertr, effectuer des requêtes SQL depuis R.\n\n\nThe Truthful Art\nDu nom d’un ouvrage d’Alberto Cairo, qui a plus récemment publié : How Charts Lie. Composer des cartes, visualiser des graphes, habiller des graphiques.\n\n\nAnalyses statistiques complexes\nMettre en oeuvre, à partir de jeux de données originaux et de questions de recherche réelles, des méthodes comme : la classification ascendante hiérarchique, la régression logistique, la cartographie statistique, l’analyse de trajectoires, l’analyse de style…\n\n\nPublier avec quarto\nUtiliser quarto pour : composer des articles, des livres, des blogs, des diaporamas, et des sites internet comme celui-ci."
+    "text": "Je donne deux types de cours : des cours de sciences sociales et des cours d’analyse de données avec R."
   }
 ]
