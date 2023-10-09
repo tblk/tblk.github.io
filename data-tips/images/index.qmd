@@ -10,6 +10,7 @@ citation:
 draft: false
 execute: 
   eval: false
+  freeze: false
 ---
 
 ## Convertir une image
@@ -32,8 +33,9 @@ Ici, on utilise le package [magick](https://cran.r-project.org/web/packages/magi
 
 ```{r}
 #| eval: true
-magick::image_read(
+gray_frog = magick::image_read(
   "https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg"
   ) |> 
   magick::image_quantize(colorspace = "gray")
+gray_frog
 ```

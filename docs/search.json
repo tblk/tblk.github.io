@@ -102,7 +102,7 @@
     "href": "data-tips/images/index.html#passer-en-nuances-de-gris",
     "title": "Images",
     "section": "Passer en nuances de gris",
-    "text": "Passer en nuances de gris\nIci, on utilise le package magick, qui rend accessible depuis R la librairie ImageMagick.\n\n\n\nHyla japonica, 1er septembre 2008, 池田正樹 (talk) masaki ikeda, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons\n\n\n\nmagick::image_read(\n  \"https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg\"\n  ) |&gt; \n  magick::image_quantize(colorspace = \"gray\")"
+    "text": "Passer en nuances de gris\nIci, on utilise le package magick, qui rend accessible depuis R la librairie ImageMagick.\n\n\n\nHyla japonica, 1er septembre 2008, 池田正樹 (talk) masaki ikeda, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons\n\n\n\ngray_frog = magick::image_read(\n  \"https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg\"\n  ) |&gt; \n  magick::image_quantize(colorspace = \"gray\")\ngray_frog"
   },
   {
     "objectID": "data-tips/git-et-github/index.html",
