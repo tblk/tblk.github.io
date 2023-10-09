@@ -67,7 +67,7 @@
     "href": "data-tips/videos/index.html#renommer",
     "title": "Vidéos",
     "section": "Renommer",
-    "text": "Renommer\n\nyt-dlp https://youtu.be/M0yTTUt_zGA -o \"new_name.mp4\"\n\nDe très nombreuses options existent. Pour un petit aperçu, voir ce billet de blog de Linuxtricks, ou le repo github."
+    "text": "Renommer\nIl arrive en effet que le téléchargement échoue simplement parce que la nom de la vidéo est trop long. Dans ce cas, on peut renommer en même temps qu’on télécharge, ainsi :\n\nyt-dlp https://youtu.be/M0yTTUt_zGA -o \"new_name.mp4\"\n\nDe très nombreuses options existent. Pour un petit aperçu, voir ce billet de blog de Linuxtricks, ou le repo github."
   },
   {
     "objectID": "data-tips/donnees-spatiales/index.html",
@@ -95,7 +95,7 @@
     "href": "data-tips/images/index.html#compresser-une-image",
     "title": "Images",
     "section": "Compresser une image",
-    "text": "Compresser une image\nconvert image.jpg[50%x50%] -quality 70 compressed_image.jpg"
+    "text": "Compresser une image\n\nconvert image.jpg[50%x50%] -quality 70 compressed_image.jpg"
   },
   {
     "objectID": "data-tips/git-et-github/index.html",

@@ -1,11 +1,14 @@
 {
-  "hash": "d635f97b609a5d3c633130d78a868e90",
+  "hash": "fbcdbb9e601172aa1c0bccacf09cd75e",
   "result": {
-    "markdown": "---\ntitle: \"Images\"\ndate: 2023-10-09\ndate-modified: today\ndescription: \"Utiliser ImageMagick pour convertir, compresser et transformer des images\"\ncategories: [Manipuler]\ncitation: \n  url: https://tblk.github.io/data-tips/images/ \ndraft: false\nexecute: \n  eval: false\n---\n\n## Convertir une image\n\n\n```{bash}\nconvert image.jpg image.png\n```\n\n\n## Compresser une image\n\n\nconvert image.jpg[50%x50%] -quality 70 compressed_image.jpg\n<!-- ``` -->\n\n",
-    "supporting": [
-      "index_files"
+    "markdown": "---\ntitle: \"Images\"\nengine: knitr\ndate: 2023-10-09\ndate-modified: today\ndescription: \"Utiliser ImageMagick pour convertir, compresser et transformer des images\"\ncategories: [Manipuler]\ncitation: \n  url: https://tblk.github.io/data-tips/images/ \ndraft: false\nexecute: \n  eval: false\n---\n\n\n## Convertir une image\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nconvert image.jpg image.png\n```\n:::\n\n\n## Compresser une image\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nconvert image.jpg[50%x50%] -quality 70 compressed_image.jpg\n```\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
     ],
-    "filters": [],
-    "includes": {}
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
   }
 }
