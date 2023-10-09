@@ -28,19 +28,12 @@ convert image.jpg[50%x50%] -quality 70 compressed_image.jpg
 
 Ici, on utilise le package [magick](https://cran.r-project.org/web/packages/magick/vignettes/intro.html), qui rend accessible depuis `R` la librairie ImageMagick.
 
+[![Hyla japonica, 1er septembre 2008, 池田正樹 (talk) masaki ikeda, CC BY-SA 3.0 \<https://creativecommons.org/licenses/by-sa/3.0\>, via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg)](https://commons.wikimedia.org/wiki/File:Hyla_japonica_sep01.jpg)
+
 ```{r}
 #| eval: true
-grenouille_arboricole = magick::image_read(
+magick::image_read(
   "https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg"
-  )
-
-grenouille_arboricole
-```
-
-[Grenouille arboricole](https://commons.wikimedia.org/wiki/File:Hyla_japonica_sep01.jpg) photographiée le premier jour de septembre 2008. 池田正樹 (talk) masaki ikeda, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
-
-```{r}
-#| eval: true
-grenouille_arboricole |>
+  ) |> 
   magick::image_quantize(colorspace = "gray")
 ```
