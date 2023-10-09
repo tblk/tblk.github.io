@@ -1,8 +1,9 @@
 ---
 title: "Vidéos"
 engine: knitr
+date: 2023-09-28
+date-modified: today
 description: Installation et usage de yt-dlp
-date: today
 categories: [Récolter]
 citation: 
   url: https://tblk.github.io/data-tips/videos/ 
