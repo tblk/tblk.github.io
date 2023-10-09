@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Théo Boulakia">
-<meta name="description" content="Installer Git, puis connecter Git, Github et Rstudio (Linux et Mac)">
+<meta name="description" content="Utiliser ImageMagick pour convertir, compresser et transformer des images">
 
-<title>Théo Boulakia - Git et Github</title>
+<title>Théo Boulakia - Images</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,8 +64,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Théo Boulakia - Git et Github">
-<meta property="og:description" content="Installer Git, puis connecter Git, Github et Rstudio (Linux et Mac)">
+<meta property="og:title" content="Théo Boulakia - Images">
+<meta property="og:description" content="Utiliser ImageMagick pour convertir, compresser et transformer des images">
 <meta property="og:image" content="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg">
 <meta property="og:site-name" content="Théo Boulakia">
 </head>
@@ -125,14 +125,14 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Git et Github</h1>
+      <h1 class="title">Images</h1>
                   <div>
         <div class="description">
-          Installer Git, puis connecter Git, Github et Rstudio (Linux et Mac)
+          Utiliser ImageMagick pour convertir, compresser et transformer des images
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Installer</div>
+                <div class="quarto-category">Manipuler</div>
               </div>
                   </div>
   </div>
@@ -154,6 +154,12 @@ ul.task-list li input[type="checkbox"] {
       </div>
     </div>
     
+      <div>
+      <div class="quarto-title-meta-heading">Modifié</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">9 octobre 2023</p>
+      </div>
+    </div>
       
     </div>
     
@@ -166,10 +172,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#vérifie-si-git-est-installé" id="toc-vérifie-si-git-est-installé" class="nav-link active" data-scroll-target="#vérifie-si-git-est-installé">Vérifie si Git est installé</a></li>
-  <li><a href="#présente-toi-à-git" id="toc-présente-toi-à-git" class="nav-link" data-scroll-target="#présente-toi-à-git">Présente toi à Git</a></li>
-  <li><a href="#cloner-un-repo" id="toc-cloner-un-repo" class="nav-link" data-scroll-target="#cloner-un-repo">Cloner un repo</a></li>
-  <li><a href="#cacher-le-personnal-access-token" id="toc-cacher-le-personnal-access-token" class="nav-link" data-scroll-target="#cacher-le-personnal-access-token">Cacher le <em>Personnal access token</em></a></li>
+  <li><a href="#convertir-une-image" id="toc-convertir-une-image" class="nav-link active" data-scroll-target="#convertir-une-image">Convertir une image</a></li>
+  <li><a href="#compresser-une-image" id="toc-compresser-une-image" class="nav-link" data-scroll-target="#compresser-une-image">Compresser une image</a></li>
   </ul>
 </nav>
     </div>
@@ -179,70 +183,26 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="vérifie-si-git-est-installé" class="level2">
-<h2 class="anchored" data-anchor-id="vérifie-si-git-est-installé">Vérifie si Git est installé</h2>
-<ul>
-<li><code>which git</code></li>
-<li>S’il ne l’est pas : <code>brew install git</code></li>
-</ul>
+<section id="convertir-une-image" class="level2">
+<h2 class="anchored" data-anchor-id="convertir-une-image">Convertir une image</h2>
+<pre class="{bash}"><code>convert image.jpg image.png</code></pre>
 </section>
-<section id="présente-toi-à-git" class="level2">
-<h2 class="anchored" data-anchor-id="présente-toi-à-git">Présente toi à Git</h2>
-<ul>
-<li><code>git config --global user.name 'Jane Doe'</code></li>
-<li><code>git config --global user.email 'jane@example.com</code></li>
-<li><code>git config --global --list</code></li>
-</ul>
-</section>
-<section id="cloner-un-repo" class="level2">
-<h2 class="anchored" data-anchor-id="cloner-un-repo">Cloner un repo</h2>
-</section>
-<section id="cacher-le-personnal-access-token" class="level2">
-<h2 class="anchored" data-anchor-id="cacher-le-personnal-access-token">Cacher le <em>Personnal access token</em></h2>
-<p>Updates and shortens a post by Danielle Navarro.</p>
-<p>For everyone :</p>
-<ul>
-<li><p>If (and only if) no token yet : <code>usethis::create_github_token()</code></p></li>
-<li><p>Then cache it : <code>gitcreds::gitcreds_set()</code></p></li>
-<li><p>Check your git situation : <code>usethis::git_sitrep()</code></p></li>
-</ul>
-<p>Then, for Linux users only :</p>
-<ul>
-<li><p>Download the <a href="https://github.com/git-ecosystem/git-credential-manager/releases/tag/v2.1.2">latest version of GCM</a> (the .deb file)</p></li>
-<li><p>Install it : <code>sudo dpkg -i &lt;path-to-deb-file&gt;</code></p></li>
-<li><p><code>git-credential-manager configure</code></p></li>
-</ul>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Avertissement
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="https://github.com/git-ecosystem/git-credential-manager/blob/main/docs/rename.md">And not</a> : <code>git-credential-manager-CORE configure</code>, as in Danielle Navarro’s blog post.</p>
-</div>
-</div>
-<ul>
-<li><p>Check libsecret is installed (it should be) : <code>dpkg -s libsecret-1-0</code> The status should be Install ok Installed</p></li>
-<li><p><code>git config --global credential.credentialStore secretservice</code></p></li>
-<li><p>The first time you make a push, a window will open in your web browser, asking for password and a confirmation.</p></li>
-</ul>
+<section id="compresser-une-image" class="level2">
+<h2 class="anchored" data-anchor-id="compresser-une-image">Compresser une image</h2>
+<p>convert image.jpg[50%x50%] -quality 70 compressed_image.jpg <!-- ``` --></p>
 
 
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{boulakia2023,
   author = {Boulakia, Théo},
-  title = {Git et Github},
+  title = {Images},
   date = {2023-10-09},
-  url = {https://tblk.github.io/data-tips/git-et-github/},
+  url = {https://tblk.github.io/data-tips/images/},
   langid = {fr}
 }
 </code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Veuillez citer ce travail comme suit&nbsp;:</div><div id="ref-boulakia2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Boulakia, Théo. 2023. <span>“Git et Github.”</span> October 9, 2023. <a href="https://tblk.github.io/data-tips/git-et-github/">https://tblk.github.io/data-tips/git-et-github/</a>.
+Boulakia, Théo. 2023. <span>“Images.”</span> October 9, 2023. <a href="https://tblk.github.io/data-tips/images/">https://tblk.github.io/data-tips/images/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

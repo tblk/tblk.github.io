@@ -1,0 +1,24 @@
+---
+title: "Images"
+date: 2023-10-09
+date-modified: today
+description: "Utiliser ImageMagick pour convertir, compresser et transformer des images"
+categories: [Manipuler]
+citation: 
+  url: https://tblk.github.io/data-tips/images/ 
+draft: false
+execute: 
+  eval: false
+---
+
+## Convertir une image
+
+```{bash}
+convert image.jpg image.png
+```
+
+## Compresser une image
+
+```{bash}
+convert image.jpg[50%x50%] -quality 70 compressed_image.jpg
+<!-- ``` -->

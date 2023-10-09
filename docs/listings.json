@@ -3,6 +3,7 @@
     "listing": "/data-tips.html",
     "items": [
       "/data-tips/videos/index.html",
+      "/data-tips/images/index.html",
       "/data-tips/git-et-github/index.html",
       "/data-tips/graphes/index.html",
       "/data-tips/tableaux/index.html",
