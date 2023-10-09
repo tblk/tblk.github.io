@@ -23,3 +23,22 @@ convert image.jpg image.png
 ```{bash}
 convert image.jpg[50%x50%] -quality 70 compressed_image.jpg
 ```
+
+## Passer en nuances de gris
+
+Ici, on utilise le package [magick](https://cran.r-project.org/web/packages/magick/vignettes/intro.html), qui rend accessible depuis `R` la librairie ImageMagick.
+
+```{r}
+#| eval: true
+grenouille_arboricole = magick::image_read(
+  "https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg"
+  )
+
+grenouille_arboricole
+```
+
+```{r}
+#| eval: true
+magick::image_quantize(colorspace = "gray")
+```
+

@@ -204,6 +204,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#convertir-une-image" id="toc-convertir-une-image" class="nav-link active" data-scroll-target="#convertir-une-image">Convertir une image</a></li>
   <li><a href="#compresser-une-image" id="toc-compresser-une-image" class="nav-link" data-scroll-target="#compresser-une-image">Compresser une image</a></li>
+  <li><a href="#passer-en-nuances-de-gris" id="toc-passer-en-nuances-de-gris" class="nav-link" data-scroll-target="#passer-en-nuances-de-gris">Passer en nuances de gris</a></li>
   </ul>
 </nav>
     </div>
@@ -223,6 +224,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="compresser-une-image">Compresser une image</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">convert</span> image.jpg<span class="pp">[</span><span class="ss">50%x50%</span><span class="pp">]</span> <span class="at">-quality</span> 70 compressed_image.jpg</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="passer-en-nuances-de-gris" class="level2">
+<h2 class="anchored" data-anchor-id="passer-en-nuances-de-gris">Passer en nuances de gris</h2>
+<p>Ici, on utilise le package <a href="https://cran.r-project.org/web/packages/magick/vignettes/intro.html">magick</a>, qui rend accessible depuis <code>R</code> la librairie ImageMagick.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>grenouille_arboricole <span class="ot">=</span> magick<span class="sc">::</span><span class="fu">image_read</span>(</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>grenouille_arboricole</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="1250"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>magick<span class="sc">::</span><span class="fu">image_quantize</span>(<span class="at">colorspace =</span> <span class="st">"gray"</span>)</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 

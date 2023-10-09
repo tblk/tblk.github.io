@@ -1,8 +1,10 @@
 {
-  "hash": "fbcdbb9e601172aa1c0bccacf09cd75e",
+  "hash": "47ff2b986ea2e3e3d6d2e6bf4b0b94fa",
   "result": {
-    "markdown": "---\ntitle: \"Images\"\nengine: knitr\ndate: 2023-10-09\ndate-modified: today\ndescription: \"Utiliser ImageMagick pour convertir, compresser et transformer des images\"\ncategories: [Manipuler]\ncitation: \n  url: https://tblk.github.io/data-tips/images/ \ndraft: false\nexecute: \n  eval: false\n---\n\n\n## Convertir une image\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nconvert image.jpg image.png\n```\n:::\n\n\n## Compresser une image\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nconvert image.jpg[50%x50%] -quality 70 compressed_image.jpg\n```\n:::",
-    "supporting": [],
+    "markdown": "---\ntitle: \"Images\"\nengine: knitr\ndate: 2023-10-09\ndate-modified: today\ndescription: \"Utiliser ImageMagick pour convertir, compresser et transformer des images\"\ncategories: [Manipuler]\ncitation: \n  url: https://tblk.github.io/data-tips/images/ \ndraft: false\nexecute: \n  eval: false\n---\n\n\n## Convertir une image\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nconvert image.jpg image.png\n```\n:::\n\n\n## Compresser une image\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nconvert image.jpg[50%x50%] -quality 70 compressed_image.jpg\n```\n:::\n\n\n## Passer en nuances de gris\n\nIci, on utilise le package [magick](https://cran.r-project.org/web/packages/magick/vignettes/intro.html), qui rend accessible depuis `R` la librairie ImageMagick.\n\n\n::: {.cell}\n\n```{.r .cell-code}\ngrenouille_arboricole = magick::image_read(\n  \"https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg\"\n  )\n\ngrenouille_arboricole\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-3-1.png){width=1250}\n:::\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nmagick::image_quantize(colorspace = \"gray\")\n```\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

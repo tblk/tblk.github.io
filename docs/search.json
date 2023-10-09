@@ -98,6 +98,13 @@
     "text": "Compresser une image\n\nconvert image.jpg[50%x50%] -quality 70 compressed_image.jpg"
   },
   {
+    "objectID": "data-tips/images/index.html#passer-en-nuances-de-gris",
+    "href": "data-tips/images/index.html#passer-en-nuances-de-gris",
+    "title": "Images",
+    "section": "Passer en nuances de gris",
+    "text": "Passer en nuances de gris\nIci, on utilise le package magick, qui rend accessible depuis R la librairie ImageMagick.\n\ngrenouille_arboricole = magick::image_read(\n  \"https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg\"\n  )\n\ngrenouille_arboricole\n\n\n\n\n\nmagick::image_quantize(colorspace = \"gray\")"
+  },
+  {
     "objectID": "data-tips/git-et-github/index.html",
     "href": "data-tips/git-et-github/index.html",
     "title": "Git et Github",
