@@ -179,7 +179,7 @@
     "href": "data-tips/site-web/index.html",
     "title": "Site Web",
     "section": "",
-    "text": "Create a new repo on github\nClone it\nOpen the terminal in the directory of your project : Alt + Maj + M in Rstudio\nRun : quarto create-project name-of-your-site --type website\nChange output-directory to docs\nAdd the files you don’t want to push to .gitignore\nRun quarto render\nCheck all files in Git pane with this shortcut : Ctrl+ A then Space\nCommit all pending changes : Ctrl + Alt + M\nPush\nGo to Github/Settings/Pages and “configure your GitHub repository to publish from the docs directory of your main branch” (quoting quarto documentation).\nYou’re site will be deployed"
+    "text": "Crée un nouveau repo sur Github.\nClone le.\nOuvre le terminal dans le répertoire du projet (Alt + Maj + M dans Rstudio) et crée un projet de type website.\nquarto create-project &lt;site-name&gt; --type website\nOu :\nquarto create project website /\nquarto render"
   },
   {
     "objectID": "data-tips/site-web/index.html#preview-image",
@@ -187,6 +187,13 @@
     "title": "Site Web",
     "section": "Preview image",
     "text": "Preview image\nPour qu’un graphique en particulier serve de preview image :\n```{r}\n#| classes: preview-image\nplot(mtcars)\n```"
+  },
+  {
+    "objectID": "data-tips/site-web/index.html#code-highlighting",
+    "href": "data-tips/site-web/index.html#code-highlighting",
+    "title": "Site Web",
+    "section": "Code highlighting",
+    "text": "Code highlighting\nPour que du code bash ressorte correctement, choisir : engine: knitr. Voir cette issue.\n\n\n\n\n\n\nAvertissement\n\n\n\nEt ne surtout pas oublier l’option `eval: false` !"
   },
   {
     "objectID": "data-tips/graphes/index.html#grouper-par-une-variable",

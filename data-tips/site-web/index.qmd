@@ -1,43 +1,64 @@
 ---
 title: "Site Web"
+engine: knitr
 description: "Guide de démarrage rapide et liens vers la documentation"
 date: 2023-06-25
+date-modified: today
 categories: [Publier]
 citation: 
   url: https://tblk.github.io/data-tips/site-web/ 
 draft: false
+execute: 
+  eval: false
 ---
 
-- Create a new repo on github
+-   Crée un nouveau repo sur Github.
 
-- Clone it
+-   Clone le.
 
-- Open the terminal in the directory of your project : `Alt + Maj + M` in Rstudio
+-   Ouvre le terminal dans le répertoire du projet (`Alt + Maj + M` dans Rstudio) et crée un projet de type `website`.
 
-- Run : `quarto create-project name-of-your-site --type website `
+```{bash}
+quarto create-project <site-name> --type website
+```
 
-- Change output-directory to `docs`
+Ou :
 
-- Add the files you don't want to push to .gitignore
+```{bash}
+quarto create project website /
+```
 
-- Run `quarto render`
+-   Dans le fichier `_quarto.yml`, choisir : `output-dir: docs`.
 
-- Check all files in Git pane with this shortcut : `Ctrl+ A` then `Space`
+-   Ajouter à `.gitignore` les fichiers et dossiers qui ne doivent pas être publiés sur le site.
 
-- Commit all pending changes : `Ctrl + Alt + M`
+```{bash}
+quarto render
+```
 
-- Push
+-   Check all files in Git pane with this shortcut : `Ctrl+ A` then `Space`
 
-- Go to Github/Settings/Pages and "configure your GitHub repository to publish from the docs directory of your main branch" (quoting quarto documentation).
+-   Commit all pending changes : `Ctrl + Alt + M`
 
-- You're site will be deployed
+-   Push
+
+-   Go to Github \> Settings \> Pages and "configure your GitHub repository to publish from the docs directory of your main branch" (quoting quarto documentation).
+
+-   You're site will be deployed
 
 ## Preview image
 
-Pour qu'un graphique en particulier serve de _preview image_ :
+Pour qu'un graphique en particulier serve de *preview image* :
 
 ```{{r}}
 #| classes: preview-image
 plot(mtcars)
 ```
 
+## Code highlighting
+
+Pour que du code `bash` ressorte correctement, choisir : `engine: knitr`. Voir [cette issue](https://github.com/quarto-dev/quarto-cli/discussions/5275).
+
+::: callout-warning
+Et ne surtout pas oublier l'option \`eval: false\` !
+:::

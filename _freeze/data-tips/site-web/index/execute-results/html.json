@@ -1,0 +1,14 @@
+{
+  "hash": "3d5c2ec83293b10520a30271ffa7fd77",
+  "result": {
+    "markdown": "---\ntitle: \"Site Web\"\nengine: knitr\ndescription: \"Guide de démarrage rapide et liens vers la documentation\"\ndate: 2023-06-25\ndate-modified: today\ncategories: [Publier]\ncitation: \n  url: https://tblk.github.io/data-tips/site-web/ \ndraft: false\nexecute: \n  eval: false\n---\n\n\n-   Crée un nouveau repo sur Github.\n\n-   Clone le.\n\n-   Ouvre le terminal dans le répertoire du projet (`Alt + Maj + M` dans Rstudio) et crée un projet de type `website`.\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nquarto create-project <site-name> --type website\n```\n:::\n\n\nOu :\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nquarto create project website /\n```\n:::\n\n\n-   Dans le fichier `_quarto.yml`, choisir : `output-dir: docs`.\n\n-   Ajouter à `.gitignore` les fichiers et dossiers qui ne doivent pas être publiés sur le site.\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nquarto render\n```\n:::\n\n\n-   Check all files in Git pane with this shortcut : `Ctrl+ A` then `Space`\n\n-   Commit all pending changes : `Ctrl + Alt + M`\n\n-   Push\n\n-   Go to Github \\> Settings \\> Pages and \"configure your GitHub repository to publish from the docs directory of your main branch\" (quoting quarto documentation).\n\n-   You're site will be deployed\n\n## Preview image\n\nPour qu'un graphique en particulier serve de *preview image* :\n\n```{{r}}\n#| classes: preview-image\nplot(mtcars)\n```\n\n## Code highlighting\n\nPour que du code `bash` ressorte correctement, choisir : `engine: knitr`. Voir [cette issue](https://github.com/quarto-dev/quarto-cli/discussions/5275).\n\n::: callout-warning\nEt ne surtout pas oublier l'option \\`eval: false\\` !\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

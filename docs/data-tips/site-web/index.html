@@ -188,6 +188,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       </div>
     </div>
     
+      <div>
+      <div class="quarto-title-meta-heading">Modifié</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">9 octobre 2023</p>
+      </div>
+    </div>
       
     </div>
     
@@ -201,6 +207,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#preview-image" id="toc-preview-image" class="nav-link active" data-scroll-target="#preview-image">Preview image</a></li>
+  <li><a href="#code-highlighting" id="toc-code-highlighting" class="nav-link" data-scroll-target="#code-highlighting">Code highlighting</a></li>
   </ul>
 </nav>
     </div>
@@ -211,26 +218,55 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <ul>
-<li><p>Create a new repo on github</p></li>
-<li><p>Clone it</p></li>
-<li><p>Open the terminal in the directory of your project : <code>Alt + Maj + M</code> in Rstudio</p></li>
-<li><p>Run : <code>quarto create-project name-of-your-site --type website</code></p></li>
-<li><p>Change output-directory to <code>docs</code></p></li>
-<li><p>Add the files you don’t want to push to .gitignore</p></li>
-<li><p>Run <code>quarto render</code></p></li>
+<li><p>Crée un nouveau repo sur Github.</p></li>
+<li><p>Clone le.</p></li>
+<li><p>Ouvre le terminal dans le répertoire du projet (<code>Alt + Maj + M</code> dans Rstudio) et crée un projet de type <code>website</code>.</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> create-project <span class="op">&lt;</span>site-name<span class="op">&gt;</span> --type website</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Ou :</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> create project website /</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ul>
+<li><p>Dans le fichier <code>_quarto.yml</code>, choisir : <code>output-dir: docs</code>.</p></li>
+<li><p>Ajouter à <code>.gitignore</code> les fichiers et dossiers qui ne doivent pas être publiés sur le site.</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ul>
 <li><p>Check all files in Git pane with this shortcut : <code>Ctrl+ A</code> then <code>Space</code></p></li>
 <li><p>Commit all pending changes : <code>Ctrl + Alt + M</code></p></li>
 <li><p>Push</p></li>
-<li><p>Go to Github/Settings/Pages and “configure your GitHub repository to publish from the docs directory of your main branch” (quoting quarto documentation).</p></li>
+<li><p>Go to Github &gt; Settings &gt; Pages and “configure your GitHub repository to publish from the docs directory of your main branch” (quoting quarto documentation).</p></li>
 <li><p>You’re site will be deployed</p></li>
 </ul>
 <section id="preview-image" class="level2">
 <h2 class="anchored" data-anchor-id="preview-image">Preview image</h2>
 <p>Pour qu’un graphique en particulier serve de <em>preview image</em> :</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| classes: preview-image</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(mtcars)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| classes: preview-image</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(mtcars)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="code-highlighting" class="level2">
+<h2 class="anchored" data-anchor-id="code-highlighting">Code highlighting</h2>
+<p>Pour que du code <code>bash</code> ressorte correctement, choisir : <code>engine: knitr</code>. Voir <a href="https://github.com/quarto-dev/quarto-cli/discussions/5275">cette issue</a>.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Avertissement
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Et ne surtout pas oublier l’option `eval: false` !</p>
+</div>
+</div>
 
 
 </section>
