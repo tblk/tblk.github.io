@@ -47,6 +47,8 @@ yt-dlp https://www.dailymotion.com/video/x7sv5fg
 
 ## Renommer
 
+Il arrive en effet que le téléchargement échoue simplement parce que la nom de la vidéo est trop long. Dans ce cas, on peut renommer en même temps qu'on télécharge, ainsi :
+
 ```{bash}
 yt-dlp https://youtu.be/M0yTTUt_zGA -o "new_name.mp4"
 ```
