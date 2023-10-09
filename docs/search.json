@@ -56,11 +56,18 @@
     "text": "Mise à jour\nL’intérêt d’installer avec pip est précisément de bénéficier des mises à jour plus rapidement qu’avec apt. Donc, si un téléchargement échoue :\n\npip install yt-dlp -U"
   },
   {
-    "objectID": "data-tips/videos/index.html#usage",
-    "href": "data-tips/videos/index.html#usage",
+    "objectID": "data-tips/videos/index.html#télécharger",
+    "href": "data-tips/videos/index.html#télécharger",
     "title": "Vidéos",
-    "section": "Usage",
-    "text": "Usage\n\nyt-dlp https://www.dailymotion.com/video/x7sv5fg\n\nDe très nombreuses options existent. Pour un petit aperçu, voir ce billet de blog de Linuxtricks, ou le repo github."
+    "section": "Télécharger",
+    "text": "Télécharger\n\nyt-dlp https://www.dailymotion.com/video/x7sv5fg"
+  },
+  {
+    "objectID": "data-tips/videos/index.html#renommer",
+    "href": "data-tips/videos/index.html#renommer",
+    "title": "Vidéos",
+    "section": "Renommer",
+    "text": "Renommer\n\nyt-dlp https://youtu.be/M0yTTUt_zGA -o \"new_name.mp4\"\n\nDe très nombreuses options existent. Pour un petit aperçu, voir ce billet de blog de Linuxtricks, ou le repo github."
   },
   {
     "objectID": "data-tips/donnees-spatiales/index.html",

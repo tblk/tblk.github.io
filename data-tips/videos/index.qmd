@@ -1,5 +1,6 @@
 ---
 title: "Vidéos"
+engine: knitr
 description: Installation et usage de yt-dlp
 date: today
 categories: [Récolter]
@@ -12,19 +13,19 @@ execute:
 
 ## Installation
 
-```{r}
+```{bash}
 pip install yt-dlp
 ```
 
 Par ailleurs, s'assurer que ffmpeg est installé.
 
-```{r}
+```{bash}
 ffmpeg -version
 ```
 
 Si ce n'est pas le cas :
 
-```{r}
+```{bash}
 sudo apt update
 sudo apt install ffmpeg
 ```
@@ -33,19 +34,19 @@ sudo apt install ffmpeg
 
 L'intérêt d'installer avec pip est précisément de bénéficier des mises à jour plus rapidement qu'avec apt. Donc, si un téléchargement échoue :
 
-```{r}
+```{bash}
 pip install yt-dlp -U
 ```
 
 ## Télécharger
 
-```{r}
+```{bash}
 yt-dlp https://www.dailymotion.com/video/x7sv5fg
 ```
 
-## Renomer
+## Renommer
 
-```{r}
+```{bash}
 yt-dlp https://youtu.be/M0yTTUt_zGA -o "new_name.mp4"
 ```
 

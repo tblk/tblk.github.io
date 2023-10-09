@@ -9,6 +9,7 @@ citation:
 draft: false
 execute: 
   eval: false
+engine: knitr
 ---
 
 ## Convertir une image
