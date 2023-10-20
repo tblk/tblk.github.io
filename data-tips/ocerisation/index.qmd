@@ -1,0 +1,61 @@
+---
+title: "Océrisation"
+description: "Installation et utilisation de tesseract"
+date: 2023-10-20
+date-modified: today
+categories : [Récolter]
+citation: 
+  url: https://tblk.github.io/data-tips/ocerisation/ 
+draft: false
+engine: knitr
+execute: 
+  eval: false
+---
+
+Voir le [site de la librairie](https://tesseract-ocr.github.io/tessdoc/Installation.html), la page github du [package R](https://github.com/ropensci/tesseract) et celle du [plugin Zotero](https://github.com/UB-Mannheim/zotero-ocr).
+
+## Installation Ubuntu
+
+Vérifier s'il n'est pas déjà installé :
+
+```{bash}
+tesseract -v
+```
+
+Si ce n'est pas le cas :
+
+```{bash}
+sudo apt install tesseract-ocr # installe aussi le paquet anglais
+sudo apt install tesseract-ocr-fra # installe le paquet français
+sudo apt install libtesseract-dev # developper tools : nécessaires pour installer le package R
+```
+
+## Installation du package R
+
+**tesseract** dépend de **pdftools**, qui requiert l'installation de **poppler**. D'où :
+
+```{bash}
+sudo apt install libpoppler-cpp-dev
+```
+
+Puis :
+
+```{r}
+install.packages("pdftools")
+```
+
+Si on a oublié l'installation des *developper tools*, il est nécessaire de les installer. Ceci marche également :
+
+```{bash}
+sudo apt install libtesseract-dev libleptonica-dev
+```
+
+Enfin :
+
+```{r}
+install.packages("tesseract")
+```
+
+## Installation du plugin Zotero
+
+Depuis le fichier .xpi, tout simplement.
