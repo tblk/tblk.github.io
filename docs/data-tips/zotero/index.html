@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Théo Boulakia">
-<meta name="description" content="Options utiles pour l’installation, le stockage et l’utilisation avec des éditeurs Markdown">
+<meta name="description" content="Installation, Better Bibtex, Zutilo, Styles, OCR">
 
 <title>Théo Boulakia - Zotero</title>
 <style>
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -64,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Théo Boulakia - Zotero">
-<meta property="og:description" content="Options utiles pour l’installation, le stockage et l’utilisation avec des éditeurs Markdown">
+<meta property="og:description" content="Installation, Better Bibtex, Zutilo, Styles, OCR">
 <meta property="og:image" content="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg">
 <meta property="og:site-name" content="Théo Boulakia">
 </head>
@@ -124,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
       <h1 class="title">Zotero</h1>
                   <div>
         <div class="description">
-          Options utiles pour l’installation, le stockage et l’utilisation avec des éditeurs Markdown
+          Installation, Better Bibtex, Zutilo, Styles, OCR
         </div>
       </div>
                           <div class="quarto-categories">
@@ -150,6 +184,12 @@ ul.task-list li input[type="checkbox"] {
       </div>
     </div>
     
+      <div>
+      <div class="quarto-title-meta-heading">Modifié</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">20 octobre 2023</p>
+      </div>
+    </div>
       
     </div>
     
@@ -166,6 +206,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#better-bibtex" id="toc-better-bibtex" class="nav-link" data-scroll-target="#better-bibtex">Better Bibtex</a></li>
   <li><a href="#zutilo" id="toc-zutilo" class="nav-link" data-scroll-target="#zutilo">Zutilo</a></li>
   <li><a href="#styles" id="toc-styles" class="nav-link" data-scroll-target="#styles">Styles</a></li>
+  <li><a href="#zotero-ocr" id="toc-zotero-ocr" class="nav-link" data-scroll-target="#zotero-ocr">Zotero OCR</a></li>
   </ul>
 </nav>
     </div>
@@ -228,6 +269,14 @@ Note
 <section id="styles" class="level2">
 <h2 class="anchored" data-anchor-id="styles">Styles</h2>
 <p><a href="https://www.zotero.org/styles">Zotero styles repository</a> &amp; <a href="https://editor.citationstyles.org/searchByExample/">Visual CSL Editor</a></p>
+</section>
+<section id="zotero-ocr" class="level2">
+<h2 class="anchored" data-anchor-id="zotero-ocr">Zotero OCR</h2>
+<p>Les instructions pour installer le plugin sont disponibles dans le <a href="https://github.com/UB-Mannheim/zotero-ocr">repo github</a> correspondant.</p>
+<p>Si Zotero ne trouve pas le chemin vers <code>pdftoppm</code> il suffit de le lui indiquer. On trouve ce chemin grâce à la commande <code>which</code> :</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">which</span> pdftoppm</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
 
 </section>

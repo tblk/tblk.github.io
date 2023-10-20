@@ -1,11 +1,15 @@
 ---
-title: Zotero
-description: "Options utiles pour l'installation, le stockage et l'utilisation avec des éditeurs Markdown"
+title: "Zotero"
+description: "Installation, Better Bibtex, Zutilo, Styles, OCR"
 date: 2023-06-30
+date-modified: today
 categories: [Installer]
 citation: 
   url: https://tblk.github.io/data-tips/zotero/ 
-draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+draft: false
+engine: knitr
+execute: 
+  eval: false
 ---
 
 ## Préférences
@@ -43,3 +47,14 @@ Il est toujours possible de synchroniser les fichiers joints pour les **biblioth
 ## Styles
 
 [Zotero styles repository](https://www.zotero.org/styles) & [Visual CSL Editor](https://editor.citationstyles.org/searchByExample/)
+
+## Zotero OCR
+
+Les instructions pour installer le plugin sont disponibles dans le [repo github](https://github.com/UB-Mannheim/zotero-ocr) correspondant.
+
+Si Zotero ne trouve pas le chemin vers `pdftoppm` il suffit de le lui indiquer. On trouve ce chemin grâce à la commande `which` :
+
+```{bash}
+which pdftoppm
+```
+

@@ -1,0 +1,14 @@
+{
+  "hash": "34bd21257821117f1f49c96ecf1203b8",
+  "result": {
+    "markdown": "---\ntitle: \"Zotero\"\ndescription: \"Installation, Better Bibtex, Zutilo, Styles, OCR\"\ndate: 2023-06-30\ndate-modified: today\ncategories: [Installer]\ncitation: \n  url: https://tblk.github.io/data-tips/zotero/ \ndraft: false\nengine: knitr\nexecute: \n  eval: false\n---\n\n\n## Préférences\n\nDécocher :\n\n-   ~~Faire une capture automatique des pages web~~\n\n-   ~~Importer automatiquement les marqueurs~~\n\n-   ~~Synchroniser automatiquement les fichiers joints dans ma bibliothèque~~\n\n::: callout-tip\nSi j'ai synchronisé la bibliothèque **avant** de décocher cette option : purger la bibliothèque (se fait en ligne).\n:::\n\n::: callout-note\nIl est toujours possible de synchroniser les fichiers joints pour les **bibliothèques de groupe**. On peut ainsi annoter des pdf de manière collaborative.\n:::\n\n## Better Bibtex\n\n-   Voir les instructions [ici](https://retorque.re/zotero-better-bibtex/installation/)\n\n-   Les préférences de Better Bib Tex se trouvent dans l'onglet \"Outils\"\n\n-   Choisir *auth.lower + year* comme clé de citation\n\n## Zutilo\n\n-   Voir les instructions [ici](https://github.com/wshanks/Zutilo)\n\n-   Aller dans Outils \\> Préférences de Zutilo et pour \"copier les champs de la notice\" et \"coller dans les champs vides\", choisir \"menu contextuel de Zutilo\".\n\n## Styles\n\n[Zotero styles repository](https://www.zotero.org/styles) & [Visual CSL Editor](https://editor.citationstyles.org/searchByExample/)\n\n## Zotero OCR\n\nLes instructions pour installer le plugin sont disponibles dans le [repo github](https://github.com/UB-Mannheim/zotero-ocr) correspondant.\n\nSi Zotero ne trouve pas le chemin vers `pdftoppm` il suffit de le lui indiquer. On trouve ce chemin grâce à la commande `which` :\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nwhich pdftoppm\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
