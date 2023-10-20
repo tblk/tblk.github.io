@@ -1,0 +1,14 @@
+{
+  "hash": "d01fc5220b3a04892e2c60e555ad9d5a",
+  "result": {
+    "markdown": "---\ntitle: \"Océrisation\"\ndescription: \"Installation et utilisation de tesseract\"\ndate: 2023-10-20\ndate-modified: today\ncategories : [Récolter]\ncitation: \n  url: https://tblk.github.io/data-tips/ocerisation/ \ndraft: false\nengine: knitr\nexecute: \n  eval: false\n---\n\n\nVoir le [site de la librairie](https://tesseract-ocr.github.io/tessdoc/Installation.html), la page github du [package R](https://github.com/ropensci/tesseract) et celle du [plugin Zotero](https://github.com/UB-Mannheim/zotero-ocr).\n\n## Installation Ubuntu\n\nVérifier s'il n'est pas déjà installé :\n\n\n::: {.cell}\n\n```{.bash .cell-code}\ntesseract -v\n```\n:::\n\n\nSi ce n'est pas le cas :\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nsudo apt install tesseract-ocr # installe aussi le paquet anglais\nsudo apt install tesseract-ocr-fra # installe le paquet français\nsudo apt install libtesseract-dev # developper tools : nécessaires pour installer le package R\n```\n:::\n\n\n## Installation du package R\n\n**tesseract** dépend de **pdftools**, qui requiert l'installation de **poppler**. D'où :\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nsudo apt install libpoppler-cpp-dev\n```\n:::\n\n\nPuis :\n\n\n::: {.cell}\n\n```{.r .cell-code}\ninstall.packages(\"pdftools\")\n```\n:::\n\n\nSi on a oublié l'installation des *developper tools*, il est nécessaire de les installer. Ceci marche également :\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nsudo apt install libtesseract-dev libleptonica-dev\n```\n:::\n\n\nEnfin :\n\n\n::: {.cell}\n\n```{.r .cell-code}\ninstall.packages(\"tesseract\")\n```\n:::\n\n\n## Installation du plugin Zotero\n\nDepuis le fichier .xpi, tout simplement.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

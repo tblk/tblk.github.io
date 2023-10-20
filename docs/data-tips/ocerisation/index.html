@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Théo Boulakia">
-<meta name="description" content="Utiliser ImageMagick pour convertir, compresser et transformer des images">
+<meta name="description" content="Installation et utilisation de tesseract">
 
-<title>Théo Boulakia - Images</title>
+<title>Théo Boulakia - Océrisation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -97,8 +97,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Théo Boulakia - Images">
-<meta property="og:description" content="Utiliser ImageMagick pour convertir, compresser et transformer des images">
+<meta property="og:title" content="Théo Boulakia - Océrisation">
+<meta property="og:description" content="Installation et utilisation de tesseract">
 <meta property="og:image" content="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg">
 <meta property="og:site-name" content="Théo Boulakia">
 </head>
@@ -155,14 +155,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Images</h1>
+      <h1 class="title">Océrisation</h1>
                   <div>
         <div class="description">
-          Utiliser ImageMagick pour convertir, compresser et transformer des images
+          Installation et utilisation de tesseract
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Manipuler</div>
+                <div class="quarto-category">Récolter</div>
               </div>
                   </div>
   </div>
@@ -180,7 +180,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Date de publication</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">9 octobre 2023</p>
+        <p class="date">20 octobre 2023</p>
       </div>
     </div>
     
@@ -202,9 +202,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#convertir-une-image" id="toc-convertir-une-image" class="nav-link active" data-scroll-target="#convertir-une-image">Convertir une image</a></li>
-  <li><a href="#compresser-une-image" id="toc-compresser-une-image" class="nav-link" data-scroll-target="#compresser-une-image">Compresser une image</a></li>
-  <li><a href="#passer-en-nuances-de-gris" id="toc-passer-en-nuances-de-gris" class="nav-link" data-scroll-target="#passer-en-nuances-de-gris">Passer en nuances de gris</a></li>
+  <li><a href="#installation-ubuntu" id="toc-installation-ubuntu" class="nav-link active" data-scroll-target="#installation-ubuntu">Installation Ubuntu</a></li>
+  <li><a href="#installation-du-package-r" id="toc-installation-du-package-r" class="nav-link" data-scroll-target="#installation-du-package-r">Installation du package R</a></li>
+  <li><a href="#installation-du-plugin-zotero" id="toc-installation-du-plugin-zotero" class="nav-link" data-scroll-target="#installation-du-plugin-zotero">Installation du plugin Zotero</a></li>
   </ul>
 </nav>
     </div>
@@ -214,50 +214,55 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="convertir-une-image" class="level2">
-<h2 class="anchored" data-anchor-id="convertir-une-image">Convertir une image</h2>
+<p>Voir le <a href="https://tesseract-ocr.github.io/tessdoc/Installation.html">site de la librairie</a>, la page github du <a href="https://github.com/ropensci/tesseract">package R</a> et celle du <a href="https://github.com/UB-Mannheim/zotero-ocr">plugin Zotero</a>.</p>
+<section id="installation-ubuntu" class="level2">
+<h2 class="anchored" data-anchor-id="installation-ubuntu">Installation Ubuntu</h2>
+<p>Vérifier s’il n’est pas déjà installé :</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">convert</span> image.jpg image.png</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">tesseract</span> <span class="at">-v</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Si ce n’est pas le cas :</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install tesseract-ocr <span class="co"># installe aussi le paquet anglais</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install tesseract-ocr-fra <span class="co"># installe le paquet français</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install libtesseract-dev <span class="co"># developper tools : nécessaires pour installer le package R</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="compresser-une-image" class="level2">
-<h2 class="anchored" data-anchor-id="compresser-une-image">Compresser une image</h2>
+<section id="installation-du-package-r" class="level2">
+<h2 class="anchored" data-anchor-id="installation-du-package-r">Installation du package R</h2>
+<p><strong>tesseract</strong> dépend de <strong>pdftools</strong>, qui requiert l’installation de <strong>poppler</strong>. D’où :</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">convert</span> image.jpg<span class="pp">[</span><span class="ss">50%x50%</span><span class="pp">]</span> <span class="at">-quality</span> 70 compressed_image.jpg</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install libpoppler-cpp-dev</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Puis :</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"pdftools"</span>)</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Si on a oublié l’installation des <em>developper tools</em>, il est nécessaire de les installer. Ceci marche également :</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install libtesseract-dev libleptonica-dev</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Enfin :</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"tesseract"</span>)</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="passer-en-nuances-de-gris" class="level2">
-<h2 class="anchored" data-anchor-id="passer-en-nuances-de-gris">Passer en nuances de gris</h2>
-<p>Ici, on utilise le package <a href="https://cran.r-project.org/web/packages/magick/vignettes/intro.html">magick</a>, qui rend accessible depuis <code>R</code> la librairie ImageMagick.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://commons.wikimedia.org/wiki/File:Hyla_japonica_sep01.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg" class="img-fluid figure-img"></a></p>
-<figcaption class="figure-caption">Hyla japonica, 1er septembre 2008, 池田正樹 (talk) masaki ikeda, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons</figcaption>
-</figure>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>gray_frog <span class="ot">=</span> magick<span class="sc">::</span><span class="fu">image_read</span>(</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg"</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> </span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  magick<span class="sc">::</span><span class="fu">image_quantize</span>(<span class="at">colorspace =</span> <span class="st">"gray"</span>)</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>gray_frog</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="1250"></p>
-</div>
-</div>
+<section id="installation-du-plugin-zotero" class="level2">
+<h2 class="anchored" data-anchor-id="installation-du-plugin-zotero">Installation du plugin Zotero</h2>
+<p>Depuis le fichier .xpi, tout simplement.</p>
 
 
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{boulakia2023,
   author = {Boulakia, Théo},
-  title = {Images},
-  date = {2023-10-09},
-  url = {https://tblk.github.io/data-tips/images/},
+  title = {Océrisation},
+  date = {2023-10-20},
+  url = {https://tblk.github.io/data-tips/ocerisation/},
   langid = {fr}
 }
 </code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Veuillez citer ce travail comme suit&nbsp;:</div><div id="ref-boulakia2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Boulakia, Théo. 2023. <span>“Images.”</span> October 9, 2023. <a href="https://tblk.github.io/data-tips/images/">https://tblk.github.io/data-tips/images/</a>.
+Boulakia, Théo. 2023. <span>“Océrisation.”</span> October 20, 2023. <a href="https://tblk.github.io/data-tips/ocerisation/">https://tblk.github.io/data-tips/ocerisation/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
