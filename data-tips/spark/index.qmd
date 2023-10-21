@@ -1,0 +1,50 @@
+---
+title: "Spark"
+engine: knitr
+date: 2023-10-21
+date-modified: today
+description: "Installation de spark, sparklyr"
+categories: [Installer]
+citation: 
+  url: https://tblk.github.io/data-tips/spark/ 
+draft: false
+execute: 
+  eval: false
+  freeze: false
+---
+
+# Installation du package R sparklyr
+
+```{r}
+install.packages("sparklyr")
+```
+
+# Installation de Java
+
+Pour installer **Spark**, il faut d'abord installer **Java**.
+
+```{bash}
+java -v # vérifier que java n'est pas installé
+sudo apt update
+sudo apt install default-jre
+sudo apt install default-jdk
+```
+
+# Installer Spark
+
+Toutes les dernières versions de **Spark** ne fonctionnent pas avec la dernière version de **Java**, d'où :
+
+```{r}
+sparklyr::spark_install(version = "3.1")
+```
+
+# Se connecter
+
+```{r}
+sc <- sparklyr::spark_connect(master = "local")
+sparklyr::spark_disconnect("sc")
+```
+
+# Pourquoi Spark ?
+
+Essentiellement pour la *modélisation* sur des données volumineuses. Pour les manipulations simples il est semble beaucoup plus simple d'utiliser **arrow**, éventuellement en conjonction avec **duckdb**. 
