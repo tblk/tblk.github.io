@@ -2,10 +2,10 @@
   {
     "listing": "/data-tips.html",
     "items": [
-      "/data-tips/spark/index.html",
       "/data-tips/git-et-github/index.html",
       "/data-tips/graphes/index.html",
       "/data-tips/tableaux/index.html",
+      "/data-tips/spark/index.html",
       "/data-tips/ocerisation/index.html",
       "/data-tips/images/index.html",
       "/data-tips/chaines-de-caracteres/index.html",

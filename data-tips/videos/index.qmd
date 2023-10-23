@@ -53,5 +53,31 @@ Il arrive en effet que le téléchargement échoue simplement parce que la nom d
 yt-dlp https://youtu.be/M0yTTUt_zGA -o "new_name.mp4"
 ```
 
+## Choisir
+
+Pour choisir la meilleure qualité audio :
+
+```{bash}
+yt-dlp -F <url> # renvoie la liste des formats téléchargeables
+yt-dlp -f <id> <url> # où l'id correspond à la première colonne
+```
+
+# Télécharger les sous-titres
+
+```{bash}
+yt-dlp --all-subs --skip-download <url>
+```
+
+## Fusionner audio et video avec ffmpeg
+
+Il suffit d'ouvrir un terminal dans le dossier où sont rangés les fichiers audio et vidéo.
+
+```{bash}
+ffmpeg \
+    -i video.mp4 -i audio.mp3 \
+    -c:v copy \
+    -map 0:v -map 1:a \
+    -y output.mp4 
+```
 
 De très nombreuses options existent. Pour un petit aperçu, voir [ce billet de blog](https://www.linuxtricks.fr/wiki/yt-dlp-telecharger-des-videos-sur-internet-youtube-dl) de Linuxtricks, ou le [repo github](https://github.com/yt-dlp/yt-dlp).
