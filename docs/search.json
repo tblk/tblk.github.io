@@ -67,7 +67,21 @@
     "href": "data-tips/videos/index.html#renommer",
     "title": "Vidéos",
     "section": "Renommer",
-    "text": "Renommer\nIl arrive en effet que le téléchargement échoue simplement parce que la nom de la vidéo est trop long. Dans ce cas, on peut renommer en même temps qu’on télécharge, ainsi :\n\nyt-dlp https://youtu.be/M0yTTUt_zGA -o \"new_name.mp4\"\n\nDe très nombreuses options existent. Pour un petit aperçu, voir ce billet de blog de Linuxtricks, ou le repo github."
+    "text": "Renommer\nIl arrive en effet que le téléchargement échoue simplement parce que la nom de la vidéo est trop long. Dans ce cas, on peut renommer en même temps qu’on télécharge, ainsi :\n\nyt-dlp https://youtu.be/M0yTTUt_zGA -o \"new_name.mp4\""
+  },
+  {
+    "objectID": "data-tips/videos/index.html#choisir",
+    "href": "data-tips/videos/index.html#choisir",
+    "title": "Vidéos",
+    "section": "Choisir",
+    "text": "Choisir\nPour choisir la meilleure qualité audio :\n\nyt-dlp -F &lt;url&gt; # renvoie la liste des formats téléchargeables\nyt-dlp -f &lt;id&gt; &lt;url&gt; # où l'id correspond à la première colonne"
+  },
+  {
+    "objectID": "data-tips/videos/index.html#fusionner-audio-et-video-avec-ffmpeg",
+    "href": "data-tips/videos/index.html#fusionner-audio-et-video-avec-ffmpeg",
+    "title": "Vidéos",
+    "section": "Fusionner audio et video avec ffmpeg",
+    "text": "Fusionner audio et video avec ffmpeg\nIl suffit d’ouvrir un terminal dans le dossier où sont rangés les fichiers audio et vidéo.\n\nffmpeg \\\n    -i video.mp4 -i audio.mp3 \\\n    -c:v copy \\\n    -map 0:v -map 1:a \\\n    -y output.mp4 \n\nDe très nombreuses options existent. Pour un petit aperçu, voir ce billet de blog de Linuxtricks, ou le repo github."
   },
   {
     "objectID": "data-tips/donnees-spatiales/index.html",

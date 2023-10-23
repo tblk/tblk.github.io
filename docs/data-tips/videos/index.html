@@ -206,6 +206,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#mise-à-jour" id="toc-mise-à-jour" class="nav-link" data-scroll-target="#mise-à-jour">Mise à jour</a></li>
   <li><a href="#télécharger" id="toc-télécharger" class="nav-link" data-scroll-target="#télécharger">Télécharger</a></li>
   <li><a href="#renommer" id="toc-renommer" class="nav-link" data-scroll-target="#renommer">Renommer</a></li>
+  <li><a href="#choisir" id="toc-choisir" class="nav-link" data-scroll-target="#choisir">Choisir</a></li>
+  <li><a href="#télécharger-les-sous-titres" id="toc-télécharger-les-sous-titres" class="nav-link" data-scroll-target="#télécharger-les-sous-titres">Télécharger les sous-titres</a>
+  <ul class="collapse">
+  <li><a href="#fusionner-audio-et-video-avec-ffmpeg" id="toc-fusionner-audio-et-video-avec-ffmpeg" class="nav-link" data-scroll-target="#fusionner-audio-et-video-avec-ffmpeg">Fusionner audio et video avec ffmpeg</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -249,9 +254,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">yt-dlp</span> https://youtu.be/M0yTTUt_zGA <span class="at">-o</span> <span class="st">"new_name.mp4"</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</section>
+<section id="choisir" class="level2">
+<h2 class="anchored" data-anchor-id="choisir">Choisir</h2>
+<p>Pour choisir la meilleure qualité audio :</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">yt-dlp</span> <span class="at">-F</span> <span class="op">&lt;</span>url<span class="op">&gt;</span> # renvoie la liste des formats téléchargeables</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="ex">yt-dlp</span> <span class="at">-f</span> <span class="op">&lt;</span>id<span class="op">&gt;</span> <span class="op">&lt;</span>url<span class="op">&gt;</span> # où l<span class="st">'id correspond à la première colonne</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="télécharger-les-sous-titres" class="level1">
+<h1>Télécharger les sous-titres</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">yt-dlp</span> <span class="at">--all-subs</span> <span class="at">--skip-download</span> <span class="op">&lt;</span>url<span class="op">&gt;</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="fusionner-audio-et-video-avec-ffmpeg" class="level2">
+<h2 class="anchored" data-anchor-id="fusionner-audio-et-video-avec-ffmpeg">Fusionner audio et video avec ffmpeg</h2>
+<p>Il suffit d’ouvrir un terminal dans le dossier où sont rangés les fichiers audio et vidéo.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ffmpeg</span> <span class="dt">\</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    <span class="at">-i</span> video.mp4 <span class="at">-i</span> audio.mp3 <span class="dt">\</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">-c:v</span> copy <span class="dt">\</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">-map</span> 0:v <span class="at">-map</span> 1:a <span class="dt">\</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">-y</span> output.mp4 </span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <p>De très nombreuses options existent. Pour un petit aperçu, voir <a href="https://www.linuxtricks.fr/wiki/yt-dlp-telecharger-des-videos-sur-internet-youtube-dl">ce billet de blog</a> de Linuxtricks, ou le <a href="https://github.com/yt-dlp/yt-dlp">repo github</a>.</p>
 
 
+</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{boulakia2023,
