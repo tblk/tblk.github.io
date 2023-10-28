@@ -1,0 +1,13 @@
+---
+title: "Visual Studio Code"
+date: 2023-10-28
+categories: [Installer]
+---
+
+VS Code fonctionne avec des extensions :
+
+-   [R Extension](https://code.visualstudio.com/docs/languages/r)
+
+-   [Julia Extension](https://code.visualstudio.com/docs/languages/julia)
+
+L'extension Polyglot ne supporte **pas** R et Julia.

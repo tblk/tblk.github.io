@@ -16,3 +16,11 @@ Voir la documentation de [quarto](https://quarto.org/docs/computations/julia.htm
 ## Quitter Julia REPEL
 
 Simplement `Ctrl + D` ou `exit()`.
+
+## IDE options
+
+Voir [Julia Data Science](https://juliadatascience.io/ide).
+
+## VS Code
+
+Voir le [billet dédié](https://tblk.github.io/excercices/visual-studio/).
