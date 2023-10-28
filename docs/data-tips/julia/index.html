@@ -7,9 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Théo Boulakia">
-<meta name="description" content="Utiliser ImageMagick pour convertir, compresser et transformer des images">
 
-<title>Théo Boulakia - Images</title>
+<title>Théo Boulakia - Julia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -97,8 +62,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Théo Boulakia - Images">
-<meta property="og:description" content="Utiliser ImageMagick pour convertir, compresser et transformer des images">
+<meta property="og:title" content="Théo Boulakia - Julia">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg">
 <meta property="og:site-name" content="Théo Boulakia">
 </head>
@@ -155,14 +120,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Images</h1>
-                  <div>
-        <div class="description">
-          Utiliser ImageMagick pour convertir, compresser et transformer des images
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">Manipuler</div>
+      <h1 class="title">Julia</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Installer</div>
               </div>
                   </div>
   </div>
@@ -180,7 +140,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Date de publication</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">9 octobre 2023</p>
+        <p class="date">28 octobre 2023</p>
       </div>
     </div>
     
@@ -202,9 +162,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#convertir-une-image" id="toc-convertir-une-image" class="nav-link active" data-scroll-target="#convertir-une-image">Convertir une image</a></li>
-  <li><a href="#compresser-une-image" id="toc-compresser-une-image" class="nav-link" data-scroll-target="#compresser-une-image">Compresser une image</a></li>
-  <li><a href="#passer-en-nuances-de-gris" id="toc-passer-en-nuances-de-gris" class="nav-link" data-scroll-target="#passer-en-nuances-de-gris">Passer en nuances de gris</a></li>
+  <li><a href="#installer-julia" id="toc-installer-julia" class="nav-link active" data-scroll-target="#installer-julia">Installer Julia</a></li>
+  <li><a href="#installer-ijulia" id="toc-installer-ijulia" class="nav-link" data-scroll-target="#installer-ijulia">Installer IJulia</a></li>
+  <li><a href="#quitter-julia-repel" id="toc-quitter-julia-repel" class="nav-link" data-scroll-target="#quitter-julia-repel">Quitter Julia REPEL</a></li>
   </ul>
 </nav>
     </div>
@@ -214,51 +174,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="convertir-une-image" class="level2">
-<h2 class="anchored" data-anchor-id="convertir-une-image">Convertir une image</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">convert</span> image.jpg image.png</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="installer-julia" class="level2">
+<h2 class="anchored" data-anchor-id="installer-julia">Installer Julia</h2>
+<p>Avec <a href="https://github.com/JuliaLang/juliaup#mac-and-linux">juliaup</a>.</p>
 </section>
-<section id="compresser-une-image" class="level2">
-<h2 class="anchored" data-anchor-id="compresser-une-image">Compresser une image</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">convert</span> image.jpg<span class="pp">[</span><span class="ss">50%x50%</span><span class="pp">]</span> <span class="at">-quality</span> 70 compressed_image.jpg</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="installer-ijulia" class="level2">
+<h2 class="anchored" data-anchor-id="installer-ijulia">Installer IJulia</h2>
+<p>Voir la documentation de <a href="https://quarto.org/docs/computations/julia.html#ijulia">quarto</a>.</p>
 </section>
-<section id="passer-en-nuances-de-gris" class="level2">
-<h2 class="anchored" data-anchor-id="passer-en-nuances-de-gris">Passer en nuances de gris</h2>
-<p>Ici, on utilise le package <a href="https://cran.r-project.org/web/packages/magick/vignettes/intro.html">magick</a>, qui rend accessible depuis <code>R</code> la librairie ImageMagick.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://commons.wikimedia.org/wiki/File:Hyla_japonica_sep01.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg" class="img-fluid figure-img"></a></p>
-<figcaption class="figure-caption">Hyla japonica, 1er septembre 2008, 池田正樹 (talk) masaki ikeda, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons</figcaption>
-</figure>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>gray_frog <span class="ot">=</span> magick<span class="sc">::</span><span class="fu">image_read</span>(</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg"</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> </span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  magick<span class="sc">::</span><span class="fu">image_quantize</span>(<span class="at">colorspace =</span> <span class="st">"gray"</span>)</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>gray_frog</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="1250"></p>
-</div>
-</div>
+<section id="quitter-julia-repel" class="level2">
+<h2 class="anchored" data-anchor-id="quitter-julia-repel">Quitter Julia REPEL</h2>
+<p>Simplement <code>Ctrl + D</code> ou <code>exit()</code>.</p>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{boulakia2023,
-  author = {Boulakia, Théo},
-  title = {Images},
-  date = {2023-10-09},
-  url = {https://tblk.github.io/data-tips/images/},
-  langid = {fr}
-}
-</code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Veuillez citer ce travail comme suit&nbsp;:</div><div id="ref-boulakia2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Boulakia, Théo. 2023. <span>“Images.”</span> October 9, 2023. <a href="https://tblk.github.io/data-tips/images/">https://tblk.github.io/data-tips/images/</a>.
-</div></div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

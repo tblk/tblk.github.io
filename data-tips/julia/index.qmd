@@ -1,0 +1,18 @@
+---
+title: "Julia"
+date: 2023-10-28
+date-modified: today
+categories: [Installer]
+---
+
+## Installer Julia
+
+Avec [juliaup](https://github.com/JuliaLang/juliaup#mac-and-linux).
+
+## Installer IJulia
+
+Voir la documentation de [quarto](https://quarto.org/docs/computations/julia.html#ijulia).
+
+## Quitter Julia REPEL
+
+Simplement `Ctrl + D` ou `exit()`.
