@@ -9,6 +9,8 @@ execute:
 
 [Benchmarks](https://duckdblabs.github.io/db-benchmark/).
 
+Un [post intéressant](https://www.christophenicault.com/fr/post/large_dataframe_arrow_duckdb/) sur **arrow et duckdb**.
+
 ## arrow + dplyr
 
 ## duckdb + dplyr
