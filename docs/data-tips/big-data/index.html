@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Théo Boulakia">
+<meta name="description" content="Comparaison des options disponibles">
 
-<title>Théo Boulakia - Julia</title>
+<title>Théo Boulakia - Big Data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -62,8 +63,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Théo Boulakia - Julia">
-<meta property="og:description" content="">
+<meta property="og:title" content="Théo Boulakia - Big Data">
+<meta property="og:description" content="Comparaison des options disponibles">
 <meta property="og:image" content="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg">
 <meta property="og:site-name" content="Théo Boulakia">
 </head>
@@ -120,9 +121,14 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Julia</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">Installer</div>
+      <h1 class="title">Big Data</h1>
+                  <div>
+        <div class="description">
+          Comparaison des options disponibles
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Manipuler</div>
               </div>
                   </div>
   </div>
@@ -140,16 +146,10 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Date de publication</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">28 octobre 2023</p>
+        <p class="date">29 octobre 2023</p>
       </div>
     </div>
     
-      <div>
-      <div class="quarto-title-meta-heading">Modifié</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date-modified">29 octobre 2023</p>
-      </div>
-    </div>
       
     </div>
     
@@ -162,11 +162,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#installer-julia" id="toc-installer-julia" class="nav-link active" data-scroll-target="#installer-julia">Installer Julia</a></li>
-  <li><a href="#installer-ijulia" id="toc-installer-ijulia" class="nav-link" data-scroll-target="#installer-ijulia">Installer IJulia</a></li>
-  <li><a href="#quitter-julia-repel" id="toc-quitter-julia-repel" class="nav-link" data-scroll-target="#quitter-julia-repel">Quitter Julia REPEL</a></li>
-  <li><a href="#ide-options" id="toc-ide-options" class="nav-link" data-scroll-target="#ide-options">IDE options</a></li>
-  <li><a href="#vs-code" id="toc-vs-code" class="nav-link" data-scroll-target="#vs-code">VS Code</a></li>
+  <li><a href="#arrow-dplyr" id="toc-arrow-dplyr" class="nav-link active" data-scroll-target="#arrow-dplyr">arrow + dplyr</a></li>
+  <li><a href="#duckdb-dplyr" id="toc-duckdb-dplyr" class="nav-link" data-scroll-target="#duckdb-dplyr">duckdb + dplyr</a></li>
+  <li><a href="#dataframesmeta.jl" id="toc-dataframesmeta.jl" class="nav-link" data-scroll-target="#dataframesmeta.jl">DataframesMeta.jl</a></li>
+  <li><a href="#polars" id="toc-polars" class="nav-link" data-scroll-target="#polars">polars</a></li>
+  <li><a href="#data.table" id="toc-data.table" class="nav-link" data-scroll-target="#data.table">data.table</a></li>
   </ul>
 </nav>
     </div>
@@ -176,25 +176,22 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="installer-julia" class="level2">
-<h2 class="anchored" data-anchor-id="installer-julia">Installer Julia</h2>
-<p>Avec <a href="https://github.com/JuliaLang/juliaup#mac-and-linux">juliaup</a>.</p>
+<p><a href="https://duckdblabs.github.io/db-benchmark/">Benchmarks</a>.</p>
+<section id="arrow-dplyr" class="level2">
+<h2 class="anchored" data-anchor-id="arrow-dplyr">arrow + dplyr</h2>
 </section>
-<section id="installer-ijulia" class="level2">
-<h2 class="anchored" data-anchor-id="installer-ijulia">Installer IJulia</h2>
-<p>Voir la documentation de <a href="https://quarto.org/docs/computations/julia.html#ijulia">quarto</a>.</p>
+<section id="duckdb-dplyr" class="level2">
+<h2 class="anchored" data-anchor-id="duckdb-dplyr">duckdb + dplyr</h2>
 </section>
-<section id="quitter-julia-repel" class="level2">
-<h2 class="anchored" data-anchor-id="quitter-julia-repel">Quitter Julia REPEL</h2>
-<p>Simplement <code>Ctrl + D</code> ou <code>exit()</code>.</p>
+<section id="dataframesmeta.jl" class="level2">
+<h2 class="anchored" data-anchor-id="dataframesmeta.jl">DataframesMeta.jl</h2>
 </section>
-<section id="ide-options" class="level2">
-<h2 class="anchored" data-anchor-id="ide-options">IDE options</h2>
-<p>Voir <a href="https://juliadatascience.io/ide">Julia Data Science</a>.</p>
+<section id="polars" class="level2">
+<h2 class="anchored" data-anchor-id="polars">polars</h2>
+<p>Voir la <a href="https://rpolars.github.io/#quickstart-example">documentation</a>.</p>
 </section>
-<section id="vs-code" class="level2">
-<h2 class="anchored" data-anchor-id="vs-code">VS Code</h2>
-<p>Voir le <a href="https://tblk.github.io/excercices/visual-studio/">billet dédié</a>.</p>
+<section id="data.table" class="level2">
+<h2 class="anchored" data-anchor-id="data.table">data.table</h2>
 
 
 </section>

@@ -1,0 +1,22 @@
+---
+title: "Big Data"
+description: "Comparaison des options disponibles"
+date: 2023-10-29
+categories: [Manipuler]
+execute: 
+  eval: false
+---
+
+[Benchmarks](https://duckdblabs.github.io/db-benchmark/).
+
+## arrow + dplyr
+
+## duckdb + dplyr
+
+## DataframesMeta.jl
+
+## polars
+
+Voir la [documentation](https://rpolars.github.io/#quickstart-example).
+
+## data.table
