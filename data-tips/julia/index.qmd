@@ -13,9 +13,25 @@ Avec [juliaup](https://github.com/JuliaLang/juliaup#mac-and-linux).
 
 Voir la documentation de [quarto](https://quarto.org/docs/computations/julia.html#ijulia).
 
+## Installer Revise.jl
+
+En tapant `]` dans le Julia REPL, puis `add Revise`, tout simplement.
+
+## Quitter le Pkg Mode
+
+`Backspace` (juste au dessus de la touche `Enter`).
+
 ## Quitter Julia REPEL
 
 Simplement `Ctrl + D` ou `exit()`.
+
+## Utiliser Revise automatiquement avec Jupyter/IJulia
+
+Voir la [documentation](https://timholy.github.io/Revise.jl/stable/config/#Using-Revise-automatically-within-Jupyter/IJulia) de Revise.jl.
+
+## Installer Jupyter Cache
+
+Avec `pip`, voir la [documentation](https://quarto.org/docs/computations/julia.html#installing-jupyter) de **quarto**.
 
 ## IDE options
 

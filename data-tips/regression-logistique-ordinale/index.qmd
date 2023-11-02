@@ -1,0 +1,26 @@
+---
+title: "Régression logistique ordinale"
+description: "Pour une variable catégorielle aux niveaux hiérarchiquement ordonnés"
+date: 2023-10-30
+categories: [Manipuler]
+---
+
+## Packages possibles :
+
+- **ordinal**
+
+- **MASS**
+
+- **VGAM**
+
+## Parallel slopes assumption
+
+Aussi appelée *proportionnal odds assumption* : the relationship between each pair of outcome groups is the same. 
+
+And if it is not the case ?
+
+Le "proportionnal odds model" est **un modèle de régression logistique ordinal parmi d'autres**.
+
+MASS::polar stands for **proportionnal odds** logistic regression.
+
+## Logistic regression vs Probit regression
