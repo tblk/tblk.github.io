@@ -1,0 +1,14 @@
+---
+title: "asciinema"
+date: 2023-11-03
+---
+
+```{r echo = FALSE, results = "hide", purl = FALSE}
+asciicast::init_knitr_engine()
+```
+
+```{asciicast}
+# This will be an ascii cast
+# Let's evaluate some code
+head(mtcars)
+```

@@ -71,7 +71,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 18,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
@@ -95,8 +96,6 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Théo Boulakia - Data Tips">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg">
 <meta property="og:site-name" content="Théo Boulakia">
 </head>
 
@@ -154,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tous <span class="quarto-category-count">(18)</span></div><div class="category" data-category="Installer">Installer <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Lire">Lire <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Manipuler">Manipuler <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Publier">Publier <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Récolter">Récolter <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Visualiser">Visualiser <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tous <span class="quarto-category-count">(19)</span></div><div class="category" data-category="Installer">Installer <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Lire">Lire <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Manipuler">Manipuler <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Publier">Publier <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Récolter">Récolter <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Visualiser">Visualiser <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -175,19 +174,39 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>L’image récurrente est tirée de la série d’art génératif <a href="https://art.djnavarro.net/gallery/broken-symmetry/">Broken Symmetry</a>, de <a href="https://djnavarro.net/">Danielle Navarro</a>. Elle a été crée avec R et est publiée sous la licence <a href="https://github.com/djnavarro/series-unboxing/blob/master/LICENSE.md">CC-BY-4.0</a>.</p>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Installer" data-listing-date-sort="1698879600000" data-listing-file-modified-sort="1692367954575" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1698966000000" data-listing-file-modified-sort="1699016269296" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./data-tips/asciinema/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="data-tips/asciinema/index_files/figure-html/unnamed-chunk-2.svg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+asciinema
+</h5>
+<div class="card-text listing-description">
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Théo Boulakia
+</div>
+<div class="listing-date">
+3 nov. 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Installer" data-listing-date-sort="1698966000000" data-listing-file-modified-sort="1692367954575" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./data-tips/git-et-github/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Git et Github
@@ -205,19 +224,17 @@ Installer Git, puis connecter Git, Github et Rstudio (Linux et Mac)
 Théo Boulakia
 </div>
 <div class="listing-date">
-2 nov. 2023
+3 nov. 2023
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Visualiser" data-listing-date-sort="1698879600000" data-listing-file-modified-sort="1692355430545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="2" data-categories="Visualiser" data-listing-date-sort="1698966000000" data-listing-file-modified-sort="1692355430545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./data-tips/graphes/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Graphes
@@ -235,19 +252,18 @@ Où on apprend à utiliser les packages ggraph et tidygraph
 Théo Boulakia
 </div>
 <div class="listing-date">
-2 nov. 2023
+3 nov. 2023
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Visualiser" data-listing-date-sort="1698879600000" data-listing-file-modified-sort="1694070833644" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="3" data-categories="Visualiser" data-listing-date-sort="1698966000000" data-listing-file-modified-sort="1694070833644" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./data-tips/tableaux/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Tableaux
@@ -265,19 +281,17 @@ Quelques astuces pour faire bon usage du package huxtable
 Théo Boulakia
 </div>
 <div class="listing-date">
-2 nov. 2023
+3 nov. 2023
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Manipuler" data-listing-date-sort="1698620400000" data-listing-file-modified-sort="1698680112066" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="4" data-categories="Manipuler" data-listing-date-sort="1698620400000" data-listing-file-modified-sort="1698680112066" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./data-tips/regression-logistique-ordinale/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Régression logistique ordinale
@@ -302,12 +316,10 @@ Théo Boulakia
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Manipuler" data-listing-date-sort="1698530400000" data-listing-file-modified-sort="1698584078115" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="5" data-categories="Manipuler" data-listing-date-sort="1698530400000" data-listing-file-modified-sort="1698584078115" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./data-tips/big-data/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Big Data
@@ -332,12 +344,10 @@ Théo Boulakia
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Installer" data-listing-date-sort="1698444000000" data-listing-file-modified-sort="1698924760467" data-listing-date-modified-sort="1698879600000" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="6" data-categories="Installer" data-listing-date-sort="1698444000000" data-listing-file-modified-sort="1698924760467" data-listing-date-modified-sort="1698966000000" data-listing-reading-time-sort="1">
 <a href="./data-tips/julia/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Julia
@@ -362,12 +372,10 @@ Théo Boulakia
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="Installer" data-listing-date-sort="1698444000000" data-listing-file-modified-sort="1698513526902" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="7" data-categories="Installer" data-listing-date-sort="1698444000000" data-listing-file-modified-sort="1698513526902" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./data-tips/visual-studio/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Visual Studio Code
@@ -392,12 +400,10 @@ Théo Boulakia
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Installer" data-listing-date-sort="1697839200000" data-listing-file-modified-sort="1697885379987" data-listing-date-modified-sort="1698879600000" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="8" data-categories="Installer" data-listing-date-sort="1697839200000" data-listing-file-modified-sort="1697885379987" data-listing-date-modified-sort="1698966000000" data-listing-reading-time-sort="1">
 <a href="./data-tips/spark/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Spark
@@ -422,12 +428,10 @@ Théo Boulakia
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Récolter" data-listing-date-sort="1697752800000" data-listing-file-modified-sort="1697804530860" data-listing-date-modified-sort="1698879600000" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="9" data-categories="Récolter" data-listing-date-sort="1697752800000" data-listing-file-modified-sort="1697804530860" data-listing-date-modified-sort="1698966000000" data-listing-reading-time-sort="1">
 <a href="./data-tips/ocerisation/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Océrisation
@@ -452,12 +456,10 @@ Théo Boulakia
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="Manipuler" data-listing-date-sort="1696802400000" data-listing-file-modified-sort="1696862909309" data-listing-date-modified-sort="1698879600000" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="10" data-categories="Manipuler" data-listing-date-sort="1696802400000" data-listing-file-modified-sort="1696862909309" data-listing-date-modified-sort="1698966000000" data-listing-reading-time-sort="1">
 <a href="./data-tips/images/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<p class="card-img-top"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Images
@@ -482,12 +484,10 @@ Théo Boulakia
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="Manipuler" data-listing-date-sort="1696024800000" data-listing-file-modified-sort="1696080399595" data-listing-date-modified-sort="1698879600000" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="11" data-categories="Manipuler" data-listing-date-sort="1696024800000" data-listing-file-modified-sort="1696080399595" data-listing-date-modified-sort="1698966000000" data-listing-reading-time-sort="1">
 <a href="./data-tips/chaines-de-caracteres/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Chaînes de caractères
@@ -512,12 +512,10 @@ Théo Boulakia
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="Récolter" data-listing-date-sort="1695852000000" data-listing-file-modified-sort="1698065196417" data-listing-date-modified-sort="1698879600000" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="12" data-categories="Récolter" data-listing-date-sort="1695852000000" data-listing-file-modified-sort="1698065196417" data-listing-date-modified-sort="1698966000000" data-listing-reading-time-sort="1">
 <a href="./data-tips/videos/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Vidéos
@@ -542,12 +540,10 @@ Théo Boulakia
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="Installer" data-listing-date-sort="1688076000000" data-listing-file-modified-sort="1694246240496" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="13" data-categories="Installer" data-listing-date-sort="1688076000000" data-listing-file-modified-sort="1694246240496" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./data-tips/zettlr/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Zettlr
@@ -572,12 +568,10 @@ Théo Boulakia
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="Lire,Manipuler" data-listing-date-sort="1688076000000" data-listing-file-modified-sort="1692355361772" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="14" data-categories="Lire,Manipuler" data-listing-date-sort="1688076000000" data-listing-file-modified-sort="1692355361772" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./data-tips/donnees-spatiales/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Données spatiales
@@ -605,12 +599,10 @@ Théo Boulakia
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="14" data-categories="Installer" data-listing-date-sort="1688076000000" data-listing-file-modified-sort="1692356100208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="15" data-categories="Installer" data-listing-date-sort="1688076000000" data-listing-file-modified-sort="1692356100208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./data-tips/r-et-rstudio/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 R et Rstudio
@@ -635,12 +627,10 @@ Théo Boulakia
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="15" data-categories="Installer" data-listing-date-sort="1688076000000" data-listing-file-modified-sort="1697813037533" data-listing-date-modified-sort="1698879600000" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="16" data-categories="Installer" data-listing-date-sort="1688076000000" data-listing-file-modified-sort="1697813037533" data-listing-date-modified-sort="1698966000000" data-listing-reading-time-sort="1">
 <a href="./data-tips/zotero/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Zotero
@@ -665,12 +655,10 @@ Théo Boulakia
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="16" data-categories="Lire,Manipuler" data-listing-date-sort="1687644000000" data-listing-file-modified-sort="1692355609418" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="17" data-categories="Lire,Manipuler" data-listing-date-sort="1687644000000" data-listing-file-modified-sort="1692355609418" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./data-tips/bases-de-donnees/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Bases de données
@@ -698,12 +686,10 @@ Théo Boulakia
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="17" data-categories="Publier" data-listing-date-sort="1687644000000" data-listing-file-modified-sort="1696848074934" data-listing-date-modified-sort="1698879600000" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="18" data-categories="Publier" data-listing-date-sort="1687644000000" data-listing-file-modified-sort="1696848074934" data-listing-date-modified-sort="1698966000000" data-listing-reading-time-sort="1">
 <a href="./data-tips/site-web/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Site Web
@@ -732,6 +718,9 @@ Théo Boulakia
 <div class="listing-no-matching d-none">
 Aucun article correspondant
 </div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

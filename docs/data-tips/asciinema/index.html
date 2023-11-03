@@ -7,9 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Théo Boulakia">
-<meta name="description" content="Installation et usage de yt-dlp">
 
-<title>Théo Boulakia - Vidéos</title>
+<title>Théo Boulakia - asciinema</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -97,8 +62,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Théo Boulakia - Vidéos">
-<meta property="og:description" content="Installation et usage de yt-dlp">
+<meta property="og:title" content="Théo Boulakia - asciinema">
+<meta property="og:image" content="https://tblk.github.io/data-tips/asciinema/index_files/figure-html/unnamed-chunk-2.svg">
 <meta property="og:site-name" content="Théo Boulakia">
 </head>
 
@@ -154,16 +119,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Vidéos</h1>
-                  <div>
-        <div class="description">
-          Installation et usage de yt-dlp
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">Récolter</div>
-              </div>
-                  </div>
+      <h1 class="title">asciinema</h1>
+                      </div>
   </div>
     
   
@@ -179,16 +136,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Date de publication</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">28 septembre 2023</p>
+        <p class="date">3 novembre 2023</p>
       </div>
     </div>
     
-      <div>
-      <div class="quarto-title-meta-heading">Modifié</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date-modified">3 novembre 2023</p>
-      </div>
-    </div>
       
     </div>
     
@@ -197,21 +148,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Sur cette page</h2>
-   
-  <ul>
-  <li><a href="#installation" id="toc-installation" class="nav-link active" data-scroll-target="#installation">Installation</a></li>
-  <li><a href="#mise-à-jour" id="toc-mise-à-jour" class="nav-link" data-scroll-target="#mise-à-jour">Mise à jour</a></li>
-  <li><a href="#télécharger" id="toc-télécharger" class="nav-link" data-scroll-target="#télécharger">Télécharger</a></li>
-  <li><a href="#renommer" id="toc-renommer" class="nav-link" data-scroll-target="#renommer">Renommer</a></li>
-  <li><a href="#choisir" id="toc-choisir" class="nav-link" data-scroll-target="#choisir">Choisir</a></li>
-  <li><a href="#télécharger-les-sous-titres" id="toc-télécharger-les-sous-titres" class="nav-link" data-scroll-target="#télécharger-les-sous-titres">Télécharger les sous-titres</a>
-  <ul class="collapse">
-  <li><a href="#fusionner-audio-et-video-avec-ffmpeg" id="toc-fusionner-audio-et-video-avec-ffmpeg" class="nav-link" data-scroll-target="#fusionner-audio-et-video-avec-ffmpeg">Fusionner audio et video avec ffmpeg</a></li>
-  </ul></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -219,80 +156,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="installation" class="level2">
-<h2 class="anchored" data-anchor-id="installation">Installation</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install yt-dlp</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html//unnamed-chunk-2.svg" class="img-fluid" width="672"></p>
 </div>
-<p>Par ailleurs, s’assurer que ffmpeg est installé.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ffmpeg</span> <span class="at">-version</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Si ce n’est pas le cas :</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt update</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install ffmpeg</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="mise-à-jour" class="level2">
-<h2 class="anchored" data-anchor-id="mise-à-jour">Mise à jour</h2>
-<p>L’intérêt d’installer avec pip est précisément de bénéficier des mises à jour plus rapidement qu’avec apt. Donc, si un téléchargement échoue :</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install yt-dlp <span class="at">-U</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="télécharger" class="level2">
-<h2 class="anchored" data-anchor-id="télécharger">Télécharger</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">yt-dlp</span> https://www.dailymotion.com/video/x7sv5fg</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="renommer" class="level2">
-<h2 class="anchored" data-anchor-id="renommer">Renommer</h2>
-<p>Il arrive en effet que le téléchargement échoue simplement parce que la nom de la vidéo est trop long. Dans ce cas, on peut renommer en même temps qu’on télécharge, ainsi :</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">yt-dlp</span> https://youtu.be/M0yTTUt_zGA <span class="at">-o</span> <span class="st">"new_name.mp4"</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="choisir" class="level2">
-<h2 class="anchored" data-anchor-id="choisir">Choisir</h2>
-<p>Pour choisir la meilleure qualité audio :</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">yt-dlp</span> <span class="at">-F</span> <span class="op">&lt;</span>url<span class="op">&gt;</span> # renvoie la liste des formats téléchargeables</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="ex">yt-dlp</span> <span class="at">-f</span> <span class="op">&lt;</span>id<span class="op">&gt;</span> <span class="op">&lt;</span>url<span class="op">&gt;</span> # où l<span class="st">'id correspond à la première colonne</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="télécharger-les-sous-titres" class="level1">
-<h1>Télécharger les sous-titres</h1>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">yt-dlp</span> <span class="at">--all-subs</span> <span class="at">--skip-download</span> <span class="op">&lt;</span>url<span class="op">&gt;</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<section id="fusionner-audio-et-video-avec-ffmpeg" class="level2">
-<h2 class="anchored" data-anchor-id="fusionner-audio-et-video-avec-ffmpeg">Fusionner audio et video avec ffmpeg</h2>
-<p>Il suffit d’ouvrir un terminal dans le dossier où sont rangés les fichiers audio et vidéo.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ffmpeg</span> <span class="dt">\</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    <span class="at">-i</span> video.mp4 <span class="at">-i</span> audio.mp3 <span class="dt">\</span></span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">-c:v</span> copy <span class="dt">\</span></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">-map</span> 0:v <span class="at">-map</span> 1:a <span class="dt">\</span></span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">-y</span> output.mp4 </span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>De très nombreuses options existent. Pour un petit aperçu, voir <a href="https://www.linuxtricks.fr/wiki/yt-dlp-telecharger-des-videos-sur-internet-youtube-dl">ce billet de blog</a> de Linuxtricks, ou le <a href="https://github.com/yt-dlp/yt-dlp">repo github</a>.</p>
 
 
-</section>
-</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{boulakia2023,
-  author = {Boulakia, Théo},
-  title = {Vidéos},
-  date = {2023-09-28},
-  url = {https://tblk.github.io/data-tips/videos/},
-  langid = {fr}
-}
-</code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Veuillez citer ce travail comme suit&nbsp;:</div><div id="ref-boulakia2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Boulakia, Théo. 2023. <span>“Vidéos.”</span> September 28, 2023. <a href="https://tblk.github.io/data-tips/videos/">https://tblk.github.io/data-tips/videos/</a>.
-</div></div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

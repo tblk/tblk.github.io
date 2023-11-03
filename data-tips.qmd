@@ -6,5 +6,3 @@ listing:
   sort: "date desc"
   categories: true 
 ---
-
-L'image récurrente est tirée de la série d'art génératif [Broken Symmetry](https://art.djnavarro.net/gallery/broken-symmetry/), de [Danielle Navarro](https://djnavarro.net/). Elle a été crée avec R et est publiée sous la licence [CC-BY-4.0](https://github.com/djnavarro/series-unboxing/blob/master/LICENSE.md).
