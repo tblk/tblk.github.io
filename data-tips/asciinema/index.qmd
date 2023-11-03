@@ -7,8 +7,14 @@ date: 2023-11-03
 asciicast::init_knitr_engine()
 ```
 
+```{r}
+library(cli)
+```
+
 ```{asciicast}
-# This will be an ascii cast
-# Let's evaluate some code
-head(mtcars)
+send_cli_threat <- function() {
+  cli_text("Dead girls walking."); wait()
+  cli_text("--A.")
+}
+send_cli_threat()
 ```
