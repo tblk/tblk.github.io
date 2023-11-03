@@ -119,6 +119,13 @@
     "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Données spatiales},\n  date = {2023-06-30},\n  url = {https://tblk.github.io/data-tips/read-spatial-subset/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Données spatiales.” June 30, 2023.\nhttps://tblk.github.io/data-tips/read-spatial-subset/."
   },
   {
+    "objectID": "data-tips/asciinema/index.html",
+    "href": "data-tips/asciinema/index.html",
+    "title": "asciinema",
+    "section": "",
+    "text": "library(cli)"
+  },
+  {
     "objectID": "data-tips/spark/index.html",
     "href": "data-tips/spark/index.html",
     "title": "Spark",
