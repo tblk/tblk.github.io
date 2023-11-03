@@ -13,10 +13,16 @@ asciicast::init_knitr_engine()
 library(cli)
 ```
 
+```{r}
+wait <- function(seconds = 2) {
+  Sys.sleep(seconds)
+}
+```
+
 ```{asciicast}
 send_cli_threat <- function() {
-  cli_text("Dead girls walking."); wait()
-  cli_text("--A.")
+  cli::cli_text("Dead girls walking."); wait()
+  cli::cli_text("--A.")
 }
 send_cli_threat()
 ```

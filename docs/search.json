@@ -123,7 +123,7 @@
     "href": "data-tips/asciinema/index.html",
     "title": "asciinema",
     "section": "",
-    "text": "library(cli)"
+    "text": "library(cli)\n\n\nwait &lt;- function(seconds = 2) {\n  Sys.sleep(seconds)\n}"
   },
   {
     "objectID": "data-tips/spark/index.html",
