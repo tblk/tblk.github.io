@@ -5,6 +5,7 @@ project:
 website:
   title: "Théo Boulakia"
   site-url: "https://tblk.github.io/"
+  google-analytics: "G-PLYP4SVXT1"
   open-graph: true
   navbar:
     left:
