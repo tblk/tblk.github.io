@@ -70,10 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 18,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -187,549 +186,264 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Installer" data-listing-date-sort="1699225200000" data-listing-file-modified-sort="1692367954575" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./data-tips/git-et-github/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Git et Github
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Installer'); return false;">
-Installer
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Trier par</option>
+       <option value="index" data-direction="asc">Ordre par défaut</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Le plus ancien
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Le plus récent
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Titre
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Auteur·rice
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-</div>
-<div class="card-text listing-description">
-Installer Git, puis connecter Git, Github et Rstudio (Linux et Mac)
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-6 nov. 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Visualiser" data-listing-date-sort="1699225200000" data-listing-file-modified-sort="1692355430545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./data-tips/graphes/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Graphes
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Visualiser'); return false;">
-Visualiser
-</div>
-</div>
-<div class="card-text listing-description">
-Où on apprend à utiliser les packages ggraph et tidygraph
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-6 nov. 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Visualiser" data-listing-date-sort="1699225200000" data-listing-file-modified-sort="1694070833644" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./data-tips/tableaux/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
 
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Tableaux
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Visualiser'); return false;">
-Visualiser
-</div>
-</div>
-<div class="card-text listing-description">
-Quelques astuces pour faire bon usage du package huxtable
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-6 nov. 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1698966000000" data-listing-file-modified-sort="1699021181626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./data-tips/asciinema/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="data-tips/asciinema/index_files/figure-html/unnamed-chunk-3.svg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-asciinema
-</h5>
-<div class="card-text listing-description">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titre</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Auteur·rice</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="Installer" data-listing-date-sort="1700521200000" data-listing-file-modified-sort="1692367954575" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Git et Github" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">21 nov. 2023</span>
+</td>
+<td>
+<a href="./data-tips/git-et-github/index.html" class="title listing-title">Git et Github</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="Visualiser" data-listing-date-sort="1700521200000" data-listing-file-modified-sort="1692355430545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Graphes" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">21 nov. 2023</span>
+</td>
+<td>
+<a href="./data-tips/graphes/index.html" class="title listing-title">Graphes</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
 
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-3 nov. 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Manipuler" data-listing-date-sort="1698620400000" data-listing-file-modified-sort="1698680112066" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./data-tips/regression-logistique-ordinale/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Régression logistique ordinale
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Manipuler'); return false;">
-Manipuler
-</div>
-</div>
-<div class="card-text listing-description">
-Pour une variable catégorielle aux niveaux hiérarchiquement ordonnés
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-30 oct. 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Manipuler" data-listing-date-sort="1698530400000" data-listing-file-modified-sort="1698584078115" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./data-tips/big-data/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Big Data
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Manipuler'); return false;">
-Manipuler
-</div>
-</div>
-<div class="card-text listing-description">
-Comparaison des options disponibles
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-29 oct. 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="Installer" data-listing-date-sort="1698444000000" data-listing-file-modified-sort="1698924760467" data-listing-date-modified-sort="1699225200000" data-listing-reading-time-sort="1">
-<a href="./data-tips/julia/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Julia
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Installer'); return false;">
-Installer
-</div>
-</div>
-<div class="card-text listing-description">
-Avec juliaup.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-28 oct. 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="Installer" data-listing-date-sort="1698444000000" data-listing-file-modified-sort="1698513526902" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./data-tips/visual-studio/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Visual Studio Code
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Installer'); return false;">
-Installer
-</div>
-</div>
-<div class="card-text listing-description">
-VS Code fonctionne avec des extensions :
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-28 oct. 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="Installer" data-listing-date-sort="1697839200000" data-listing-file-modified-sort="1697885379987" data-listing-date-modified-sort="1699225200000" data-listing-reading-time-sort="1">
-<a href="./data-tips/spark/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Spark
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Installer'); return false;">
-Installer
-</div>
-</div>
-<div class="card-text listing-description">
-Installation de spark, sparklyr
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-21 oct. 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="Récolter" data-listing-date-sort="1697752800000" data-listing-file-modified-sort="1697804530860" data-listing-date-modified-sort="1699225200000" data-listing-reading-time-sort="1">
-<a href="./data-tips/ocerisation/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Océrisation
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Récolter'); return false;">
-Récolter
-</div>
-</div>
-<div class="card-text listing-description">
-Installation et utilisation de tesseract
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-20 oct. 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="Manipuler" data-listing-date-sort="1696802400000" data-listing-file-modified-sort="1696862909309" data-listing-date-modified-sort="1699225200000" data-listing-reading-time-sort="1">
-<a href="./data-tips/images/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Images
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Manipuler'); return false;">
-Manipuler
-</div>
-</div>
-<div class="card-text listing-description">
-Utiliser ImageMagick pour convertir, compresser et transformer des images
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-9 oct. 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="Manipuler" data-listing-date-sort="1696024800000" data-listing-file-modified-sort="1696080399595" data-listing-date-modified-sort="1699225200000" data-listing-reading-time-sort="1">
-<a href="./data-tips/chaines-de-caracteres/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Chaînes de caractères
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Manipuler'); return false;">
-Manipuler
-</div>
-</div>
-<div class="card-text listing-description">
-Packages et fonctions utiles pour manipuler du texte
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-30 sept. 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="12" data-categories="Récolter" data-listing-date-sort="1695852000000" data-listing-file-modified-sort="1698065196417" data-listing-date-modified-sort="1699225200000" data-listing-reading-time-sort="1">
-<a href="./data-tips/videos/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Vidéos
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Récolter'); return false;">
-Récolter
-</div>
-</div>
-<div class="card-text listing-description">
-Installation et usage de yt-dlp
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-28 sept. 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="13" data-categories="Installer" data-listing-date-sort="1688076000000" data-listing-file-modified-sort="1694246240496" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./data-tips/zettlr/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Zettlr
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Installer'); return false;">
-Installer
-</div>
-</div>
-<div class="card-text listing-description">
-Très bref paramétrage du plus confortable des éditeurs Markdown
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-30 juin 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="14" data-categories="Lire,Manipuler" data-listing-date-sort="1688076000000" data-listing-file-modified-sort="1692355361772" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./data-tips/donnees-spatiales/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Données spatiales
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Lire'); return false;">
-Lire
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Manipuler'); return false;">
-Manipuler
-</div>
-</div>
-<div class="card-text listing-description">
-Une collection d’astuces pour la manipulation de données spatiales
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-30 juin 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="15" data-categories="Installer" data-listing-date-sort="1688076000000" data-listing-file-modified-sort="1692356100208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./data-tips/r-et-rstudio/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-R et Rstudio
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Installer'); return false;">
-Installer
-</div>
-</div>
-<div class="card-text listing-description">
-Installer et paramétrer R et Rstudio (Linux et Mac)
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-30 juin 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="16" data-categories="Installer" data-listing-date-sort="1688076000000" data-listing-file-modified-sort="1697813037533" data-listing-date-modified-sort="1699225200000" data-listing-reading-time-sort="1">
-<a href="./data-tips/zotero/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Zotero
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Installer'); return false;">
-Installer
-</div>
-</div>
-<div class="card-text listing-description">
-Installation, Better Bibtex, Zutilo, Styles, OCR
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-30 juin 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="17" data-categories="Lire,Manipuler" data-listing-date-sort="1687644000000" data-listing-file-modified-sort="1692355609418" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./data-tips/bases-de-donnees/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Bases de données
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Lire'); return false;">
-Lire
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Manipuler'); return false;">
-Manipuler
-</div>
-</div>
-<div class="card-text listing-description">
-Introduction aux packages DBI, RSQLite et dbplyr
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-25 juin 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="18" data-categories="Publier" data-listing-date-sort="1687644000000" data-listing-file-modified-sort="1696848074934" data-listing-date-modified-sort="1699225200000" data-listing-reading-time-sort="1">
-<a href="./data-tips/site-web/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Site Web
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Publier'); return false;">
-Publier
-</div>
-</div>
-<div class="card-text listing-description">
-Guide de démarrage rapide et liens vers la documentation
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Théo Boulakia
-</div>
-<div class="listing-date">
-25 juin 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
+<tr data-index="2" data-categories="Visualiser" data-listing-date-sort="1700521200000" data-listing-file-modified-sort="1694070833644" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Tableaux" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">21 nov. 2023</span>
+</td>
+<td>
+<a href="./data-tips/tableaux/index.html" class="title listing-title">Tableaux</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="3" data-listing-date-sort="1698966000000" data-listing-file-modified-sort="1699021181626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="asciinema" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">3 nov. 2023</span>
+</td>
+<td>
+<a href="./data-tips/asciinema/index.html" class="title listing-title">asciinema</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="4" data-categories="Manipuler" data-listing-date-sort="1698620400000" data-listing-file-modified-sort="1698680112066" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Régression logistique ordinale" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">30 oct. 2023</span>
+</td>
+<td>
+<a href="./data-tips/regression-logistique-ordinale/index.html" class="title listing-title">Régression logistique ordinale</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="5" data-categories="Manipuler" data-listing-date-sort="1698530400000" data-listing-file-modified-sort="1698584078115" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Big Data" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">29 oct. 2023</span>
+</td>
+<td>
+<a href="./data-tips/big-data/index.html" class="title listing-title">Big Data</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="6" data-categories="Installer" data-listing-date-sort="1698444000000" data-listing-file-modified-sort="1698924760467" data-listing-date-modified-sort="1700521200000" data-listing-reading-time-sort="1" data-listing-title-sort="Julia" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">28 oct. 2023</span>
+</td>
+<td>
+<a href="./data-tips/julia/index.html" class="title listing-title">Julia</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="7" data-categories="Installer" data-listing-date-sort="1698444000000" data-listing-file-modified-sort="1698513526902" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Visual Studio Code" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">28 oct. 2023</span>
+</td>
+<td>
+<a href="./data-tips/visual-studio/index.html" class="title listing-title">Visual Studio Code</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="8" data-categories="Installer" data-listing-date-sort="1697839200000" data-listing-file-modified-sort="1697885379987" data-listing-date-modified-sort="1700521200000" data-listing-reading-time-sort="1" data-listing-title-sort="Spark" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">21 oct. 2023</span>
+</td>
+<td>
+<a href="./data-tips/spark/index.html" class="title listing-title">Spark</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="9" data-categories="Récolter" data-listing-date-sort="1697752800000" data-listing-file-modified-sort="1697804530860" data-listing-date-modified-sort="1700521200000" data-listing-reading-time-sort="1" data-listing-title-sort="Océrisation" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">20 oct. 2023</span>
+</td>
+<td>
+<a href="./data-tips/ocerisation/index.html" class="title listing-title">Océrisation</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="10" data-categories="Manipuler" data-listing-date-sort="1696802400000" data-listing-file-modified-sort="1696862909309" data-listing-date-modified-sort="1700521200000" data-listing-reading-time-sort="1" data-listing-title-sort="Images" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">9 oct. 2023</span>
+</td>
+<td>
+<a href="./data-tips/images/index.html" class="title listing-title">Images</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="11" data-categories="Manipuler" data-listing-date-sort="1696024800000" data-listing-file-modified-sort="1696080399595" data-listing-date-modified-sort="1700521200000" data-listing-reading-time-sort="1" data-listing-title-sort="Chaînes de caractères" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">30 sept. 2023</span>
+</td>
+<td>
+<a href="./data-tips/chaines-de-caracteres/index.html" class="title listing-title">Chaînes de caractères</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="12" data-categories="Récolter" data-listing-date-sort="1695852000000" data-listing-file-modified-sort="1698065196417" data-listing-date-modified-sort="1700521200000" data-listing-reading-time-sort="1" data-listing-title-sort="Vidéos" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">28 sept. 2023</span>
+</td>
+<td>
+<a href="./data-tips/videos/index.html" class="title listing-title">Vidéos</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="13" data-categories="Installer" data-listing-date-sort="1688076000000" data-listing-file-modified-sort="1694246240496" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Zettlr" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">30 juin 2023</span>
+</td>
+<td>
+<a href="./data-tips/zettlr/index.html" class="title listing-title">Zettlr</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="14" data-categories="Lire,Manipuler" data-listing-date-sort="1688076000000" data-listing-file-modified-sort="1692355361772" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Données spatiales" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">30 juin 2023</span>
+</td>
+<td>
+<a href="./data-tips/donnees-spatiales/index.html" class="title listing-title">Données spatiales</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="15" data-categories="Installer" data-listing-date-sort="1688076000000" data-listing-file-modified-sort="1692356100208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="R et Rstudio" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">30 juin 2023</span>
+</td>
+<td>
+<a href="./data-tips/r-et-rstudio/index.html" class="title listing-title">R et Rstudio</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="16" data-categories="Installer" data-listing-date-sort="1688076000000" data-listing-file-modified-sort="1697813037533" data-listing-date-modified-sort="1700521200000" data-listing-reading-time-sort="1" data-listing-title-sort="Zotero" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">30 juin 2023</span>
+</td>
+<td>
+<a href="./data-tips/zotero/index.html" class="title listing-title">Zotero</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="17" data-categories="Lire,Manipuler" data-listing-date-sort="1687644000000" data-listing-file-modified-sort="1692355609418" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bases de données" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">25 juin 2023</span>
+</td>
+<td>
+<a href="./data-tips/bases-de-donnees/index.html" class="title listing-title">Bases de données</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+<tr data-index="18" data-categories="Publier" data-listing-date-sort="1687644000000" data-listing-file-modified-sort="1696848074934" data-listing-date-modified-sort="1700521200000" data-listing-reading-time-sort="1" data-listing-title-sort="Site Web" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">25 juin 2023</span>
+</td>
+<td>
+<a href="./data-tips/site-web/index.html" class="title listing-title">Site Web</a>
+</td>
+<td>
+<span class="listing-author">Théo Boulakia</span>
+</td>
+</tr>
+</tbody>
+
+</table>
 <div class="listing-no-matching d-none">
 Aucun article correspondant
 </div>
-<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
