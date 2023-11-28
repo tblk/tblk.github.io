@@ -3,10 +3,10 @@ title: "Endettement"
 date: 2023-11-28
 execute: 
   echo: false
-  message: false
 ---
 
 ```{r packages }
+#| message: false
 library(tidyverse)
 library(DT)
 library(dygraphs)

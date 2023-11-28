@@ -567,20 +567,6 @@
     "text": "Soin des bêtes et souci de soi\nCette enquête explore, à partir d’histoires d’éleveuses et d’éleveurs, et de leur travail de tous les jours, ce que soigner les bêtes et prendre soin de soi signifient. Elle montre à quelles conditions les éleveurs parviennent à s’aménager des moments de répit, à prévenir l’usure, à se soustraire au danger, et par quels processus d’autres en viennent à sacrifier leur santé en toute connaissance de cause. J’exploite plusieurs dizaines de bases de données différentes, couvrant les conditions de travail, l’état de santé et contraintes financières des éleveurs, sur les 50 dernières années. En même temps, je travaille dans des exploitations laitières des Pays-de-la-Loire et réalise des entretiens biographiques."
   },
   {
-    "objectID": "fiches/endettement/index.html",
-    "href": "fiches/endettement/index.html",
-    "title": "Endettement",
-    "section": "",
-    "text": "── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.4.4     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
-  },
-  {
-    "objectID": "fiches/endettement/index.html#tableau",
-    "href": "fiches/endettement/index.html#tableau",
-    "title": "Endettement",
-    "section": "Tableau",
-    "text": "Tableau"
-  },
-  {
     "objectID": "fiches/endettement/index.html#tdte3",
     "href": "fiches/endettement/index.html#tdte3",
     "title": "Endettement",
