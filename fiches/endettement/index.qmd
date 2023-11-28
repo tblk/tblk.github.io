@@ -23,7 +23,7 @@ DT::datatable(dettes,
               filter = list(position = 'top', clear = FALSE))
 ```
 
-## Graphique
+## tdte3
 
 ```{r}
 dettes |> 
