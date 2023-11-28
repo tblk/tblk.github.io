@@ -1,0 +1,38 @@
+---
+title: "Endettement"
+date: 2023-11-28
+execute: 
+  echo: false
+---
+
+```{r packages }
+library(tidyverse)
+library(DT)
+library(dygraphs)
+```
+
+
+```{r data}
+targets::tar_load(dettes, store = fs::path_home("these", "_targets"))
+```
+
+## Tableau
+
+```{r DT}
+DT::datatable(dettes,
+              filter = list(position = 'top', clear = FALSE))
+```
+
+## Graphique
+
+```{r}
+dettes |> 
+  select(milex, otefda, tdte3) |> 
+  filter(otefda %in% c("Bovin lait", "Grandes cultures", "Élevage hors sol")) |>
+  pivot_wider(names_from = otefda, values_from = tdte3) |> 
+  dygraph() |> 
+  dyHighlight(highlightCircleSize = 5, 
+              highlightSeriesBackgroundAlpha = 0.2,
+              hideOnMouseOut = FALSE)
+```
+

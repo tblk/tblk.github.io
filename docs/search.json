@@ -364,11 +364,11 @@
     "text": "VS Code fonctionne avec des extensions :\n\nR Extension\nJulia Extension\n\nL’extension Polyglot ne supporte pas R et Julia."
   },
   {
-    "objectID": "data-tips/graphes/index.html#grouper-par-une-variable",
-    "href": "data-tips/graphes/index.html#grouper-par-une-variable",
+    "objectID": "data-tips/graphes/index.html",
+    "href": "data-tips/graphes/index.html",
     "title": "Graphes",
-    "section": "Grouper par une variable",
-    "text": "Grouper par une variable"
+    "section": "",
+    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Graphes},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/graphes/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Graphes.” June 25, 2023. https://tblk.github.io/data-tips/graphes/."
   },
   {
     "objectID": "data-tips/zotero/index.html",
@@ -525,6 +525,13 @@
     "text": "Communications\n\n16 octobre 2023. Les éleveurs laitiers ont-ils droit au répit ? Dette, famille et aménagements du travail Colloque “Santé et Malaise en agriculture”, Laboratoire de Sociologie et d’Anthropologie de l’Université de Franche-Comté, MSA de Franche-Comté, Besançon.\n5 juin 2023. La Faillite refusée. Comment travaillent les éleveurs rescapés des crises ? Journée d’étude “Familles et parenté face aux bouleversements environnementaux : mutations et résistances”, Centre Norbert Elias & Centre Maurice Halbwachs, Marseille.\n30 janvier 2023. Le coût social des impayés. Dettes et mal-être des éleveurs. Journée d’étude “Mal-être agricole : recherches en cours & nouveaux enjeux”, Institut de recherche interdisciplinaire sur les enjeux sociaux (IRIS), EHESS, Paris.\n20 juin 2022. Trop plein juridique et vide géographique : les interdictions de sortie et leur contrôle pendant le premier confinement, avec Nicolas Mariot. Journée “Expérience du droit en Urgence Sanitaire”, Centre de Sociologie des Organisations (CSO), SciencesPo, Paris."
   },
   {
+    "objectID": "fiches.html",
+    "href": "fiches.html",
+    "title": "Fiches",
+    "section": "",
+    "text": "Trier par\n       Ordre par défaut\n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Titre\n        \n         \n          Auteur·rice\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitre\n\n\nAuteur·rice\n\n\n\n\n\n\n28 nov. 2023\n\n\nEndettement\n\n\nThéo Boulakia\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
     "objectID": "enquetes.html",
     "href": "enquetes.html",
     "title": "Enquêtes",
@@ -560,6 +567,27 @@
     "text": "Soin des bêtes et souci de soi\nCette enquête explore, à partir d’histoires d’éleveuses et d’éleveurs, et de leur travail de tous les jours, ce que soigner les bêtes et prendre soin de soi signifient. Elle montre à quelles conditions les éleveurs parviennent à s’aménager des moments de répit, à prévenir l’usure, à se soustraire au danger, et par quels processus d’autres en viennent à sacrifier leur santé en toute connaissance de cause. J’exploite plusieurs dizaines de bases de données différentes, couvrant les conditions de travail, l’état de santé et contraintes financières des éleveurs, sur les 50 dernières années. En même temps, je travaille dans des exploitations laitières des Pays-de-la-Loire et réalise des entretiens biographiques."
   },
   {
+    "objectID": "fiches/endettement/index.html",
+    "href": "fiches/endettement/index.html",
+    "title": "Endettement",
+    "section": "",
+    "text": "── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.4.4     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
+  },
+  {
+    "objectID": "fiches/endettement/index.html#tableau",
+    "href": "fiches/endettement/index.html#tableau",
+    "title": "Endettement",
+    "section": "Tableau",
+    "text": "Tableau"
+  },
+  {
+    "objectID": "fiches/endettement/index.html#graphique",
+    "href": "fiches/endettement/index.html#graphique",
+    "title": "Endettement",
+    "section": "Graphique",
+    "text": "Graphique"
+  },
+  {
     "objectID": "formation.html",
     "href": "formation.html",
     "title": "Formation",
@@ -571,7 +599,7 @@
     "href": "data-tips.html",
     "title": "Data Tips",
     "section": "",
-    "text": "Trier par\n       Ordre par défaut\n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Titre\n        \n         \n          Auteur·rice\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitre\n\n\nAuteur·rice\n\n\n\n\n\n\n21 nov. 2023\n\n\nGit et Github\n\n\nThéo Boulakia\n\n\n\n\n21 nov. 2023\n\n\nGraphes\n\n\nThéo Boulakia\n\n\n\n\n\n21 nov. 2023\n\n\nTableaux\n\n\nThéo Boulakia\n\n\n\n\n3 nov. 2023\n\n\nasciinema\n\n\nThéo Boulakia\n\n\n\n\n30 oct. 2023\n\n\nRégression logistique ordinale\n\n\nThéo Boulakia\n\n\n\n\n29 oct. 2023\n\n\nBig Data\n\n\nThéo Boulakia\n\n\n\n\n28 oct. 2023\n\n\nJulia\n\n\nThéo Boulakia\n\n\n\n\n28 oct. 2023\n\n\nVisual Studio Code\n\n\nThéo Boulakia\n\n\n\n\n21 oct. 2023\n\n\nSpark\n\n\nThéo Boulakia\n\n\n\n\n20 oct. 2023\n\n\nOcérisation\n\n\nThéo Boulakia\n\n\n\n\n9 oct. 2023\n\n\nImages\n\n\nThéo Boulakia\n\n\n\n\n30 sept. 2023\n\n\nChaînes de caractères\n\n\nThéo Boulakia\n\n\n\n\n28 sept. 2023\n\n\nVidéos\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nZettlr\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nDonnées spatiales\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nR et Rstudio\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nZotero\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nBases de données\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nSite Web\n\n\nThéo Boulakia\n\n\n\n\n\n\nAucun article correspondant"
+    "text": "Trier par\n       Ordre par défaut\n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Titre\n        \n         \n          Auteur·rice\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitre\n\n\nAuteur·rice\n\n\n\n\n\n\n3 nov. 2023\n\n\nasciinema\n\n\nThéo Boulakia\n\n\n\n\n30 oct. 2023\n\n\nRégression logistique ordinale\n\n\nThéo Boulakia\n\n\n\n\n29 oct. 2023\n\n\nBig Data\n\n\nThéo Boulakia\n\n\n\n\n28 oct. 2023\n\n\nJulia\n\n\nThéo Boulakia\n\n\n\n\n28 oct. 2023\n\n\nVisual Studio Code\n\n\nThéo Boulakia\n\n\n\n\n21 oct. 2023\n\n\nSpark\n\n\nThéo Boulakia\n\n\n\n\n20 oct. 2023\n\n\nOcérisation\n\n\nThéo Boulakia\n\n\n\n\n9 oct. 2023\n\n\nImages\n\n\nThéo Boulakia\n\n\n\n\n30 sept. 2023\n\n\nChaînes de caractères\n\n\nThéo Boulakia\n\n\n\n\n28 sept. 2023\n\n\nVidéos\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nZettlr\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nDonnées spatiales\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nR et Rstudio\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nZotero\n\n\nThéo Boulakia\n\n\n\n\n\n30 juin 2023\n\n\nTableaux\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nBases de données\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nGit et Github\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nSite Web\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nGraphes\n\n\nThéo Boulakia\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "cours.html",

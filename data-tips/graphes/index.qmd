@@ -1,13 +1,10 @@
 ---
 title: "Graphes"
 description: Où on apprend à utiliser les packages ggraph et tidygraph
-date: today
+date: 2023-06-25
 categories: [Visualiser]
 citation: 
   url: https://tblk.github.io/data-tips/graphes/ 
 draft: false
 ---
 
-## Afficher les nombres tels qu'ils sont
-
-## Grouper par une variable

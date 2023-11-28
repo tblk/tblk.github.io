@@ -1,0 +1,8 @@
+---
+title: "Fiches"
+listing: 
+  contents: fiches
+  type: table
+  sort: "date desc"
+  categories: true 
+---

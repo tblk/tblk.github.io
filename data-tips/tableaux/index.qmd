@@ -1,7 +1,7 @@
 ---
 title: "Tableaux"
 description: Quelques astuces pour faire bon usage du package huxtable
-date: today
+date: 2023-06-30
 categories: [Visualiser]
 citation: 
   url: https://tblk.github.io/data-tips/store-github-pat/ 

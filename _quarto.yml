@@ -15,6 +15,7 @@ website:
       - enquetes.qmd
       - publications.qmd
       - cours.qmd
+      - fiches.qmd
       - data-tips.qmd
 
 format:
