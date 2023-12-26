@@ -35,6 +35,34 @@
     "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Bases de données},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/bases-de-donnees/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Bases de données.” June 25, 2023. https://tblk.github.io/data-tips/bases-de-donnees/."
   },
   {
+    "objectID": "data-tips/duckdb/index.html",
+    "href": "data-tips/duckdb/index.html",
+    "title": "DuckDb",
+    "section": "",
+    "text": "Pour CLI, c’est simplissime : télécharger les precompiled binaries, extraidre duckdb dans le home directory, puis le déplacer dans /usr/local/bin :\nsudo mv ~/duckdb /usr/local/bin"
+  },
+  {
+    "objectID": "data-tips/duckdb/index.html#installation",
+    "href": "data-tips/duckdb/index.html#installation",
+    "title": "DuckDb",
+    "section": "",
+    "text": "Pour CLI, c’est simplissime : télécharger les precompiled binaries, extraidre duckdb dans le home directory, puis le déplacer dans /usr/local/bin :\nsudo mv ~/duckdb /usr/local/bin"
+  },
+  {
+    "objectID": "data-tips/duckdb/index.html#utile",
+    "href": "data-tips/duckdb/index.html#utile",
+    "title": "DuckDb",
+    "section": "Utile",
+    "text": "Utile\nL’auto-complétion : grâce au charactère TAB, c’est à dire CTRL + I. Attention, pour que l’auto-complétion fonctionne pour les chemins vers les fichiers, bien utiliser ’ et pas “.\nNe pas oublier de terminer chaque SQL statement par ;\nPour quitter duckdb, juste Ctrl + D."
+  },
+  {
+    "objectID": "data-tips/duckdb/index.html#convertir-un-fichier-csv-en-parquet",
+    "href": "data-tips/duckdb/index.html#convertir-un-fichier-csv-en-parquet",
+    "title": "DuckDb",
+    "section": "Convertir un fichier csv en parquet",
+    "text": "Convertir un fichier csv en parquet\nVoir la documentation sur les fichiers CSV dans Data Import. Aussi simple que :\nCREATE TABLE ontime AS FROM 'flights.csv'; # lire le fichier csv dans une table\n\nCOPY (FROM ontime) TO 'flights.parquet'; # l'écrire dans un fichier parquet"
+  },
+  {
     "objectID": "data-tips/regression-logistique-ordinale/index.html",
     "href": "data-tips/regression-logistique-ordinale/index.html",
     "title": "Régression logistique ordinale",
@@ -599,7 +627,7 @@
     "href": "data-tips.html",
     "title": "Data Tips",
     "section": "",
-    "text": "Trier par\n       Ordre par défaut\n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Titre\n        \n         \n          Auteur·rice\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitre\n\n\nAuteur·rice\n\n\n\n\n\n\n3 nov. 2023\n\n\nasciinema\n\n\nThéo Boulakia\n\n\n\n\n30 oct. 2023\n\n\nRégression logistique ordinale\n\n\nThéo Boulakia\n\n\n\n\n29 oct. 2023\n\n\nBig Data\n\n\nThéo Boulakia\n\n\n\n\n28 oct. 2023\n\n\nJulia\n\n\nThéo Boulakia\n\n\n\n\n28 oct. 2023\n\n\nVisual Studio Code\n\n\nThéo Boulakia\n\n\n\n\n21 oct. 2023\n\n\nSpark\n\n\nThéo Boulakia\n\n\n\n\n20 oct. 2023\n\n\nOcérisation\n\n\nThéo Boulakia\n\n\n\n\n9 oct. 2023\n\n\nImages\n\n\nThéo Boulakia\n\n\n\n\n30 sept. 2023\n\n\nChaînes de caractères\n\n\nThéo Boulakia\n\n\n\n\n28 sept. 2023\n\n\nVidéos\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nZettlr\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nDonnées spatiales\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nR et Rstudio\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nZotero\n\n\nThéo Boulakia\n\n\n\n\n\n30 juin 2023\n\n\nTableaux\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nBases de données\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nGit et Github\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nSite Web\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nGraphes\n\n\nThéo Boulakia\n\n\n\n\n\n\nAucun article correspondant"
+    "text": "Trier par\n       Ordre par défaut\n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Titre\n        \n         \n          Auteur·rice\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitre\n\n\nAuteur·rice\n\n\n\n\n\n\nundefined\n\n\nDuckDb\n\n\nThéo Boulakia\n\n\n\n\n3 nov. 2023\n\n\nasciinema\n\n\nThéo Boulakia\n\n\n\n\n30 oct. 2023\n\n\nRégression logistique ordinale\n\n\nThéo Boulakia\n\n\n\n\n29 oct. 2023\n\n\nBig Data\n\n\nThéo Boulakia\n\n\n\n\n28 oct. 2023\n\n\nJulia\n\n\nThéo Boulakia\n\n\n\n\n28 oct. 2023\n\n\nVisual Studio Code\n\n\nThéo Boulakia\n\n\n\n\n21 oct. 2023\n\n\nSpark\n\n\nThéo Boulakia\n\n\n\n\n20 oct. 2023\n\n\nOcérisation\n\n\nThéo Boulakia\n\n\n\n\n9 oct. 2023\n\n\nImages\n\n\nThéo Boulakia\n\n\n\n\n30 sept. 2023\n\n\nChaînes de caractères\n\n\nThéo Boulakia\n\n\n\n\n28 sept. 2023\n\n\nVidéos\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nZettlr\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nDonnées spatiales\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nR et Rstudio\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nZotero\n\n\nThéo Boulakia\n\n\n\n\n\n30 juin 2023\n\n\nTableaux\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nBases de données\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nGit et Github\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nSite Web\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nGraphes\n\n\nThéo Boulakia\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "cours.html",

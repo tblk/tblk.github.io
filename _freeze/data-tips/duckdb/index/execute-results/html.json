@@ -1,0 +1,11 @@
+{
+  "hash": "2e7a0bdda7a83c827cfddad8374cbe11",
+  "result": {
+    "markdown": "---\ntitle: \"DuckDb\"\nexecute: \n  eval: false\n---\n\n## Installation\n\nPour CLI, c'est simplissime : télécharger les precompiled binaries, extraidre duckdb dans le home directory, puis le déplacer dans /usr/local/bin :\n\n\n```{bash}\nsudo mv ~/duckdb /usr/local/bin\n```\n\n\n## Utile\n\nL'auto-complétion : grâce au charactère TAB, c'est à dire CTRL + I. Attention, pour que l'auto-complétion fonctionne pour les chemins vers les fichiers, bien utiliser ' et pas \".\n\nNe pas oublier de terminer chaque SQL statement par ;\n\nPour quitter duckdb, juste Ctrl + D.\n\n## Convertir un fichier csv en parquet\n\nVoir la documentation sur les fichiers CSV dans Data Import. Aussi simple que :\n\n\n```{bash}\nCREATE TABLE ontime AS FROM 'flights.csv'; # lire le fichier csv dans une table\n\nCOPY (FROM ontime) TO 'flights.parquet'; # l'écrire dans un fichier parquet\n```\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

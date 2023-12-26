@@ -7,9 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Théo Boulakia">
-<meta name="description" content="Installation et utilisation de tesseract">
 
-<title>Théo Boulakia - Océrisation</title>
+<title>Théo Boulakia - DuckDb</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -106,8 +71,8 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Théo Boulakia - Océrisation">
-<meta property="og:description" content="Installation et utilisation de tesseract">
+<meta property="og:title" content="Théo Boulakia - DuckDb">
+<meta property="og:description" content="">
 <meta property="og:site-name" content="Théo Boulakia">
 </head>
 
@@ -167,16 +132,8 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Océrisation</h1>
-                  <div>
-        <div class="description">
-          Installation et utilisation de tesseract
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">Récolter</div>
-              </div>
-                  </div>
+      <h1 class="title">DuckDb</h1>
+                      </div>
   </div>
     
   
@@ -189,19 +146,7 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
             </div>
     </div>
       
-      <div>
-      <div class="quarto-title-meta-heading">Date de publication</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">20 octobre 2023</p>
-      </div>
-    </div>
     
-      <div>
-      <div class="quarto-title-meta-heading">Modifié</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date-modified">26 décembre 2023</p>
-      </div>
-    </div>
       
     </div>
     
@@ -214,9 +159,9 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#installation-ubuntu" id="toc-installation-ubuntu" class="nav-link active" data-scroll-target="#installation-ubuntu">Installation Ubuntu</a></li>
-  <li><a href="#installation-du-package-r" id="toc-installation-du-package-r" class="nav-link" data-scroll-target="#installation-du-package-r">Installation du package R</a></li>
-  <li><a href="#installation-du-plugin-zotero" id="toc-installation-du-plugin-zotero" class="nav-link" data-scroll-target="#installation-du-plugin-zotero">Installation du plugin Zotero</a></li>
+  <li><a href="#installation" id="toc-installation" class="nav-link active" data-scroll-target="#installation">Installation</a></li>
+  <li><a href="#utile" id="toc-utile" class="nav-link" data-scroll-target="#utile">Utile</a></li>
+  <li><a href="#convertir-un-fichier-csv-en-parquet" id="toc-convertir-un-fichier-csv-en-parquet" class="nav-link" data-scroll-target="#convertir-un-fichier-csv-en-parquet">Convertir un fichier csv en parquet</a></li>
   </ul>
 </nav>
     </div>
@@ -226,56 +171,28 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
 
 
 
-<p>Voir le <a href="https://tesseract-ocr.github.io/tessdoc/Installation.html">site de la librairie</a>, la page github du <a href="https://github.com/ropensci/tesseract">package R</a> et celle du <a href="https://github.com/UB-Mannheim/zotero-ocr">plugin Zotero</a>.</p>
-<section id="installation-ubuntu" class="level2">
-<h2 class="anchored" data-anchor-id="installation-ubuntu">Installation Ubuntu</h2>
-<p>Vérifier s’il n’est pas déjà installé :</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">tesseract</span> <span class="at">-v</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Si ce n’est pas le cas :</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install tesseract-ocr <span class="co"># installe aussi le paquet anglais</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install tesseract-ocr-fra <span class="co"># installe le paquet français</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install libtesseract-dev <span class="co"># developper tools : nécessaires pour installer le package R</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<p>Pour CLI, c’est simplissime : télécharger les precompiled binaries, extraidre duckdb dans le home directory, puis le déplacer dans /usr/local/bin :</p>
+<pre class="{bash}"><code>sudo mv ~/duckdb /usr/local/bin</code></pre>
 </section>
-<section id="installation-du-package-r" class="level2">
-<h2 class="anchored" data-anchor-id="installation-du-package-r">Installation du package R</h2>
-<p><strong>tesseract</strong> dépend de <strong>pdftools</strong>, qui requiert l’installation de <strong>poppler</strong>. D’où :</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install libpoppler-cpp-dev</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Puis :</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"pdftools"</span>)</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Si on a oublié l’installation des <em>developper tools</em>, il est nécessaire de les installer. Ceci marche également :</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install libtesseract-dev libleptonica-dev</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Enfin :</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"tesseract"</span>)</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="utile" class="level2">
+<h2 class="anchored" data-anchor-id="utile">Utile</h2>
+<p>L’auto-complétion : grâce au charactère TAB, c’est à dire CTRL + I. Attention, pour que l’auto-complétion fonctionne pour les chemins vers les fichiers, bien utiliser ’ et pas “.</p>
+<p>Ne pas oublier de terminer chaque SQL statement par ;</p>
+<p>Pour quitter duckdb, juste Ctrl + D.</p>
 </section>
-<section id="installation-du-plugin-zotero" class="level2">
-<h2 class="anchored" data-anchor-id="installation-du-plugin-zotero">Installation du plugin Zotero</h2>
-<p>Depuis le fichier .xpi, tout simplement.</p>
+<section id="convertir-un-fichier-csv-en-parquet" class="level2">
+<h2 class="anchored" data-anchor-id="convertir-un-fichier-csv-en-parquet">Convertir un fichier csv en parquet</h2>
+<p>Voir la documentation sur les fichiers CSV dans Data Import. Aussi simple que :</p>
+<pre class="{bash}"><code>CREATE TABLE ontime AS FROM 'flights.csv'; # lire le fichier csv dans une table
+
+COPY (FROM ontime) TO 'flights.parquet'; # l'écrire dans un fichier parquet</code></pre>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{boulakia2023,
-  author = {Boulakia, Théo},
-  title = {Océrisation},
-  date = {2023-10-20},
-  url = {https://tblk.github.io/data-tips/ocerisation/},
-  langid = {fr}
-}
-</code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Veuillez citer ce travail comme suit&nbsp;:</div><div id="ref-boulakia2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Boulakia, Théo. 2023. <span>“Océrisation.”</span> October 20, 2023. <a href="https://tblk.github.io/data-tips/ocerisation/">https://tblk.github.io/data-tips/ocerisation/</a>.
-</div></div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

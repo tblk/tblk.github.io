@@ -8,6 +8,7 @@
   {
     "listing": "/data-tips.html",
     "items": [
+      "/data-tips/duckdb/index.html",
       "/data-tips/asciinema/index.html",
       "/data-tips/regression-logistique-ordinale/index.html",
       "/data-tips/big-data/index.html",
