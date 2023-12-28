@@ -1,5 +1,6 @@
 ---
-title: "DuckDb"
+title: "DuckDB"
+date: 2023-12-26
 execute: 
   eval: false
 ---
@@ -30,3 +31,6 @@ CREATE TABLE ontime AS FROM 'flights.csv'; # lire le fichier csv dans une table
 COPY (FROM ontime) TO 'flights.parquet'; # l'écrire dans un fichier parquet
 ```
 
+## Harlequin
+
+SQL IDE pour le terminal : https://harlequin.sh/docs/getting-started, portable et minimaliste, comme DuckDB.
