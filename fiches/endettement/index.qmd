@@ -3,6 +3,7 @@ title: "Endettement"
 date: 2023-11-28
 execute: 
   echo: false
+  eval: false
 citation: 
   url: https://tblk.github.io/fiches/endettement/
 ---

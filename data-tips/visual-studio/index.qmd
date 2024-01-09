@@ -2,6 +2,9 @@
 title: "Visual Studio Code"
 date: 2023-10-28
 categories: [Installer]
+engine: knitr
+execute: 
+  eval: false
 ---
 
 VS Code fonctionne avec des extensions :
@@ -11,3 +14,11 @@ VS Code fonctionne avec des extensions :
 -   [Julia Extension](https://code.visualstudio.com/docs/languages/julia)
 
 L'extension Polyglot ne supporte **pas** R et Julia.
+
+## To uninstall
+
+```{bash}
+sudo apt remove code
+rm ~/.config/Code
+rm ~/.vscode
+```

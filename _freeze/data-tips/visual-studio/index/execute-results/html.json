@@ -1,0 +1,14 @@
+{
+  "hash": "59f3d8e9a6bb4ab5ca99f941f908e8d4",
+  "result": {
+    "markdown": "---\ntitle: \"Visual Studio Code\"\ndate: 2023-10-28\ncategories: [Installer]\nengine: knitr\nexecute: \n  eval: false\n---\n\n\nVS Code fonctionne avec des extensions :\n\n-   [R Extension](https://code.visualstudio.com/docs/languages/r)\n\n-   [Julia Extension](https://code.visualstudio.com/docs/languages/julia)\n\nL'extension Polyglot ne supporte **pas** R et Julia.\n\n## To uninstall\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nsudo apt remove code\nrm ~/.config/Code\nrm ~/.vscode\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -389,7 +389,14 @@
     "href": "data-tips/visual-studio/index.html",
     "title": "Visual Studio Code",
     "section": "",
-    "text": "VS Code fonctionne avec des extensions :\n\nR Extension\nJulia Extension\n\nL’extension Polyglot ne supporte pas R et Julia."
+    "text": "VS Code fonctionne avec des extensions :\nL’extension Polyglot ne supporte pas R et Julia."
+  },
+  {
+    "objectID": "data-tips/visual-studio/index.html#to-uninstall",
+    "href": "data-tips/visual-studio/index.html#to-uninstall",
+    "title": "Visual Studio Code",
+    "section": "To uninstall",
+    "text": "To uninstall\n\nsudo apt remove code\nrm ~/.config/Code\nrm ~/.vscode"
   },
   {
     "objectID": "data-tips/graphes/index.html",
