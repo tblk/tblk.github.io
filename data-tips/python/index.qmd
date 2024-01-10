@@ -10,7 +10,10 @@ I installed the following packages with pipe :
 - folium
 - plotly
 - jupyterlab
+- geopandas
 
 If a serious dependency issue arises, use : pip-autoremove packagename. It will also uninstall all the dependancies. And install again with miniconda.
 
 Note : I had to uninstall harlequin due to a dependency conflict with jupyter.
+
+Jupyter lab doesn't come with an icon, I have one because I installed Jupyter Desktop and then uninstalled it. It created a Desktop configuration file in ~/.local/share/applications and added and icon to ~/local/share/icons/...
