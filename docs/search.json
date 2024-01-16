@@ -1,297 +1,164 @@
 [
   {
-    "objectID": "data-tips/zettlr/index.html",
-    "href": "data-tips/zettlr/index.html",
-    "title": "Zettlr",
+    "objectID": "cours.html",
+    "href": "cours.html",
+    "title": "Cours",
     "section": "",
-    "text": "Pour Linux : télécharger le fichier .deb\nPour Mac : brew install --cask zettlr"
+    "text": "Je donne deux types de cours : des cours de sciences sociales et des cours d’analyse de données avec R."
   },
   {
-    "objectID": "data-tips/zettlr/index.html#installer",
-    "href": "data-tips/zettlr/index.html#installer",
-    "title": "Zettlr",
+    "objectID": "data-tips.html",
+    "href": "data-tips.html",
+    "title": "Data Tips",
     "section": "",
-    "text": "Pour Linux : télécharger le fichier .deb\nPour Mac : brew install --cask zettlr"
+    "text": "Trier par\n       Ordre par défaut\n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Titre\n        \n         \n          Auteur·rice\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitre\n\n\nAuteur·rice\n\n\n\n\n\n\n \n\n\nPython\n\n\nThéo Boulakia\n\n\n\n\n16 janv. 2024\n\n\nAnalyse géométrique des données\n\n\nThéo Boulakia\n\n\n\n\n26 déc. 2023\n\n\nDuckDB\n\n\nThéo Boulakia\n\n\n\n\n3 nov. 2023\n\n\nasciinema\n\n\nThéo Boulakia\n\n\n\n\n30 oct. 2023\n\n\nRégression logistique ordinale\n\n\nThéo Boulakia\n\n\n\n\n29 oct. 2023\n\n\nBig Data\n\n\nThéo Boulakia\n\n\n\n\n28 oct. 2023\n\n\nJulia\n\n\nThéo Boulakia\n\n\n\n\n28 oct. 2023\n\n\nVisual Studio Code\n\n\nThéo Boulakia\n\n\n\n\n21 oct. 2023\n\n\nSpark\n\n\nThéo Boulakia\n\n\n\n\n20 oct. 2023\n\n\nOcérisation\n\n\nThéo Boulakia\n\n\n\n\n9 oct. 2023\n\n\nImages\n\n\nThéo Boulakia\n\n\n\n\n30 sept. 2023\n\n\nChaînes de caractères\n\n\nThéo Boulakia\n\n\n\n\n28 sept. 2023\n\n\nVidéos\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nZettlr\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nDonnées spatiales\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nR et Rstudio\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nZotero\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nTableaux\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nBases de données\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nGit et Github\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nSite Web\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nGraphes\n\n\nThéo Boulakia\n\n\n\n\n\nAucun article correspondant"
   },
   {
-    "objectID": "data-tips/zettlr/index.html#paramétrer",
-    "href": "data-tips/zettlr/index.html#paramétrer",
-    "title": "Zettlr",
-    "section": "Paramétrer",
-    "text": "Paramétrer\n\nGénéral &gt; Mode gestionnaire de fichiers &gt; Combiné\nGénéral &gt; Afficher &gt; Nom de fichier seulement\nÉditeur &gt; Taille de police &gt; 20\nCitations : après avoir exporté la bibliothèque désirée depuis Zotero, au format Better CSL Json, et coché l’option “garder à jour”.\nAfficher &gt; Thème &gt; Frankfurt\nVérification orthographique &gt; fr"
-  },
-  {
-    "objectID": "data-tips/zettlr/index.html#réinitialiser",
-    "href": "data-tips/zettlr/index.html#réinitialiser",
-    "title": "Zettlr",
-    "section": "Réinitialiser",
-    "text": "Réinitialiser\nrm -r /home/theo/.config/Zettlr"
-  },
-  {
-    "objectID": "data-tips/bases-de-donnees/index.html",
-    "href": "data-tips/bases-de-donnees/index.html",
-    "title": "Bases de données",
+    "objectID": "fiches/endettement/index.html",
+    "href": "fiches/endettement/index.html",
+    "title": "Endettement",
     "section": "",
-    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Bases de données},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/bases-de-donnees/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Bases de données.” June 25, 2023. https://tblk.github.io/data-tips/bases-de-donnees/."
+    "text": "Note\n\n\n\nTaux d’endettement : ensemble des dettes sur total de l’actif\nAnnuités : il s’agit uniquement des annuités des prêts à moyen et long terme.\nSource : Réseau d’information comptable.\nTous les résultats sont des moyennes."
   },
   {
-    "objectID": "data-tips/duckdb/index.html",
-    "href": "data-tips/duckdb/index.html",
-    "title": "DuckDb",
+    "objectID": "fiches/endettement/index.html#tableau",
+    "href": "fiches/endettement/index.html#tableau",
+    "title": "Endettement",
     "section": "",
-    "text": "Pour CLI, c’est simplissime : télécharger les precompiled binaries, extraidre duckdb dans le home directory, puis le déplacer dans /usr/local/bin :\nsudo mv ~/duckdb /usr/local/bin"
+    "text": "Note\n\n\n\nTaux d’endettement : ensemble des dettes sur total de l’actif\nAnnuités : il s’agit uniquement des annuités des prêts à moyen et long terme.\nSource : Réseau d’information comptable.\nTous les résultats sont des moyennes."
   },
   {
-    "objectID": "data-tips/duckdb/index.html#installation",
-    "href": "data-tips/duckdb/index.html#installation",
-    "title": "DuckDb",
+    "objectID": "fiches/endettement/index.html#ensemble-des-dettes",
+    "href": "fiches/endettement/index.html#ensemble-des-dettes",
+    "title": "Endettement",
+    "section": "Ensemble des dettes",
+    "text": "Ensemble des dettes"
+  },
+  {
+    "objectID": "fiches.html",
+    "href": "fiches.html",
+    "title": "Fiches",
     "section": "",
-    "text": "Pour CLI, c’est simplissime : télécharger les precompiled binaries, extraidre duckdb dans le home directory, puis le déplacer dans /usr/local/bin :\nsudo mv ~/duckdb /usr/local/bin"
+    "text": "Trier par\n       Ordre par défaut\n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Titre\n        \n         \n          Auteur·rice\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitre\n\n\nAuteur·rice\n\n\n\n\n\n\n28 nov. 2023\n\n\nEndettement\n\n\nThéo Boulakia\n\n\n\n\n\nAucun article correspondant"
   },
   {
-    "objectID": "data-tips/duckdb/index.html#utile",
-    "href": "data-tips/duckdb/index.html#utile",
-    "title": "DuckDb",
-    "section": "Utile",
-    "text": "Utile\nL’auto-complétion : grâce au charactère TAB, c’est à dire CTRL + I. Attention, pour que l’auto-complétion fonctionne pour les chemins vers les fichiers, bien utiliser ’ et pas “.\nNe pas oublier de terminer chaque SQL statement par ;\nPour quitter duckdb, juste Ctrl + D."
-  },
-  {
-    "objectID": "data-tips/duckdb/index.html#convertir-un-fichier-csv-en-parquet",
-    "href": "data-tips/duckdb/index.html#convertir-un-fichier-csv-en-parquet",
-    "title": "DuckDb",
-    "section": "Convertir un fichier csv en parquet",
-    "text": "Convertir un fichier csv en parquet\nVoir la documentation sur les fichiers CSV dans Data Import. Aussi simple que :\nCREATE TABLE ontime AS FROM 'flights.csv'; # lire le fichier csv dans une table\n\nCOPY (FROM ontime) TO 'flights.parquet'; # l'écrire dans un fichier parquet"
-  },
-  {
-    "objectID": "data-tips/regression-logistique-ordinale/index.html",
-    "href": "data-tips/regression-logistique-ordinale/index.html",
-    "title": "Régression logistique ordinale",
+    "objectID": "data-tips/chaines-de-caracteres/index.html",
+    "href": "data-tips/chaines-de-caracteres/index.html",
+    "title": "Chaînes de caractères",
     "section": "",
-    "text": "ordinal\nMASS\nVGAM"
+    "text": "Pour remplacer tous les accents par des caractères non accentués, dans toutes les langues :\n\nx &lt;- c(\"soñar\", \"camión\", \"égoïste\")\nstringi::stri_trans_general(x, \"Latin-ASCII\")\n\n[1] \"sonar\"   \"camion\"  \"egoiste\""
   },
   {
-    "objectID": "data-tips/regression-logistique-ordinale/index.html#packages-possibles",
-    "href": "data-tips/regression-logistique-ordinale/index.html#packages-possibles",
-    "title": "Régression logistique ordinale",
+    "objectID": "data-tips/chaines-de-caracteres/index.html#remplacer-tous-les-accents",
+    "href": "data-tips/chaines-de-caracteres/index.html#remplacer-tous-les-accents",
+    "title": "Chaînes de caractères",
     "section": "",
-    "text": "ordinal\nMASS\nVGAM"
+    "text": "Pour remplacer tous les accents par des caractères non accentués, dans toutes les langues :\n\nx &lt;- c(\"soñar\", \"camión\", \"égoïste\")\nstringi::stri_trans_general(x, \"Latin-ASCII\")\n\n[1] \"sonar\"   \"camion\"  \"egoiste\""
   },
   {
-    "objectID": "data-tips/regression-logistique-ordinale/index.html#parallel-slopes-assumption",
-    "href": "data-tips/regression-logistique-ordinale/index.html#parallel-slopes-assumption",
-    "title": "Régression logistique ordinale",
-    "section": "Parallel slopes assumption",
-    "text": "Parallel slopes assumption\nAussi appelée proportionnal odds assumption : the relationship between each pair of outcome groups is the same.\nAnd if it is not the case ?\nLe “proportionnal odds model” est un modèle de régression logistique ordinal parmi d’autres.\nMASS::polar stands for proportionnal odds logistic regression."
+    "objectID": "data-tips/chaines-de-caracteres/index.html#nettoyage-à-options",
+    "href": "data-tips/chaines-de-caracteres/index.html#nettoyage-à-options",
+    "title": "Chaînes de caractères",
+    "section": "Nettoyage à options",
+    "text": "Nettoyage à options\n\n\n\n\n\n\nAstuce\n\n\n\nPenser au package fedmatch, et notamment à sa (très rapide) fonction clean_strings"
   },
   {
-    "objectID": "data-tips/regression-logistique-ordinale/index.html#logistic-regression-vs-probit-regression",
-    "href": "data-tips/regression-logistique-ordinale/index.html#logistic-regression-vs-probit-regression",
-    "title": "Régression logistique ordinale",
-    "section": "Logistic regression vs Probit regression",
-    "text": "Logistic regression vs Probit regression"
-  },
-  {
-    "objectID": "data-tips/videos/index.html",
-    "href": "data-tips/videos/index.html",
-    "title": "Vidéos",
+    "objectID": "data-tips/big-data/index.html",
+    "href": "data-tips/big-data/index.html",
+    "title": "Big Data",
     "section": "",
-    "text": "pip install yt-dlp\n\nPar ailleurs, s’assurer que ffmpeg est installé.\n\nffmpeg -version\n\nSi ce n’est pas le cas :\n\nsudo apt update\nsudo apt install ffmpeg"
+    "text": "Benchmarks.\nUn post intéressant sur arrow et duckdb."
   },
   {
-    "objectID": "data-tips/videos/index.html#installation",
-    "href": "data-tips/videos/index.html#installation",
-    "title": "Vidéos",
+    "objectID": "data-tips/big-data/index.html#arrow-dplyr",
+    "href": "data-tips/big-data/index.html#arrow-dplyr",
+    "title": "Big Data",
+    "section": "arrow + dplyr",
+    "text": "arrow + dplyr"
+  },
+  {
+    "objectID": "data-tips/big-data/index.html#duckdb-dplyr",
+    "href": "data-tips/big-data/index.html#duckdb-dplyr",
+    "title": "Big Data",
+    "section": "duckdb + dplyr",
+    "text": "duckdb + dplyr"
+  },
+  {
+    "objectID": "data-tips/big-data/index.html#dataframesmeta.jl",
+    "href": "data-tips/big-data/index.html#dataframesmeta.jl",
+    "title": "Big Data",
+    "section": "DataframesMeta.jl",
+    "text": "DataframesMeta.jl"
+  },
+  {
+    "objectID": "data-tips/big-data/index.html#polars",
+    "href": "data-tips/big-data/index.html#polars",
+    "title": "Big Data",
+    "section": "polars",
+    "text": "polars\nVoir la documentation."
+  },
+  {
+    "objectID": "data-tips/big-data/index.html#data.table",
+    "href": "data-tips/big-data/index.html#data.table",
+    "title": "Big Data",
+    "section": "data.table",
+    "text": "data.table"
+  },
+  {
+    "objectID": "data-tips/zotero/index.html",
+    "href": "data-tips/zotero/index.html",
+    "title": "Zotero",
     "section": "",
-    "text": "pip install yt-dlp\n\nPar ailleurs, s’assurer que ffmpeg est installé.\n\nffmpeg -version\n\nSi ce n’est pas le cas :\n\nsudo apt update\nsudo apt install ffmpeg"
+    "text": "Décocher :\n\nFaire une capture automatique des pages web\nImporter automatiquement les marqueurs\nSynchroniser automatiquement les fichiers joints dans ma bibliothèque\n\n\n\n\n\n\n\nAstuce\n\n\n\nSi j’ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne).\n\n\n\n\n\n\n\n\nNote\n\n\n\nIl est toujours possible de synchroniser les fichiers joints pour les bibliothèques de groupe. On peut ainsi annoter des pdf de manière collaborative."
   },
   {
-    "objectID": "data-tips/videos/index.html#mise-à-jour",
-    "href": "data-tips/videos/index.html#mise-à-jour",
-    "title": "Vidéos",
-    "section": "Mise à jour",
-    "text": "Mise à jour\nL’intérêt d’installer avec pip est précisément de bénéficier des mises à jour plus rapidement qu’avec apt. Donc, si un téléchargement échoue :\n\npip install yt-dlp -U"
-  },
-  {
-    "objectID": "data-tips/videos/index.html#télécharger",
-    "href": "data-tips/videos/index.html#télécharger",
-    "title": "Vidéos",
-    "section": "Télécharger",
-    "text": "Télécharger\n\nyt-dlp https://www.dailymotion.com/video/x7sv5fg"
-  },
-  {
-    "objectID": "data-tips/videos/index.html#renommer",
-    "href": "data-tips/videos/index.html#renommer",
-    "title": "Vidéos",
-    "section": "Renommer",
-    "text": "Renommer\nIl arrive en effet que le téléchargement échoue simplement parce que la nom de la vidéo est trop long. Dans ce cas, on peut renommer en même temps qu’on télécharge, ainsi :\n\nyt-dlp https://youtu.be/M0yTTUt_zGA -o \"new_name.mp4\""
-  },
-  {
-    "objectID": "data-tips/videos/index.html#choisir",
-    "href": "data-tips/videos/index.html#choisir",
-    "title": "Vidéos",
-    "section": "Choisir",
-    "text": "Choisir\nPour choisir la meilleure qualité audio :\n\nyt-dlp -F &lt;url&gt; # renvoie la liste des formats téléchargeables\nyt-dlp -f &lt;id&gt; &lt;url&gt; # où l'id correspond à la première colonne"
-  },
-  {
-    "objectID": "data-tips/videos/index.html#fusionner-audio-et-video-avec-ffmpeg",
-    "href": "data-tips/videos/index.html#fusionner-audio-et-video-avec-ffmpeg",
-    "title": "Vidéos",
-    "section": "Fusionner audio et video avec ffmpeg",
-    "text": "Fusionner audio et video avec ffmpeg\nIl suffit d’ouvrir un terminal dans le dossier où sont rangés les fichiers audio et vidéo.\n\nffmpeg \\\n    -i video.mp4 -i audio.mp3 \\\n    -c:v copy \\\n    -map 0:v -map 1:a \\\n    -y output.mp4 \n\nDe très nombreuses options existent. Pour un petit aperçu, voir ce billet de blog de Linuxtricks, ou le repo github."
-  },
-  {
-    "objectID": "data-tips/donnees-spatiales/index.html",
-    "href": "data-tips/donnees-spatiales/index.html",
-    "title": "Données spatiales",
+    "objectID": "data-tips/zotero/index.html#préférences",
+    "href": "data-tips/zotero/index.html#préférences",
+    "title": "Zotero",
     "section": "",
-    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Données spatiales},\n  date = {2023-06-30},\n  url = {https://tblk.github.io/data-tips/read-spatial-subset/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Données spatiales.” June 30, 2023.\nhttps://tblk.github.io/data-tips/read-spatial-subset/."
+    "text": "Décocher :\n\nFaire une capture automatique des pages web\nImporter automatiquement les marqueurs\nSynchroniser automatiquement les fichiers joints dans ma bibliothèque\n\n\n\n\n\n\n\nAstuce\n\n\n\nSi j’ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne).\n\n\n\n\n\n\n\n\nNote\n\n\n\nIl est toujours possible de synchroniser les fichiers joints pour les bibliothèques de groupe. On peut ainsi annoter des pdf de manière collaborative."
   },
   {
-    "objectID": "data-tips/asciinema/index.html",
-    "href": "data-tips/asciinema/index.html",
-    "title": "asciinema",
+    "objectID": "data-tips/zotero/index.html#better-bibtex",
+    "href": "data-tips/zotero/index.html#better-bibtex",
+    "title": "Zotero",
+    "section": "Better Bibtex",
+    "text": "Better Bibtex\n\nVoir les instructions ici\nLes préférences de Better Bib Tex se trouvent dans l’onglet “Outils”\nChoisir auth.lower + year comme clé de citation"
+  },
+  {
+    "objectID": "data-tips/zotero/index.html#zutilo",
+    "href": "data-tips/zotero/index.html#zutilo",
+    "title": "Zotero",
+    "section": "Zutilo",
+    "text": "Zutilo\n\nVoir les instructions ici\nAller dans Outils &gt; Préférences de Zutilo et pour “copier les champs de la notice” et “coller dans les champs vides”, choisir “menu contextuel de Zutilo”."
+  },
+  {
+    "objectID": "data-tips/zotero/index.html#styles",
+    "href": "data-tips/zotero/index.html#styles",
+    "title": "Zotero",
+    "section": "Styles",
+    "text": "Styles\nZotero styles repository & Visual CSL Editor"
+  },
+  {
+    "objectID": "data-tips/zotero/index.html#zotero-ocr",
+    "href": "data-tips/zotero/index.html#zotero-ocr",
+    "title": "Zotero",
+    "section": "Zotero OCR",
+    "text": "Zotero OCR\nLes instructions pour installer le plugin sont disponibles dans le repo github correspondant.\nSi Zotero ne trouve pas le chemin vers pdftoppm il suffit de le lui indiquer. On trouve ce chemin grâce à la commande which :\n\nwhich pdftoppm"
+  },
+  {
+    "objectID": "data-tips/visual-studio/index.html",
+    "href": "data-tips/visual-studio/index.html",
+    "title": "Visual Studio Code",
     "section": "",
-    "text": "library(cli)"
+    "text": "VS Code fonctionne avec des extensions :\nL’extension Polyglot ne supporte pas R et Julia."
   },
   {
-    "objectID": "data-tips/spark/index.html",
-    "href": "data-tips/spark/index.html",
-    "title": "Spark",
-    "section": "",
-    "text": "Installation du package R sparklyr\n\ninstall.packages(\"sparklyr\")\n\n\n\nInstallation de Java\nPour installer Spark, il faut d’abord installer Java.\n\njava -v # vérifier que java n'est pas installé\nsudo apt update\nsudo apt install default-jre\nsudo apt install default-jdk\n\n\n\nInstaller Spark\nToutes les dernières versions de Spark ne fonctionnent pas avec la dernière version de Java, d’où :\n\nsparklyr::spark_install(version = \"3.1\")\n\n\n\nSe connecter\n\nsc &lt;- sparklyr::spark_connect(master = \"local\")\nsparklyr::spark_disconnect(\"sc\")\n\n\n\nPourquoi Spark ?\nEssentiellement pour la modélisation sur des données volumineuses. Pour les manipulations simples il est semble beaucoup plus simple d’utiliser arrow, éventuellement en conjonction avec duckdb.\n\n\n\n\nCitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Spark},\n  date = {2023-10-21},\n  url = {https://tblk.github.io/data-tips/spark/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Spark.” October 21, 2023. https://tblk.github.io/data-tips/spark/."
-  },
-  {
-    "objectID": "data-tips/images/index.html",
-    "href": "data-tips/images/index.html",
-    "title": "Images",
-    "section": "",
-    "text": "convert image.jpg image.png"
-  },
-  {
-    "objectID": "data-tips/images/index.html#convertir-une-image",
-    "href": "data-tips/images/index.html#convertir-une-image",
-    "title": "Images",
-    "section": "",
-    "text": "convert image.jpg image.png"
-  },
-  {
-    "objectID": "data-tips/images/index.html#compresser-une-image",
-    "href": "data-tips/images/index.html#compresser-une-image",
-    "title": "Images",
-    "section": "Compresser une image",
-    "text": "Compresser une image\n\nconvert image.jpg[50%x50%] -quality 70 compressed_image.jpg"
-  },
-  {
-    "objectID": "data-tips/images/index.html#passer-en-nuances-de-gris",
-    "href": "data-tips/images/index.html#passer-en-nuances-de-gris",
-    "title": "Images",
-    "section": "Passer en nuances de gris",
-    "text": "Passer en nuances de gris\nIci, on utilise le package magick, qui rend accessible depuis R la librairie ImageMagick.\n\n\n\nHyla japonica, 1er septembre 2008, 池田正樹 (talk) masaki ikeda, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons\n\n\n\ngray_frog = magick::image_read(\n  \"https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg\"\n  ) |&gt; \n  magick::image_quantize(colorspace = \"gray\")\ngray_frog"
-  },
-  {
-    "objectID": "data-tips/ocerisation/index.html",
-    "href": "data-tips/ocerisation/index.html",
-    "title": "Océrisation",
-    "section": "",
-    "text": "Voir le site de la librairie, la page github du package R et celle du plugin Zotero."
-  },
-  {
-    "objectID": "data-tips/ocerisation/index.html#installation-ubuntu",
-    "href": "data-tips/ocerisation/index.html#installation-ubuntu",
-    "title": "Océrisation",
-    "section": "Installation Ubuntu",
-    "text": "Installation Ubuntu\nVérifier s’il n’est pas déjà installé :\n\ntesseract -v\n\nSi ce n’est pas le cas :\n\nsudo apt install tesseract-ocr # installe aussi le paquet anglais\nsudo apt install tesseract-ocr-fra # installe le paquet français\nsudo apt install libtesseract-dev # developper tools : nécessaires pour installer le package R"
-  },
-  {
-    "objectID": "data-tips/ocerisation/index.html#installation-du-package-r",
-    "href": "data-tips/ocerisation/index.html#installation-du-package-r",
-    "title": "Océrisation",
-    "section": "Installation du package R",
-    "text": "Installation du package R\ntesseract dépend de pdftools, qui requiert l’installation de poppler. D’où :\n\nsudo apt install libpoppler-cpp-dev\n\nPuis :\n\ninstall.packages(\"pdftools\")\n\nSi on a oublié l’installation des developper tools, il est nécessaire de les installer. Ceci marche également :\n\nsudo apt install libtesseract-dev libleptonica-dev\n\nEnfin :\n\ninstall.packages(\"tesseract\")"
-  },
-  {
-    "objectID": "data-tips/ocerisation/index.html#installation-du-plugin-zotero",
-    "href": "data-tips/ocerisation/index.html#installation-du-plugin-zotero",
-    "title": "Océrisation",
-    "section": "Installation du plugin Zotero",
-    "text": "Installation du plugin Zotero\nDepuis le fichier .xpi, tout simplement."
-  },
-  {
-    "objectID": "data-tips/git-et-github/index.html",
-    "href": "data-tips/git-et-github/index.html",
-    "title": "Git et Github",
-    "section": "",
-    "text": "which git\nS’il ne l’est pas : brew install git"
-  },
-  {
-    "objectID": "data-tips/git-et-github/index.html#vérifie-si-git-est-installé",
-    "href": "data-tips/git-et-github/index.html#vérifie-si-git-est-installé",
-    "title": "Git et Github",
-    "section": "",
-    "text": "which git\nS’il ne l’est pas : brew install git"
-  },
-  {
-    "objectID": "data-tips/git-et-github/index.html#présente-toi-à-git",
-    "href": "data-tips/git-et-github/index.html#présente-toi-à-git",
-    "title": "Git et Github",
-    "section": "Présente toi à Git",
-    "text": "Présente toi à Git\n\ngit config --global user.name 'Jane Doe'\ngit config --global user.email 'jane@example.com\ngit config --global --list"
-  },
-  {
-    "objectID": "data-tips/git-et-github/index.html#cloner-un-repo",
-    "href": "data-tips/git-et-github/index.html#cloner-un-repo",
-    "title": "Git et Github",
-    "section": "Cloner un repo",
-    "text": "Cloner un repo"
-  },
-  {
-    "objectID": "data-tips/git-et-github/index.html#cacher-le-personnal-access-token",
-    "href": "data-tips/git-et-github/index.html#cacher-le-personnal-access-token",
-    "title": "Git et Github",
-    "section": "Cacher le Personnal access token",
-    "text": "Cacher le Personnal access token\nUpdates and shortens a post by Danielle Navarro.\nFor everyone :\n\nIf (and only if) no token yet : usethis::create_github_token()\nThen cache it : gitcreds::gitcreds_set()\nCheck your git situation : usethis::git_sitrep()\n\nThen, for Linux users only :\n\nDownload the latest version of GCM (the .deb file)\nInstall it : sudo dpkg -i &lt;path-to-deb-file&gt;\ngit-credential-manager configure\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAnd not : git-credential-manager-CORE configure, as in Danielle Navarro’s blog post.\n\n\n\nCheck libsecret is installed (it should be) : dpkg -s libsecret-1-0 The status should be Install ok Installed\ngit config --global credential.credentialStore secretservice\nThe first time you make a push, a window will open in your web browser, asking for password and a confirmation."
-  },
-  {
-    "objectID": "data-tips/r-et-rstudio/index.html",
-    "href": "data-tips/r-et-rstudio/index.html",
-    "title": "R et Rstudio",
-    "section": "",
-    "text": "Tout ce qu’il faut savoir sur le terminal\n\nCmd + Espace pour ouvrir “Spotlight search”\nTaper “Terminal” dans la barre de recherche"
-  },
-  {
-    "objectID": "data-tips/r-et-rstudio/index.html#ouvrir-le-terminal",
-    "href": "data-tips/r-et-rstudio/index.html#ouvrir-le-terminal",
-    "title": "R et Rstudio",
-    "section": "",
-    "text": "Tout ce qu’il faut savoir sur le terminal\n\nCmd + Espace pour ouvrir “Spotlight search”\nTaper “Terminal” dans la barre de recherche"
-  },
-  {
-    "objectID": "data-tips/r-et-rstudio/index.html#installer-homebrew",
-    "href": "data-tips/r-et-rstudio/index.html#installer-homebrew",
-    "title": "R et Rstudio",
-    "section": "Installer Homebrew",
-    "text": "Installer Homebrew\n\nVisitez la page de Homebrew\nInstallez le ainsi : /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
-  },
-  {
-    "objectID": "data-tips/r-et-rstudio/index.html#installer-r-et-rstudio",
-    "href": "data-tips/r-et-rstudio/index.html#installer-r-et-rstudio",
-    "title": "R et Rstudio",
-    "section": "Installer R et Rstudio",
-    "text": "Installer R et Rstudio\n\nR : brew install r\nRstudio : brew cask install rstudio\nPour les mettre à jour si besoin : brew update & brew upgrade"
-  },
-  {
-    "objectID": "data-tips/r-et-rstudio/index.html#configurer-rstudio",
-    "href": "data-tips/r-et-rstudio/index.html#configurer-rstudio",
-    "title": "R et Rstudio",
-    "section": "Configurer Rstudio",
-    "text": "Configurer Rstudio"
-  },
-  {
-    "objectID": "data-tips/r-et-rstudio/index.html#installer-tinytex",
-    "href": "data-tips/r-et-rstudio/index.html#installer-tinytex",
-    "title": "R et Rstudio",
-    "section": "Installer Tinytex",
-    "text": "Installer Tinytex\nPour pouvoir produire des pdf avec quarto : quarto install tinytex"
+    "objectID": "data-tips/visual-studio/index.html#to-uninstall",
+    "href": "data-tips/visual-studio/index.html#to-uninstall",
+    "title": "Visual Studio Code",
+    "section": "To uninstall",
+    "text": "To uninstall\n\nsudo apt remove code\nrm ~/.config/Code\nrm ~/.vscode"
   },
   {
     "objectID": "data-tips/julia/index.html",
@@ -364,6 +231,307 @@
     "text": "VS Code\nVoir le billet dédié."
   },
   {
+    "objectID": "data-tips/git-et-github/index.html",
+    "href": "data-tips/git-et-github/index.html",
+    "title": "Git et Github",
+    "section": "",
+    "text": "which git\nS’il ne l’est pas : brew install git"
+  },
+  {
+    "objectID": "data-tips/git-et-github/index.html#vérifie-si-git-est-installé",
+    "href": "data-tips/git-et-github/index.html#vérifie-si-git-est-installé",
+    "title": "Git et Github",
+    "section": "",
+    "text": "which git\nS’il ne l’est pas : brew install git"
+  },
+  {
+    "objectID": "data-tips/git-et-github/index.html#présente-toi-à-git",
+    "href": "data-tips/git-et-github/index.html#présente-toi-à-git",
+    "title": "Git et Github",
+    "section": "Présente toi à Git",
+    "text": "Présente toi à Git\n\ngit config --global user.name 'Jane Doe'\ngit config --global user.email 'jane@example.com\ngit config --global --list"
+  },
+  {
+    "objectID": "data-tips/git-et-github/index.html#cloner-un-repo",
+    "href": "data-tips/git-et-github/index.html#cloner-un-repo",
+    "title": "Git et Github",
+    "section": "Cloner un repo",
+    "text": "Cloner un repo"
+  },
+  {
+    "objectID": "data-tips/git-et-github/index.html#cacher-le-personnal-access-token",
+    "href": "data-tips/git-et-github/index.html#cacher-le-personnal-access-token",
+    "title": "Git et Github",
+    "section": "Cacher le Personnal access token",
+    "text": "Cacher le Personnal access token\nUpdates and shortens a post by Danielle Navarro.\nFor everyone :\n\nIf (and only if) no token yet : usethis::create_github_token()\nThen cache it : gitcreds::gitcreds_set()\nCheck your git situation : usethis::git_sitrep()\n\nThen, for Linux users only :\n\nDownload the latest version of GCM (the .deb file)\nInstall it : sudo dpkg -i &lt;path-to-deb-file&gt;\ngit-credential-manager configure\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAnd not : git-credential-manager-CORE configure, as in Danielle Navarro’s blog post.\n\n\n\nCheck libsecret is installed (it should be) : dpkg -s libsecret-1-0 The status should be Install ok Installed\ngit config --global credential.credentialStore secretservice\nThe first time you make a push, a window will open in your web browser, asking for password and a confirmation."
+  },
+  {
+    "objectID": "data-tips/images/index.html",
+    "href": "data-tips/images/index.html",
+    "title": "Images",
+    "section": "",
+    "text": "convert image.jpg image.png"
+  },
+  {
+    "objectID": "data-tips/images/index.html#convertir-une-image",
+    "href": "data-tips/images/index.html#convertir-une-image",
+    "title": "Images",
+    "section": "",
+    "text": "convert image.jpg image.png"
+  },
+  {
+    "objectID": "data-tips/images/index.html#compresser-une-image",
+    "href": "data-tips/images/index.html#compresser-une-image",
+    "title": "Images",
+    "section": "Compresser une image",
+    "text": "Compresser une image\n\nconvert image.jpg[50%x50%] -quality 70 compressed_image.jpg"
+  },
+  {
+    "objectID": "data-tips/images/index.html#passer-en-nuances-de-gris",
+    "href": "data-tips/images/index.html#passer-en-nuances-de-gris",
+    "title": "Images",
+    "section": "Passer en nuances de gris",
+    "text": "Passer en nuances de gris\nIci, on utilise le package magick, qui rend accessible depuis R la librairie ImageMagick.\n\n\n\nHyla japonica, 1er septembre 2008, 池田正樹 (talk) masaki ikeda, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons\n\n\n\ngray_frog = magick::image_read(\n  \"https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg\"\n  ) |&gt; \n  magick::image_quantize(colorspace = \"gray\")\ngray_frog"
+  },
+  {
+    "objectID": "data-tips/spark/index.html",
+    "href": "data-tips/spark/index.html",
+    "title": "Spark",
+    "section": "",
+    "text": "Installation du package R sparklyr\n\ninstall.packages(\"sparklyr\")\n\n\n\nInstallation de Java\nPour installer Spark, il faut d’abord installer Java.\n\njava -v # vérifier que java n'est pas installé\nsudo apt update\nsudo apt install default-jre\nsudo apt install default-jdk\n\n\n\nInstaller Spark\nToutes les dernières versions de Spark ne fonctionnent pas avec la dernière version de Java, d’où :\n\nsparklyr::spark_install(version = \"3.1\")\n\n\n\nSe connecter\n\nsc &lt;- sparklyr::spark_connect(master = \"local\")\nsparklyr::spark_disconnect(\"sc\")\n\n\n\nPourquoi Spark ?\nEssentiellement pour la modélisation sur des données volumineuses. Pour les manipulations simples il est semble beaucoup plus simple d’utiliser arrow, éventuellement en conjonction avec duckdb.\n\n\n\n\nCitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Spark},\n  date = {2023-10-21},\n  url = {https://tblk.github.io/data-tips/spark/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Spark.” October 21, 2023. https://tblk.github.io/data-tips/spark/."
+  },
+  {
+    "objectID": "data-tips/donnees-spatiales/index.html",
+    "href": "data-tips/donnees-spatiales/index.html",
+    "title": "Données spatiales",
+    "section": "",
+    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Données spatiales},\n  date = {2023-06-30},\n  url = {https://tblk.github.io/data-tips/read-spatial-subset/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Données spatiales.” June 30, 2023.\nhttps://tblk.github.io/data-tips/read-spatial-subset/."
+  },
+  {
+    "objectID": "data-tips/regression-logistique-ordinale/index.html",
+    "href": "data-tips/regression-logistique-ordinale/index.html",
+    "title": "Régression logistique ordinale",
+    "section": "",
+    "text": "ordinal\nMASS\nVGAM"
+  },
+  {
+    "objectID": "data-tips/regression-logistique-ordinale/index.html#packages-possibles",
+    "href": "data-tips/regression-logistique-ordinale/index.html#packages-possibles",
+    "title": "Régression logistique ordinale",
+    "section": "",
+    "text": "ordinal\nMASS\nVGAM"
+  },
+  {
+    "objectID": "data-tips/regression-logistique-ordinale/index.html#parallel-slopes-assumption",
+    "href": "data-tips/regression-logistique-ordinale/index.html#parallel-slopes-assumption",
+    "title": "Régression logistique ordinale",
+    "section": "Parallel slopes assumption",
+    "text": "Parallel slopes assumption\nAussi appelée proportionnal odds assumption : the relationship between each pair of outcome groups is the same.\nAnd if it is not the case ?\nLe “proportionnal odds model” est un modèle de régression logistique ordinal parmi d’autres.\nMASS::polar stands for proportionnal odds logistic regression."
+  },
+  {
+    "objectID": "data-tips/regression-logistique-ordinale/index.html#logistic-regression-vs-probit-regression",
+    "href": "data-tips/regression-logistique-ordinale/index.html#logistic-regression-vs-probit-regression",
+    "title": "Régression logistique ordinale",
+    "section": "Logistic regression vs Probit regression",
+    "text": "Logistic regression vs Probit regression"
+  },
+  {
+    "objectID": "data-tips/bases-de-donnees/index.html",
+    "href": "data-tips/bases-de-donnees/index.html",
+    "title": "Bases de données",
+    "section": "",
+    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Bases de données},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/bases-de-donnees/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Bases de données.” June 25, 2023. https://tblk.github.io/data-tips/bases-de-donnees/."
+  },
+  {
+    "objectID": "data-tips/zettlr/index.html",
+    "href": "data-tips/zettlr/index.html",
+    "title": "Zettlr",
+    "section": "",
+    "text": "Pour Linux : télécharger le fichier .deb\nPour Mac : brew install --cask zettlr"
+  },
+  {
+    "objectID": "data-tips/zettlr/index.html#installer",
+    "href": "data-tips/zettlr/index.html#installer",
+    "title": "Zettlr",
+    "section": "",
+    "text": "Pour Linux : télécharger le fichier .deb\nPour Mac : brew install --cask zettlr"
+  },
+  {
+    "objectID": "data-tips/zettlr/index.html#paramétrer",
+    "href": "data-tips/zettlr/index.html#paramétrer",
+    "title": "Zettlr",
+    "section": "Paramétrer",
+    "text": "Paramétrer\n\nGénéral &gt; Mode gestionnaire de fichiers &gt; Combiné\nGénéral &gt; Afficher &gt; Nom de fichier seulement\nÉditeur &gt; Taille de police &gt; 20\nCitations : après avoir exporté la bibliothèque désirée depuis Zotero, au format Better CSL Json, et coché l’option “garder à jour”.\nAfficher &gt; Thème &gt; Frankfurt\nVérification orthographique &gt; fr"
+  },
+  {
+    "objectID": "data-tips/zettlr/index.html#réinitialiser",
+    "href": "data-tips/zettlr/index.html#réinitialiser",
+    "title": "Zettlr",
+    "section": "Réinitialiser",
+    "text": "Réinitialiser\nrm -r /home/theo/.config/Zettlr"
+  },
+  {
+    "objectID": "data-tips/duckdb/index.html",
+    "href": "data-tips/duckdb/index.html",
+    "title": "DuckDb",
+    "section": "",
+    "text": "Pour CLI, c’est simplissime : télécharger les precompiled binaries, extraidre duckdb dans le home directory, puis le déplacer dans /usr/local/bin :\nsudo mv ~/duckdb /usr/local/bin"
+  },
+  {
+    "objectID": "data-tips/duckdb/index.html#installation",
+    "href": "data-tips/duckdb/index.html#installation",
+    "title": "DuckDb",
+    "section": "",
+    "text": "Pour CLI, c’est simplissime : télécharger les precompiled binaries, extraidre duckdb dans le home directory, puis le déplacer dans /usr/local/bin :\nsudo mv ~/duckdb /usr/local/bin"
+  },
+  {
+    "objectID": "data-tips/duckdb/index.html#utile",
+    "href": "data-tips/duckdb/index.html#utile",
+    "title": "DuckDb",
+    "section": "Utile",
+    "text": "Utile\nL’auto-complétion : grâce au charactère TAB, c’est à dire CTRL + I. Attention, pour que l’auto-complétion fonctionne pour les chemins vers les fichiers, bien utiliser ’ et pas “.\nNe pas oublier de terminer chaque SQL statement par ;\nPour quitter duckdb, juste Ctrl + D."
+  },
+  {
+    "objectID": "data-tips/duckdb/index.html#convertir-un-fichier-csv-en-parquet",
+    "href": "data-tips/duckdb/index.html#convertir-un-fichier-csv-en-parquet",
+    "title": "DuckDb",
+    "section": "Convertir un fichier csv en parquet",
+    "text": "Convertir un fichier csv en parquet\nVoir la documentation sur les fichiers CSV dans Data Import. Aussi simple que :\nCREATE TABLE ontime AS FROM 'flights.csv'; # lire le fichier csv dans une table\n\nCOPY (FROM ontime) TO 'flights.parquet'; # l'écrire dans un fichier parquet"
+  },
+  {
+    "objectID": "data-tips/videos/index.html",
+    "href": "data-tips/videos/index.html",
+    "title": "Vidéos",
+    "section": "",
+    "text": "pip install yt-dlp\n\nPar ailleurs, s’assurer que ffmpeg est installé.\n\nffmpeg -version\n\nSi ce n’est pas le cas :\n\nsudo apt update\nsudo apt install ffmpeg"
+  },
+  {
+    "objectID": "data-tips/videos/index.html#installation",
+    "href": "data-tips/videos/index.html#installation",
+    "title": "Vidéos",
+    "section": "",
+    "text": "pip install yt-dlp\n\nPar ailleurs, s’assurer que ffmpeg est installé.\n\nffmpeg -version\n\nSi ce n’est pas le cas :\n\nsudo apt update\nsudo apt install ffmpeg"
+  },
+  {
+    "objectID": "data-tips/videos/index.html#mise-à-jour",
+    "href": "data-tips/videos/index.html#mise-à-jour",
+    "title": "Vidéos",
+    "section": "Mise à jour",
+    "text": "Mise à jour\nL’intérêt d’installer avec pip est précisément de bénéficier des mises à jour plus rapidement qu’avec apt. Donc, si un téléchargement échoue :\n\npip install yt-dlp -U"
+  },
+  {
+    "objectID": "data-tips/videos/index.html#télécharger",
+    "href": "data-tips/videos/index.html#télécharger",
+    "title": "Vidéos",
+    "section": "Télécharger",
+    "text": "Télécharger\n\nyt-dlp https://www.dailymotion.com/video/x7sv5fg"
+  },
+  {
+    "objectID": "data-tips/videos/index.html#renommer",
+    "href": "data-tips/videos/index.html#renommer",
+    "title": "Vidéos",
+    "section": "Renommer",
+    "text": "Renommer\nIl arrive en effet que le téléchargement échoue simplement parce que la nom de la vidéo est trop long. Dans ce cas, on peut renommer en même temps qu’on télécharge, ainsi :\n\nyt-dlp https://youtu.be/M0yTTUt_zGA -o \"new_name.mp4\""
+  },
+  {
+    "objectID": "data-tips/videos/index.html#choisir",
+    "href": "data-tips/videos/index.html#choisir",
+    "title": "Vidéos",
+    "section": "Choisir",
+    "text": "Choisir\nPour choisir la meilleure qualité audio :\n\nyt-dlp -F &lt;url&gt; # renvoie la liste des formats téléchargeables\nyt-dlp -f &lt;id&gt; &lt;url&gt; # où l'id correspond à la première colonne"
+  },
+  {
+    "objectID": "data-tips/videos/index.html#fusionner-audio-et-video-avec-ffmpeg",
+    "href": "data-tips/videos/index.html#fusionner-audio-et-video-avec-ffmpeg",
+    "title": "Vidéos",
+    "section": "Fusionner audio et video avec ffmpeg",
+    "text": "Fusionner audio et video avec ffmpeg\nIl suffit d’ouvrir un terminal dans le dossier où sont rangés les fichiers audio et vidéo.\n\nffmpeg \\\n    -i video.mp4 -i audio.mp3 \\\n    -c:v copy \\\n    -map 0:v -map 1:a \\\n    -y output.mp4 \n\nDe très nombreuses options existent. Pour un petit aperçu, voir ce billet de blog de Linuxtricks, ou le repo github."
+  },
+  {
+    "objectID": "data-tips/asciinema/index.html",
+    "href": "data-tips/asciinema/index.html",
+    "title": "asciinema",
+    "section": "",
+    "text": "library(cli)"
+  },
+  {
+    "objectID": "data-tips/python/index.html",
+    "href": "data-tips/python/index.html",
+    "title": "Python",
+    "section": "",
+    "text": "I rely on the installation that comes with Linux.\nI installed the following packages with pipe :\n\npandas\nfolium\nplotly\njupyterlab\ngeopandas\n\nIf a serious dependency issue arises, use : pip-autoremove packagename. It will also uninstall all the dependancies. And install again with miniconda.\nNote : I had to uninstall harlequin due to a dependency conflict with jupyter.\nJupyter lab doesn’t come with an icon, I have one because I installed Jupyter Desktop and then uninstalled it. It created a Desktop configuration file in ~/.local/share/applications and added and icon to ~/local/share/icons/…"
+  },
+  {
+    "objectID": "data-tips/ocerisation/index.html",
+    "href": "data-tips/ocerisation/index.html",
+    "title": "Océrisation",
+    "section": "",
+    "text": "Voir le site de la librairie, la page github du package R et celle du plugin Zotero."
+  },
+  {
+    "objectID": "data-tips/ocerisation/index.html#installation-ubuntu",
+    "href": "data-tips/ocerisation/index.html#installation-ubuntu",
+    "title": "Océrisation",
+    "section": "Installation Ubuntu",
+    "text": "Installation Ubuntu\nVérifier s’il n’est pas déjà installé :\n\ntesseract -v\n\nSi ce n’est pas le cas :\n\nsudo apt install tesseract-ocr # installe aussi le paquet anglais\nsudo apt install tesseract-ocr-fra # installe le paquet français\nsudo apt install libtesseract-dev # developper tools : nécessaires pour installer le package R"
+  },
+  {
+    "objectID": "data-tips/ocerisation/index.html#installation-du-package-r",
+    "href": "data-tips/ocerisation/index.html#installation-du-package-r",
+    "title": "Océrisation",
+    "section": "Installation du package R",
+    "text": "Installation du package R\ntesseract dépend de pdftools, qui requiert l’installation de poppler. D’où :\n\nsudo apt install libpoppler-cpp-dev\n\nPuis :\n\ninstall.packages(\"pdftools\")\n\nSi on a oublié l’installation des developper tools, il est nécessaire de les installer. Ceci marche également :\n\nsudo apt install libtesseract-dev libleptonica-dev\n\nEnfin :\n\ninstall.packages(\"tesseract\")"
+  },
+  {
+    "objectID": "data-tips/ocerisation/index.html#installation-du-plugin-zotero",
+    "href": "data-tips/ocerisation/index.html#installation-du-plugin-zotero",
+    "title": "Océrisation",
+    "section": "Installation du plugin Zotero",
+    "text": "Installation du plugin Zotero\nDepuis le fichier .xpi, tout simplement."
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html",
+    "href": "data-tips/r-et-rstudio/index.html",
+    "title": "R et Rstudio",
+    "section": "",
+    "text": "Tout ce qu’il faut savoir sur le terminal\n\nCmd + Espace pour ouvrir “Spotlight search”\nTaper “Terminal” dans la barre de recherche"
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html#ouvrir-le-terminal",
+    "href": "data-tips/r-et-rstudio/index.html#ouvrir-le-terminal",
+    "title": "R et Rstudio",
+    "section": "",
+    "text": "Tout ce qu’il faut savoir sur le terminal\n\nCmd + Espace pour ouvrir “Spotlight search”\nTaper “Terminal” dans la barre de recherche"
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html#installer-homebrew",
+    "href": "data-tips/r-et-rstudio/index.html#installer-homebrew",
+    "title": "R et Rstudio",
+    "section": "Installer Homebrew",
+    "text": "Installer Homebrew\n\nVisitez la page de Homebrew\nInstallez le ainsi : /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html#installer-r-et-rstudio",
+    "href": "data-tips/r-et-rstudio/index.html#installer-r-et-rstudio",
+    "title": "R et Rstudio",
+    "section": "Installer R et Rstudio",
+    "text": "Installer R et Rstudio\n\nR : brew install r\nRstudio : brew cask install rstudio\nPour les mettre à jour si besoin : brew update & brew upgrade"
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html#configurer-rstudio",
+    "href": "data-tips/r-et-rstudio/index.html#configurer-rstudio",
+    "title": "R et Rstudio",
+    "section": "Configurer Rstudio",
+    "text": "Configurer Rstudio"
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html#installer-tinytex",
+    "href": "data-tips/r-et-rstudio/index.html#installer-tinytex",
+    "title": "R et Rstudio",
+    "section": "Installer Tinytex",
+    "text": "Installer Tinytex\nPour pouvoir produire des pdf avec quarto : quarto install tinytex"
+  },
+  {
     "objectID": "data-tips/site-web/index.html",
     "href": "data-tips/site-web/index.html",
     "title": "Site Web",
@@ -385,20 +553,6 @@
     "text": "Code highlighting\nPour que du code bash ressorte correctement, choisir : engine: knitr. Voir cette issue.\n\n\n\n\n\n\nAvertissement\n\n\n\nEt ne surtout pas oublier l’option `eval: false` !"
   },
   {
-    "objectID": "data-tips/visual-studio/index.html",
-    "href": "data-tips/visual-studio/index.html",
-    "title": "Visual Studio Code",
-    "section": "",
-    "text": "VS Code fonctionne avec des extensions :\nL’extension Polyglot ne supporte pas R et Julia."
-  },
-  {
-    "objectID": "data-tips/visual-studio/index.html#to-uninstall",
-    "href": "data-tips/visual-studio/index.html#to-uninstall",
-    "title": "Visual Studio Code",
-    "section": "To uninstall",
-    "text": "To uninstall\n\nsudo apt remove code\nrm ~/.config/Code\nrm ~/.vscode"
-  },
-  {
     "objectID": "data-tips/graphes/index.html",
     "href": "data-tips/graphes/index.html",
     "title": "Graphes",
@@ -406,88 +560,11 @@
     "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Graphes},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/graphes/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Graphes.” June 25, 2023. https://tblk.github.io/data-tips/graphes/."
   },
   {
-    "objectID": "data-tips/zotero/index.html",
-    "href": "data-tips/zotero/index.html",
-    "title": "Zotero",
+    "objectID": "data-tips/analyse-geometrique-des-donnees/index.html",
+    "href": "data-tips/analyse-geometrique-des-donnees/index.html",
+    "title": "Analyse géométrique des données",
     "section": "",
-    "text": "Décocher :\n\nFaire une capture automatique des pages web\nImporter automatiquement les marqueurs\nSynchroniser automatiquement les fichiers joints dans ma bibliothèque\n\n\n\n\n\n\n\nAstuce\n\n\n\nSi j’ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne).\n\n\n\n\n\n\n\n\nNote\n\n\n\nIl est toujours possible de synchroniser les fichiers joints pour les bibliothèques de groupe. On peut ainsi annoter des pdf de manière collaborative."
-  },
-  {
-    "objectID": "data-tips/zotero/index.html#préférences",
-    "href": "data-tips/zotero/index.html#préférences",
-    "title": "Zotero",
-    "section": "",
-    "text": "Décocher :\n\nFaire une capture automatique des pages web\nImporter automatiquement les marqueurs\nSynchroniser automatiquement les fichiers joints dans ma bibliothèque\n\n\n\n\n\n\n\nAstuce\n\n\n\nSi j’ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne).\n\n\n\n\n\n\n\n\nNote\n\n\n\nIl est toujours possible de synchroniser les fichiers joints pour les bibliothèques de groupe. On peut ainsi annoter des pdf de manière collaborative."
-  },
-  {
-    "objectID": "data-tips/zotero/index.html#better-bibtex",
-    "href": "data-tips/zotero/index.html#better-bibtex",
-    "title": "Zotero",
-    "section": "Better Bibtex",
-    "text": "Better Bibtex\n\nVoir les instructions ici\nLes préférences de Better Bib Tex se trouvent dans l’onglet “Outils”\nChoisir auth.lower + year comme clé de citation"
-  },
-  {
-    "objectID": "data-tips/zotero/index.html#zutilo",
-    "href": "data-tips/zotero/index.html#zutilo",
-    "title": "Zotero",
-    "section": "Zutilo",
-    "text": "Zutilo\n\nVoir les instructions ici\nAller dans Outils &gt; Préférences de Zutilo et pour “copier les champs de la notice” et “coller dans les champs vides”, choisir “menu contextuel de Zutilo”."
-  },
-  {
-    "objectID": "data-tips/zotero/index.html#styles",
-    "href": "data-tips/zotero/index.html#styles",
-    "title": "Zotero",
-    "section": "Styles",
-    "text": "Styles\nZotero styles repository & Visual CSL Editor"
-  },
-  {
-    "objectID": "data-tips/zotero/index.html#zotero-ocr",
-    "href": "data-tips/zotero/index.html#zotero-ocr",
-    "title": "Zotero",
-    "section": "Zotero OCR",
-    "text": "Zotero OCR\nLes instructions pour installer le plugin sont disponibles dans le repo github correspondant.\nSi Zotero ne trouve pas le chemin vers pdftoppm il suffit de le lui indiquer. On trouve ce chemin grâce à la commande which :\n\nwhich pdftoppm"
-  },
-  {
-    "objectID": "data-tips/big-data/index.html",
-    "href": "data-tips/big-data/index.html",
-    "title": "Big Data",
-    "section": "",
-    "text": "Benchmarks.\nUn post intéressant sur arrow et duckdb."
-  },
-  {
-    "objectID": "data-tips/big-data/index.html#arrow-dplyr",
-    "href": "data-tips/big-data/index.html#arrow-dplyr",
-    "title": "Big Data",
-    "section": "arrow + dplyr",
-    "text": "arrow + dplyr"
-  },
-  {
-    "objectID": "data-tips/big-data/index.html#duckdb-dplyr",
-    "href": "data-tips/big-data/index.html#duckdb-dplyr",
-    "title": "Big Data",
-    "section": "duckdb + dplyr",
-    "text": "duckdb + dplyr"
-  },
-  {
-    "objectID": "data-tips/big-data/index.html#dataframesmeta.jl",
-    "href": "data-tips/big-data/index.html#dataframesmeta.jl",
-    "title": "Big Data",
-    "section": "DataframesMeta.jl",
-    "text": "DataframesMeta.jl"
-  },
-  {
-    "objectID": "data-tips/big-data/index.html#polars",
-    "href": "data-tips/big-data/index.html#polars",
-    "title": "Big Data",
-    "section": "polars",
-    "text": "polars\nVoir la documentation."
-  },
-  {
-    "objectID": "data-tips/big-data/index.html#data.table",
-    "href": "data-tips/big-data/index.html#data.table",
-    "title": "Big Data",
-    "section": "data.table",
-    "text": "data.table"
+    "text": "R\n\nFactoMineR, développé par François Husson\nGDAtools, développé par Nicolas Robette\nade4, développé par le Le Laboratoire de Biométrie et Biologie Évolutive, à Lyon.\n\n\n\nPython\n\nPrince semble très prometteur. Utilise Vega-Altair pour les visualisations, qui sont donc interactives.\n\n\n\nJulia\nPas d’implémentation pour le moment semble-t-il."
   },
   {
     "objectID": "data-tips/tableaux/index.html",
@@ -509,27 +586,6 @@
     "title": "Tableaux",
     "section": "Grouper par une variable",
     "text": "Grouper par une variable"
-  },
-  {
-    "objectID": "data-tips/chaines-de-caracteres/index.html",
-    "href": "data-tips/chaines-de-caracteres/index.html",
-    "title": "Chaînes de caractères",
-    "section": "",
-    "text": "Pour remplacer tous les accents par des caractères non accentués, dans toutes les langues :\n\nx &lt;- c(\"soñar\", \"camión\", \"égoïste\")\nstringi::stri_trans_general(x, \"Latin-ASCII\")\n\n[1] \"sonar\"   \"camion\"  \"egoiste\""
-  },
-  {
-    "objectID": "data-tips/chaines-de-caracteres/index.html#remplacer-tous-les-accents",
-    "href": "data-tips/chaines-de-caracteres/index.html#remplacer-tous-les-accents",
-    "title": "Chaînes de caractères",
-    "section": "",
-    "text": "Pour remplacer tous les accents par des caractères non accentués, dans toutes les langues :\n\nx &lt;- c(\"soñar\", \"camión\", \"égoïste\")\nstringi::stri_trans_general(x, \"Latin-ASCII\")\n\n[1] \"sonar\"   \"camion\"  \"egoiste\""
-  },
-  {
-    "objectID": "data-tips/chaines-de-caracteres/index.html#nettoyage-à-options",
-    "href": "data-tips/chaines-de-caracteres/index.html#nettoyage-à-options",
-    "title": "Chaînes de caractères",
-    "section": "Nettoyage à options",
-    "text": "Nettoyage à options\n\n\n\n\n\n\nAstuce\n\n\n\nPenser au package fedmatch, et notamment à sa (très rapide) fonction clean_strings"
   },
   {
     "objectID": "index.html",
@@ -558,13 +614,6 @@
     "title": "Publications",
     "section": "Communications",
     "text": "Communications\n\n16 octobre 2023. Les éleveurs laitiers ont-ils droit au répit ? Dette, famille et aménagements du travail Colloque “Santé et Malaise en agriculture”, Laboratoire de Sociologie et d’Anthropologie de l’Université de Franche-Comté, MSA de Franche-Comté, Besançon.\n5 juin 2023. La Faillite refusée. Comment travaillent les éleveurs rescapés des crises ? Journée d’étude “Familles et parenté face aux bouleversements environnementaux : mutations et résistances”, Centre Norbert Elias & Centre Maurice Halbwachs, Marseille.\n30 janvier 2023. Le coût social des impayés. Dettes et mal-être des éleveurs. Journée d’étude “Mal-être agricole : recherches en cours & nouveaux enjeux”, Institut de recherche interdisciplinaire sur les enjeux sociaux (IRIS), EHESS, Paris.\n20 juin 2022. Trop plein juridique et vide géographique : les interdictions de sortie et leur contrôle pendant le premier confinement, avec Nicolas Mariot. Journée “Expérience du droit en Urgence Sanitaire”, Centre de Sociologie des Organisations (CSO), SciencesPo, Paris."
-  },
-  {
-    "objectID": "fiches.html",
-    "href": "fiches.html",
-    "title": "Fiches",
-    "section": "",
-    "text": "Trier par\n       Ordre par défaut\n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Titre\n        \n         \n          Auteur·rice\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitre\n\n\nAuteur·rice\n\n\n\n\n\n\n28 nov. 2023\n\n\nEndettement\n\n\nThéo Boulakia\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "enquetes.html",
@@ -602,45 +651,10 @@
     "text": "Soin des bêtes et souci de soi\nCette enquête explore, à partir d’histoires d’éleveuses et d’éleveurs, et de leur travail de tous les jours, ce que soigner les bêtes et prendre soin de soi signifient. Elle montre à quelles conditions les éleveurs parviennent à s’aménager des moments de répit, à prévenir l’usure, à se soustraire au danger, et par quels processus d’autres en viennent à sacrifier leur santé en toute connaissance de cause. J’exploite plusieurs dizaines de bases de données différentes, couvrant les conditions de travail, l’état de santé et contraintes financières des éleveurs, sur les 50 dernières années. En même temps, je travaille dans des exploitations laitières des Pays-de-la-Loire et réalise des entretiens biographiques."
   },
   {
-    "objectID": "fiches/endettement/index.html",
-    "href": "fiches/endettement/index.html",
-    "title": "Endettement",
-    "section": "",
-    "text": "Note\n\n\n\nTaux d’endettement : ensemble des dettes sur total de l’actif\nAnnuités : il s’agit uniquement des annuités des prêts à moyen et long terme.\nSource : Réseau d’information comptable.\nTous les résultats sont des moyennes."
-  },
-  {
-    "objectID": "fiches/endettement/index.html#tableau",
-    "href": "fiches/endettement/index.html#tableau",
-    "title": "Endettement",
-    "section": "",
-    "text": "Note\n\n\n\nTaux d’endettement : ensemble des dettes sur total de l’actif\nAnnuités : il s’agit uniquement des annuités des prêts à moyen et long terme.\nSource : Réseau d’information comptable.\nTous les résultats sont des moyennes."
-  },
-  {
-    "objectID": "fiches/endettement/index.html#ensemble-des-dettes",
-    "href": "fiches/endettement/index.html#ensemble-des-dettes",
-    "title": "Endettement",
-    "section": "Ensemble des dettes",
-    "text": "Ensemble des dettes"
-  },
-  {
     "objectID": "formation.html",
     "href": "formation.html",
     "title": "Formation",
     "section": "",
     "text": "J’ai été reçu au concours de l’École Normale Supérieure (ENS) en 2017, après deux ans de classe préparatoire B/L (sociologie, économie, mathématiques, histoire, philosophie, littérature, langues vivantes).\nJ’ai appris l’ethnographie, certaines méthodes statistiques et le travail d’archives au sein du Master de Sciences sociales de l’ENS, en suivant le parcours Pratique de l’Interdisciplinarité. Celui-ci offre des enseignements en anthropologie, histoire et sociologie, et met l’accent sur l’acquisition des savoir-faire des sciences sociales.\nJ’ai ensuite approfondi mes connaissances en analyse de données, d’abord par un stage à l’Institut National de la Statistique et des Études Économiques (INSEE), puis en préparant ma thèse, au Centre Maurice Halbwachs, sous la direction de Florence Weber.\nMes enquêtes combinent ethnographie et statistiques : observation participante, recueil de récits de vie, longs entretiens enregistrés, cartographie, text mining, analyse géométrique des données, modélisation, analyse de trajectoires."
-  },
-  {
-    "objectID": "data-tips.html",
-    "href": "data-tips.html",
-    "title": "Data Tips",
-    "section": "",
-    "text": "Trier par\n       Ordre par défaut\n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Titre\n        \n         \n          Auteur·rice\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitre\n\n\nAuteur·rice\n\n\n\n\n\n\n26 déc. 2023\n\n\nDuckDB\n\n\nThéo Boulakia\n\n\n\n\n3 nov. 2023\n\n\nasciinema\n\n\nThéo Boulakia\n\n\n\n\n30 oct. 2023\n\n\nRégression logistique ordinale\n\n\nThéo Boulakia\n\n\n\n\n29 oct. 2023\n\n\nBig Data\n\n\nThéo Boulakia\n\n\n\n\n28 oct. 2023\n\n\nJulia\n\n\nThéo Boulakia\n\n\n\n\n28 oct. 2023\n\n\nVisual Studio Code\n\n\nThéo Boulakia\n\n\n\n\n21 oct. 2023\n\n\nSpark\n\n\nThéo Boulakia\n\n\n\n\n20 oct. 2023\n\n\nOcérisation\n\n\nThéo Boulakia\n\n\n\n\n9 oct. 2023\n\n\nImages\n\n\nThéo Boulakia\n\n\n\n\n30 sept. 2023\n\n\nChaînes de caractères\n\n\nThéo Boulakia\n\n\n\n\n28 sept. 2023\n\n\nVidéos\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nZettlr\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nDonnées spatiales\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nR et Rstudio\n\n\nThéo Boulakia\n\n\n\n\n30 juin 2023\n\n\nZotero\n\n\nThéo Boulakia\n\n\n\n\n\n30 juin 2023\n\n\nTableaux\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nBases de données\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nGit et Github\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nSite Web\n\n\nThéo Boulakia\n\n\n\n\n25 juin 2023\n\n\nGraphes\n\n\nThéo Boulakia\n\n\n\n\n\n\nAucun article correspondant"
-  },
-  {
-    "objectID": "cours.html",
-    "href": "cours.html",
-    "title": "Cours",
-    "section": "",
-    "text": "Je donne deux types de cours : des cours de sciences sociales et des cours d’analyse de données avec R."
   }
 ]

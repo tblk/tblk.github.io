@@ -1,5 +1,6 @@
 ---
 title: "Analyse géométrique des données"
+date: 2024-01-16
 ---
 
 # R

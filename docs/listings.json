@@ -1,13 +1,9 @@
 [
   {
-    "listing": "/fiches.html",
-    "items": [
-      "/fiches/endettement/index.html"
-    ]
-  },
-  {
     "listing": "/data-tips.html",
     "items": [
+      "/data-tips/python/index.html",
+      "/data-tips/analyse-geometrique-des-donnees/index.html",
       "/data-tips/duckdb/index.html",
       "/data-tips/asciinema/index.html",
       "/data-tips/regression-logistique-ordinale/index.html",
@@ -28,6 +24,12 @@
       "/data-tips/git-et-github/index.html",
       "/data-tips/site-web/index.html",
       "/data-tips/graphes/index.html"
+    ]
+  },
+  {
+    "listing": "/fiches.html",
+    "items": [
+      "/fiches/endettement/index.html"
     ]
   }
 ]
