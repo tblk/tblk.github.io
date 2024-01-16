@@ -1,0 +1,19 @@
+---
+title: "Analyse géométrique des données"
+---
+
+# R
+
+-   [FactoMineR](http://factominer.free.fr/index_fr.html), développé par François Husson
+
+-   [GDAtools](https://nicolas-robette.github.io/GDAtools/), développé par Nicolas Robette
+
+-   [ade4](http://sdray.github.io/ade4/), développé par le Le Laboratoire de Biométrie et Biologie Évolutive, à Lyon.
+
+# Python
+
+-   [Prince](https://maxhalford.github.io/prince/) semble très prometteur. Utilise [Vega-Altair](https://github.com/altair-viz/altair) pour les visualisations, qui sont donc interactives.
+
+# Julia
+
+Pas d'implémentation pour le moment semble-t-il.
