@@ -5,6 +5,10 @@ date: 2024-01-16
 
 # R
 
+::: callout-note
+[UtilitR](https://www.book.utilitr.org/03_fiches_thematiques/fiche_analyse_de_donnees) conseille le duo `FactoMineR` + `factoextra`.
+:::
+
 -   [FactoMineR](http://factominer.free.fr/index_fr.html), développé par François Husson
 
 -   [GDAtools](https://nicolas-robette.github.io/GDAtools/), développé par Nicolas Robette

@@ -1,18 +1,22 @@
 ---
 title: "Python"
+date: 2024-01-10
+date-modified: today
 ---
 
 I rely on the installation that comes with Linux.
 
-I installed the following packages with pipe :
+I installed the following packages with pip :
 
 - pandas
 - folium
 - plotly
 - jupyterlab
 - geopandas
+- polars
+- duckdb
 
-If a serious dependency issue arises, use : pip-autoremove packagename. It will also uninstall all the dependancies. And install again with miniconda.
+If a serious dependency issue arises, use : `pip-autoremove <packagename>`. It will also uninstall all the dependancies. And install again with miniconda. Or use venv.
 
 Note : I had to uninstall harlequin due to a dependency conflict with jupyter.
 

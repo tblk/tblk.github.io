@@ -2,8 +2,8 @@
   {
     "listing": "/data-tips.html",
     "items": [
-      "/data-tips/python/index.html",
       "/data-tips/analyse-geometrique-des-donnees/index.html",
+      "/data-tips/python/index.html",
       "/data-tips/duckdb/index.html",
       "/data-tips/asciinema/index.html",
       "/data-tips/regression-logistique-ordinale/index.html",
