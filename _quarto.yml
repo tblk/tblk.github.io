@@ -15,12 +15,11 @@ website:
       - enquetes.qmd
       - publications.qmd
       - cours.qmd
-      - fiches.qmd
       - data-tips.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: darkly
     css: styles.css
     toc: true
 

@@ -1,0 +1,12 @@
+---
+title: "LimeSurvey"
+date: 2024-01-25
+---
+
+Une interface web particulièrement intuitive. Il suffit de créer un compte. 
+
+Groupes de questions. Choisir :
+
+- Le code de la question
+- Son titre
+- Le type de réponse attendu. Texte brut, choix prédéfinis (genre ou date par exemple)...
