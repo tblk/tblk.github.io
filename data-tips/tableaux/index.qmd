@@ -1,6 +1,6 @@
 ---
 title: "Tableaux"
-description: Quelques astuces pour faire bon usage du package huxtable
+description: Comparaisons de packages populaires
 date: 2023-06-30
 categories: [Visualiser]
 citation: 
@@ -8,10 +8,7 @@ citation:
 draft: false
 ---
 
-```{r packages}
-library(huxtable)
-```
-
+# Huxtable
 
 ## Afficher les nombres tels qu'ils sont
 
@@ -28,11 +25,19 @@ data = tibble::tribble(
 ```
 
 ```{r huxtable}
-data |> as_hux()
+data |> huxtable::as_hux()
 ```
 
 ```{r enhanced_huxtable}
-data |> as_hux() |> set_number_format(NA)
+data |> huxtable::as_hux() |> huxtable::set_number_format(NA)
 ```
 
 ## Grouper par une variable
+
+# Modelsummary
+
+Pour des statistiques descriptives et des résumés de modèles. Peut être utilisé avec huxtable, DT, gt...
+
+# Tinytable
+
+Vincent Arel-Bundock, l'auteur de modelsummary (c'est aussi celui de countrycode et softbib). Zéro dépendance. 
