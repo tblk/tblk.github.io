@@ -1,5 +1,5 @@
 ---
-title: "Inspiration"
+title: "Follow"
 ---
 
 -   [Tanya Shapiro](https://tanyaviz.com/)
@@ -21,3 +21,9 @@ title: "Inspiration"
 -   [Learn Data with Mark](https://www.youtube.com/@learndatawithmark) (youtube)
 
 -   [Pablo Aguirre](https://pabloagn.com/)
+
+- [Lino Galiana](https://pythonds.linogaliana.fr/)
+
+- [Andreas Handel](https://www.andreashandel.com/posts.html)
+
+- [Andrew Heiss](https://www.andrewheiss.com/blog/)
