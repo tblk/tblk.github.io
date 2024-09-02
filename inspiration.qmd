@@ -1,0 +1,23 @@
+---
+title: "Inspiration"
+---
+
+-   [Tanya Shapiro](https://tanyaviz.com/)
+
+-   [Allison Horst](https://allisonhorst.com/allison-horst)
+
+-   [Nadieh Bremer](https://www.visualcinnamon.com/)
+
+-   [Danielle Navarro](https://djnavarro.net/)
+
+-   [Milos Popovic](https://milospopovic.net/)
+
+-   [Éric Mauvière](https://www.icem7.fr/)
+
+-   [Makie.jl](https://makie.org/)
+
+-   [Talk Python](https://talkpython.fm/episodes/all) (podcast)
+
+-   [Learn Data with Mark](https://www.youtube.com/@learndatawithmark) (youtube)
+
+-   [Pablo Aguirre](https://pabloagn.com/)
