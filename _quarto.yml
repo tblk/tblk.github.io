@@ -11,10 +11,10 @@ website:
     left:
       - href: index.qmd
         text: Accueil
-      - formation.qmd
-      - enquetes.qmd
+      # - formation.qmd
+      # - enquetes.qmd
       - publications.qmd
-      - cours.qmd
+      # - cours.qmd
       - data-tips.qmd
 
 format:

@@ -3,6 +3,9 @@ title: "Data Tips"
 listing: 
   contents: data-tips
   type: table
-  sort: "date desc"
+  fields: 
+    - title
+  sort: "title"
+  sort-ui: false
   categories: true 
 ---

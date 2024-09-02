@@ -7,8 +7,13 @@ title: "Publications"
 Avec Nicolas Mariot. *L'Attestation. Une expérience d'obéissance de masse, printemps 2020*, septembre 2023, 400 pages.
 
 ::: callout-note
-Voir le [site compagnon](https://l-attestation.github.io) du livre et le [site de l'éditeur](https://anamosa.fr/livre/lattestation-une-experience-dobeissance-de-masse-printemps-2020/).
+Voir le [site compagnon](https://l-attestation.github.io) du livre.
 :::
+
+## Articles
+
+- 2024, "Ambivalence de l’attachement au travail. Le cas de l’élevage laitier", *Sociologie du travail*, 66(2) [https://doi.org/10.4000/11o4v](https://doi.org/10.4000/11o4v)
+
 
 ## Communications
 
