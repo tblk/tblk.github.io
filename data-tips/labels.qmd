@@ -1,0 +1,30 @@
+---
+title: "Labels"
+---
+
+# Dictionnaire
+
+```{r}
+description <- tibble(
+  name = c(
+    "Sepal.Length", "Sepal.Width", "Petal.Length", "Petal.Width"
+  ),
+  label = c(
+    "Sepal length", "Sepal width", "Petal length", "Petal width"
+  )
+)
+```
+
+# Label
+
+SPÉCIFIER L'ARGUMENT `.labels` car !!!splicing pas nécessaire SI ARGUMENT .labels !
+
+```{r}
+v1 <- setNames(as.list(description$label), description$name)
+
+v2 <- description |> deframe() |> as.list()
+
+iris_labelled <- iris %>%
+  labelled::set_variable_labels(.labels = v2, .strict = T)
+```
+
