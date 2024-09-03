@@ -13,6 +13,7 @@
       "/data-tips/graphes/index.html",
       "/data-tips/images/index.html",
       "/data-tips/julia/index.html",
+      "/data-tips/labels.html",
       "/data-tips/limesurvey/index.html",
       "/data-tips/ocerisation/index.html",
       "/data-tips/python/index.html",
@@ -24,8 +25,7 @@
       "/data-tips/videos/index.html",
       "/data-tips/visual-studio/index.html",
       "/data-tips/zettlr/index.html",
-      "/data-tips/zotero/index.html",
-      "/data-tips/asciinema/index.html"
+      "/data-tips/zotero/index.html"
     ]
   }
 ]

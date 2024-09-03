@@ -11,7 +11,7 @@
     "href": "data-tips.html",
     "title": "Data Tips",
     "section": "",
-    "text": "Titre\n\n\n\n\n\n\nAnalyse géométrique des données\n\n\n\n\nBases de données\n\n\n\n\nBig Data\n\n\n\n\nChaînes de caractères\n\n\n\n\nDonnées spatiales\n\n\n\n\nDuckDB\n\n\n\n\nFollow\n\n\n\n\nGit et Github\n\n\n\n\nGraphes\n\n\n\n\nImages\n\n\n\n\nJulia\n\n\n\n\nLimeSurvey\n\n\n\n\nOcérisation\n\n\n\n\nPython\n\n\n\n\nR et Rstudio\n\n\n\n\nRégression logistique ordinale\n\n\n\n\nSite Web\n\n\n\n\nSpark\n\n\n\n\nTableaux\n\n\n\n\nVidéos\n\n\n\n\nVisual Studio Code\n\n\n\n\nZettlr\n\n\n\n\nZotero\n\n\n\n\nasciinema\n\n\n\n\n\nAucun article correspondant"
+    "text": "Titre\n\n\n\n\n\n\nAnalyse géométrique des données\n\n\n\n\nBases de données\n\n\n\n\nBig Data\n\n\n\n\nChaînes de caractères\n\n\n\n\nDonnées spatiales\n\n\n\n\nDuckDB\n\n\n\n\nFollow\n\n\n\n\nGit et Github\n\n\n\n\nGraphes\n\n\n\n\nImages\n\n\n\n\nJulia\n\n\n\n\nLabels\n\n\n\n\nLimeSurvey\n\n\n\n\nOcérisation\n\n\n\n\nPython\n\n\n\n\nR et Rstudio\n\n\n\n\nRégression logistique ordinale\n\n\n\n\nSite Web\n\n\n\n\nSpark\n\n\n\n\nTableaux\n\n\n\n\nVidéos\n\n\n\n\nVisual Studio Code\n\n\n\n\nZettlr\n\n\n\n\nZotero\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "enquetes.html",
@@ -112,60 +112,347 @@
     "text": "data.table"
   },
   {
-    "objectID": "data-tips/zotero/index.html",
-    "href": "data-tips/zotero/index.html",
-    "title": "Zotero",
+    "objectID": "data-tips/labels.html",
+    "href": "data-tips/labels.html",
+    "title": "Labels",
     "section": "",
-    "text": "Décocher :\n\nFaire une capture automatique des pages web\nImporter automatiquement les marqueurs\nSynchroniser automatiquement les fichiers joints dans ma bibliothèque\n\n\n\n\n\n\n\nAstuce\n\n\n\nSi j’ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne).\n\n\n\n\n\n\n\n\nNote\n\n\n\nIl est toujours possible de synchroniser les fichiers joints pour les bibliothèques de groupe. On peut ainsi annoter des pdf de manière collaborative."
+    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n\nDictionnaire\n\ndescription &lt;- tibble(\n  name = c(\n    \"Sepal.Length\", \"Sepal.Width\", \"Petal.Length\", \"Petal.Width\"\n  ),\n  label = c(\n    \"Sepal length\", \"Sepal width\", \"Petal length\", \"Petal width\"\n  )\n)\n\n\n\nLabel\nSPÉCIFIER L’ARGUMENT .labels car !!!splicing pas nécessaire SI ARGUMENT .labels !\n\nv1 &lt;- setNames(as.list(description$label), description$name)\n\nv2 &lt;- description |&gt; deframe() |&gt; as.list()\n\niris_labelled &lt;- iris %&gt;%\n  labelled::set_variable_labels(.labels = v2, .strict = T)"
   },
   {
-    "objectID": "data-tips/zotero/index.html#préférences",
-    "href": "data-tips/zotero/index.html#préférences",
-    "title": "Zotero",
+    "objectID": "data-tips/graphes/index.html",
+    "href": "data-tips/graphes/index.html",
+    "title": "Graphes",
     "section": "",
-    "text": "Décocher :\n\nFaire une capture automatique des pages web\nImporter automatiquement les marqueurs\nSynchroniser automatiquement les fichiers joints dans ma bibliothèque\n\n\n\n\n\n\n\nAstuce\n\n\n\nSi j’ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne).\n\n\n\n\n\n\n\n\nNote\n\n\n\nIl est toujours possible de synchroniser les fichiers joints pour les bibliothèques de groupe. On peut ainsi annoter des pdf de manière collaborative."
+    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Graphes},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/graphes/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Graphes.” June 25, 2023. https://tblk.github.io/data-tips/graphes/."
   },
   {
-    "objectID": "data-tips/zotero/index.html#better-bibtex",
-    "href": "data-tips/zotero/index.html#better-bibtex",
-    "title": "Zotero",
-    "section": "Better Bibtex",
-    "text": "Better Bibtex\n\nVoir les instructions ici\nLes préférences de Better Bib Tex se trouvent dans l’onglet “Outils”\nChoisir auth.lower + year comme clé de citation"
-  },
-  {
-    "objectID": "data-tips/zotero/index.html#zutilo",
-    "href": "data-tips/zotero/index.html#zutilo",
-    "title": "Zotero",
-    "section": "Zutilo",
-    "text": "Zutilo\n\nVoir les instructions ici\nAller dans Outils &gt; Préférences de Zutilo et pour “copier les champs de la notice” et “coller dans les champs vides”, choisir “menu contextuel de Zutilo”."
-  },
-  {
-    "objectID": "data-tips/zotero/index.html#styles",
-    "href": "data-tips/zotero/index.html#styles",
-    "title": "Zotero",
-    "section": "Styles",
-    "text": "Styles\nZotero styles repository & Visual CSL Editor"
-  },
-  {
-    "objectID": "data-tips/zotero/index.html#zotero-ocr",
-    "href": "data-tips/zotero/index.html#zotero-ocr",
-    "title": "Zotero",
-    "section": "Zotero OCR",
-    "text": "Zotero OCR\nLes instructions pour installer le plugin sont disponibles dans le repo github correspondant.\nSi Zotero ne trouve pas le chemin vers pdftoppm il suffit de le lui indiquer. On trouve ce chemin grâce à la commande which :\n\nwhich pdftoppm"
-  },
-  {
-    "objectID": "data-tips/visual-studio/index.html",
-    "href": "data-tips/visual-studio/index.html",
-    "title": "Visual Studio Code",
+    "objectID": "data-tips/site-web/index.html",
+    "href": "data-tips/site-web/index.html",
+    "title": "Site Web",
     "section": "",
-    "text": "VS Code fonctionne avec des extensions :\nL’extension Polyglot ne supporte pas R et Julia."
+    "text": "Crée un nouveau repo sur Github.\nClone le.\nOuvre le terminal dans le répertoire du projet (Alt + Maj + M dans Rstudio) et crée un projet de type website.\nquarto create-project &lt;site-name&gt; --type website\nOu :\nquarto create project website /\nquarto render"
   },
   {
-    "objectID": "data-tips/visual-studio/index.html#to-uninstall",
-    "href": "data-tips/visual-studio/index.html#to-uninstall",
-    "title": "Visual Studio Code",
-    "section": "To uninstall",
-    "text": "To uninstall\n\nsudo apt remove code\nrm ~/.config/Code\nrm ~/.vscode"
+    "objectID": "data-tips/site-web/index.html#preview-image",
+    "href": "data-tips/site-web/index.html#preview-image",
+    "title": "Site Web",
+    "section": "Preview image",
+    "text": "Preview image\nPour qu’un graphique en particulier serve de preview image :\n```{r}\n#| classes: preview-image\nplot(mtcars)\n```"
+  },
+  {
+    "objectID": "data-tips/site-web/index.html#code-highlighting",
+    "href": "data-tips/site-web/index.html#code-highlighting",
+    "title": "Site Web",
+    "section": "Code highlighting",
+    "text": "Code highlighting\nPour que du code bash ressorte correctement, choisir : engine: knitr. Voir cette issue.\n\n\n\n\n\n\nAvertissement\n\n\n\nEt ne surtout pas oublier l’option `eval: false` !"
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html",
+    "href": "data-tips/r-et-rstudio/index.html",
+    "title": "R et Rstudio",
+    "section": "",
+    "text": "Tout ce qu’il faut savoir sur le terminal\n\nCmd + Espace pour ouvrir “Spotlight search”\nTaper “Terminal” dans la barre de recherche"
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html#ouvrir-le-terminal",
+    "href": "data-tips/r-et-rstudio/index.html#ouvrir-le-terminal",
+    "title": "R et Rstudio",
+    "section": "",
+    "text": "Tout ce qu’il faut savoir sur le terminal\n\nCmd + Espace pour ouvrir “Spotlight search”\nTaper “Terminal” dans la barre de recherche"
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html#installer-homebrew",
+    "href": "data-tips/r-et-rstudio/index.html#installer-homebrew",
+    "title": "R et Rstudio",
+    "section": "Installer Homebrew",
+    "text": "Installer Homebrew\n\nVisitez la page de Homebrew\nInstallez le ainsi : /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html#installer-r-et-rstudio",
+    "href": "data-tips/r-et-rstudio/index.html#installer-r-et-rstudio",
+    "title": "R et Rstudio",
+    "section": "Installer R et Rstudio",
+    "text": "Installer R et Rstudio\n\nR : brew install r\nRstudio : brew cask install rstudio\nPour les mettre à jour si besoin : brew update & brew upgrade"
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html#configurer-rstudio",
+    "href": "data-tips/r-et-rstudio/index.html#configurer-rstudio",
+    "title": "R et Rstudio",
+    "section": "Configurer Rstudio",
+    "text": "Configurer Rstudio"
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html#installer-tinytex",
+    "href": "data-tips/r-et-rstudio/index.html#installer-tinytex",
+    "title": "R et Rstudio",
+    "section": "Installer Tinytex",
+    "text": "Installer Tinytex\nPour pouvoir produire des pdf avec quarto : quarto install tinytex"
+  },
+  {
+    "objectID": "data-tips/ocerisation/index.html",
+    "href": "data-tips/ocerisation/index.html",
+    "title": "Océrisation",
+    "section": "",
+    "text": "Voir le site de la librairie, la page github du package R et celle du plugin Zotero."
+  },
+  {
+    "objectID": "data-tips/ocerisation/index.html#installation-ubuntu",
+    "href": "data-tips/ocerisation/index.html#installation-ubuntu",
+    "title": "Océrisation",
+    "section": "Installation Ubuntu",
+    "text": "Installation Ubuntu\nVérifier s’il n’est pas déjà installé :\n\ntesseract -v\n\nSi ce n’est pas le cas :\n\nsudo apt install tesseract-ocr # installe aussi le paquet anglais\nsudo apt install tesseract-ocr-fra # installe le paquet français\nsudo apt install libtesseract-dev # developper tools : nécessaires pour installer le package R"
+  },
+  {
+    "objectID": "data-tips/ocerisation/index.html#installation-du-package-r",
+    "href": "data-tips/ocerisation/index.html#installation-du-package-r",
+    "title": "Océrisation",
+    "section": "Installation du package R",
+    "text": "Installation du package R\ntesseract dépend de pdftools, qui requiert l’installation de poppler. D’où :\n\nsudo apt install libpoppler-cpp-dev\n\nPuis :\n\ninstall.packages(\"pdftools\")\n\nSi on a oublié l’installation des developper tools, il est nécessaire de les installer. Ceci marche également :\n\nsudo apt install libtesseract-dev libleptonica-dev\n\nEnfin :\n\ninstall.packages(\"tesseract\")"
+  },
+  {
+    "objectID": "data-tips/ocerisation/index.html#installation-du-plugin-zotero",
+    "href": "data-tips/ocerisation/index.html#installation-du-plugin-zotero",
+    "title": "Océrisation",
+    "section": "Installation du plugin Zotero",
+    "text": "Installation du plugin Zotero\nDepuis le fichier .xpi, tout simplement."
+  },
+  {
+    "objectID": "data-tips/python/index.html",
+    "href": "data-tips/python/index.html",
+    "title": "Python",
+    "section": "",
+    "text": "I rely on the installation that comes with Linux.\nI installed the following packages with pip :\n\npandas\nfolium\nplotly\njupyterlab\ngeopandas\npolars\nduckdb\n\nIf a serious dependency issue arises, use : pip-autoremove &lt;packagename&gt;. It will also uninstall all the dependancies. And install again with miniconda. Or use venv.\nNote : I had to uninstall harlequin due to a dependency conflict with jupyter.\nJupyter lab doesn’t come with an icon, I have one because I installed Jupyter Desktop and then uninstalled it. It created a Desktop configuration file in ~/.local/share/applications and added and icon to ~/local/share/icons/…"
+  },
+  {
+    "objectID": "data-tips/videos/index.html",
+    "href": "data-tips/videos/index.html",
+    "title": "Vidéos",
+    "section": "",
+    "text": "pip install yt-dlp\n\nPar ailleurs, s’assurer que ffmpeg est installé.\n\nffmpeg -version\n\nSi ce n’est pas le cas :\n\nsudo apt update\nsudo apt install ffmpeg"
+  },
+  {
+    "objectID": "data-tips/videos/index.html#installation",
+    "href": "data-tips/videos/index.html#installation",
+    "title": "Vidéos",
+    "section": "",
+    "text": "pip install yt-dlp\n\nPar ailleurs, s’assurer que ffmpeg est installé.\n\nffmpeg -version\n\nSi ce n’est pas le cas :\n\nsudo apt update\nsudo apt install ffmpeg"
+  },
+  {
+    "objectID": "data-tips/videos/index.html#mise-à-jour",
+    "href": "data-tips/videos/index.html#mise-à-jour",
+    "title": "Vidéos",
+    "section": "Mise à jour",
+    "text": "Mise à jour\nL’intérêt d’installer avec pip est précisément de bénéficier des mises à jour plus rapidement qu’avec apt. Donc, si un téléchargement échoue :\n\npip install yt-dlp -U"
+  },
+  {
+    "objectID": "data-tips/videos/index.html#télécharger",
+    "href": "data-tips/videos/index.html#télécharger",
+    "title": "Vidéos",
+    "section": "Télécharger",
+    "text": "Télécharger\n\nyt-dlp https://www.dailymotion.com/video/x7sv5fg"
+  },
+  {
+    "objectID": "data-tips/videos/index.html#renommer",
+    "href": "data-tips/videos/index.html#renommer",
+    "title": "Vidéos",
+    "section": "Renommer",
+    "text": "Renommer\nIl arrive en effet que le téléchargement échoue simplement parce que la nom de la vidéo est trop long. Dans ce cas, on peut renommer en même temps qu’on télécharge, ainsi :\n\nyt-dlp https://youtu.be/M0yTTUt_zGA -o \"new_name.mp4\""
+  },
+  {
+    "objectID": "data-tips/videos/index.html#choisir",
+    "href": "data-tips/videos/index.html#choisir",
+    "title": "Vidéos",
+    "section": "Choisir",
+    "text": "Choisir\nPour choisir la meilleure qualité audio :\n\nyt-dlp -F &lt;url&gt; # renvoie la liste des formats téléchargeables\nyt-dlp -f &lt;id&gt; &lt;url&gt; # où l'id correspond à la première colonne"
+  },
+  {
+    "objectID": "data-tips/videos/index.html#fusionner-audio-et-video-avec-ffmpeg",
+    "href": "data-tips/videos/index.html#fusionner-audio-et-video-avec-ffmpeg",
+    "title": "Vidéos",
+    "section": "Fusionner audio et video avec ffmpeg",
+    "text": "Fusionner audio et video avec ffmpeg\nIl suffit d’ouvrir un terminal dans le dossier où sont rangés les fichiers audio et vidéo.\n\nffmpeg \\\n    -i video.mp4 -i audio.mp3 \\\n    -c:v copy \\\n    -map 0:v -map 1:a \\\n    -y output.mp4 \n\nDe très nombreuses options existent. Pour un petit aperçu, voir ce billet de blog de Linuxtricks, ou le repo github."
+  },
+  {
+    "objectID": "data-tips/limesurvey/index.html",
+    "href": "data-tips/limesurvey/index.html",
+    "title": "LimeSurvey",
+    "section": "",
+    "text": "Une interface web particulièrement intuitive. Il suffit de créer un compte.\nGroupes de questions. Choisir :\n\nLe code de la question\nSon titre\nLe type de réponse attendu. Texte brut, choix prédéfinis (genre ou date par exemple)…"
+  },
+  {
+    "objectID": "data-tips/follow/index.html",
+    "href": "data-tips/follow/index.html",
+    "title": "Follow",
+    "section": "",
+    "text": "Tanya Shapiro\nAllison Horst\nNadieh Bremer\nDanielle Navarro\nMilos Popovic\nÉric Mauvière\nMakie.jl\nTalk Python (podcast)\nLearn Data with Mark (youtube)\nPablo Aguirre\nLino Galiana\nAndreas Handel\nAndrew Heiss"
+  },
+  {
+    "objectID": "data-tips/zettlr/index.html",
+    "href": "data-tips/zettlr/index.html",
+    "title": "Zettlr",
+    "section": "",
+    "text": "Pour Linux : télécharger le fichier .deb\nPour Mac : brew install --cask zettlr"
+  },
+  {
+    "objectID": "data-tips/zettlr/index.html#installer",
+    "href": "data-tips/zettlr/index.html#installer",
+    "title": "Zettlr",
+    "section": "",
+    "text": "Pour Linux : télécharger le fichier .deb\nPour Mac : brew install --cask zettlr"
+  },
+  {
+    "objectID": "data-tips/zettlr/index.html#paramétrer",
+    "href": "data-tips/zettlr/index.html#paramétrer",
+    "title": "Zettlr",
+    "section": "Paramétrer",
+    "text": "Paramétrer\n\nGénéral &gt; Mode gestionnaire de fichiers &gt; Combiné\nGénéral &gt; Afficher &gt; Nom de fichier seulement\nÉditeur &gt; Taille de police &gt; 20\nCitations : après avoir exporté la bibliothèque désirée depuis Zotero, au format Better CSL Json, et coché l’option “garder à jour”.\nAfficher &gt; Thème &gt; Frankfurt\nVérification orthographique &gt; fr"
+  },
+  {
+    "objectID": "data-tips/zettlr/index.html#réinitialiser",
+    "href": "data-tips/zettlr/index.html#réinitialiser",
+    "title": "Zettlr",
+    "section": "Réinitialiser",
+    "text": "Réinitialiser\nrm -r /home/theo/.config/Zettlr"
+  },
+  {
+    "objectID": "data-tips/bases-de-donnees/index.html",
+    "href": "data-tips/bases-de-donnees/index.html",
+    "title": "Bases de données",
+    "section": "",
+    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Bases de données},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/bases-de-donnees/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Bases de données.” June 25, 2023. https://tblk.github.io/data-tips/bases-de-donnees/."
+  },
+  {
+    "objectID": "data-tips/duckdb/index.html",
+    "href": "data-tips/duckdb/index.html",
+    "title": "DuckDb",
+    "section": "",
+    "text": "Pour CLI, c’est simplissime : télécharger les precompiled binaries, extraidre duckdb dans le home directory, puis le déplacer dans /usr/local/bin :\nsudo mv ~/duckdb /usr/local/bin"
+  },
+  {
+    "objectID": "data-tips/duckdb/index.html#installation",
+    "href": "data-tips/duckdb/index.html#installation",
+    "title": "DuckDb",
+    "section": "",
+    "text": "Pour CLI, c’est simplissime : télécharger les precompiled binaries, extraidre duckdb dans le home directory, puis le déplacer dans /usr/local/bin :\nsudo mv ~/duckdb /usr/local/bin"
+  },
+  {
+    "objectID": "data-tips/duckdb/index.html#utile",
+    "href": "data-tips/duckdb/index.html#utile",
+    "title": "DuckDb",
+    "section": "Utile",
+    "text": "Utile\nL’auto-complétion : grâce au charactère TAB, c’est à dire CTRL + I. Attention, pour que l’auto-complétion fonctionne pour les chemins vers les fichiers, bien utiliser ’ et pas “.\nNe pas oublier de terminer chaque SQL statement par ;\nPour quitter duckdb, juste Ctrl + D."
+  },
+  {
+    "objectID": "data-tips/duckdb/index.html#convertir-un-fichier-csv-en-parquet",
+    "href": "data-tips/duckdb/index.html#convertir-un-fichier-csv-en-parquet",
+    "title": "DuckDb",
+    "section": "Convertir un fichier csv en parquet",
+    "text": "Convertir un fichier csv en parquet\nVoir la documentation sur les fichiers CSV dans Data Import. Aussi simple que :\nCREATE TABLE ontime AS FROM 'flights.csv'; # lire le fichier csv dans une table\n\nCOPY (FROM ontime) TO 'flights.parquet'; # l'écrire dans un fichier parquet"
+  },
+  {
+    "objectID": "data-tips/regression-logistique-ordinale/index.html",
+    "href": "data-tips/regression-logistique-ordinale/index.html",
+    "title": "Régression logistique ordinale",
+    "section": "",
+    "text": "ordinal\nMASS\nVGAM"
+  },
+  {
+    "objectID": "data-tips/regression-logistique-ordinale/index.html#packages-possibles",
+    "href": "data-tips/regression-logistique-ordinale/index.html#packages-possibles",
+    "title": "Régression logistique ordinale",
+    "section": "",
+    "text": "ordinal\nMASS\nVGAM"
+  },
+  {
+    "objectID": "data-tips/regression-logistique-ordinale/index.html#parallel-slopes-assumption",
+    "href": "data-tips/regression-logistique-ordinale/index.html#parallel-slopes-assumption",
+    "title": "Régression logistique ordinale",
+    "section": "Parallel slopes assumption",
+    "text": "Parallel slopes assumption\nAussi appelée proportionnal odds assumption : the relationship between each pair of outcome groups is the same.\nAnd if it is not the case ?\nLe “proportionnal odds model” est un modèle de régression logistique ordinal parmi d’autres.\nMASS::polar stands for proportionnal odds logistic regression."
+  },
+  {
+    "objectID": "data-tips/regression-logistique-ordinale/index.html#logistic-regression-vs-probit-regression",
+    "href": "data-tips/regression-logistique-ordinale/index.html#logistic-regression-vs-probit-regression",
+    "title": "Régression logistique ordinale",
+    "section": "Logistic regression vs Probit regression",
+    "text": "Logistic regression vs Probit regression"
+  },
+  {
+    "objectID": "data-tips/donnees-spatiales/index.html",
+    "href": "data-tips/donnees-spatiales/index.html",
+    "title": "Données spatiales",
+    "section": "",
+    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Données spatiales},\n  date = {2023-06-30},\n  url = {https://tblk.github.io/data-tips/read-spatial-subset/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Données spatiales.” June 30, 2023.\nhttps://tblk.github.io/data-tips/read-spatial-subset/."
+  },
+  {
+    "objectID": "data-tips/spark/index.html",
+    "href": "data-tips/spark/index.html",
+    "title": "Spark",
+    "section": "",
+    "text": "Installation du package R sparklyr\n\ninstall.packages(\"sparklyr\")\n\n\n\nInstallation de Java\nPour installer Spark, il faut d’abord installer Java.\n\njava -v # vérifier que java n'est pas installé\nsudo apt update\nsudo apt install default-jre\nsudo apt install default-jdk\n\n\n\nInstaller Spark\nToutes les dernières versions de Spark ne fonctionnent pas avec la dernière version de Java, d’où :\n\nsparklyr::spark_install(version = \"3.1\")\n\n\n\nSe connecter\n\nsc &lt;- sparklyr::spark_connect(master = \"local\")\nsparklyr::spark_disconnect(\"sc\")\n\n\n\nPourquoi Spark ?\nEssentiellement pour la modélisation sur des données volumineuses. Pour les manipulations simples il est semble beaucoup plus simple d’utiliser arrow, éventuellement en conjonction avec duckdb.\n\n\n\n\nCitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Spark},\n  date = {2023-10-21},\n  url = {https://tblk.github.io/data-tips/spark/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Spark.” October 21, 2023. https://tblk.github.io/data-tips/spark/."
+  },
+  {
+    "objectID": "data-tips/images/index.html",
+    "href": "data-tips/images/index.html",
+    "title": "Images",
+    "section": "",
+    "text": "convert image.jpg image.png"
+  },
+  {
+    "objectID": "data-tips/images/index.html#convertir-une-image",
+    "href": "data-tips/images/index.html#convertir-une-image",
+    "title": "Images",
+    "section": "",
+    "text": "convert image.jpg image.png"
+  },
+  {
+    "objectID": "data-tips/images/index.html#compresser-une-image",
+    "href": "data-tips/images/index.html#compresser-une-image",
+    "title": "Images",
+    "section": "Compresser une image",
+    "text": "Compresser une image\n\nconvert image.jpg[50%x50%] -quality 70 compressed_image.jpg"
+  },
+  {
+    "objectID": "data-tips/images/index.html#passer-en-nuances-de-gris",
+    "href": "data-tips/images/index.html#passer-en-nuances-de-gris",
+    "title": "Images",
+    "section": "Passer en nuances de gris",
+    "text": "Passer en nuances de gris\nIci, on utilise le package magick, qui rend accessible depuis R la librairie ImageMagick.\n\n\n\nHyla japonica, 1er septembre 2008, 池田正樹 (talk) masaki ikeda, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons\n\n\n\ngray_frog = magick::image_read(\n  \"https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg\"\n  ) |&gt; \n  magick::image_quantize(colorspace = \"gray\")\ngray_frog"
+  },
+  {
+    "objectID": "data-tips/git-et-github/index.html",
+    "href": "data-tips/git-et-github/index.html",
+    "title": "Git et Github",
+    "section": "",
+    "text": "which git\nS’il ne l’est pas : brew install git"
+  },
+  {
+    "objectID": "data-tips/git-et-github/index.html#vérifie-si-git-est-installé",
+    "href": "data-tips/git-et-github/index.html#vérifie-si-git-est-installé",
+    "title": "Git et Github",
+    "section": "",
+    "text": "which git\nS’il ne l’est pas : brew install git"
+  },
+  {
+    "objectID": "data-tips/git-et-github/index.html#présente-toi-à-git",
+    "href": "data-tips/git-et-github/index.html#présente-toi-à-git",
+    "title": "Git et Github",
+    "section": "Présente toi à Git",
+    "text": "Présente toi à Git\n\ngit config --global user.name 'Jane Doe'\ngit config --global user.email 'jane@example.com\ngit config --global --list"
+  },
+  {
+    "objectID": "data-tips/git-et-github/index.html#cloner-un-repo",
+    "href": "data-tips/git-et-github/index.html#cloner-un-repo",
+    "title": "Git et Github",
+    "section": "Cloner un repo",
+    "text": "Cloner un repo"
+  },
+  {
+    "objectID": "data-tips/git-et-github/index.html#cacher-le-personnal-access-token",
+    "href": "data-tips/git-et-github/index.html#cacher-le-personnal-access-token",
+    "title": "Git et Github",
+    "section": "Cacher le Personnal access token",
+    "text": "Cacher le Personnal access token\nUpdates and shortens a post by Danielle Navarro.\nFor everyone :\n\nIf (and only if) no token yet : usethis::create_github_token()\nThen cache it : gitcreds::gitcreds_set()\nCheck your git situation : usethis::git_sitrep()\n\nThen, for Linux users only :\n\nDownload the latest version of GCM (the .deb file)\nInstall it : sudo dpkg -i &lt;path-to-deb-file&gt;\ngit-credential-manager configure\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAnd not : git-credential-manager-CORE configure, as in Danielle Navarro’s blog post.\n\n\n\nCheck libsecret is installed (it should be) : dpkg -s libsecret-1-0 The status should be Install ok Installed\ngit config --global credential.credentialStore secretservice\nThe first time you make a push, a window will open in your web browser, asking for password and a confirmation."
   },
   {
     "objectID": "data-tips/julia/index.html",
@@ -238,347 +525,60 @@
     "text": "VS Code\nVoir le billet dédié."
   },
   {
-    "objectID": "data-tips/git-et-github/index.html",
-    "href": "data-tips/git-et-github/index.html",
-    "title": "Git et Github",
+    "objectID": "data-tips/visual-studio/index.html",
+    "href": "data-tips/visual-studio/index.html",
+    "title": "Visual Studio Code",
     "section": "",
-    "text": "which git\nS’il ne l’est pas : brew install git"
+    "text": "VS Code fonctionne avec des extensions :\nL’extension Polyglot ne supporte pas R et Julia."
   },
   {
-    "objectID": "data-tips/git-et-github/index.html#vérifie-si-git-est-installé",
-    "href": "data-tips/git-et-github/index.html#vérifie-si-git-est-installé",
-    "title": "Git et Github",
+    "objectID": "data-tips/visual-studio/index.html#to-uninstall",
+    "href": "data-tips/visual-studio/index.html#to-uninstall",
+    "title": "Visual Studio Code",
+    "section": "To uninstall",
+    "text": "To uninstall\n\nsudo apt remove code\nrm ~/.config/Code\nrm ~/.vscode"
+  },
+  {
+    "objectID": "data-tips/zotero/index.html",
+    "href": "data-tips/zotero/index.html",
+    "title": "Zotero",
     "section": "",
-    "text": "which git\nS’il ne l’est pas : brew install git"
+    "text": "Décocher :\n\nFaire une capture automatique des pages web\nImporter automatiquement les marqueurs\nSynchroniser automatiquement les fichiers joints dans ma bibliothèque\n\n\n\n\n\n\n\nAstuce\n\n\n\nSi j’ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne).\n\n\n\n\n\n\n\n\nNote\n\n\n\nIl est toujours possible de synchroniser les fichiers joints pour les bibliothèques de groupe. On peut ainsi annoter des pdf de manière collaborative."
   },
   {
-    "objectID": "data-tips/git-et-github/index.html#présente-toi-à-git",
-    "href": "data-tips/git-et-github/index.html#présente-toi-à-git",
-    "title": "Git et Github",
-    "section": "Présente toi à Git",
-    "text": "Présente toi à Git\n\ngit config --global user.name 'Jane Doe'\ngit config --global user.email 'jane@example.com\ngit config --global --list"
-  },
-  {
-    "objectID": "data-tips/git-et-github/index.html#cloner-un-repo",
-    "href": "data-tips/git-et-github/index.html#cloner-un-repo",
-    "title": "Git et Github",
-    "section": "Cloner un repo",
-    "text": "Cloner un repo"
-  },
-  {
-    "objectID": "data-tips/git-et-github/index.html#cacher-le-personnal-access-token",
-    "href": "data-tips/git-et-github/index.html#cacher-le-personnal-access-token",
-    "title": "Git et Github",
-    "section": "Cacher le Personnal access token",
-    "text": "Cacher le Personnal access token\nUpdates and shortens a post by Danielle Navarro.\nFor everyone :\n\nIf (and only if) no token yet : usethis::create_github_token()\nThen cache it : gitcreds::gitcreds_set()\nCheck your git situation : usethis::git_sitrep()\n\nThen, for Linux users only :\n\nDownload the latest version of GCM (the .deb file)\nInstall it : sudo dpkg -i &lt;path-to-deb-file&gt;\ngit-credential-manager configure\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAnd not : git-credential-manager-CORE configure, as in Danielle Navarro’s blog post.\n\n\n\nCheck libsecret is installed (it should be) : dpkg -s libsecret-1-0 The status should be Install ok Installed\ngit config --global credential.credentialStore secretservice\nThe first time you make a push, a window will open in your web browser, asking for password and a confirmation."
-  },
-  {
-    "objectID": "data-tips/images/index.html",
-    "href": "data-tips/images/index.html",
-    "title": "Images",
+    "objectID": "data-tips/zotero/index.html#préférences",
+    "href": "data-tips/zotero/index.html#préférences",
+    "title": "Zotero",
     "section": "",
-    "text": "convert image.jpg image.png"
+    "text": "Décocher :\n\nFaire une capture automatique des pages web\nImporter automatiquement les marqueurs\nSynchroniser automatiquement les fichiers joints dans ma bibliothèque\n\n\n\n\n\n\n\nAstuce\n\n\n\nSi j’ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne).\n\n\n\n\n\n\n\n\nNote\n\n\n\nIl est toujours possible de synchroniser les fichiers joints pour les bibliothèques de groupe. On peut ainsi annoter des pdf de manière collaborative."
   },
   {
-    "objectID": "data-tips/images/index.html#convertir-une-image",
-    "href": "data-tips/images/index.html#convertir-une-image",
-    "title": "Images",
-    "section": "",
-    "text": "convert image.jpg image.png"
+    "objectID": "data-tips/zotero/index.html#better-bibtex",
+    "href": "data-tips/zotero/index.html#better-bibtex",
+    "title": "Zotero",
+    "section": "Better Bibtex",
+    "text": "Better Bibtex\n\nVoir les instructions ici\nLes préférences de Better Bib Tex se trouvent dans l’onglet “Outils”\nChoisir auth.lower + year comme clé de citation"
   },
   {
-    "objectID": "data-tips/images/index.html#compresser-une-image",
-    "href": "data-tips/images/index.html#compresser-une-image",
-    "title": "Images",
-    "section": "Compresser une image",
-    "text": "Compresser une image\n\nconvert image.jpg[50%x50%] -quality 70 compressed_image.jpg"
+    "objectID": "data-tips/zotero/index.html#zutilo",
+    "href": "data-tips/zotero/index.html#zutilo",
+    "title": "Zotero",
+    "section": "Zutilo",
+    "text": "Zutilo\n\nVoir les instructions ici\nAller dans Outils &gt; Préférences de Zutilo et pour “copier les champs de la notice” et “coller dans les champs vides”, choisir “menu contextuel de Zutilo”."
   },
   {
-    "objectID": "data-tips/images/index.html#passer-en-nuances-de-gris",
-    "href": "data-tips/images/index.html#passer-en-nuances-de-gris",
-    "title": "Images",
-    "section": "Passer en nuances de gris",
-    "text": "Passer en nuances de gris\nIci, on utilise le package magick, qui rend accessible depuis R la librairie ImageMagick.\n\n\n\nHyla japonica, 1er septembre 2008, 池田正樹 (talk) masaki ikeda, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons\n\n\n\ngray_frog = magick::image_read(\n  \"https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg\"\n  ) |&gt; \n  magick::image_quantize(colorspace = \"gray\")\ngray_frog"
+    "objectID": "data-tips/zotero/index.html#styles",
+    "href": "data-tips/zotero/index.html#styles",
+    "title": "Zotero",
+    "section": "Styles",
+    "text": "Styles\nZotero styles repository & Visual CSL Editor"
   },
   {
-    "objectID": "data-tips/spark/index.html",
-    "href": "data-tips/spark/index.html",
-    "title": "Spark",
-    "section": "",
-    "text": "Installation du package R sparklyr\n\ninstall.packages(\"sparklyr\")\n\n\n\nInstallation de Java\nPour installer Spark, il faut d’abord installer Java.\n\njava -v # vérifier que java n'est pas installé\nsudo apt update\nsudo apt install default-jre\nsudo apt install default-jdk\n\n\n\nInstaller Spark\nToutes les dernières versions de Spark ne fonctionnent pas avec la dernière version de Java, d’où :\n\nsparklyr::spark_install(version = \"3.1\")\n\n\n\nSe connecter\n\nsc &lt;- sparklyr::spark_connect(master = \"local\")\nsparklyr::spark_disconnect(\"sc\")\n\n\n\nPourquoi Spark ?\nEssentiellement pour la modélisation sur des données volumineuses. Pour les manipulations simples il est semble beaucoup plus simple d’utiliser arrow, éventuellement en conjonction avec duckdb.\n\n\n\n\nCitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Spark},\n  date = {2023-10-21},\n  url = {https://tblk.github.io/data-tips/spark/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Spark.” October 21, 2023. https://tblk.github.io/data-tips/spark/."
-  },
-  {
-    "objectID": "data-tips/donnees-spatiales/index.html",
-    "href": "data-tips/donnees-spatiales/index.html",
-    "title": "Données spatiales",
-    "section": "",
-    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Données spatiales},\n  date = {2023-06-30},\n  url = {https://tblk.github.io/data-tips/read-spatial-subset/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Données spatiales.” June 30, 2023.\nhttps://tblk.github.io/data-tips/read-spatial-subset/."
-  },
-  {
-    "objectID": "data-tips/regression-logistique-ordinale/index.html",
-    "href": "data-tips/regression-logistique-ordinale/index.html",
-    "title": "Régression logistique ordinale",
-    "section": "",
-    "text": "ordinal\nMASS\nVGAM"
-  },
-  {
-    "objectID": "data-tips/regression-logistique-ordinale/index.html#packages-possibles",
-    "href": "data-tips/regression-logistique-ordinale/index.html#packages-possibles",
-    "title": "Régression logistique ordinale",
-    "section": "",
-    "text": "ordinal\nMASS\nVGAM"
-  },
-  {
-    "objectID": "data-tips/regression-logistique-ordinale/index.html#parallel-slopes-assumption",
-    "href": "data-tips/regression-logistique-ordinale/index.html#parallel-slopes-assumption",
-    "title": "Régression logistique ordinale",
-    "section": "Parallel slopes assumption",
-    "text": "Parallel slopes assumption\nAussi appelée proportionnal odds assumption : the relationship between each pair of outcome groups is the same.\nAnd if it is not the case ?\nLe “proportionnal odds model” est un modèle de régression logistique ordinal parmi d’autres.\nMASS::polar stands for proportionnal odds logistic regression."
-  },
-  {
-    "objectID": "data-tips/regression-logistique-ordinale/index.html#logistic-regression-vs-probit-regression",
-    "href": "data-tips/regression-logistique-ordinale/index.html#logistic-regression-vs-probit-regression",
-    "title": "Régression logistique ordinale",
-    "section": "Logistic regression vs Probit regression",
-    "text": "Logistic regression vs Probit regression"
-  },
-  {
-    "objectID": "data-tips/duckdb/index.html",
-    "href": "data-tips/duckdb/index.html",
-    "title": "DuckDb",
-    "section": "",
-    "text": "Pour CLI, c’est simplissime : télécharger les precompiled binaries, extraidre duckdb dans le home directory, puis le déplacer dans /usr/local/bin :\nsudo mv ~/duckdb /usr/local/bin"
-  },
-  {
-    "objectID": "data-tips/duckdb/index.html#installation",
-    "href": "data-tips/duckdb/index.html#installation",
-    "title": "DuckDb",
-    "section": "",
-    "text": "Pour CLI, c’est simplissime : télécharger les precompiled binaries, extraidre duckdb dans le home directory, puis le déplacer dans /usr/local/bin :\nsudo mv ~/duckdb /usr/local/bin"
-  },
-  {
-    "objectID": "data-tips/duckdb/index.html#utile",
-    "href": "data-tips/duckdb/index.html#utile",
-    "title": "DuckDb",
-    "section": "Utile",
-    "text": "Utile\nL’auto-complétion : grâce au charactère TAB, c’est à dire CTRL + I. Attention, pour que l’auto-complétion fonctionne pour les chemins vers les fichiers, bien utiliser ’ et pas “.\nNe pas oublier de terminer chaque SQL statement par ;\nPour quitter duckdb, juste Ctrl + D."
-  },
-  {
-    "objectID": "data-tips/duckdb/index.html#convertir-un-fichier-csv-en-parquet",
-    "href": "data-tips/duckdb/index.html#convertir-un-fichier-csv-en-parquet",
-    "title": "DuckDb",
-    "section": "Convertir un fichier csv en parquet",
-    "text": "Convertir un fichier csv en parquet\nVoir la documentation sur les fichiers CSV dans Data Import. Aussi simple que :\nCREATE TABLE ontime AS FROM 'flights.csv'; # lire le fichier csv dans une table\n\nCOPY (FROM ontime) TO 'flights.parquet'; # l'écrire dans un fichier parquet"
-  },
-  {
-    "objectID": "data-tips/bases-de-donnees/index.html",
-    "href": "data-tips/bases-de-donnees/index.html",
-    "title": "Bases de données",
-    "section": "",
-    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Bases de données},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/bases-de-donnees/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Bases de données.” June 25, 2023. https://tblk.github.io/data-tips/bases-de-donnees/."
-  },
-  {
-    "objectID": "data-tips/zettlr/index.html",
-    "href": "data-tips/zettlr/index.html",
-    "title": "Zettlr",
-    "section": "",
-    "text": "Pour Linux : télécharger le fichier .deb\nPour Mac : brew install --cask zettlr"
-  },
-  {
-    "objectID": "data-tips/zettlr/index.html#installer",
-    "href": "data-tips/zettlr/index.html#installer",
-    "title": "Zettlr",
-    "section": "",
-    "text": "Pour Linux : télécharger le fichier .deb\nPour Mac : brew install --cask zettlr"
-  },
-  {
-    "objectID": "data-tips/zettlr/index.html#paramétrer",
-    "href": "data-tips/zettlr/index.html#paramétrer",
-    "title": "Zettlr",
-    "section": "Paramétrer",
-    "text": "Paramétrer\n\nGénéral &gt; Mode gestionnaire de fichiers &gt; Combiné\nGénéral &gt; Afficher &gt; Nom de fichier seulement\nÉditeur &gt; Taille de police &gt; 20\nCitations : après avoir exporté la bibliothèque désirée depuis Zotero, au format Better CSL Json, et coché l’option “garder à jour”.\nAfficher &gt; Thème &gt; Frankfurt\nVérification orthographique &gt; fr"
-  },
-  {
-    "objectID": "data-tips/zettlr/index.html#réinitialiser",
-    "href": "data-tips/zettlr/index.html#réinitialiser",
-    "title": "Zettlr",
-    "section": "Réinitialiser",
-    "text": "Réinitialiser\nrm -r /home/theo/.config/Zettlr"
-  },
-  {
-    "objectID": "data-tips/follow/index.html",
-    "href": "data-tips/follow/index.html",
-    "title": "Follow",
-    "section": "",
-    "text": "Tanya Shapiro\nAllison Horst\nNadieh Bremer\nDanielle Navarro\nMilos Popovic\nÉric Mauvière\nMakie.jl\nTalk Python (podcast)\nLearn Data with Mark (youtube)\nPablo Aguirre\nLino Galiana\nAndreas Handel\nAndrew Heiss"
-  },
-  {
-    "objectID": "data-tips/limesurvey/index.html",
-    "href": "data-tips/limesurvey/index.html",
-    "title": "LimeSurvey",
-    "section": "",
-    "text": "Une interface web particulièrement intuitive. Il suffit de créer un compte.\nGroupes de questions. Choisir :\n\nLe code de la question\nSon titre\nLe type de réponse attendu. Texte brut, choix prédéfinis (genre ou date par exemple)…"
-  },
-  {
-    "objectID": "data-tips/videos/index.html",
-    "href": "data-tips/videos/index.html",
-    "title": "Vidéos",
-    "section": "",
-    "text": "pip install yt-dlp\n\nPar ailleurs, s’assurer que ffmpeg est installé.\n\nffmpeg -version\n\nSi ce n’est pas le cas :\n\nsudo apt update\nsudo apt install ffmpeg"
-  },
-  {
-    "objectID": "data-tips/videos/index.html#installation",
-    "href": "data-tips/videos/index.html#installation",
-    "title": "Vidéos",
-    "section": "",
-    "text": "pip install yt-dlp\n\nPar ailleurs, s’assurer que ffmpeg est installé.\n\nffmpeg -version\n\nSi ce n’est pas le cas :\n\nsudo apt update\nsudo apt install ffmpeg"
-  },
-  {
-    "objectID": "data-tips/videos/index.html#mise-à-jour",
-    "href": "data-tips/videos/index.html#mise-à-jour",
-    "title": "Vidéos",
-    "section": "Mise à jour",
-    "text": "Mise à jour\nL’intérêt d’installer avec pip est précisément de bénéficier des mises à jour plus rapidement qu’avec apt. Donc, si un téléchargement échoue :\n\npip install yt-dlp -U"
-  },
-  {
-    "objectID": "data-tips/videos/index.html#télécharger",
-    "href": "data-tips/videos/index.html#télécharger",
-    "title": "Vidéos",
-    "section": "Télécharger",
-    "text": "Télécharger\n\nyt-dlp https://www.dailymotion.com/video/x7sv5fg"
-  },
-  {
-    "objectID": "data-tips/videos/index.html#renommer",
-    "href": "data-tips/videos/index.html#renommer",
-    "title": "Vidéos",
-    "section": "Renommer",
-    "text": "Renommer\nIl arrive en effet que le téléchargement échoue simplement parce que la nom de la vidéo est trop long. Dans ce cas, on peut renommer en même temps qu’on télécharge, ainsi :\n\nyt-dlp https://youtu.be/M0yTTUt_zGA -o \"new_name.mp4\""
-  },
-  {
-    "objectID": "data-tips/videos/index.html#choisir",
-    "href": "data-tips/videos/index.html#choisir",
-    "title": "Vidéos",
-    "section": "Choisir",
-    "text": "Choisir\nPour choisir la meilleure qualité audio :\n\nyt-dlp -F &lt;url&gt; # renvoie la liste des formats téléchargeables\nyt-dlp -f &lt;id&gt; &lt;url&gt; # où l'id correspond à la première colonne"
-  },
-  {
-    "objectID": "data-tips/videos/index.html#fusionner-audio-et-video-avec-ffmpeg",
-    "href": "data-tips/videos/index.html#fusionner-audio-et-video-avec-ffmpeg",
-    "title": "Vidéos",
-    "section": "Fusionner audio et video avec ffmpeg",
-    "text": "Fusionner audio et video avec ffmpeg\nIl suffit d’ouvrir un terminal dans le dossier où sont rangés les fichiers audio et vidéo.\n\nffmpeg \\\n    -i video.mp4 -i audio.mp3 \\\n    -c:v copy \\\n    -map 0:v -map 1:a \\\n    -y output.mp4 \n\nDe très nombreuses options existent. Pour un petit aperçu, voir ce billet de blog de Linuxtricks, ou le repo github."
-  },
-  {
-    "objectID": "data-tips/asciinema/index.html",
-    "href": "data-tips/asciinema/index.html",
-    "title": "asciinema",
-    "section": "",
-    "text": "library(cli)"
-  },
-  {
-    "objectID": "data-tips/python/index.html",
-    "href": "data-tips/python/index.html",
-    "title": "Python",
-    "section": "",
-    "text": "I rely on the installation that comes with Linux.\nI installed the following packages with pip :\n\npandas\nfolium\nplotly\njupyterlab\ngeopandas\npolars\nduckdb\n\nIf a serious dependency issue arises, use : pip-autoremove &lt;packagename&gt;. It will also uninstall all the dependancies. And install again with miniconda. Or use venv.\nNote : I had to uninstall harlequin due to a dependency conflict with jupyter.\nJupyter lab doesn’t come with an icon, I have one because I installed Jupyter Desktop and then uninstalled it. It created a Desktop configuration file in ~/.local/share/applications and added and icon to ~/local/share/icons/…"
-  },
-  {
-    "objectID": "data-tips/ocerisation/index.html",
-    "href": "data-tips/ocerisation/index.html",
-    "title": "Océrisation",
-    "section": "",
-    "text": "Voir le site de la librairie, la page github du package R et celle du plugin Zotero."
-  },
-  {
-    "objectID": "data-tips/ocerisation/index.html#installation-ubuntu",
-    "href": "data-tips/ocerisation/index.html#installation-ubuntu",
-    "title": "Océrisation",
-    "section": "Installation Ubuntu",
-    "text": "Installation Ubuntu\nVérifier s’il n’est pas déjà installé :\n\ntesseract -v\n\nSi ce n’est pas le cas :\n\nsudo apt install tesseract-ocr # installe aussi le paquet anglais\nsudo apt install tesseract-ocr-fra # installe le paquet français\nsudo apt install libtesseract-dev # developper tools : nécessaires pour installer le package R"
-  },
-  {
-    "objectID": "data-tips/ocerisation/index.html#installation-du-package-r",
-    "href": "data-tips/ocerisation/index.html#installation-du-package-r",
-    "title": "Océrisation",
-    "section": "Installation du package R",
-    "text": "Installation du package R\ntesseract dépend de pdftools, qui requiert l’installation de poppler. D’où :\n\nsudo apt install libpoppler-cpp-dev\n\nPuis :\n\ninstall.packages(\"pdftools\")\n\nSi on a oublié l’installation des developper tools, il est nécessaire de les installer. Ceci marche également :\n\nsudo apt install libtesseract-dev libleptonica-dev\n\nEnfin :\n\ninstall.packages(\"tesseract\")"
-  },
-  {
-    "objectID": "data-tips/ocerisation/index.html#installation-du-plugin-zotero",
-    "href": "data-tips/ocerisation/index.html#installation-du-plugin-zotero",
-    "title": "Océrisation",
-    "section": "Installation du plugin Zotero",
-    "text": "Installation du plugin Zotero\nDepuis le fichier .xpi, tout simplement."
-  },
-  {
-    "objectID": "data-tips/r-et-rstudio/index.html",
-    "href": "data-tips/r-et-rstudio/index.html",
-    "title": "R et Rstudio",
-    "section": "",
-    "text": "Tout ce qu’il faut savoir sur le terminal\n\nCmd + Espace pour ouvrir “Spotlight search”\nTaper “Terminal” dans la barre de recherche"
-  },
-  {
-    "objectID": "data-tips/r-et-rstudio/index.html#ouvrir-le-terminal",
-    "href": "data-tips/r-et-rstudio/index.html#ouvrir-le-terminal",
-    "title": "R et Rstudio",
-    "section": "",
-    "text": "Tout ce qu’il faut savoir sur le terminal\n\nCmd + Espace pour ouvrir “Spotlight search”\nTaper “Terminal” dans la barre de recherche"
-  },
-  {
-    "objectID": "data-tips/r-et-rstudio/index.html#installer-homebrew",
-    "href": "data-tips/r-et-rstudio/index.html#installer-homebrew",
-    "title": "R et Rstudio",
-    "section": "Installer Homebrew",
-    "text": "Installer Homebrew\n\nVisitez la page de Homebrew\nInstallez le ainsi : /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
-  },
-  {
-    "objectID": "data-tips/r-et-rstudio/index.html#installer-r-et-rstudio",
-    "href": "data-tips/r-et-rstudio/index.html#installer-r-et-rstudio",
-    "title": "R et Rstudio",
-    "section": "Installer R et Rstudio",
-    "text": "Installer R et Rstudio\n\nR : brew install r\nRstudio : brew cask install rstudio\nPour les mettre à jour si besoin : brew update & brew upgrade"
-  },
-  {
-    "objectID": "data-tips/r-et-rstudio/index.html#configurer-rstudio",
-    "href": "data-tips/r-et-rstudio/index.html#configurer-rstudio",
-    "title": "R et Rstudio",
-    "section": "Configurer Rstudio",
-    "text": "Configurer Rstudio"
-  },
-  {
-    "objectID": "data-tips/r-et-rstudio/index.html#installer-tinytex",
-    "href": "data-tips/r-et-rstudio/index.html#installer-tinytex",
-    "title": "R et Rstudio",
-    "section": "Installer Tinytex",
-    "text": "Installer Tinytex\nPour pouvoir produire des pdf avec quarto : quarto install tinytex"
-  },
-  {
-    "objectID": "data-tips/site-web/index.html",
-    "href": "data-tips/site-web/index.html",
-    "title": "Site Web",
-    "section": "",
-    "text": "Crée un nouveau repo sur Github.\nClone le.\nOuvre le terminal dans le répertoire du projet (Alt + Maj + M dans Rstudio) et crée un projet de type website.\nquarto create-project &lt;site-name&gt; --type website\nOu :\nquarto create project website /\nquarto render"
-  },
-  {
-    "objectID": "data-tips/site-web/index.html#preview-image",
-    "href": "data-tips/site-web/index.html#preview-image",
-    "title": "Site Web",
-    "section": "Preview image",
-    "text": "Preview image\nPour qu’un graphique en particulier serve de preview image :\n```{r}\n#| classes: preview-image\nplot(mtcars)\n```"
-  },
-  {
-    "objectID": "data-tips/site-web/index.html#code-highlighting",
-    "href": "data-tips/site-web/index.html#code-highlighting",
-    "title": "Site Web",
-    "section": "Code highlighting",
-    "text": "Code highlighting\nPour que du code bash ressorte correctement, choisir : engine: knitr. Voir cette issue.\n\n\n\n\n\n\nAvertissement\n\n\n\nEt ne surtout pas oublier l’option `eval: false` !"
-  },
-  {
-    "objectID": "data-tips/graphes/index.html",
-    "href": "data-tips/graphes/index.html",
-    "title": "Graphes",
-    "section": "",
-    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Graphes},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/graphes/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Graphes.” June 25, 2023. https://tblk.github.io/data-tips/graphes/."
+    "objectID": "data-tips/zotero/index.html#zotero-ocr",
+    "href": "data-tips/zotero/index.html#zotero-ocr",
+    "title": "Zotero",
+    "section": "Zotero OCR",
+    "text": "Zotero OCR\nLes instructions pour installer le plugin sont disponibles dans le repo github correspondant.\nSi Zotero ne trouve pas le chemin vers pdftoppm il suffit de le lui indiquer. On trouve ce chemin grâce à la commande which :\n\nwhich pdftoppm"
   },
   {
     "objectID": "data-tips/analyse-geometrique-des-donnees/index.html",

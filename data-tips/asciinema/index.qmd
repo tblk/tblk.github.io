@@ -1,8 +1,10 @@
 ---
 title: "asciinema"
 date: 2023-11-03
+draft: true
 execute: 
   freeze: false
+  eval: false
 ---
 
 ```{r echo = FALSE, results = "hide", purl = FALSE}
