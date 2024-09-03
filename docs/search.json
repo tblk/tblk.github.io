@@ -371,6 +371,13 @@
     "text": "Convertir un fichier csv en parquet\nVoir la documentation sur les fichiers CSV dans Data Import. Aussi simple que :\nCREATE TABLE ontime AS FROM 'flights.csv'; # lire le fichier csv dans une table\n\nCOPY (FROM ontime) TO 'flights.parquet'; # l'écrire dans un fichier parquet"
   },
   {
+    "objectID": "data-tips/bases-de-donnees/index.html",
+    "href": "data-tips/bases-de-donnees/index.html",
+    "title": "Bases de données",
+    "section": "",
+    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Bases de données},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/bases-de-donnees/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Bases de données.” June 25, 2023. https://tblk.github.io/data-tips/bases-de-donnees/."
+  },
+  {
     "objectID": "data-tips/zettlr/index.html",
     "href": "data-tips/zettlr/index.html",
     "title": "Zettlr",
@@ -399,11 +406,11 @@
     "text": "Réinitialiser\nrm -r /home/theo/.config/Zettlr"
   },
   {
-    "objectID": "data-tips/bases-de-donnees/index.html",
-    "href": "data-tips/bases-de-donnees/index.html",
-    "title": "Bases de données",
+    "objectID": "data-tips/follow/index.html",
+    "href": "data-tips/follow/index.html",
+    "title": "Follow",
     "section": "",
-    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Bases de données},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/bases-de-donnees/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Bases de données.” June 25, 2023. https://tblk.github.io/data-tips/bases-de-donnees/."
+    "text": "Tanya Shapiro\nAllison Horst\nNadieh Bremer\nDanielle Navarro\nMilos Popovic\nÉric Mauvière\nMakie.jl\nTalk Python (podcast)\nLearn Data with Mark (youtube)\nPablo Aguirre\nLino Galiana\nAndreas Handel\nAndrew Heiss"
   },
   {
     "objectID": "data-tips/limesurvey/index.html",
@@ -623,6 +630,13 @@
     "text": "Avec Nicolas Mariot. L’Attestation. Une expérience d’obéissance de masse, printemps 2020, septembre 2023, 400 pages.\n\n\n\n\n\n\nNote\n\n\n\nVoir le site compagnon du livre."
   },
   {
+    "objectID": "publications.html#articles",
+    "href": "publications.html#articles",
+    "title": "Publications",
+    "section": "Articles",
+    "text": "Articles\n\n2024, “Ambivalence de l’attachement au travail. Le cas de l’élevage laitier”, Sociologie du travail, 66(2) https://doi.org/10.4000/11o4v"
+  },
+  {
     "objectID": "publications.html#communications",
     "href": "publications.html#communications",
     "title": "Publications",
@@ -635,26 +649,5 @@
     "title": "Formation",
     "section": "",
     "text": "J’ai été reçu au concours de l’École Normale Supérieure (ENS) en 2017, après deux ans de classe préparatoire B/L (sociologie, économie, mathématiques, histoire, philosophie, littérature, langues vivantes).\nJ’ai appris l’ethnographie, certaines méthodes statistiques et le travail d’archives au sein du Master de Sciences sociales de l’ENS, en suivant le parcours Pratique de l’Interdisciplinarité. Celui-ci offre des enseignements en anthropologie, histoire et sociologie, et met l’accent sur l’acquisition des savoir-faire des sciences sociales.\nJ’ai ensuite approfondi mes connaissances en analyse de données, d’abord par un stage à l’Institut National de la Statistique et des Études Économiques (INSEE), puis en préparant ma thèse, au Centre Maurice Halbwachs, sous la direction de Florence Weber.\nMes enquêtes combinent ethnographie et statistiques : observation participante, recueil de récits de vie, longs entretiens enregistrés, cartographie, text mining, analyse géométrique des données, modélisation, analyse de trajectoires."
-  },
-  {
-    "objectID": "inspiration.html",
-    "href": "inspiration.html",
-    "title": "Inspiration",
-    "section": "",
-    "text": "Tanya Shapiro\nAllison Horst\nNadieh Bremer\nDanielle Navarro\nMilos Popovic\nÉric Mauvière\nMakie.jl\nTalk Python (podcast)\nLearn Data with Mark (youtube)\nPablo Aguirre"
-  },
-  {
-    "objectID": "publications.html#articles",
-    "href": "publications.html#articles",
-    "title": "Publications",
-    "section": "Articles",
-    "text": "Articles\n\n2024, “Ambivalence de l’attachement au travail. Le cas de l’élevage laitier”, Sociologie du travail, 66(2) https://doi.org/10.4000/11o4v"
-  },
-  {
-    "objectID": "data-tips/follow/index.html",
-    "href": "data-tips/follow/index.html",
-    "title": "Follow",
-    "section": "",
-    "text": "Tanya Shapiro\nAllison Horst\nNadieh Bremer\nDanielle Navarro\nMilos Popovic\nÉric Mauvière\nMakie.jl\nTalk Python (podcast)\nLearn Data with Mark (youtube)\nPablo Aguirre\nLino Galiana\nAndreas Handel\nAndrew Heiss"
   }
 ]
