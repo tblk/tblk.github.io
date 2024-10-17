@@ -3,7 +3,7 @@ title: "Follow"
 draft: false
 ---
 
--   [Tanya Shapiro](https://tanyaviz.com/)
+-   [Thomas Cooper](https://cooper-thomas.com/)
 
 -   [Allison Horst](https://allisonhorst.com/allison-horst)
 
@@ -12,6 +12,8 @@ draft: false
 -   [Danielle Navarro](https://djnavarro.net/)
 
 -   [Milos Popovic](https://milospopovic.net/)
+
+-   [Tanya Shapiro](https://tanyaviz.com/)
 
 -   [Éric Mauvière](https://www.icem7.fr/)
 
