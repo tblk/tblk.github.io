@@ -3,30 +3,47 @@ title: "Follow"
 draft: false
 ---
 
--   [Thomas Cooper](https://cooper-thomas.com/)
+# Varia
 
--   [Allison Horst](https://allisonhorst.com/allison-horst)
+- [Danielle Navarro](https://djnavarro.net/)
 
--   [Nadieh Bremer](https://www.visualcinnamon.com/)
+- [Andrew Heiss](https://www.andrewheiss.com/blog/)
 
--   [Danielle Navarro](https://djnavarro.net/)
+- [Éric Mauvière](https://www.icem7.fr/)
 
--   [Milos Popovic](https://milospopovic.net/)
-
--   [Tanya Shapiro](https://tanyaviz.com/)
-
--   [Éric Mauvière](https://www.icem7.fr/)
-
--   [Makie.jl](https://makie.org/)
-
--   [Talk Python](https://talkpython.fm/episodes/all) (podcast)
-
--   [Learn Data with Mark](https://www.youtube.com/@learndatawithmark) (youtube)
-
--   [Pablo Aguirre](https://pabloagn.com/)
+- [Pablo Aguirre](https://pabloagn.com/)
 
 - [Lino Galiana](https://pythonds.linogaliana.fr/)
 
 - [Andreas Handel](https://www.andreashandel.com/posts.html)
 
-- [Andrew Heiss](https://www.andrewheiss.com/blog/)
+- [Pablo Aguirre](https://pabloagn.com/)
+
+- [Lino Galiana](https://pythonds.linogaliana.fr/)
+
+- [Marek Gagolewski](https://www.gagolewski.com/#)
+
+# Visualization
+
+- [Thomas Cooper](https://cooper-thomas.com/)
+
+- [Allison Horst](https://allisonhorst.com/allison-horst)
+
+- [Nadieh Bremer](https://www.visualcinnamon.com/)
+
+- [Tanya Shapiro](https://tanyaviz.com/)
+
+- [Milos Popovic](https://milospopovic.net/)
+
+- [Makie.jl](https://makie.org/)
+
+# Last toys
+
+- [Talk Python](https://talkpython.fm/episodes/all) (podcast)
+
+- [Learn Data with Mark](https://www.youtube.com/@learndatawithmark) (youtube)
+
+# Text Mining
+
+- [LADAL](https://ladal.edu.au/textanalysis.html)
+- [Corpus linguistics](https://corpling.hypotheses.org/author/corpling)

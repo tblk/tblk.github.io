@@ -1,0 +1,5 @@
+---
+title: "Time series"
+---
+
+Le package [fable](https://fable.tidyverts.org/) remplace le package forecast, comme expliqué dans cette [conférence](https://slides.mitchelloharawild.com/nyr2023/#/section) de [Mitchell O'Hara-Wild](https://social.mitchelloharawild.com/). Voir plus largement la collection de packages [tidyverts](https://tidyverts.org/).

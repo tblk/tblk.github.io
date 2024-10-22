@@ -7,9 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Théo Boulakia">
-<meta name="description" content="Utiliser ImageMagick pour convertir, compresser et transformer des images">
 
-<title>Images – Théo Boulakia</title>
+<title>Clustering – Théo Boulakia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,60 +21,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../map.jpeg" rel="icon" type="image/jpeg">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../map.jpeg" rel="icon" type="image/jpeg">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -114,9 +79,8 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
 </script>
 
 
-<link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Images – Théo Boulakia">
-<meta property="og:description" content="Utiliser ImageMagick pour convertir, compresser et transformer des images">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Clustering – Théo Boulakia">
 <meta property="og:site_name" content="Théo Boulakia">
 </head>
 
@@ -127,7 +91,7 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Théo Boulakia</span>
     </a>
   </div>
@@ -138,15 +102,15 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html"> 
+    <a class="nav-link" href="../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../data-tips.html"> 
+    <a class="nav-link" href="../data-tips.html"> 
 <span class="menu-text">Data Tips</span></a>
   </li>  
 </ul>
@@ -160,16 +124,8 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Images</h1>
-                  <div>
-        <div class="description">
-          Utiliser ImageMagick pour convertir, compresser et transformer des images
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">Manipuler</div>
-              </div>
-                  </div>
+      <h1 class="title">Clustering</h1>
+                      </div>
   </div>
     
   
@@ -182,19 +138,7 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
             </div>
     </div>
       
-      <div>
-      <div class="quarto-title-meta-heading">Date de publication</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">9 octobre 2023</p>
-      </div>
-    </div>
     
-      <div>
-      <div class="quarto-title-meta-heading">Modifié</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date-modified">22 octobre 2024</p>
-      </div>
-    </div>
       
     </div>
     
@@ -202,16 +146,8 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Sur cette page</h2>
-   
-  <ul>
-  <li><a href="#convertir-une-image" id="toc-convertir-une-image" class="nav-link active" data-scroll-target="#convertir-une-image">Convertir une image</a></li>
-  <li><a href="#compresser-une-image" id="toc-compresser-une-image" class="nav-link" data-scroll-target="#compresser-une-image">Compresser une image</a></li>
-  <li><a href="#passer-en-nuances-de-gris" id="toc-passer-en-nuances-de-gris" class="nav-link" data-scroll-target="#passer-en-nuances-de-gris">Passer en nuances de gris</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -220,55 +156,14 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
 
 
 
-<section id="convertir-une-image" class="level2">
-<h2 class="anchored" data-anchor-id="convertir-une-image">Convertir une image</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">convert</span> image.jpg image.png</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="compresser-une-image" class="level2">
-<h2 class="anchored" data-anchor-id="compresser-une-image">Compresser une image</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">convert</span> image.jpg<span class="pp">[</span><span class="ss">50%x50%</span><span class="pp">]</span> <span class="at">-quality</span> 70 compressed_image.jpg</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="passer-en-nuances-de-gris" class="level2">
-<h2 class="anchored" data-anchor-id="passer-en-nuances-de-gris">Passer en nuances de gris</h2>
-<p>Ici, on utilise le package <a href="https://cran.r-project.org/web/packages/magick/vignettes/intro.html">magick</a>, qui rend accessible depuis <code>R</code> la librairie ImageMagick.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://commons.wikimedia.org/wiki/File:Hyla_japonica_sep01.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg" class="img-fluid figure-img" alt="Hyla japonica, 1er septembre 2008, 池田正樹 (talk) masaki ikeda, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"></a></p>
-<figcaption>Hyla japonica, 1er septembre 2008, 池田正樹 (talk) masaki ikeda, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons</figcaption>
-</figure>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>gray_frog <span class="ot">=</span> magick<span class="sc">::</span><span class="fu">image_read</span>(</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg"</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> </span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  magick<span class="sc">::</span><span class="fu">image_quantize</span>(<span class="at">colorspace =</span> <span class="st">"gray"</span>)</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>gray_frog</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="1250"></p>
-</figure>
-</div>
-</div>
-</div>
+<ul>
+<li><a href="https://juliastats.org/Clustering.jl/stable/">Clustering.jl</a></li>
+<li><a href="https://genieclust.gagolewski.com/">genieclust</a></li>
+</ul>
 
 
-</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{boulakia2023,
-  author = {Boulakia, Théo},
-  title = {Images},
-  date = {2023-10-09},
-  url = {https://tblk.github.io/data-tips/images/},
-  langid = {fr}
-}
-</code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Veuillez citer ce travail comme suit&nbsp;:</div><div id="ref-boulakia2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Boulakia, Théo. 2023. <span>“Images.”</span> October 9, 2023. <a href="https://tblk.github.io/data-tips/images/">https://tblk.github.io/data-tips/images/</a>.
-</div></div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

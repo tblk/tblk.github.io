@@ -1,0 +1,12 @@
+---
+title: "Text to speech"
+---
+
+# Whisper
+
+Le plus simple : installer directement [whisper](https://github.com/openai/whisper) avec `pip` et l'utiliser en ligne de commande. S'assurer que [ffmpeg](https://www.ffmpeg.org/) est installé sur l'ordinateur.
+
+Le modèle `turbo`, plus léger que les modèles `large`, est presque aussi performant.
+
+On peut noter qu'une [interface graphique](https://github.com/kaixxx/noScribe?tab=readme-ov-file) a été développée. 
+
