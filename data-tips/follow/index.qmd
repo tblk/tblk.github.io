@@ -19,8 +19,6 @@ draft: false
 
 - [Pablo Aguirre](https://pabloagn.com/)
 
-- [Lino Galiana](https://pythonds.linogaliana.fr/)
-
 - [Marek Gagolewski](https://www.gagolewski.com/#)
 
 # Visualization
