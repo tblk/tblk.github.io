@@ -5,6 +5,8 @@ draft: false
 
 # Varia
 
+- [Emil Hvitfeldt](https://emilhvitfeldt.com/)
+
 - [Danielle Navarro](https://djnavarro.net/)
 
 - [Andrew Heiss](https://www.andrewheiss.com/blog/)
@@ -40,6 +42,10 @@ draft: false
 - [Talk Python](https://talkpython.fm/episodes/all) (podcast)
 
 - [Learn Data with Mark](https://www.youtube.com/@learndatawithmark) (youtube)
+
+# Geo
+
+- [Jakub Nowasad](https://jakubnowosad.com/)
 
 # Text Mining
 
