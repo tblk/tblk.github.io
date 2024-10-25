@@ -1,0 +1,13 @@
+---
+title: "Data Packages"
+date: 2024-10-25
+draft: true
+---
+
+`giscoR` ne fonctionne pas offline. C'est simplement qu'il a un argument cache (TRUE par défaut, avec un argument cache_dir par ailleurs). Donc, si j'ai déjà utilisé par exemple gisco_get_countries, cela fonctionne car il y a le cache. Mais si j'essaie gisco_get_airports, jamais téléchargé, en étant en mode avion, j'obtiens l'erreur suivante :
+> Error in `httr2::req_perform()`:
+! Failed to perform HTTP request.
+Caused by error in `curl::curl_fetch_disk()`:
+! Could not resolve host: ec.europa.eu
+
+Il n'y a donc pas de différence entre un giscoR et, par exemple, CARTElette, tous deux sont des interfaces permettant de télécharger des fichiers. Pour qu'ils fonctionnent *offline*, il faut que les bases d'intérêt aient été téléchargées et soient en cache.
