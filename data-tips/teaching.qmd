@@ -1,0 +1,7 @@
+---
+title: "Teaching"
+---
+
+# Screenshots
+
+https://ropensci.org/blog/2024/09/10/script-screenshots/

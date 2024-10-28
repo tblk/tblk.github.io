@@ -5,9 +5,9 @@ draft: false
 
 # Varia
 
-- [Emil Hvitfeldt](https://emilhvitfeldt.com/)
-
 - [Danielle Navarro](https://djnavarro.net/)
+
+- [Kieran Healy](https://kieranhealy.org/)
 
 - [Andrew Heiss](https://www.andrewheiss.com/blog/)
 
@@ -16,6 +16,8 @@ draft: false
 - [Pablo Aguirre](https://pabloagn.com/)
 
 - [Lino Galiana](https://pythonds.linogaliana.fr/)
+
+- [Emil Hvitfeldt](https://emilhvitfeldt.com/)
 
 - [Andreas Handel](https://www.andreashandel.com/posts.html)
 

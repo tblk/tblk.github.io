@@ -1,0 +1,26 @@
+---
+title: "Valeurs manquantes"
+---
+
+# questionr
+
+```{r}
+#| eval: false
+data |> questionr::freq.na()
+```
+
+# tidyr
+
+```{r}
+#| eval: false
+data |> tidyr::drop_na()
+```
+
+# naniar
+
+Package [naniar](https://naniar.njtierney.com/) :
+
+- Activement maintenu
+- Nombreux contributeurs
+- Basé sur le `{ tidyverse }`
+- Propose des structures de données pour **visualiser** (si paradoxal que cela puisse paraître) les valeurs manquantes.

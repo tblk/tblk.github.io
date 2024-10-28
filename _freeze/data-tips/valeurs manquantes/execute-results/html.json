@@ -1,0 +1,15 @@
+{
+  "hash": "7063028d4d56bfa511b93ea70660b438",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Valeurs manquantes\"\n---\n\n\n\n\n# questionr\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\ndata |> questionr::freq.na()\n```\n:::\n\n\n\n\n# tidyr\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\ndata |> tidyr::drop_na()\n```\n:::\n\n\n\n\n# naniar\n\nPackage [naniar](https://naniar.njtierney.com/) :\n\n- Activement maintenu\n- Nombreux contributeurs\n- Basé sur le `{ tidyverse }`\n- Propose des structures de données pour **visualiser** (si paradoxal que cela puisse paraître) les valeurs manquantes.",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
