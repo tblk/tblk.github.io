@@ -21,8 +21,6 @@ draft: false
 
 - [Andreas Handel](https://www.andreashandel.com/posts.html)
 
-- [Pablo Aguirre](https://pabloagn.com/)
-
 - [Marek Gagolewski](https://www.gagolewski.com/#)
 
 # Visualization
