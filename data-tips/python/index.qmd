@@ -4,20 +4,42 @@ date: 2024-01-10
 date-modified: today
 ---
 
-I rely on the installation that comes with Linux.
+# Pip & Venv
 
-I installed the following packages with pip :
+Avec cette méthode, on peut se contenter du `python3` du système d'exploitation. Dans tous les cas, ne *jamais* installer les packages dans l'environnement global, toujours dans des environnements virtuels isolés du reste du système d'exploitation.
 
-- pandas
-- folium
-- plotly
-- jupyterlab
-- geopandas
-- polars
-- duckdb
+- Créer un nouveau repo github
+- Le cloner avec `git clone https://...`
+- Créer les sous-dossiers suivants : `data`, `src`, `notebooks`
+- Créer un [environnement virtuel](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#upgrading-packages) `.venv`, à la racine du dossier.
+- Activer l'environnement virtuel, installer les packages nécessaires. 
+- Créer un fichier `requirements.txt` avec `pip freeze > requirements.txt`
+- Créer un fichier `.gitignore`, ignorer `data/` et `.venv/`.
+- add, commit & push
 
-If a serious dependency issue arises, use : `pip-autoremove <packagename>`. It will also uninstall all the dependancies. And install again with miniconda. Or use venv.
+# Conda (recommandé)
 
-Note : I had to uninstall harlequin due to a dependency conflict with jupyter.
+- Installer Miniconda (voir Quick command line install, c'est l'affaire de 4 ou 5 commandes).
+- Créer un environnement virtuel avec `conda create`
+:::{.callout-note}
+Par défaut, les environnement virtuels conda sont **centralisés** dans le dossier ~/miniconda3. C'est bien ainsi.
+:::
+- Activer cet environnement avec `conda activate`
+- Installer les packages nécessaires, souvent avec le *chanel* conda-forge : `conda install -c conda-forge XXX`
+- Installer Jupyter notebook (qui s'appelle `notebook`) et ipykernel (pas installé par défaut avec Jupyter notebook ?)
+- Ajouter l'environnement virtuel aux kernels.
+:::{.callout-note}
+Les kernels jupyter sont stockés dans ~/.locale/share/jupyter/kernels sous la forme d'un fichier json. Si on supprime un environnement virtuel et qu'on ne veut plus qu'il apparaisse dans la page de sélection des kernels (pour Jupyterlab) ou le menu déroulant (pour Jupyter notebook), c'est ce dossier qu'il faut supprimer. 
+:::
+- Lancer jupyter notebook et sélectionner le kernel correspondant.
+
+# Conda & pip
+
+- Chercher d'abord s'il est possible d'installer un package avec conda, notamment *via* conda-forge.
+- S'il n'est pas disponible, alors l'installer avec `pip`.
+- **Éviter** d'installer un même package une fois avec panda, un autre avec pip, cela risque de créer des problèmes de dépendance.
+- Pour savoir quels packages ont été crées avec conda, et quels autres avec pip, il suffit d'appeler `conda list` qui donne le *chanel* d'installation.
+
+# Îcone
 
 Jupyter lab doesn't come with an icon, I have one because I installed Jupyter Desktop and then uninstalled it. It created a Desktop configuration file in ~/.local/share/applications and added and icon to ~/local/share/icons/...

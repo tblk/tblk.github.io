@@ -149,7 +149,7 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Modifié</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">22 octobre 2024</p>
+        <p class="date-modified">11 novembre 2024</p>
       </div>
     </div>
       
@@ -159,8 +159,17 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#pip-venv" id="toc-pip-venv" class="nav-link active" data-scroll-target="#pip-venv">Pip &amp; Venv</a></li>
+  <li><a href="#conda-recommandé" id="toc-conda-recommandé" class="nav-link" data-scroll-target="#conda-recommandé">Conda (recommandé)</a></li>
+  <li><a href="#conda-pip" id="toc-conda-pip" class="nav-link" data-scroll-target="#conda-pip">Conda &amp; pip</a></li>
+  <li><a href="#îcone" id="toc-îcone" class="nav-link" data-scroll-target="#îcone">Îcone</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -169,22 +178,47 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
 
 
 
-<p>I rely on the installation that comes with Linux.</p>
-<p>I installed the following packages with pip :</p>
+<section id="pip-venv" class="level1">
+<h1>Pip &amp; Venv</h1>
+<p>Avec cette méthode, on peut se contenter du <code>python3</code> du système d’exploitation. Dans tous les cas, ne <em>jamais</em> installer les packages dans l’environnement global, toujours dans des environnements virtuels isolés du reste du système d’exploitation.</p>
 <ul>
-<li>pandas</li>
-<li>folium</li>
-<li>plotly</li>
-<li>jupyterlab</li>
-<li>geopandas</li>
-<li>polars</li>
-<li>duckdb</li>
+<li>Créer un nouveau repo github</li>
+<li>Le cloner avec <code>git clone https://...</code></li>
+<li>Créer les sous-dossiers suivants : <code>data</code>, <code>src</code>, <code>notebooks</code></li>
+<li>Créer un <a href="https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#upgrading-packages">environnement virtuel</a> <code>.venv</code>, à la racine du dossier.</li>
+<li>Activer l’environnement virtuel, installer les packages nécessaires.</li>
+<li>Créer un fichier <code>requirements.txt</code> avec <code>pip freeze &gt; requirements.txt</code></li>
+<li>Créer un fichier <code>.gitignore</code>, ignorer <code>data/</code> et <code>.venv/</code>.</li>
+<li>add, commit &amp; push</li>
 </ul>
-<p>If a serious dependency issue arises, use : <code>pip-autoremove &lt;packagename&gt;</code>. It will also uninstall all the dependancies. And install again with miniconda. Or use venv.</p>
-<p>Note : I had to uninstall harlequin due to a dependency conflict with jupyter.</p>
+</section>
+<section id="conda-recommandé" class="level1">
+<h1>Conda (recommandé)</h1>
+<ul>
+<li>Installer Miniconda (voir Quick command line install, c’est l’affaire de 4 ou 5 commandes).</li>
+<li>Créer un environnement virtuel avec <code>conda create</code> :::{.callout-note} Par défaut, les environnement virtuels conda sont <strong>centralisés</strong> dans le dossier ~/miniconda3. C’est bien ainsi. :::</li>
+<li>Activer cet environnement avec <code>conda activate</code></li>
+<li>Installer les packages nécessaires, souvent avec le <em>chanel</em> conda-forge : <code>conda install -c conda-forge XXX</code></li>
+<li>Installer Jupyter notebook (qui s’appelle <code>notebook</code>) et ipykernel (pas installé par défaut avec Jupyter notebook ?)</li>
+<li>Ajouter l’environnement virtuel aux kernels. :::{.callout-note} Les kernels jupyter sont stockés dans ~/.locale/share/jupyter/kernels sous la forme d’un fichier json. Si on supprime un environnement virtuel et qu’on ne veut plus qu’il apparaisse dans la page de sélection des kernels (pour Jupyterlab) ou le menu déroulant (pour Jupyter notebook), c’est ce dossier qu’il faut supprimer. :::</li>
+<li>Lancer jupyter notebook et sélectionner le kernel correspondant.</li>
+</ul>
+</section>
+<section id="conda-pip" class="level1">
+<h1>Conda &amp; pip</h1>
+<ul>
+<li>Chercher d’abord s’il est possible d’installer un package avec conda, notamment <em>via</em> conda-forge.</li>
+<li>S’il n’est pas disponible, alors l’installer avec <code>pip</code>.</li>
+<li><strong>Éviter</strong> d’installer un même package une fois avec panda, un autre avec pip, cela risque de créer des problèmes de dépendance.</li>
+<li>Pour savoir quels packages ont été crées avec conda, et quels autres avec pip, il suffit d’appeler <code>conda list</code> qui donne le <em>chanel</em> d’installation.</li>
+</ul>
+</section>
+<section id="îcone" class="level1">
+<h1>Îcone</h1>
 <p>Jupyter lab doesn’t come with an icon, I have one because I installed Jupyter Desktop and then uninstalled it. It created a Desktop configuration file in ~/.local/share/applications and added and icon to ~/local/share/icons/…</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
