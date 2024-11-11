@@ -40,6 +40,7 @@ Les kernels jupyter sont stockés dans ~/.locale/share/jupyter/kernels sous la f
 - **Éviter** d'installer un même package une fois avec panda, un autre avec pip, cela risque de créer des problèmes de dépendance.
 - Pour savoir quels packages ont été crées avec conda, et quels autres avec pip, il suffit d'appeler `conda list` qui donne le *chanel* d'installation.
 
-# Îcone
+# Divers
 
-Jupyter lab doesn't come with an icon, I have one because I installed Jupyter Desktop and then uninstalled it. It created a Desktop configuration file in ~/.local/share/applications and added and icon to ~/local/share/icons/...
+- Jupyter lab doesn't come with an icon, I have one because I installed Jupyter Desktop and then uninstalled it. It created a Desktop configuration file in ~/.local/share/applications and added and icon to ~/local/share/icons/...
+- Exemple de conflit de dépendance si on ne crée pas d'environnement virtuel : Harlequin & Jupyter.
