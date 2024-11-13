@@ -23,6 +23,8 @@ draft: false
 
 - [Marek Gagolewski](https://www.gagolewski.com/#)
 
+- [June Choe](https://yjunechoe.github.io/blog.html)
+
 # Visualization
 
 - [Thomas Cooper](https://cooper-thomas.com/)
