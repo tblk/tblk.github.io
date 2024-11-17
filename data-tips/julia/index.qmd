@@ -40,3 +40,9 @@ Voir [Julia Data Science](https://juliadatascience.io/ide).
 ## VS Code
 
 Voir le [billet dédié](https://tblk.github.io/excercices/visual-studio/).
+
+# Parquet Files
+
+- `Parquet` ne parvient pas à lire les fichiers parquet écrits avec les packages R `nanoparquet` et `arrow` de la manière la plus simple, c'est à dire avec `DataFrame(read_parquet(path))`.
+- `ParquetFiles` renvoie une erreur... dès l'installation, et n'est en effet plus maintenu depuis 4 ans...
+- `Parquet2`... Ça marche ! Et c'est bien celui qui est recommandé sur la page de `DataFrames` par exemple.

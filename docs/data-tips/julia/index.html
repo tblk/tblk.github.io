@@ -152,7 +152,7 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Modifié</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">22 octobre 2024</p>
+        <p class="date-modified">17 novembre 2024</p>
       </div>
     </div>
       
@@ -176,6 +176,7 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
   <li><a href="#installer-jupyter-cache" id="toc-installer-jupyter-cache" class="nav-link" data-scroll-target="#installer-jupyter-cache">Installer Jupyter Cache</a></li>
   <li><a href="#ide-options" id="toc-ide-options" class="nav-link" data-scroll-target="#ide-options">IDE options</a></li>
   <li><a href="#vs-code" id="toc-vs-code" class="nav-link" data-scroll-target="#vs-code">VS Code</a></li>
+  <li><a href="#parquet-files" id="toc-parquet-files" class="nav-link" data-scroll-target="#parquet-files">Parquet Files</a></li>
   </ul>
 </nav>
     </div>
@@ -221,6 +222,14 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
 <section id="vs-code" class="level2">
 <h2 class="anchored" data-anchor-id="vs-code">VS Code</h2>
 <p>Voir le <a href="https://tblk.github.io/excercices/visual-studio/">billet dédié</a>.</p>
+</section>
+<section id="parquet-files" class="level1">
+<h1>Parquet Files</h1>
+<ul>
+<li><code>Parquet</code> ne parvient pas à lire les fichiers parquet écrits avec les packages R <code>nanoparquet</code> et <code>arrow</code> de la manière la plus simple, c’est à dire avec <code>DataFrame(read_parquet(path))</code>.</li>
+<li><code>ParquetFiles</code> renvoie une erreur… dès l’installation, et n’est en effet plus maintenu depuis 4 ans…</li>
+<li><code>Parquet2</code>… Ça marche ! Et c’est bien celui qui est recommandé sur la page de <code>DataFrames</code> par exemple.</li>
+</ul>
 
 
 </section>
