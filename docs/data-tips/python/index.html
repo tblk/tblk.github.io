@@ -166,6 +166,7 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
   <ul>
   <li><a href="#pip-venv" id="toc-pip-venv" class="nav-link active" data-scroll-target="#pip-venv">Pip &amp; Venv</a></li>
   <li><a href="#conda-recommandé" id="toc-conda-recommandé" class="nav-link" data-scroll-target="#conda-recommandé">Conda (recommandé)</a></li>
+  <li><a href="#jupyter" id="toc-jupyter" class="nav-link" data-scroll-target="#jupyter">Jupyter</a></li>
   <li><a href="#conda-pip" id="toc-conda-pip" class="nav-link" data-scroll-target="#conda-pip">Conda &amp; pip</a></li>
   <li><a href="#divers" id="toc-divers" class="nav-link" data-scroll-target="#divers">Divers</a></li>
   </ul>
@@ -227,24 +228,6 @@ Note
 <ul>
 <li>Activer cet environnement avec <code>conda activate</code></li>
 <li>Installer les packages nécessaires, souvent avec le <em>chanel</em> conda-forge : <code>conda install -c conda-forge XXX</code></li>
-<li>Installer Jupyter notebook (qui s’appelle <code>notebook</code>) et ipykernel (pas installé par défaut avec Jupyter notebook ?)</li>
-<li>Ajouter l’environnement virtuel aux kernels.</li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Les kernels jupyter sont stockés dans <code>~/.locale/share/jupyter/kernels</code> sous la forme d’un fichier <code>.json</code>. Si on supprime un environnement virtuel et qu’on ne veut plus qu’il apparaisse dans la page de sélection des kernels (pour Jupyterlab) ou le menu déroulant (pour Jupyter notebook), c’est ce dossier qu’il faut supprimer.</p>
-</div>
-</div>
-<ul>
-<li>Lancer jupyter notebook et sélectionner le kernel correspondant.</li>
 </ul>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -262,6 +245,42 @@ Astuce
 <li>avec <code>conda create</code>, <code>conda activate</code>, <code>conda install</code>.</li>
 </ol>
 <p>Les deux approches sont valides. Dans un cas : <code>conda create -n sklearn-env -c conda-forge scikit-learn</code>, dans l’autre <code>conda create -n sklearn-env conda activate sklearn-env conda install -c conda-forge scikit-learn</code>. Petite préférence pour la première approche pour des environnements simples avec quelques packages définis à l’avance (cela permet de gérer dès le départ les conflits de dépendance). Préférence évidente pour la deuxième dans le cas où les paquets sont <strong>ajoutés de manière incrémentale</strong>.</p>
+</div>
+</div>
+</section>
+<section id="jupyter" class="level1">
+<h1>Jupyter</h1>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Astuce
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Installer Jupyter notebook ou Jupyter Lab dans un <strong>environnement à part</strong> (jup par exemple), créé soit avec conda, soit avec venv.</p>
+</div>
+</div>
+<p>Pour ajouter utiliser un environnement virtuel conda (par exemple sklearn-env) comme kernel jupyter :</p>
+<ul>
+<li><code>conda activate sklearn-env</code></li>
+<li><code>conda install -c conda-forge ipykernel</code></li>
+<li><code>python -m ipykernel install --user --name=sklearn-env --display-name "Python (sklearn-env)"</code></li>
+</ul>
+<p>Lancer jupyter notebook et sélectionner le kernel correspondant.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Les kernels jupyter sont stockés dans <code>~/.locale/share/jupyter/kernels</code> sous la forme d’un fichier <code>.json</code>. Si on supprime un environnement virtuel et qu’on ne veut plus qu’il apparaisse dans la page de sélection des kernels (pour Jupyterlab) ou le menu déroulant (pour Jupyter notebook), c’est ce dossier qu’il faut supprimer.</p>
 </div>
 </div>
 </section>
