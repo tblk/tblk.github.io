@@ -49,6 +49,48 @@
     "text": "Soin des bêtes et souci de soi\nCette enquête explore, à partir d’histoires d’éleveuses et d’éleveurs, et de leur travail de tous les jours, ce que soigner les bêtes et prendre soin de soi signifient. Elle montre à quelles conditions les éleveurs parviennent à s’aménager des moments de répit, à prévenir l’usure, à se soustraire au danger, et par quels processus d’autres en viennent à sacrifier leur santé en toute connaissance de cause. J’exploite plusieurs dizaines de bases de données différentes, couvrant les conditions de travail, l’état de santé et contraintes financières des éleveurs, sur les 50 dernières années. En même temps, je travaille dans des exploitations laitières des Pays-de-la-Loire et réalise des entretiens biographiques."
   },
   {
+    "objectID": "agribio.html#temps-de-travail",
+    "href": "agribio.html#temps-de-travail",
+    "title": "Ambivalence de l’attachement au travail",
+    "section": "Temps de travail",
+    "text": "Temps de travail"
+  },
+  {
+    "objectID": "agribio.html#questions",
+    "href": "agribio.html#questions",
+    "title": "Ambivalence de l’attachement au travail",
+    "section": "Questions",
+    "text": "Questions\n\nPensez-vous pouvoir faire le même travail jusqu’à la retraite ?\nLe souhaitez-vous ?\nSeriez-vous ou auriez-vous été heureux qu’un de vos enfants fasse le même métier que vous ?\nEst-ce qu’il vous arrive de penser à votre travail même quand vous n’y êtes pas ?\nPensez-vous que votre travail influence votre santé ?\nDans votre travail, à quelle fréquence vous arrive-t-il de ressentir les sentiments suivants :\n\nDe l’ennui ?\nLe sentiment d’être exploité ?"
+  },
+  {
+    "objectID": "agribio.html#travailsanté",
+    "href": "agribio.html#travailsanté",
+    "title": "Ambivalence de l’attachement au travail",
+    "section": "Travail/Santé",
+    "text": "Travail/Santé"
+  },
+  {
+    "objectID": "agribio.html#travailsanté-éleveurs",
+    "href": "agribio.html#travailsanté-éleveurs",
+    "title": "Ambivalence de l’attachement au travail",
+    "section": "Travail/Santé (éleveurs)",
+    "text": "Travail/Santé (éleveurs)"
+  },
+  {
+    "objectID": "agribio.html#proximités",
+    "href": "agribio.html#proximités",
+    "title": "Ambivalence de l’attachement au travail",
+    "section": "Proximités",
+    "text": "Proximités"
+  },
+  {
+    "objectID": "agribio.html#santé",
+    "href": "agribio.html#santé",
+    "title": "Ambivalence de l’attachement au travail",
+    "section": "Santé",
+    "text": "Santé"
+  },
+  {
     "objectID": "data-tips/chaines-de-caracteres/index.html",
     "href": "data-tips/chaines-de-caracteres/index.html",
     "title": "Chaînes de caractères",
@@ -70,242 +112,144 @@
     "text": "Nettoyage à options\n\n\n\n\n\n\nAstuce\n\n\n\nPenser au package fedmatch, et notamment à sa (très rapide) fonction clean_strings"
   },
   {
-    "objectID": "data-tips/big-data/index.html",
-    "href": "data-tips/big-data/index.html",
-    "title": "Big Data",
+    "objectID": "data-tips/tableaux/index.html",
+    "href": "data-tips/tableaux/index.html",
+    "title": "Tableaux",
     "section": "",
-    "text": "Benchmarks.\nUn post intéressant sur arrow et duckdb."
+    "text": "library(huxtable)"
   },
   {
-    "objectID": "data-tips/big-data/index.html#arrow-dplyr",
-    "href": "data-tips/big-data/index.html#arrow-dplyr",
-    "title": "Big Data",
-    "section": "arrow + dplyr",
-    "text": "arrow + dplyr"
+    "objectID": "data-tips/tableaux/index.html#afficher-les-nombres-tels-quils-sont",
+    "href": "data-tips/tableaux/index.html#afficher-les-nombres-tels-quils-sont",
+    "title": "Tableaux",
+    "section": "Afficher les nombres tels qu’ils sont",
+    "text": "Afficher les nombres tels qu’ils sont\n\ndata = tibble::tribble(\n  ~Prix,\n  51651687,\n  99082858,\n  80346499,\n  17362590,\n  91865211\n)\n\n\ndata |&gt; as_hux()\n\n\n\n\nPrix\n\n\n5.17e+07\n\n\n9.91e+07\n\n\n8.03e+07\n\n\n1.74e+07\n\n\n9.19e+07\n\n\n\n\n\n\n\n\ndata |&gt; as_hux() |&gt; set_number_format(NA)\n\n\n\n\nPrix\n\n\n51651687\n\n\n99082858\n\n\n80346499\n\n\n17362590\n\n\n91865211"
   },
   {
-    "objectID": "data-tips/big-data/index.html#duckdb-dplyr",
-    "href": "data-tips/big-data/index.html#duckdb-dplyr",
-    "title": "Big Data",
-    "section": "duckdb + dplyr",
-    "text": "duckdb + dplyr"
+    "objectID": "data-tips/tableaux/index.html#grouper-par-une-variable",
+    "href": "data-tips/tableaux/index.html#grouper-par-une-variable",
+    "title": "Tableaux",
+    "section": "Grouper par une variable",
+    "text": "Grouper par une variable"
   },
   {
-    "objectID": "data-tips/big-data/index.html#dataframesmeta.jl",
-    "href": "data-tips/big-data/index.html#dataframesmeta.jl",
-    "title": "Big Data",
-    "section": "DataframesMeta.jl",
-    "text": "DataframesMeta.jl"
-  },
-  {
-    "objectID": "data-tips/big-data/index.html#polars",
-    "href": "data-tips/big-data/index.html#polars",
-    "title": "Big Data",
-    "section": "polars",
-    "text": "polars\nVoir la documentation."
-  },
-  {
-    "objectID": "data-tips/big-data/index.html#data.table",
-    "href": "data-tips/big-data/index.html#data.table",
-    "title": "Big Data",
-    "section": "data.table",
-    "text": "data.table"
-  },
-  {
-    "objectID": "data-tips/labels.html",
-    "href": "data-tips/labels.html",
-    "title": "Labels",
+    "objectID": "data-tips/analyse-geometrique-des-donnees/index.html",
+    "href": "data-tips/analyse-geometrique-des-donnees/index.html",
+    "title": "Analyse géométrique des données",
     "section": "",
-    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n\nDictionnaire\n\ndescription &lt;- tibble(\n  name = c(\n    \"Sepal.Length\", \"Sepal.Width\", \"Petal.Length\", \"Petal.Width\"\n  ),\n  label = c(\n    \"Sepal length\", \"Sepal width\", \"Petal length\", \"Petal width\"\n  )\n)\n\n\n\nLabel\nSPÉCIFIER L’ARGUMENT .labels car !!!splicing pas nécessaire SI ARGUMENT .labels !\n\nv1 &lt;- setNames(as.list(description$label), description$name)\n\nv2 &lt;- description |&gt; deframe() |&gt; as.list()\n\niris_labelled &lt;- iris %&gt;%\n  labelled::set_variable_labels(.labels = v2, .strict = T)"
+    "text": "R\n\n\n\n\n\n\nNote\n\n\n\nUtilitR conseille le duo FactoMineR + factoextra.\n\n\n\nFactoMineR, développé par François Husson\nGDAtools, développé par Nicolas Robette\nade4, développé par le Le Laboratoire de Biométrie et Biologie Évolutive, à Lyon.\n\n\n\nPython\n\nPrince semble très prometteur. Utilise Vega-Altair pour les visualisations, qui sont donc interactives.\n\n\n\nJulia\nPas d’implémentation pour le moment semble-t-il."
   },
   {
-    "objectID": "data-tips/zotero/index.html",
-    "href": "data-tips/zotero/index.html",
-    "title": "Zotero",
+    "objectID": "data-tips/clustering.html",
+    "href": "data-tips/clustering.html",
+    "title": "Clustering",
     "section": "",
-    "text": "Décocher :\n\nFaire une capture automatique des pages web\nImporter automatiquement les marqueurs\nSynchroniser automatiquement les fichiers joints dans ma bibliothèque\n\n\n\n\n\n\n\nAstuce\n\n\n\nSi j’ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne).\n\n\n\n\n\n\n\n\nNote\n\n\n\nIl est toujours possible de synchroniser les fichiers joints pour les bibliothèques de groupe. On peut ainsi annoter des pdf de manière collaborative."
+    "text": "Cluster Task View (CRAN)\nClustering.jl\ngenieclust"
   },
   {
-    "objectID": "data-tips/zotero/index.html#préférences",
-    "href": "data-tips/zotero/index.html#préférences",
-    "title": "Zotero",
+    "objectID": "data-tips/graphes/index.html",
+    "href": "data-tips/graphes/index.html",
+    "title": "Graphes",
     "section": "",
-    "text": "Décocher :\n\nFaire une capture automatique des pages web\nImporter automatiquement les marqueurs\nSynchroniser automatiquement les fichiers joints dans ma bibliothèque\n\n\n\n\n\n\n\nAstuce\n\n\n\nSi j’ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne).\n\n\n\n\n\n\n\n\nNote\n\n\n\nIl est toujours possible de synchroniser les fichiers joints pour les bibliothèques de groupe. On peut ainsi annoter des pdf de manière collaborative."
+    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Graphes},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/graphes/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Graphes.” June 25, 2023. https://tblk.github.io/data-tips/graphes/."
   },
   {
-    "objectID": "data-tips/zotero/index.html#better-bibtex",
-    "href": "data-tips/zotero/index.html#better-bibtex",
-    "title": "Zotero",
-    "section": "Better Bibtex",
-    "text": "Better Bibtex\n\nVoir les instructions ici\nLes préférences de Better Bib Tex se trouvent dans l’onglet “Outils”\nChoisir auth.lower + year comme clé de citation"
-  },
-  {
-    "objectID": "data-tips/zotero/index.html#zutilo",
-    "href": "data-tips/zotero/index.html#zutilo",
-    "title": "Zotero",
-    "section": "Zutilo",
-    "text": "Zutilo\n\nVoir les instructions ici\nAller dans Outils &gt; Préférences de Zutilo et pour “copier les champs de la notice” et “coller dans les champs vides”, choisir “menu contextuel de Zutilo”."
-  },
-  {
-    "objectID": "data-tips/zotero/index.html#styles",
-    "href": "data-tips/zotero/index.html#styles",
-    "title": "Zotero",
-    "section": "Styles",
-    "text": "Styles\nZotero styles repository & Visual CSL Editor"
-  },
-  {
-    "objectID": "data-tips/zotero/index.html#zotero-ocr",
-    "href": "data-tips/zotero/index.html#zotero-ocr",
-    "title": "Zotero",
-    "section": "Zotero OCR",
-    "text": "Zotero OCR\nLes instructions pour installer le plugin sont disponibles dans le repo github correspondant.\nSi Zotero ne trouve pas le chemin vers pdftoppm il suffit de le lui indiquer. On trouve ce chemin grâce à la commande which :\n\nwhich pdftoppm"
-  },
-  {
-    "objectID": "data-tips/visual-studio/index.html",
-    "href": "data-tips/visual-studio/index.html",
-    "title": "Visual Studio Code",
+    "objectID": "data-tips/site-web/index.html",
+    "href": "data-tips/site-web/index.html",
+    "title": "Site Web",
     "section": "",
-    "text": "VS Code fonctionne avec des extensions :\nL’extension Polyglot ne supporte pas R et Julia."
+    "text": "Crée un nouveau repo sur Github.\nClone le.\nOuvre le terminal dans le répertoire du projet (Alt + Maj + M dans Rstudio) et crée un projet de type website.\nquarto create-project &lt;site-name&gt; --type website\nOu :\nquarto create project website /\nquarto render"
   },
   {
-    "objectID": "data-tips/visual-studio/index.html#to-uninstall",
-    "href": "data-tips/visual-studio/index.html#to-uninstall",
-    "title": "Visual Studio Code",
-    "section": "To uninstall",
-    "text": "To uninstall\n\nsudo apt remove code\nrm ~/.config/Code\nrm ~/.vscode"
+    "objectID": "data-tips/site-web/index.html#preview-image",
+    "href": "data-tips/site-web/index.html#preview-image",
+    "title": "Site Web",
+    "section": "Preview image",
+    "text": "Preview image\nPour qu’un graphique en particulier serve de preview image :\n```{r}\n#| classes: preview-image\nplot(mtcars)\n```"
   },
   {
-    "objectID": "data-tips/julia/index.html",
-    "href": "data-tips/julia/index.html",
-    "title": "Julia",
+    "objectID": "data-tips/site-web/index.html#code-highlighting",
+    "href": "data-tips/site-web/index.html#code-highlighting",
+    "title": "Site Web",
+    "section": "Code highlighting",
+    "text": "Code highlighting\nPour que du code bash ressorte correctement, choisir : engine: knitr. Voir cette issue.\n\n\n\n\n\n\nAvertissement\n\n\n\nEt ne surtout pas oublier l’option `eval: false` !"
+  },
+  {
+    "objectID": "data-tips/r-et-rstudio/index.html",
+    "href": "data-tips/r-et-rstudio/index.html",
+    "title": "R et Rstudio",
     "section": "",
-    "text": "Avec juliaup."
+    "text": "Tout ce qu’il faut savoir sur le terminal\n\nCmd + Espace pour ouvrir “Spotlight search”\nTaper “Terminal” dans la barre de recherche"
   },
   {
-    "objectID": "data-tips/julia/index.html#installer-julia",
-    "href": "data-tips/julia/index.html#installer-julia",
-    "title": "Julia",
+    "objectID": "data-tips/r-et-rstudio/index.html#ouvrir-le-terminal",
+    "href": "data-tips/r-et-rstudio/index.html#ouvrir-le-terminal",
+    "title": "R et Rstudio",
     "section": "",
-    "text": "Avec juliaup."
+    "text": "Tout ce qu’il faut savoir sur le terminal\n\nCmd + Espace pour ouvrir “Spotlight search”\nTaper “Terminal” dans la barre de recherche"
   },
   {
-    "objectID": "data-tips/julia/index.html#installer-ijulia",
-    "href": "data-tips/julia/index.html#installer-ijulia",
-    "title": "Julia",
-    "section": "Installer IJulia",
-    "text": "Installer IJulia\nVoir la documentation de quarto."
+    "objectID": "data-tips/r-et-rstudio/index.html#installer-homebrew",
+    "href": "data-tips/r-et-rstudio/index.html#installer-homebrew",
+    "title": "R et Rstudio",
+    "section": "Installer Homebrew",
+    "text": "Installer Homebrew\n\nVisitez la page de Homebrew\nInstallez le ainsi : /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
   },
   {
-    "objectID": "data-tips/julia/index.html#installer-revise.jl",
-    "href": "data-tips/julia/index.html#installer-revise.jl",
-    "title": "Julia",
-    "section": "Installer Revise.jl",
-    "text": "Installer Revise.jl\nEn tapant ] dans le Julia REPL, puis add Revise, tout simplement."
+    "objectID": "data-tips/r-et-rstudio/index.html#installer-r-et-rstudio",
+    "href": "data-tips/r-et-rstudio/index.html#installer-r-et-rstudio",
+    "title": "R et Rstudio",
+    "section": "Installer R et Rstudio",
+    "text": "Installer R et Rstudio\n\nR : brew install r\nRstudio : brew cask install rstudio\nPour les mettre à jour si besoin : brew update & brew upgrade"
   },
   {
-    "objectID": "data-tips/julia/index.html#quitter-le-pkg-mode",
-    "href": "data-tips/julia/index.html#quitter-le-pkg-mode",
-    "title": "Julia",
-    "section": "Quitter le Pkg Mode",
-    "text": "Quitter le Pkg Mode\nBackspace (juste au dessus de la touche Enter)."
+    "objectID": "data-tips/r-et-rstudio/index.html#configurer-rstudio",
+    "href": "data-tips/r-et-rstudio/index.html#configurer-rstudio",
+    "title": "R et Rstudio",
+    "section": "Configurer Rstudio",
+    "text": "Configurer Rstudio"
   },
   {
-    "objectID": "data-tips/julia/index.html#quitter-julia-repel",
-    "href": "data-tips/julia/index.html#quitter-julia-repel",
-    "title": "Julia",
-    "section": "Quitter Julia REPEL",
-    "text": "Quitter Julia REPEL\nSimplement Ctrl + D ou exit()."
+    "objectID": "data-tips/r-et-rstudio/index.html#installer-tinytex",
+    "href": "data-tips/r-et-rstudio/index.html#installer-tinytex",
+    "title": "R et Rstudio",
+    "section": "Installer Tinytex",
+    "text": "Installer Tinytex\nPour pouvoir produire des pdf avec quarto : quarto install tinytex"
   },
   {
-    "objectID": "data-tips/julia/index.html#utiliser-revise-automatiquement-avec-jupyterijulia",
-    "href": "data-tips/julia/index.html#utiliser-revise-automatiquement-avec-jupyterijulia",
-    "title": "Julia",
-    "section": "Utiliser Revise automatiquement avec Jupyter/IJulia",
-    "text": "Utiliser Revise automatiquement avec Jupyter/IJulia\nVoir la documentation de Revise.jl."
-  },
-  {
-    "objectID": "data-tips/julia/index.html#installer-jupyter-cache",
-    "href": "data-tips/julia/index.html#installer-jupyter-cache",
-    "title": "Julia",
-    "section": "Installer Jupyter Cache",
-    "text": "Installer Jupyter Cache\nAvec pip, voir la documentation de quarto."
-  },
-  {
-    "objectID": "data-tips/julia/index.html#ide-options",
-    "href": "data-tips/julia/index.html#ide-options",
-    "title": "Julia",
-    "section": "IDE options",
-    "text": "IDE options\nVoir Julia Data Science."
-  },
-  {
-    "objectID": "data-tips/julia/index.html#vs-code",
-    "href": "data-tips/julia/index.html#vs-code",
-    "title": "Julia",
-    "section": "VS Code",
-    "text": "VS Code\nVoir le billet dédié."
-  },
-  {
-    "objectID": "data-tips/git-et-github/index.html",
-    "href": "data-tips/git-et-github/index.html",
-    "title": "Git et Github",
+    "objectID": "data-tips/ocerisation/index.html",
+    "href": "data-tips/ocerisation/index.html",
+    "title": "Océrisation",
     "section": "",
-    "text": "which git\nS’il ne l’est pas : brew install git"
+    "text": "Voir le site de la librairie, la page github du package R et celle du plugin Zotero."
   },
   {
-    "objectID": "data-tips/git-et-github/index.html#vérifie-si-git-est-installé",
-    "href": "data-tips/git-et-github/index.html#vérifie-si-git-est-installé",
-    "title": "Git et Github",
+    "objectID": "data-tips/ocerisation/index.html#installation-ubuntu",
+    "href": "data-tips/ocerisation/index.html#installation-ubuntu",
+    "title": "Océrisation",
+    "section": "Installation Ubuntu",
+    "text": "Installation Ubuntu\nVérifier s’il n’est pas déjà installé :\n\ntesseract -v\n\nSi ce n’est pas le cas :\n\nsudo apt install tesseract-ocr # installe aussi le paquet anglais\nsudo apt install tesseract-ocr-fra # installe le paquet français\nsudo apt install libtesseract-dev # developper tools : nécessaires pour installer le package R"
+  },
+  {
+    "objectID": "data-tips/ocerisation/index.html#installation-du-package-r",
+    "href": "data-tips/ocerisation/index.html#installation-du-package-r",
+    "title": "Océrisation",
+    "section": "Installation du package R",
+    "text": "Installation du package R\ntesseract dépend de pdftools, qui requiert l’installation de poppler. D’où :\n\nsudo apt install libpoppler-cpp-dev\n\nPuis :\n\ninstall.packages(\"pdftools\")\n\nSi on a oublié l’installation des developper tools, il est nécessaire de les installer. Ceci marche également :\n\nsudo apt install libtesseract-dev libleptonica-dev\n\nEnfin :\n\ninstall.packages(\"tesseract\")"
+  },
+  {
+    "objectID": "data-tips/ocerisation/index.html#installation-du-plugin-zotero",
+    "href": "data-tips/ocerisation/index.html#installation-du-plugin-zotero",
+    "title": "Océrisation",
+    "section": "Installation du plugin Zotero",
+    "text": "Installation du plugin Zotero\nDepuis le fichier .xpi, tout simplement."
+  },
+  {
+    "objectID": "data-tips/python/index.html",
+    "href": "data-tips/python/index.html",
+    "title": "Python",
     "section": "",
-    "text": "which git\nS’il ne l’est pas : brew install git"
-  },
-  {
-    "objectID": "data-tips/git-et-github/index.html#présente-toi-à-git",
-    "href": "data-tips/git-et-github/index.html#présente-toi-à-git",
-    "title": "Git et Github",
-    "section": "Présente toi à Git",
-    "text": "Présente toi à Git\n\ngit config --global user.name 'Jane Doe'\ngit config --global user.email 'jane@example.com\ngit config --global --list"
-  },
-  {
-    "objectID": "data-tips/git-et-github/index.html#cloner-un-repo",
-    "href": "data-tips/git-et-github/index.html#cloner-un-repo",
-    "title": "Git et Github",
-    "section": "Cloner un repo",
-    "text": "Cloner un repo"
-  },
-  {
-    "objectID": "data-tips/git-et-github/index.html#cacher-le-personnal-access-token",
-    "href": "data-tips/git-et-github/index.html#cacher-le-personnal-access-token",
-    "title": "Git et Github",
-    "section": "Cacher le Personnal access token",
-    "text": "Cacher le Personnal access token\nUpdates and shortens a post by Danielle Navarro.\nFor everyone :\n\nIf (and only if) no token yet : usethis::create_github_token()\nThen cache it : gitcreds::gitcreds_set()\nCheck your git situation : usethis::git_sitrep()\n\nThen, for Linux users only :\n\nDownload the latest version of GCM (the .deb file)\nInstall it : sudo dpkg -i &lt;path-to-deb-file&gt;\ngit-credential-manager configure\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAnd not : git-credential-manager-CORE configure, as in Danielle Navarro’s blog post.\n\n\n\nCheck libsecret is installed (it should be) : dpkg -s libsecret-1-0 The status should be Install ok Installed\ngit config --global credential.credentialStore secretservice\nThe first time you make a push, a window will open in your web browser, asking for password and a confirmation."
-  },
-  {
-    "objectID": "data-tips/images/index.html",
-    "href": "data-tips/images/index.html",
-    "title": "Images",
-    "section": "",
-    "text": "convert image.jpg image.png"
-  },
-  {
-    "objectID": "data-tips/images/index.html#convertir-une-image",
-    "href": "data-tips/images/index.html#convertir-une-image",
-    "title": "Images",
-    "section": "",
-    "text": "convert image.jpg image.png"
-  },
-  {
-    "objectID": "data-tips/images/index.html#compresser-une-image",
-    "href": "data-tips/images/index.html#compresser-une-image",
-    "title": "Images",
-    "section": "Compresser une image",
-    "text": "Compresser une image\n\nconvert image.jpg[50%x50%] -quality 70 compressed_image.jpg"
-  },
-  {
-    "objectID": "data-tips/images/index.html#passer-en-nuances-de-gris",
-    "href": "data-tips/images/index.html#passer-en-nuances-de-gris",
-    "title": "Images",
-    "section": "Passer en nuances de gris",
-    "text": "Passer en nuances de gris\nIci, on utilise le package magick, qui rend accessible depuis R la librairie ImageMagick.\n\n\n\nHyla japonica, 1er septembre 2008, 池田正樹 (talk) masaki ikeda, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons\n\n\n\ngray_frog = magick::image_read(\n  \"https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg\"\n  ) |&gt; \n  magick::image_quantize(colorspace = \"gray\")\ngray_frog"
+    "text": "Pip & Venv\nAvec cette méthode, on peut se contenter du python3 du système d’exploitation. Dans tous les cas, ne jamais installer les packages dans l’environnement global, toujours dans des environnements virtuels isolés du reste du système d’exploitation.\n\nCréer un nouveau repo github\nLe cloner avec git clone https://...\nCréer les sous-dossiers suivants : data, src, notebooks\nCréer un environnement virtuel .venv, à la racine du dossier.\nActiver l’environnement virtuel, installer les packages nécessaires.\nCréer un fichier requirements.txt avec pip freeze &gt; requirements.txt\nCréer un fichier .gitignore, ignorer data/ et .venv/.\nadd, commit & push\n\n\n\nConda (recommandé)\n\nInstaller Miniconda (voir Quick command line install, c’est l’affaire de 4 ou 5 commandes).\nCréer un environnement virtuel avec conda create\n\n\n\n\n\n\n\nAvertissement\n\n\n\nHors connexion, la commande conda create va échouer, à moins d’utiliser la commande --offline. En effet, même si on ne spécifie pas de paquet à installer, conda va “consulter” les channels par défaut.\n\n\n\n\n\n\n\n\nNote\n\n\n\nPar défaut, les environnement virtuels conda sont centralisés dans le dossier ~/miniconda3. C’est bien ainsi.\n\n\n\nActiver cet environnement avec conda activate\nInstaller les packages nécessaires, souvent avec le chanel conda-forge : conda install -c conda-forge XXX\n\n\n\n\n\n\n\nAstuce\n\n\n\nIl y a deux approches possibles pour la création d’un environnement conda et l’installation des paquets :\n\ninstaller les paquets directement avec conda create\navec conda create, conda activate, conda install.\n\nLes deux approches sont valides. Dans un cas : conda create -n sklearn-env -c conda-forge scikit-learn, dans l’autre conda create -n sklearn-env conda activate sklearn-env conda install -c conda-forge scikit-learn. Petite préférence pour la première approche pour des environnements simples avec quelques packages définis à l’avance (cela permet de gérer dès le départ les conflits de dépendance). Préférence évidente pour la deuxième dans le cas où les paquets sont ajoutés de manière incrémentale.\n\n\n\n\nJupyter\n\n\n\n\n\n\nAstuce\n\n\n\nInstaller Jupyter notebook ou Jupyter Lab dans un environnement à part (jup par exemple), créé soit avec conda, soit avec venv.\n\n\nPour ajouter utiliser un environnement virtuel conda (par exemple sklearn-env) comme kernel jupyter :\n\nconda activate sklearn-env\nconda install -c conda-forge ipykernel\npython -m ipykernel install --user --name=sklearn-env --display-name \"Python (sklearn-env)\"\n\nLancer jupyter notebook et sélectionner le kernel correspondant.\n\n\n\n\n\n\nNote\n\n\n\nLes kernels jupyter sont stockés dans ~/.locale/share/jupyter/kernels sous la forme d’un fichier .json. Si on supprime un environnement virtuel et qu’on ne veut plus qu’il apparaisse dans la page de sélection des kernels (pour Jupyterlab) ou le menu déroulant (pour Jupyter notebook), c’est ce dossier qu’il faut supprimer.\n\n\n\n\nConda & pip\n\nChercher d’abord s’il est possible d’installer un package avec conda, notamment via conda-forge.\nS’il n’est pas disponible, alors l’installer avec pip.\nÉviter d’installer un même package une fois avec conda, un autre avec pip, cela risque de créer des problèmes de dépendance.\nPour savoir quels packages ont été crées avec conda, et quels autres avec pip, il suffit d’appeler conda list qui donne le chanel d’installation.\n\n\n\nDivers\n\nJupyter lab doesn’t come with an icon, I have one because I installed Jupyter Desktop and then uninstalled it. It created a Desktop configuration file in ~/.local/share/applications and added and icon to ~/local/share/icons/…\nExemple de conflit de dépendance si on ne crée pas d’environnement virtuel : Harlequin & Jupyter."
   },
   {
     "objectID": "data-tips/spark/index.html",
@@ -490,144 +434,256 @@
     "text": "Whisper\nLe plus simple : installer directement whisper avec pip et l’utiliser en ligne de commande. S’assurer que ffmpeg est installé sur l’ordinateur.\nLe modèle turbo, plus léger que les modèles large, est presque aussi performant.\nOn peut noter qu’une interface graphique a été développée."
   },
   {
-    "objectID": "data-tips/python/index.html",
-    "href": "data-tips/python/index.html",
-    "title": "Python",
+    "objectID": "data-tips/valeurs manquantes.html",
+    "href": "data-tips/valeurs manquantes.html",
+    "title": "Valeurs manquantes",
     "section": "",
-    "text": "Pip & Venv\nAvec cette méthode, on peut se contenter du python3 du système d’exploitation. Dans tous les cas, ne jamais installer les packages dans l’environnement global, toujours dans des environnements virtuels isolés du reste du système d’exploitation.\n\nCréer un nouveau repo github\nLe cloner avec git clone https://...\nCréer les sous-dossiers suivants : data, src, notebooks\nCréer un environnement virtuel .venv, à la racine du dossier.\nActiver l’environnement virtuel, installer les packages nécessaires.\nCréer un fichier requirements.txt avec pip freeze &gt; requirements.txt\nCréer un fichier .gitignore, ignorer data/ et .venv/.\nadd, commit & push\n\n\n\nConda (recommandé)\n\nInstaller Miniconda (voir Quick command line install, c’est l’affaire de 4 ou 5 commandes).\nCréer un environnement virtuel avec conda create\n\n\n\n\n\n\n\nAvertissement\n\n\n\nHors connexion, la commande conda create va échouer, à moins d’utiliser la commande --offline. En effet, même si on ne spécifie pas de paquet à installer, conda va “consulter” les channels par défaut.\n\n\n\n\n\n\n\n\nNote\n\n\n\nPar défaut, les environnement virtuels conda sont centralisés dans le dossier ~/miniconda3. C’est bien ainsi.\n\n\n\nActiver cet environnement avec conda activate\nInstaller les packages nécessaires, souvent avec le chanel conda-forge : conda install -c conda-forge XXX\n\n\n\n\n\n\n\nAstuce\n\n\n\nIl y a deux approches possibles pour la création d’un environnement conda et l’installation des paquets :\n\ninstaller les paquets directement avec conda create\navec conda create, conda activate, conda install.\n\nLes deux approches sont valides. Dans un cas : conda create -n sklearn-env -c conda-forge scikit-learn, dans l’autre conda create -n sklearn-env conda activate sklearn-env conda install -c conda-forge scikit-learn. Petite préférence pour la première approche pour des environnements simples avec quelques packages définis à l’avance (cela permet de gérer dès le départ les conflits de dépendance). Préférence évidente pour la deuxième dans le cas où les paquets sont ajoutés de manière incrémentale.\n\n\n\n\nJupyter\n\n\n\n\n\n\nAstuce\n\n\n\nInstaller Jupyter notebook ou Jupyter Lab dans un environnement à part (jup par exemple), créé soit avec conda, soit avec venv.\n\n\nPour ajouter utiliser un environnement virtuel conda (par exemple sklearn-env) comme kernel jupyter :\n\nconda activate sklearn-env\nconda install -c conda-forge ipykernel\npython -m ipykernel install --user --name=sklearn-env --display-name \"Python (sklearn-env)\"\n\nLancer jupyter notebook et sélectionner le kernel correspondant.\n\n\n\n\n\n\nNote\n\n\n\nLes kernels jupyter sont stockés dans ~/.locale/share/jupyter/kernels sous la forme d’un fichier .json. Si on supprime un environnement virtuel et qu’on ne veut plus qu’il apparaisse dans la page de sélection des kernels (pour Jupyterlab) ou le menu déroulant (pour Jupyter notebook), c’est ce dossier qu’il faut supprimer.\n\n\n\n\nConda & pip\n\nChercher d’abord s’il est possible d’installer un package avec conda, notamment via conda-forge.\nS’il n’est pas disponible, alors l’installer avec pip.\nÉviter d’installer un même package une fois avec conda, un autre avec pip, cela risque de créer des problèmes de dépendance.\nPour savoir quels packages ont été crées avec conda, et quels autres avec pip, il suffit d’appeler conda list qui donne le chanel d’installation.\n\n\n\nDivers\n\nJupyter lab doesn’t come with an icon, I have one because I installed Jupyter Desktop and then uninstalled it. It created a Desktop configuration file in ~/.local/share/applications and added and icon to ~/local/share/icons/…\nExemple de conflit de dépendance si on ne crée pas d’environnement virtuel : Harlequin & Jupyter."
+    "text": "questionr\n\ndata |&gt; questionr::freq.na()\n\n\n\ntidyr\n\ndata |&gt; tidyr::drop_na()\n\n\n\nnaniar\nPackage naniar :\n\nActivement maintenu\nNombreux contributeurs\nBasé sur le { tidyverse }\nPropose des structures de données pour visualiser (si paradoxal que cela puisse paraître) les valeurs manquantes."
   },
   {
-    "objectID": "data-tips/ocerisation/index.html",
-    "href": "data-tips/ocerisation/index.html",
-    "title": "Océrisation",
+    "objectID": "data-tips/images/index.html",
+    "href": "data-tips/images/index.html",
+    "title": "Images",
     "section": "",
-    "text": "Voir le site de la librairie, la page github du package R et celle du plugin Zotero."
+    "text": "convert image.jpg image.png"
   },
   {
-    "objectID": "data-tips/ocerisation/index.html#installation-ubuntu",
-    "href": "data-tips/ocerisation/index.html#installation-ubuntu",
-    "title": "Océrisation",
-    "section": "Installation Ubuntu",
-    "text": "Installation Ubuntu\nVérifier s’il n’est pas déjà installé :\n\ntesseract -v\n\nSi ce n’est pas le cas :\n\nsudo apt install tesseract-ocr # installe aussi le paquet anglais\nsudo apt install tesseract-ocr-fra # installe le paquet français\nsudo apt install libtesseract-dev # developper tools : nécessaires pour installer le package R"
-  },
-  {
-    "objectID": "data-tips/ocerisation/index.html#installation-du-package-r",
-    "href": "data-tips/ocerisation/index.html#installation-du-package-r",
-    "title": "Océrisation",
-    "section": "Installation du package R",
-    "text": "Installation du package R\ntesseract dépend de pdftools, qui requiert l’installation de poppler. D’où :\n\nsudo apt install libpoppler-cpp-dev\n\nPuis :\n\ninstall.packages(\"pdftools\")\n\nSi on a oublié l’installation des developper tools, il est nécessaire de les installer. Ceci marche également :\n\nsudo apt install libtesseract-dev libleptonica-dev\n\nEnfin :\n\ninstall.packages(\"tesseract\")"
-  },
-  {
-    "objectID": "data-tips/ocerisation/index.html#installation-du-plugin-zotero",
-    "href": "data-tips/ocerisation/index.html#installation-du-plugin-zotero",
-    "title": "Océrisation",
-    "section": "Installation du plugin Zotero",
-    "text": "Installation du plugin Zotero\nDepuis le fichier .xpi, tout simplement."
-  },
-  {
-    "objectID": "data-tips/r-et-rstudio/index.html",
-    "href": "data-tips/r-et-rstudio/index.html",
-    "title": "R et Rstudio",
+    "objectID": "data-tips/images/index.html#convertir-une-image",
+    "href": "data-tips/images/index.html#convertir-une-image",
+    "title": "Images",
     "section": "",
-    "text": "Tout ce qu’il faut savoir sur le terminal\n\nCmd + Espace pour ouvrir “Spotlight search”\nTaper “Terminal” dans la barre de recherche"
+    "text": "convert image.jpg image.png"
   },
   {
-    "objectID": "data-tips/r-et-rstudio/index.html#ouvrir-le-terminal",
-    "href": "data-tips/r-et-rstudio/index.html#ouvrir-le-terminal",
-    "title": "R et Rstudio",
+    "objectID": "data-tips/images/index.html#compresser-une-image",
+    "href": "data-tips/images/index.html#compresser-une-image",
+    "title": "Images",
+    "section": "Compresser une image",
+    "text": "Compresser une image\n\nconvert image.jpg[50%x50%] -quality 70 compressed_image.jpg"
+  },
+  {
+    "objectID": "data-tips/images/index.html#passer-en-nuances-de-gris",
+    "href": "data-tips/images/index.html#passer-en-nuances-de-gris",
+    "title": "Images",
+    "section": "Passer en nuances de gris",
+    "text": "Passer en nuances de gris\nIci, on utilise le package magick, qui rend accessible depuis R la librairie ImageMagick.\n\n\n\nHyla japonica, 1er septembre 2008, 池田正樹 (talk) masaki ikeda, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons\n\n\n\ngray_frog = magick::image_read(\n  \"https://upload.wikimedia.org/wikipedia/commons/5/5a/Hyla_japonica_sep01.jpg\"\n  ) |&gt; \n  magick::image_quantize(colorspace = \"gray\")\ngray_frog"
+  },
+  {
+    "objectID": "data-tips/git-et-github/index.html",
+    "href": "data-tips/git-et-github/index.html",
+    "title": "Git et Github",
     "section": "",
-    "text": "Tout ce qu’il faut savoir sur le terminal\n\nCmd + Espace pour ouvrir “Spotlight search”\nTaper “Terminal” dans la barre de recherche"
+    "text": "which git\nS’il ne l’est pas : brew install git"
   },
   {
-    "objectID": "data-tips/r-et-rstudio/index.html#installer-homebrew",
-    "href": "data-tips/r-et-rstudio/index.html#installer-homebrew",
-    "title": "R et Rstudio",
-    "section": "Installer Homebrew",
-    "text": "Installer Homebrew\n\nVisitez la page de Homebrew\nInstallez le ainsi : /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
-  },
-  {
-    "objectID": "data-tips/r-et-rstudio/index.html#installer-r-et-rstudio",
-    "href": "data-tips/r-et-rstudio/index.html#installer-r-et-rstudio",
-    "title": "R et Rstudio",
-    "section": "Installer R et Rstudio",
-    "text": "Installer R et Rstudio\n\nR : brew install r\nRstudio : brew cask install rstudio\nPour les mettre à jour si besoin : brew update & brew upgrade"
-  },
-  {
-    "objectID": "data-tips/r-et-rstudio/index.html#configurer-rstudio",
-    "href": "data-tips/r-et-rstudio/index.html#configurer-rstudio",
-    "title": "R et Rstudio",
-    "section": "Configurer Rstudio",
-    "text": "Configurer Rstudio"
-  },
-  {
-    "objectID": "data-tips/r-et-rstudio/index.html#installer-tinytex",
-    "href": "data-tips/r-et-rstudio/index.html#installer-tinytex",
-    "title": "R et Rstudio",
-    "section": "Installer Tinytex",
-    "text": "Installer Tinytex\nPour pouvoir produire des pdf avec quarto : quarto install tinytex"
-  },
-  {
-    "objectID": "data-tips/site-web/index.html",
-    "href": "data-tips/site-web/index.html",
-    "title": "Site Web",
+    "objectID": "data-tips/git-et-github/index.html#vérifie-si-git-est-installé",
+    "href": "data-tips/git-et-github/index.html#vérifie-si-git-est-installé",
+    "title": "Git et Github",
     "section": "",
-    "text": "Crée un nouveau repo sur Github.\nClone le.\nOuvre le terminal dans le répertoire du projet (Alt + Maj + M dans Rstudio) et crée un projet de type website.\nquarto create-project &lt;site-name&gt; --type website\nOu :\nquarto create project website /\nquarto render"
+    "text": "which git\nS’il ne l’est pas : brew install git"
   },
   {
-    "objectID": "data-tips/site-web/index.html#preview-image",
-    "href": "data-tips/site-web/index.html#preview-image",
-    "title": "Site Web",
-    "section": "Preview image",
-    "text": "Preview image\nPour qu’un graphique en particulier serve de preview image :\n```{r}\n#| classes: preview-image\nplot(mtcars)\n```"
+    "objectID": "data-tips/git-et-github/index.html#présente-toi-à-git",
+    "href": "data-tips/git-et-github/index.html#présente-toi-à-git",
+    "title": "Git et Github",
+    "section": "Présente toi à Git",
+    "text": "Présente toi à Git\n\ngit config --global user.name 'Jane Doe'\ngit config --global user.email 'jane@example.com\ngit config --global --list"
   },
   {
-    "objectID": "data-tips/site-web/index.html#code-highlighting",
-    "href": "data-tips/site-web/index.html#code-highlighting",
-    "title": "Site Web",
-    "section": "Code highlighting",
-    "text": "Code highlighting\nPour que du code bash ressorte correctement, choisir : engine: knitr. Voir cette issue.\n\n\n\n\n\n\nAvertissement\n\n\n\nEt ne surtout pas oublier l’option `eval: false` !"
+    "objectID": "data-tips/git-et-github/index.html#cloner-un-repo",
+    "href": "data-tips/git-et-github/index.html#cloner-un-repo",
+    "title": "Git et Github",
+    "section": "Cloner un repo",
+    "text": "Cloner un repo"
   },
   {
-    "objectID": "data-tips/graphes/index.html",
-    "href": "data-tips/graphes/index.html",
-    "title": "Graphes",
+    "objectID": "data-tips/git-et-github/index.html#cacher-le-personnal-access-token",
+    "href": "data-tips/git-et-github/index.html#cacher-le-personnal-access-token",
+    "title": "Git et Github",
+    "section": "Cacher le Personnal access token",
+    "text": "Cacher le Personnal access token\nUpdates and shortens a post by Danielle Navarro.\nFor everyone :\n\nIf (and only if) no token yet : usethis::create_github_token()\nThen cache it : gitcreds::gitcreds_set()\nCheck your git situation : usethis::git_sitrep()\n\nThen, for Linux users only :\n\nDownload the latest version of GCM (the .deb file)\nInstall it : sudo dpkg -i &lt;path-to-deb-file&gt;\ngit-credential-manager configure\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAnd not : git-credential-manager-CORE configure, as in Danielle Navarro’s blog post.\n\n\n\nCheck libsecret is installed (it should be) : dpkg -s libsecret-1-0 The status should be Install ok Installed\ngit config --global credential.credentialStore secretservice\nThe first time you make a push, a window will open in your web browser, asking for password and a confirmation."
+  },
+  {
+    "objectID": "data-tips/julia/index.html",
+    "href": "data-tips/julia/index.html",
+    "title": "Julia",
     "section": "",
-    "text": "CitationBibTeX@online{boulakia2023,\n  author = {Boulakia, Théo},\n  title = {Graphes},\n  date = {2023-06-25},\n  url = {https://tblk.github.io/data-tips/graphes/},\n  langid = {fr}\n}\nVeuillez citer ce travail comme suit :\nBoulakia, Théo. 2023. “Graphes.” June 25, 2023. https://tblk.github.io/data-tips/graphes/."
+    "text": "Avec juliaup."
   },
   {
-    "objectID": "data-tips/clustering.html",
-    "href": "data-tips/clustering.html",
-    "title": "Clustering",
+    "objectID": "data-tips/julia/index.html#installer-julia",
+    "href": "data-tips/julia/index.html#installer-julia",
+    "title": "Julia",
     "section": "",
-    "text": "Cluster Task View (CRAN)\nClustering.jl\ngenieclust"
+    "text": "Avec juliaup."
   },
   {
-    "objectID": "data-tips/analyse-geometrique-des-donnees/index.html",
-    "href": "data-tips/analyse-geometrique-des-donnees/index.html",
-    "title": "Analyse géométrique des données",
+    "objectID": "data-tips/julia/index.html#installer-ijulia",
+    "href": "data-tips/julia/index.html#installer-ijulia",
+    "title": "Julia",
+    "section": "Installer IJulia",
+    "text": "Installer IJulia\nVoir la documentation de quarto."
+  },
+  {
+    "objectID": "data-tips/julia/index.html#installer-revise.jl",
+    "href": "data-tips/julia/index.html#installer-revise.jl",
+    "title": "Julia",
+    "section": "Installer Revise.jl",
+    "text": "Installer Revise.jl\nEn tapant ] dans le Julia REPL, puis add Revise, tout simplement."
+  },
+  {
+    "objectID": "data-tips/julia/index.html#quitter-le-pkg-mode",
+    "href": "data-tips/julia/index.html#quitter-le-pkg-mode",
+    "title": "Julia",
+    "section": "Quitter le Pkg Mode",
+    "text": "Quitter le Pkg Mode\nBackspace (juste au dessus de la touche Enter)."
+  },
+  {
+    "objectID": "data-tips/julia/index.html#quitter-julia-repel",
+    "href": "data-tips/julia/index.html#quitter-julia-repel",
+    "title": "Julia",
+    "section": "Quitter Julia REPEL",
+    "text": "Quitter Julia REPEL\nSimplement Ctrl + D ou exit()."
+  },
+  {
+    "objectID": "data-tips/julia/index.html#utiliser-revise-automatiquement-avec-jupyterijulia",
+    "href": "data-tips/julia/index.html#utiliser-revise-automatiquement-avec-jupyterijulia",
+    "title": "Julia",
+    "section": "Utiliser Revise automatiquement avec Jupyter/IJulia",
+    "text": "Utiliser Revise automatiquement avec Jupyter/IJulia\nVoir la documentation de Revise.jl."
+  },
+  {
+    "objectID": "data-tips/julia/index.html#installer-jupyter-cache",
+    "href": "data-tips/julia/index.html#installer-jupyter-cache",
+    "title": "Julia",
+    "section": "Installer Jupyter Cache",
+    "text": "Installer Jupyter Cache\nAvec pip, voir la documentation de quarto."
+  },
+  {
+    "objectID": "data-tips/julia/index.html#ide-options",
+    "href": "data-tips/julia/index.html#ide-options",
+    "title": "Julia",
+    "section": "IDE options",
+    "text": "IDE options\nVoir Julia Data Science."
+  },
+  {
+    "objectID": "data-tips/julia/index.html#vs-code",
+    "href": "data-tips/julia/index.html#vs-code",
+    "title": "Julia",
+    "section": "VS Code",
+    "text": "VS Code\nVoir le billet dédié."
+  },
+  {
+    "objectID": "data-tips/visual-studio/index.html",
+    "href": "data-tips/visual-studio/index.html",
+    "title": "Visual Studio Code",
     "section": "",
-    "text": "R\n\n\n\n\n\n\nNote\n\n\n\nUtilitR conseille le duo FactoMineR + factoextra.\n\n\n\nFactoMineR, développé par François Husson\nGDAtools, développé par Nicolas Robette\nade4, développé par le Le Laboratoire de Biométrie et Biologie Évolutive, à Lyon.\n\n\n\nPython\n\nPrince semble très prometteur. Utilise Vega-Altair pour les visualisations, qui sont donc interactives.\n\n\n\nJulia\nPas d’implémentation pour le moment semble-t-il."
+    "text": "VS Code fonctionne avec des extensions :\nL’extension Polyglot ne supporte pas R et Julia."
   },
   {
-    "objectID": "data-tips/tableaux/index.html",
-    "href": "data-tips/tableaux/index.html",
-    "title": "Tableaux",
+    "objectID": "data-tips/visual-studio/index.html#to-uninstall",
+    "href": "data-tips/visual-studio/index.html#to-uninstall",
+    "title": "Visual Studio Code",
+    "section": "To uninstall",
+    "text": "To uninstall\n\nsudo apt remove code\nrm ~/.config/Code\nrm ~/.vscode"
+  },
+  {
+    "objectID": "data-tips/zotero/index.html",
+    "href": "data-tips/zotero/index.html",
+    "title": "Zotero",
     "section": "",
-    "text": "library(huxtable)"
+    "text": "Décocher :\n\nFaire une capture automatique des pages web\nImporter automatiquement les marqueurs\nSynchroniser automatiquement les fichiers joints dans ma bibliothèque\n\n\n\n\n\n\n\nAstuce\n\n\n\nSi j’ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne).\n\n\n\n\n\n\n\n\nNote\n\n\n\nIl est toujours possible de synchroniser les fichiers joints pour les bibliothèques de groupe. On peut ainsi annoter des pdf de manière collaborative."
   },
   {
-    "objectID": "data-tips/tableaux/index.html#afficher-les-nombres-tels-quils-sont",
-    "href": "data-tips/tableaux/index.html#afficher-les-nombres-tels-quils-sont",
-    "title": "Tableaux",
-    "section": "Afficher les nombres tels qu’ils sont",
-    "text": "Afficher les nombres tels qu’ils sont\n\ndata = tibble::tribble(\n  ~Prix,\n  51651687,\n  99082858,\n  80346499,\n  17362590,\n  91865211\n)\n\n\ndata |&gt; as_hux()\n\n\n\n\nPrix\n\n\n5.17e+07\n\n\n9.91e+07\n\n\n8.03e+07\n\n\n1.74e+07\n\n\n9.19e+07\n\n\n\n\n\n\n\n\ndata |&gt; as_hux() |&gt; set_number_format(NA)\n\n\n\n\nPrix\n\n\n51651687\n\n\n99082858\n\n\n80346499\n\n\n17362590\n\n\n91865211"
+    "objectID": "data-tips/zotero/index.html#préférences",
+    "href": "data-tips/zotero/index.html#préférences",
+    "title": "Zotero",
+    "section": "",
+    "text": "Décocher :\n\nFaire une capture automatique des pages web\nImporter automatiquement les marqueurs\nSynchroniser automatiquement les fichiers joints dans ma bibliothèque\n\n\n\n\n\n\n\nAstuce\n\n\n\nSi j’ai synchronisé la bibliothèque avant de décocher cette option : purger la bibliothèque (se fait en ligne).\n\n\n\n\n\n\n\n\nNote\n\n\n\nIl est toujours possible de synchroniser les fichiers joints pour les bibliothèques de groupe. On peut ainsi annoter des pdf de manière collaborative."
   },
   {
-    "objectID": "data-tips/tableaux/index.html#grouper-par-une-variable",
-    "href": "data-tips/tableaux/index.html#grouper-par-une-variable",
-    "title": "Tableaux",
-    "section": "Grouper par une variable",
-    "text": "Grouper par une variable"
+    "objectID": "data-tips/zotero/index.html#better-bibtex",
+    "href": "data-tips/zotero/index.html#better-bibtex",
+    "title": "Zotero",
+    "section": "Better Bibtex",
+    "text": "Better Bibtex\n\nVoir les instructions ici\nLes préférences de Better Bib Tex se trouvent dans l’onglet “Outils”\nChoisir auth.lower + year comme clé de citation"
+  },
+  {
+    "objectID": "data-tips/zotero/index.html#zutilo",
+    "href": "data-tips/zotero/index.html#zutilo",
+    "title": "Zotero",
+    "section": "Zutilo",
+    "text": "Zutilo\n\nVoir les instructions ici\nAller dans Outils &gt; Préférences de Zutilo et pour “copier les champs de la notice” et “coller dans les champs vides”, choisir “menu contextuel de Zutilo”."
+  },
+  {
+    "objectID": "data-tips/zotero/index.html#styles",
+    "href": "data-tips/zotero/index.html#styles",
+    "title": "Zotero",
+    "section": "Styles",
+    "text": "Styles\nZotero styles repository & Visual CSL Editor"
+  },
+  {
+    "objectID": "data-tips/zotero/index.html#zotero-ocr",
+    "href": "data-tips/zotero/index.html#zotero-ocr",
+    "title": "Zotero",
+    "section": "Zotero OCR",
+    "text": "Zotero OCR\nLes instructions pour installer le plugin sont disponibles dans le repo github correspondant.\nSi Zotero ne trouve pas le chemin vers pdftoppm il suffit de le lui indiquer. On trouve ce chemin grâce à la commande which :\n\nwhich pdftoppm"
+  },
+  {
+    "objectID": "data-tips/labels.html",
+    "href": "data-tips/labels.html",
+    "title": "Labels",
+    "section": "",
+    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n\nDictionnaire\n\ndescription &lt;- tibble(\n  name = c(\n    \"Sepal.Length\", \"Sepal.Width\", \"Petal.Length\", \"Petal.Width\"\n  ),\n  label = c(\n    \"Sepal length\", \"Sepal width\", \"Petal length\", \"Petal width\"\n  )\n)\n\n\n\nLabel\nSPÉCIFIER L’ARGUMENT .labels car !!!splicing pas nécessaire SI ARGUMENT .labels !\n\nv1 &lt;- setNames(as.list(description$label), description$name)\n\nv2 &lt;- description |&gt; deframe() |&gt; as.list()\n\niris_labelled &lt;- iris %&gt;%\n  labelled::set_variable_labels(.labels = v2, .strict = T)"
+  },
+  {
+    "objectID": "data-tips/big-data/index.html",
+    "href": "data-tips/big-data/index.html",
+    "title": "Big Data",
+    "section": "",
+    "text": "Benchmarks.\nUn post intéressant sur arrow et duckdb."
+  },
+  {
+    "objectID": "data-tips/big-data/index.html#arrow-dplyr",
+    "href": "data-tips/big-data/index.html#arrow-dplyr",
+    "title": "Big Data",
+    "section": "arrow + dplyr",
+    "text": "arrow + dplyr"
+  },
+  {
+    "objectID": "data-tips/big-data/index.html#duckdb-dplyr",
+    "href": "data-tips/big-data/index.html#duckdb-dplyr",
+    "title": "Big Data",
+    "section": "duckdb + dplyr",
+    "text": "duckdb + dplyr"
+  },
+  {
+    "objectID": "data-tips/big-data/index.html#dataframesmeta.jl",
+    "href": "data-tips/big-data/index.html#dataframesmeta.jl",
+    "title": "Big Data",
+    "section": "DataframesMeta.jl",
+    "text": "DataframesMeta.jl"
+  },
+  {
+    "objectID": "data-tips/big-data/index.html#polars",
+    "href": "data-tips/big-data/index.html#polars",
+    "title": "Big Data",
+    "section": "polars",
+    "text": "polars\nVoir la documentation."
+  },
+  {
+    "objectID": "data-tips/big-data/index.html#data.table",
+    "href": "data-tips/big-data/index.html#data.table",
+    "title": "Big Data",
+    "section": "data.table",
+    "text": "data.table"
+  },
+  {
+    "objectID": "data-tips/teaching.html",
+    "href": "data-tips/teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Screenshots\nhttps://ropensci.org/blog/2024/09/10/script-screenshots/"
   },
   {
     "objectID": "index.html",
@@ -665,24 +721,17 @@
     "text": "Communications\n\n16 octobre 2023. Les éleveurs laitiers ont-ils droit au répit ? Dette, famille et aménagements du travail Colloque “Santé et Malaise en agriculture”, Laboratoire de Sociologie et d’Anthropologie de l’Université de Franche-Comté, MSA de Franche-Comté, Besançon.\n5 juin 2023. La Faillite refusée. Comment travaillent les éleveurs rescapés des crises ? Journée d’étude “Familles et parenté face aux bouleversements environnementaux : mutations et résistances”, Centre Norbert Elias & Centre Maurice Halbwachs, Marseille.\n30 janvier 2023. Le coût social des impayés. Dettes et mal-être des éleveurs. Journée d’étude “Mal-être agricole : recherches en cours & nouveaux enjeux”, Institut de recherche interdisciplinaire sur les enjeux sociaux (IRIS), EHESS, Paris.\n20 juin 2022. Trop plein juridique et vide géographique : les interdictions de sortie et leur contrôle pendant le premier confinement, avec Nicolas Mariot. Journée “Expérience du droit en Urgence Sanitaire”, Centre de Sociologie des Organisations (CSO), SciencesPo, Paris."
   },
   {
+    "objectID": "interventions.html",
+    "href": "interventions.html",
+    "title": "Interventions",
+    "section": "",
+    "text": "Agribio"
+  },
+  {
     "objectID": "formation.html",
     "href": "formation.html",
     "title": "Formation",
     "section": "",
     "text": "J’ai été reçu au concours de l’École Normale Supérieure (ENS) en 2017, après deux ans de classe préparatoire B/L (sociologie, économie, mathématiques, histoire, philosophie, littérature, langues vivantes).\nJ’ai appris l’ethnographie, certaines méthodes statistiques et le travail d’archives au sein du Master de Sciences sociales de l’ENS, en suivant le parcours Pratique de l’Interdisciplinarité. Celui-ci offre des enseignements en anthropologie, histoire et sociologie, et met l’accent sur l’acquisition des savoir-faire des sciences sociales.\nJ’ai ensuite approfondi mes connaissances en analyse de données, d’abord par un stage à l’Institut National de la Statistique et des Études Économiques (INSEE), puis en préparant ma thèse, au Centre Maurice Halbwachs, sous la direction de Florence Weber.\nMes enquêtes combinent ethnographie et statistiques : observation participante, recueil de récits de vie, longs entretiens enregistrés, cartographie, text mining, analyse géométrique des données, modélisation, analyse de trajectoires."
-  },
-  {
-    "objectID": "data-tips/valeurs manquantes.html",
-    "href": "data-tips/valeurs manquantes.html",
-    "title": "Valeurs manquantes",
-    "section": "",
-    "text": "questionr\n\ndata |&gt; questionr::freq.na()\n\n\n\ntidyr\n\ndata |&gt; tidyr::drop_na()\n\n\n\nnaniar\nPackage naniar :\n\nActivement maintenu\nNombreux contributeurs\nBasé sur le { tidyverse }\nPropose des structures de données pour visualiser (si paradoxal que cela puisse paraître) les valeurs manquantes."
-  },
-  {
-    "objectID": "data-tips/teaching.html",
-    "href": "data-tips/teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Screenshots\nhttps://ropensci.org/blog/2024/09/10/script-screenshots/"
   }
 ]
