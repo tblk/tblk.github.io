@@ -15,6 +15,7 @@ website:
       # - formation.qmd
       # - enquetes.qmd
       - publications.qmd
+      - interventions.qmd
       # - cours.qmd
       - data-tips.qmd
 
