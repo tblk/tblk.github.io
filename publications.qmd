@@ -4,11 +4,7 @@ title: "Publications"
 
 ## Ouvrage
 
-Avec Nicolas Mariot. *L'Attestation. Une expérience d'obéissance de masse, printemps 2020*, septembre 2023, 400 pages.
-
-::: callout-note
-Voir le [site compagnon](https://l-attestation.github.io) du livre.
-:::
+Avec Nicolas Mariot. *L'Attestation. Une expérience d'obéissance de masse, printemps 2020*, septembre 2023, 400 pages. Voir le [site compagnon](https://l-attestation.github.io) du livre.
 
 ## Articles
 
