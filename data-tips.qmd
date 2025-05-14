@@ -9,3 +9,5 @@ listing:
   sort-ui: false
   categories: true 
 ---
+
+Notes prises au fil de l'eau, à usage personnel, pour beaucoup périmées. 

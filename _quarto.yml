@@ -15,7 +15,8 @@ website:
       # - formation.qmd
       # - enquetes.qmd
       - publications.qmd
-      - interventions.qmd
+      - href: https://tblk.github.io/enquetes-quantitatives/
+        text: Cours
       # - cours.qmd
       - data-tips.qmd
 
