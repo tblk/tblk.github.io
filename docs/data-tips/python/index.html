@@ -153,7 +153,7 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Modifié</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">14 mai 2025</p>
+        <p class="date-modified">16 mai 2025</p>
       </div>
     </div>
       
@@ -172,6 +172,7 @@ gtag('config', 'G-PLYP4SVXT1', { 'anonymize_ip': true});
   <li><a href="#conda-recommandé" id="toc-conda-recommandé" class="nav-link" data-scroll-target="#conda-recommandé">Conda (recommandé)</a></li>
   <li><a href="#jupyter" id="toc-jupyter" class="nav-link" data-scroll-target="#jupyter">Jupyter</a></li>
   <li><a href="#conda-pip" id="toc-conda-pip" class="nav-link" data-scroll-target="#conda-pip">Conda &amp; pip</a></li>
+  <li><a href="#mieux" id="toc-mieux" class="nav-link" data-scroll-target="#mieux">Mieux</a></li>
   <li><a href="#divers" id="toc-divers" class="nav-link" data-scroll-target="#divers">Divers</a></li>
   </ul>
 </nav>
@@ -295,6 +296,19 @@ Note
 <li>S’il n’est pas disponible, alors l’installer avec <code>pip</code>.</li>
 <li><strong>Éviter</strong> d’installer un même package une fois avec <code>conda</code>, un autre avec <code>pip</code>, cela risque de créer des problèmes de dépendance.</li>
 <li>Pour savoir quels packages ont été crées avec conda, et quels autres avec pip, il suffit d’appeler <code>conda list</code> qui donne le <em>chanel</em> d’installation.</li>
+</ul>
+</section>
+<section id="mieux" class="level1">
+<h1>Mieux</h1>
+<ul>
+<li>Installer Jupyter lab dans l’environnement conda base</li>
+<li>Y installer aussi nb_conda_kernel, un package qui permet la détection automatique des environnements conda par Jupyter lab</li>
+</ul>
+<div class="{callout-warning}">
+<p>Pour que nb_conda_kernel détecte bien les environnements, il faut que ipykernel y soit installé, installer aussi ipywidgets, qui est reponsable d’un certain nombre de fonctionnalités jupyter, même s’il n’est pas obligatoire à proprement parler. Donc, dans <em>chaque</em> environnement conda, installer ipykernel et ipywidgets.</p>
+</div>
+<ul>
+<li>Appeler Jupyter Lab depuis conda (base) et choisir son environnement depuis la page d’accueil.</li>
 </ul>
 </section>
 <section id="divers" class="level1">

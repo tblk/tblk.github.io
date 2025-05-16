@@ -67,6 +67,16 @@ Les kernels jupyter sont stockés dans `~/.locale/share/jupyter/kernels` sous la
 - **Éviter** d'installer un même package une fois avec `conda`, un autre avec `pip`, cela risque de créer des problèmes de dépendance.
 - Pour savoir quels packages ont été crées avec conda, et quels autres avec pip, il suffit d'appeler `conda list` qui donne le *chanel* d'installation.
 
+# Mieux
+
+- Installer Jupyter lab dans l'environnement conda base
+- Y installer aussi nb_conda_kernel, un package qui permet la détection automatique des environnements conda par Jupyter lab
+
+:::{callout-warning}
+Pour que nb_conda_kernel détecte bien les environnements, il faut que ipykernel y soit installé, installer aussi ipywidgets, qui est reponsable d'un certain nombre de fonctionnalités jupyter, même s'il n'est pas obligatoire à proprement parler. Donc, dans *chaque* environnement conda, installer ipykernel et ipywidgets. 
+:::
+- Appeler Jupyter Lab depuis conda (base) et choisir son environnement depuis la page d’accueil. 
+
 # Divers
 
 - Jupyter lab doesn't come with an icon, I have one because I installed Jupyter Desktop and then uninstalled it. It created a Desktop configuration file in ~/.local/share/applications and added and icon to ~/local/share/icons/...
