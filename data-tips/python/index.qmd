@@ -72,14 +72,15 @@ Les kernels jupyter sont stockés dans `~/.locale/share/jupyter/kernels` sous la
 - Installer Jupyter lab dans l'environnement conda base
 - Y installer aussi nb_conda_kernel, un package qui permet la détection automatique des environnements conda par Jupyter lab
 
-:::{callout-warning}
+:::{.callout-warning}
 Pour que nb_conda_kernel détecte bien les environnements, il faut que ipykernel y soit installé, installer aussi ipywidgets, qui est reponsable d'un certain nombre de fonctionnalités jupyter, même s'il n'est pas obligatoire à proprement parler. Donc, dans *chaque* environnement conda, installer ipykernel et ipywidgets. 
 :::
+
 - Appeler Jupyter Lab depuis conda (base) et choisir son environnement depuis la page d’accueil.
 
 # Poetry
 
-Pour une alternative moderne, permettant conjointement la gestion des dépendances et des environnements des projets, voir (poetry)[https://python-poetry.org/]. 
+Pour une alternative moderne, permettant conjointement la gestion des dépendances et des environnements des projets, voir [poetry](https://python-poetry.org/). 
 
 # Divers
 
