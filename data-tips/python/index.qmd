@@ -80,7 +80,7 @@ Pour que nb_conda_kernel détecte bien les environnements, il faut que ipykernel
 
 # Poetry
 
-Pour une alternative moderne, permettant conjointement la gestion des dépendances et des environnements des projets, voir [poetry](https://python-poetry.org/). 
+[poetry](https://python-poetry.org/) est un outil très intéressant. Mais il gère exclusivement les dépendances de paquets python, pas les dépendances systèmes (C, Fortran...). Or, en data science, on a beaucoup de paquets compilés de ce type. poetry communique avec PyPi. Donc, pour un workflow data science, où il ne s'agit pas de créer un package Python, **conda est préférable**. 
 
 # Divers
 
